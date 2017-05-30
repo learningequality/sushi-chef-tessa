@@ -2,7 +2,7 @@ import requests
 import tempfile
 from bs4 import BeautifulSoup
 
-from ricecooker.classes.nodes import ChannelNode, HTML5AppNode, TopicNode
+from ricecooker.classes.nodes import ChannelNode, HTML5AppNode, DocumentNode
 from ricecooker.classes.files import HTMLZipFile, ThumbnailFile
 from ricecooker.utils.caching import CacheForeverHeuristic, FileCache, CacheControlAdapter, InvalidatingCacheControlAdapter
 
