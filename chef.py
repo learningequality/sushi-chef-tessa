@@ -20,12 +20,19 @@ def construct_channel(*args, **kwargs):
         thumbnail="http://www.tessafrica.net/sites/all/themes/tessafricav2/images/logotype_02.png",
     )
 
-    citrus_topic = TopicNode(source_id="List_of_citrus_fruits", title="Citrus!")
-    channel.add_child(citrus_topic)
-    add_subpages_from_wikipedia_list(citrus_topic, "https://en.wikipedia.org/wiki/List_of_citrus_fruits")
-    
-    potato_topic = TopicNode(source_id="List_of_potato_cultivars", title="Potatoes!")
-    channel.add_child(potato_topic)
-    add_subpages_from_wikipedia_list(potato_topic, "https://en.wikipedia.org/wiki/List_of_potato_cultivars")
+    soup = BeautifulSoup(open('example_page.html').read())
+    downloads = soup.find(id="downloads")
+    links = [a for a in downloads.find_all("a") if a['href'].endswith('pdf') and a.find(class_="oucontent-title")]
+    if not links:
+        return channel
+
+    title = links[0].find(class_="oucontent-title").text.lstrip().strip()
+    url = links[0]['href']
+    source_id = url.split('/')[-1].replace('.pdf','')
+
+    doc = DocumentNode(source_id=source_id, title=title, files=[DocumentFile(path=url)], license=licenses.CC_BY_SA)
+    channel.add_child(doc)
 
     return channel
+
+    
