@@ -15,7 +15,7 @@ get_page_id = lambda p: p.find(id="page-navbar").find_all("span", itemprop='titl
 
 def get_list_item(item):
     link = item.find("a")
-    if not a or not hasattr(link, "href"):
+    if not link or not hasattr(link, "href") or not item.find("span", class_="accesshide"):
         return
 
     return {
@@ -33,25 +33,27 @@ def split_list_by_label(page):
             current_title = activity.text.lstrip().strip()
             # throw away descriptions
             while activity.find(class_="contentwithoutlink"):
-                activity = links_iter__.next__()
+                try:
+                    activity = links_iter.__next__()
+                except StopIteration:
+                    break
             links[current_title].append(get_list_item(activity))
         else:
             links[current_title].append(get_list_item(activity))
+    import ipdb; ipdb.set_trace()
     return links
 
 
 def create_channel_for_language(language, language_url_map):
     if language not in language_url_map:
+        print("Language not found")
         return
 
-    try:
-        top_level_page = requests.get(language_url_map[language])
-        b = BeautifulSoup(r.content, "html5lib")
-        page_id = get_page_id(b)
-        content = split_list_by_label(b)
-    except:
-        # TODO(arvind): log error
-        return
+    top_level_page = requests.get(language_url_map[language])
+    b = BeautifulSoup(top_level_page.content, "html5lib")
+    page_id = get_page_id(b)
+    print(page_id)
+    content = split_list_by_label(b)
 
     channel = ChannelNode(
         source_domain="tessafrica.net",
@@ -83,7 +85,7 @@ def construct_channel(*args, **kwargs):
         "en": "http://www.open.edu/openlearncreate/course/view.php?id=2042"
     }
 
-    return create_channel_for_language("en", languages)
+    return create_channel_for_language("en", language_url_map)
 
 if __name__ == '__main__':
     construct_channel()
