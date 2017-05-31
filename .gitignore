@@ -2,3 +2,10 @@ tessa/
 tessa/*
 activate
 token.txt
+restore/*
+restore
+*pycache*
+storage
+storage/*
+.ricecookerfilecache/
+.ricecookerfilecache/*
