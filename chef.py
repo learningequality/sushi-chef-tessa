@@ -11,7 +11,8 @@ from le_utils.constants import licenses
 
 from ricecooker.utils.html import download_file
 
-get_page_id = lambda p: p.find(id="page-navbar").find_all("span", itemprop='title')[-1].text.lstrip().strip()
+get_page_id = lambda p: get_text(p.find(id="page-navbar").find_all("span", itemprop='title')[-1])
+get_text = lambda x: "" if x is None else x.text.lstrip().strip()
 
 def get_list_item(item):
     link = item.find("a")
@@ -20,8 +21,8 @@ def get_list_item(item):
 
     return {
         "url": link["href"],
-        "type": item.find("span", class_="accesshide").text.lstrip().strip(),
-        "title": item.text.replace(item.find("span", class_="accesshide").text, "").lstrip().strip()
+        "type": get_text(item.find("span", class_="accesshide"))
+        "title": get_text(item).replace(get_text(item.find("span", class_="accesshide")), "").lstrip().strip()
     }
 
 def split_list_by_label(page):
@@ -30,7 +31,7 @@ def split_list_by_label(page):
     links_iter = all_links.__iter__()
     for activity in links_iter:
         if activity.find(class_="contentwithoutlink"):
-            current_title = activity.text.lstrip().strip()
+            current_title = get_text(activity)
             # throw away descriptions
             while activity.find(class_="contentwithoutlink"):
                 try:
