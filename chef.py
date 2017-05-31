@@ -21,7 +21,7 @@ def get_list_item(item):
 
     return {
         "url": link["href"],
-        "type": get_text(item.find("span", class_="accesshide"))
+        "type": get_text(item.find("span", class_="accesshide")),
         "title": get_text(item).replace(get_text(item.find("span", class_="accesshide")), "").lstrip().strip()
     }
 
