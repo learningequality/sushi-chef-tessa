@@ -4,7 +4,7 @@ from collections import defaultdict
 from bs4 import BeautifulSoup
 import urllib.parse as urlparse
 
-from ricecooker.classes.nodes import ChannelNode, HTML5AppNode, DocumentNode
+from ricecooker.classes.nodes import ChannelNode, HTML5AppNode, DocumentNode, TopicNode
 from ricecooker.classes.files import HTMLZipFile, DocumentFile
 from ricecooker.utils.caching import CacheForeverHeuristic, FileCache, CacheControlAdapter, InvalidatingCacheControlAdapter
 
@@ -57,6 +57,11 @@ def split_list_by_label(page):
     return links
 
 def create_content_node(parent_node, content_dict):
+    source_id = url_to_id(content_dict['url'])
+    if not source_id:
+        return
+    source_id = source_id[0]
+
     r = requests.get(content_dict['url'])
     content_page = BeautifulSoup(r.content, 'html5lib')
     downloads = content_page.find(id="downloads")
@@ -65,7 +70,6 @@ def create_content_node(parent_node, content_dict):
         return channel
 
     url = links[0]['href']
-    url_to_id(content_dict['url'])
 
     doc = HTML5AppNode(source_id=source_id, title=content_dict['title'], files=[HTMLZipFile(path=url)], license=licenses.CC_BY_SA)
     parent_node.add_child(doc)
@@ -76,6 +80,7 @@ def create_subpage_node(parent_node, subpage_dict):
     topic_id = url_to_id(url)
     if not topic_id:
         return
+    topic_id = topic_id[0]
     # Life Skills
     topic = TopicNode(source_id="topic_%s" % topic_id, title=subpage_dict["title"])
     parent_node.add_child(topic)
@@ -88,7 +93,7 @@ def create_subpage_node(parent_node, subpage_dict):
         # Module 1: Personal Development
         module = TopicNode(source_id=get_key(module_name), title=module_name)
         topic.add_child(module)
-        for activity in section.find_all("activity", class_="modtype_oucontent"):
+        for activity in section.find_all("li", class_="modtype_oucontent"): 
             create_content_node(module, get_list_item(activity))
 
 
@@ -112,9 +117,9 @@ def create_channel_for_language(language, language_url_map):
     for topic, subpages in subpages.items():
         # Subject Resources
         topic_node = TopicNode(source_id=get_key(topic), title=topic)
-        channel.add_child(topic)
+        channel.add_child(topic_node)
         for subpage in subpages:
-            create_subpage_node(topic_node, content_dict)
+            create_subpage_node(topic_node, subpage)
 
     return channel
 
