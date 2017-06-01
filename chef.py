@@ -44,7 +44,7 @@ def split_list_by_label(page):
     links_iter = all_links.__iter__()
     for activity in links_iter:
         if activity.find(class_="contentwithoutlink"):
-            current_title = get_text(activity)
+            current_title = get_text(activity).replace('\n',' ')
             # throw away descriptions
             while activity.find(class_="contentwithoutlink"):
                 try:
