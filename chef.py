@@ -12,6 +12,7 @@ from le_utils.constants import licenses
 
 from ricecooker.utils.html import download_file
 
+# Set up webcaches.
 sess = requests.Session()
 cache = FileCache('.webcache')
 basic_adapter = CacheControlAdapter(cache=cache)
@@ -22,9 +23,12 @@ sess.mount('https://', basic_adapter)
 sess.mount('http://www.open.edu', forever_adapter)
 sess.mount('https://www.open.edu', forever_adapter)
 
+# Looks at the top nav to get the current page subsection.
 get_page_id = lambda p: get_text(p.find(id="page-navbar").find_all("span", itemprop='title')[-1])
 get_text = lambda x: "" if x is None else x.text.lstrip().strip()
+# Used for modules that do not correspond to a single page ID.
 get_key = lambda s: s.replace(" ", "_").replace("-","_").lower()
+# Used for nodes that correspond to a single page (topics, sections).
 url_to_id = lambda u: urlparse.parse_qs(urlparse.urlparse(u).query).get('id', '')
 
 def get_list_item(item):
