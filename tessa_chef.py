@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 
-from bs4 import BeautifulSoup
 from collections import defaultdict
 import logging
-import requests
+import os
 import urllib.parse as urlparse
 
+from bs4 import BeautifulSoup
+import requests
 
 from le_utils.constants import licenses
 from ricecooker.chefs import SushiChef
@@ -17,13 +18,29 @@ from ricecooker.utils.html import download_file
 
 
 
+# Chef settings
+################################################################################
+DATA_DIR = 'chefdata'
+ZIP_FILES_TMP_DIR = os.path.join(DATA_DIR, 'zipfiles')
 
-# Set up webcaches.
+
+
+TESSA_LANG_URL_MAP = {
+    'en': 'http://www.open.edu/openlearncreate/course/view.php?id=2042',
+    'fr': 'http://www.open.edu/openlearnworks/course/view.php?id=2046',
+    'ar': 'http://www.open.edu/openlearnworks/course/view.php?id=2198',
+    'sw': 'http://www.open.edu/openlearnworks/course/view.php?id=2199',
+}
+TESSA_HOME_URL = 'http://www.tessafrica.net/home'
+
+
+
+# Set up webcaches
+################################################################################
 sess = requests.Session()
 cache = FileCache('.webcache')
 basic_adapter = CacheControlAdapter(cache=cache)
 forever_adapter = CacheControlAdapter(heuristic=CacheForeverHeuristic(), cache=cache)
-
 sess.mount('http://', basic_adapter)
 sess.mount('https://', basic_adapter)
 sess.mount('http://www.open.edu', forever_adapter)
@@ -52,24 +69,6 @@ def get_list_item(item):
         "title": get_text(item).replace(get_text(item.find("span", class_="accesshide")), "").lstrip().strip()
     }
 
-
-def split_list_by_label(page):
-    links = defaultdict(list)
-    all_links = page.find(class_="course-content").find_all("li", class_="activity")
-    links_iter = all_links.__iter__()
-    for activity in links_iter:
-        if activity.find(class_="contentwithoutlink"):
-            current_title = get_text(activity).replace('\n',' ')
-            # throw away descriptions
-            while activity.find(class_="contentwithoutlink"):
-                try:
-                    activity = links_iter.__next__()
-                except StopIteration:
-                    break
-            links[current_title].append(get_list_item(activity))
-        else:
-            links[current_title].append(get_list_item(activity))
-    return links
 
 
 def create_content_node(parent_node, content_dict):
@@ -142,8 +141,8 @@ class TessaChef(SushiChef):
         lang = kwargs['lang']
         channel_info = {
             'CHANNEL_SOURCE_DOMAIN': 'tessafrica.net',
-            'CHANNEL_SOURCE_ID': 'tessa_africa_%s-testing' % lang,
-            'CHANNEL_TITLE': 'TessAfrica (%s)' % lang.upper(),
+            'CHANNEL_SOURCE_ID': 'TESSA_%s-testing' % lang,         # TODO: remove -testing
+            'CHANNEL_TITLE': 'TESSA (%s)-testing' % lang.upper(),   # TODO: remove -testing
             'CHANNEL_THUMBNAIL': 'http://www.tessafrica.net/sites/all/themes/tessafricav2/images/logotype_02.png',
             'CHANNEL_DESCRIPTION': 'Teacher Education in Sub-Saharan Africa, TESSA, is a collaborative network to help you improve your practice as a teacher or teacher educator. We provide free, quality resources that support your national curriculum and can help you plan lessons that engage, involve and inspire.',
         }
