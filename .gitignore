@@ -6,6 +6,7 @@ storage
 storage/*
 .ricecookerfilecache/
 .ricecookerfilecache/*
+.webcache
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -58,16 +58,239 @@ get_key = lambda s: s.replace(" ", "_").replace("-","_").lower()
 url_to_id = lambda u: urlparse.parse_qs(urlparse.urlparse(u).query).get('id', '')
 
 
-def get_list_item(item):
+
+
+
+
+
+
+
+def get_modtype(activity):
+    classes = activity.get("class")
+    for klass in classes:
+        if klass.startswith('modtype_'):
+            return klass.replace('modtype_', '')
+    return None
+
+
+
+def get_resource_info(item):
     link = item.find("a")
     if not link or not hasattr(link, "href") or not item.find("span", class_="accesshide"):
-        return
+        print('did not find link so returning None')
+        return None
 
+    title_span = item.find('span', class_="instancename")
+    hidden_subspan = title_span.find("span", class_="accesshide")
+    hidden_subspan.extract()
+
+    title = title_span.get_text().replace('\n',' ').strip()
     return {
         "url": link["href"],
-        "type": get_text(item.find("span", class_="accesshide")),
-        "title": get_text(item).replace(get_text(item.find("span", class_="accesshide")), "").lstrip().strip()
+        "type": get_modtype(item),
+        "title": title,
+        'children': [],
     }
+
+
+
+
+def extract_channel_description(first_label_activity):
+    """
+    Returns description text for a TESSA language page (All countries combined).
+    This description lives in various forms in the first "label" activity in the list.
+    Requires special language specifc hacks... and best effort to produce text.
+    """
+    description_pars = first_label_activity.find_all('p')
+    pre_description = ' '.join([p.get_text().replace('\n',' ') for p in description_pars])
+    description = pre_description.strip()
+    return description
+
+
+def extract_category_from_modtype_label(category):
+    """
+    Returns (action, title, description) for a TESSA top-level category.
+    action is 'new' if this is really a new category
+    action is 'append' if just decription to be appended to previous category
+    """
+    description_pars = category.find_all('p')
+
+    # we'll now go on a journey looking for the title-containing HTML element
+    title_el = None
+
+    # A: see if there is a heading in a span
+    #     title_span = category.find('span')
+    #     if title_span:
+    #         span_contents = title_span.get_text().replace('\n',' ').strip()
+    #         print('span_contents', span_contents[0:20])
+
+    if title_el is None:
+        title_strongs = category.find_all('strong')
+        for title_strong in title_strongs:
+            title = title_strong.get_text().replace('\n',' ').strip()
+            if len(title) > 0:
+                title_el = title_strong
+                # print('Strong title:', title)
+                break
+
+    if title_el is None:
+        title_bs = category.find_all('b')
+        for title_b in title_bs:
+            title = title_b.get_text().replace('\n',' ').strip()
+            if len(title) > 0:
+                title_el = title_b
+                # print('Bold title:', title)
+                break
+
+    if title_el is None:
+        pre_description = ' '.join([p.get_text().replace('\n',' ').strip() for p in description_pars])
+        description = pre_description.strip()
+        print('Append description:', description[0:30]+'..')
+        return 'append', None, description
+
+
+    # extract title_el form DOM
+    title_el.extract()
+
+    pre_description = ' '.join([p.get_text().replace('\n',' ').strip() for p in description_pars])
+    description = pre_description.strip()
+    return 'new', title, description
+
+
+
+
+
+def split_list_by_label(lang, page):
+    """
+    Process a top-level collection page for a given language.
+
+    """
+    web_resource_tree = dict(
+        title='TESSA (%s)' % lang.upper(),
+        children=[],
+    )
+
+    pre_activity_links = page.find(class_="course-content").find_all("li", class_="activity")
+    activity_links = list(pre_activity_links)
+    print('\n\n')
+    print('Processing TESSA page ', lang.upper(), 'Number of unfiltered activity links:', len(activity_links))
+
+    current_category = None
+    for activity in activity_links:
+        # print(activity.text[0:50])
+        activity_type = get_modtype(activity)
+
+        # HEADINGS AND DESCRIPTIONS
+        if activity_type in ['label', 'heading']:
+
+            # special handling for first list item--conatins ah-hoc formatted channel specific info
+            if current_category is None and activity_type == 'label':
+                channel_description = extract_channel_description(activity)
+                web_resource_tree['description'] = channel_description
+                current_category = {'title':'Something not-None that will be overwritten very soon...'}
+                continue
+
+            # skip last footer section
+            home_link = activity.select('a[href="' + TESSA_HOME_URL + '"]')
+            if home_link:
+                continue
+
+            action, title, description = extract_category_from_modtype_label(activity)
+            if action == 'new':
+                new_category = dict(
+                    title=title,
+                    description=description,
+                    children = [],
+                )
+                web_resource_tree['children'].append(new_category)
+                current_category = new_category
+            elif action == 'append':
+                current_category['description'] += ' ' + description   # TODO: add \n\n
+            else:
+                raise ValueError('Uknown action encountered:' + str(action) )
+
+        # SPECIAL HANDLINE FOR NON SUBPAGE CONTENT NODES
+        elif activity_type == 'oucontent':
+            info_dict = get_resource_info(activity)
+
+        # SUBPAGES
+        elif activity_type == 'subpage':
+            info_dict = get_resource_info(activity)
+            subpage_node = create_subpage_node(info_dict)
+            # print(info_dict)
+            current_category['children'].append(subpage_node)
+
+
+        # ALSO TAKE PDF RESOURCES
+        elif activity_type == 'resource':
+            info_dict = get_resource_info(activity)
+            if 'pdf' in info_dict['title']:
+                current_category['children'].append(info_dict)
+            else:
+                print('Ignoring activity of type', activity_type, '\tstartswith:',
+                      activity.get_text()[0:50].replace('\n',' '))
+
+
+        # REJECT EVERYTHING ELSE
+        else:
+            print('Ignoring activity of type', activity_type, '\tstartswith:',
+                  activity.get_text()[0:50].replace('\n',' '))
+
+    return web_resource_tree
+
+
+
+def create_subpage_node(subpage_dict):
+    print('\n\n')
+    url = subpage_dict["url"]
+    print(url)
+    topic_id = url_to_id(url)
+    if not topic_id:
+        return
+    topic_id = topic_id[0]
+
+
+    subpage_node = dict(
+        type='TessaSubpage',
+        source_id="topic_%s" % topic_id,
+        title=subpage_dict["title"],
+        children=[],
+    )
+    # print('    subpage_node: ' + str(subpage_node))
+
+    # let's go get subpage contents...
+    r = sess.get(url)
+    subpage = BeautifulSoup(r.content, "html5lib")
+
+
+    course_content = subpage.find('div', class_='course-content')
+    for section_li in course_content.find_all('li', class_="section"):
+
+        # Some modules are conained in a div.course-content
+        if section_li.find('h3', class_="sectionname"):
+            module_title = get_text(section_li.find(class_="sectionname"))
+            list_items = section_li.find_all("li", class_="modtype_oucontent")
+            first, rest = list_items[0], list_items[1:]
+            li_module_info = get_resource_info(first)
+            print('         Content (%s):' % li_module_info['type'], li_module_info['title'][0:20]) #, li_module_info['url'][-3:])
+            subpage_node['children'].append(li_module_info)
+            for li in rest:
+                pass
+                # print(' skipping non-module li', li.get_text()[0:20])
+
+        else:
+            print('non standard module, using fallback strategies...')
+            all_list_items = section_li.find('div', class_='content').find_all("li")
+            print('number unfiltered items =', len(all_list_items))
+            for item in all_list_items:
+                item_dict = dict(
+                    title=item.get_text().replace('\n',' ').strip()[0:40],
+                    type='UNPARSED'
+                )
+                subpage_node['children'].append(item_dict)
+
+    return subpage_node
+
 
 
 
@@ -77,7 +300,7 @@ def create_content_node(parent_node, content_dict):
         return
     source_id = source_id[0]
 
-    r = requests.get(content_dict['url'])
+    r = sess.get(content_dict['url'])
     content_page = BeautifulSoup(r.content, 'html5lib')
     downloads = content_page.find(id="downloads")
     links = [a for a in downloads.find_all("a") if a['href'].endswith('html.zip') and a.find(class_="oucontent-title")]
@@ -95,29 +318,9 @@ def create_content_node(parent_node, content_dict):
     parent_node.add_child(doc)
 
 
-def create_subpage_node(parent_node, subpage_dict):
-    url = subpage_dict["url"]
-    topic_id = url_to_id(url)
-    if not topic_id:
-        return
-    topic_id = topic_id[0]
-    # Life Skills
-    LOGGER.info('    subpage: ' + subpage_dict["title"])
-    topic = TopicNode(source_id="topic_%s" % topic_id, title=subpage_dict["title"])
-    parent_node.add_child(topic)
-    r = requests.get(url)
-    subpage = BeautifulSoup(r.content, "html5lib")
-    for section in subpage.find_all(class_="section"):
-        if not section.find(class_="sectionname"):
-            continue
-        module_name = get_text(section.find(class_="sectionname"))
-        # Module 1: Personal Development
-        module = TopicNode(source_id=get_key(module_name), title=module_name)
-        LOGGER.info('       section: ' + module_name)
-        topic.add_child(module)
-        for activity in section.find_all("li", class_="modtype_oucontent"):
-            LOGGER.info('          activity: ' + str(get_list_item(activity)['title']))
-            create_content_node(module, get_list_item(activity))
+
+
+
 
 
 class TessaChef(SushiChef):
@@ -175,7 +378,7 @@ class TessaChef(SushiChef):
             return
 
         top_level_url = self.language_url_map[language]
-        top_level_page = requests.get(top_level_url)
+        top_level_page = sess.get(top_level_url)
         b = BeautifulSoup(top_level_page.content, "html5lib")
         page_id = get_page_id(b)
         subpages = {k:v for k,v in split_list_by_label(b).items() if any(x and x.get('type','') == 'Subpage' for x in v)}
