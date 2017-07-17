@@ -21,8 +21,11 @@ from ricecooker.utils.html import download_file
 # Chef settings
 ################################################################################
 DATA_DIR = 'chefdata'
-ZIP_FILES_TMP_DIR = os.path.join(DATA_DIR, 'zipfiles')
 
+CRAWLING_STAGE_OUTPUT = 'web_resource_trees.json'
+SCRAPING_STAGE_OUTPUT = 'ricecooker_json_trees.json'
+
+ZIP_FILES_TMP_DIR = os.path.join(DATA_DIR, 'zipfiles')
 
 
 TESSA_LANG_URL_MAP = {
@@ -32,6 +35,14 @@ TESSA_LANG_URL_MAP = {
     'sw': 'http://www.open.edu/openlearnworks/course/view.php?id=2199',
 }
 TESSA_HOME_URL = 'http://www.tessafrica.net/home'
+
+
+TESSA_STRINGS = {
+    'en': {
+        'module': 'Module',
+        'key resource': 'Key Resource',
+    }
+}
 
 
 
@@ -62,7 +73,7 @@ url_to_id = lambda u: urlparse.parse_qs(urlparse.urlparse(u).query).get('id', ''
 
 
 
-
+ALL_HIDDEN_SUBSPANS = set()
 
 
 def get_modtype(activity):
@@ -75,20 +86,32 @@ def get_modtype(activity):
 
 
 def get_resource_info(item):
+    """
+    Process a list item in a top-level page or subpage and return info as dict.
+    """
     link = item.find("a")
-    if not link or not hasattr(link, "href") or not item.find("span", class_="accesshide"):
+    if not link or not hasattr(link, "href"):
+        print(item)
         print('did not find link so returning None')
         return None
 
     title_span = item.find('span', class_="instancename")
     hidden_subspan = title_span.find("span", class_="accesshide")
-    hidden_subspan.extract()
+
+    if hidden_subspan:
+        hidden_subspan_text = hidden_subspan.get_text().replace('\n', ' ').strip()
+        ALL_HIDDEN_SUBSPANS.add(hidden_subspan_text)
+        hidden_subspan.extract()    # remove resouce type indicaton
+    else:
+        hidden_subspan_text = None
+        print('no hidden_subspan ... but proceeeding anyway')
 
     title = title_span.get_text().replace('\n',' ').strip()
     return {
         "url": link["href"],
         "type": get_modtype(item),
         "title": title,
+        'hidden_subspan_text': hidden_subspan_text,
         'children': [],
     }
 
@@ -163,7 +186,6 @@ def extract_category_from_modtype_label(category):
 def split_list_by_label(lang, page):
     """
     Process a top-level collection page for a given language.
-
     """
     web_resource_tree = dict(
         title='TESSA (%s)' % lang.upper(),
@@ -240,6 +262,111 @@ def split_list_by_label(lang, page):
 
 
 
+
+
+
+
+
+
+
+
+
+def split_subpage_list_by_label(subpage, subpage_node):
+    """
+    Fallback logic for Tessa subpages that do not consist of separate modules.
+    Implements an ad-hock strategy for grouping content items (`li.activity`)
+    into modules that contain content nodes.
+    """
+    pre_activity_links = subpage.find(class_="course-content").find_all("li", class_="activity")
+    activity_links = list(pre_activity_links)
+    print('\n\n')
+    print('Processing subpage', subpage_node['url'])
+    print('Number of activity links:', len(activity_links))
+
+
+    def create_default_module(title, description, subpage_node):
+        """
+        If we encounter content item before a module has been created, we must
+        create a "default" using the info from the subpage.
+        """
+        default_module = dict(
+            type='TessaModule',
+            title='FORCED::' + str(title) + 'maybe use ' + subpage_node['title'],
+            description=description,
+            children = [],
+        )
+        return default_module
+
+    current_module = None
+    for activity in activity_links:
+        # print(activity.text[0:50])
+        activity_type = get_modtype(activity)
+
+        # HEADINGS AND DESCRIPTIONS
+        if activity_type in ['label', 'heading']:
+
+            # skip last footer section
+            home_link = activity.select('a[href="' + TESSA_HOME_URL + '"]')
+            if home_link:
+                continue
+
+            action, title, description = extract_category_from_modtype_label(activity)
+            if action == 'new':
+                new_module = dict(
+                    type='TessaModule',
+                    title=title,
+                    description=description,
+                    children = [],
+                )
+                subpage_node['children'].append(new_module)
+                current_module = new_module
+            elif action == 'append':
+                if current_module:
+                    current_module['description'] += ' ' + description   # TODO: add \n\n
+                else:
+                    new_module = create_default_module(title, description, subpage_node)
+                    subpage_node['children'].append(new_module)
+                    current_module = new_module
+            else:
+                raise ValueError('Uknown action encountered:' + str(action) )
+
+        # SPECIAL HANDLING FOR NON SUBPAGE CONTENT NODES
+        elif activity_type == 'oucontent':
+            info_dict = get_resource_info(activity)
+            if current_module:
+                current_module['children'].append(info_dict)
+            else:
+                new_module = create_default_module('NO TITLE KNOWN', 'NO DESCRIPTION KNOWN', subpage_node)
+                subpage_node['children'].append(new_module)
+                current_module = new_module
+                current_module['children'].append(info_dict)
+
+        # SUBPAGES WITHIN SUBPAGES
+        elif activity_type == 'subpage':
+            print('Encountered subpage within subpage #### RECUSING VIA create_subpage_node ##########')
+            subsubpage_dict = get_resource_info(activity)
+            subsubpage_node = create_subpage_node(subsubpage_dict)
+            current_module['children'].append(subsubpage_node)
+
+        # ALSO TAKE PDF RESOURCES
+        elif activity_type == 'resource':
+            info_dict = get_resource_info(activity)
+            if 'pdf' in info_dict['title']:
+                current_module['children'].append(info_dict)
+            else:
+                print('Ignoring activity of type', activity_type, '\tstartswith:',
+                      activity.get_text()[0:50].replace('\n',' '))
+
+
+        # REJECT EVERYTHING ELSE
+        else:
+            print('Ignoring activity of type', activity_type, '\tstartswith:',
+                  activity.get_text()[0:50].replace('\n',' '))
+
+
+
+
+
 def create_subpage_node(subpage_dict):
     print('\n\n')
     url = subpage_dict["url"]
@@ -252,6 +379,7 @@ def create_subpage_node(subpage_dict):
 
     subpage_node = dict(
         type='TessaSubpage',
+        url=url,
         source_id="topic_%s" % topic_id,
         title=subpage_dict["title"],
         children=[],
@@ -269,53 +397,63 @@ def create_subpage_node(subpage_dict):
         # Some modules are conained in a div.course-content
         if section_li.find('h3', class_="sectionname"):
             module_title = get_text(section_li.find(class_="sectionname"))
-            list_items = section_li.find_all("li", class_="modtype_oucontent")
-            first, rest = list_items[0], list_items[1:]
-            li_module_info = get_resource_info(first)
-            print('         Content (%s):' % li_module_info['type'], li_module_info['title'][0:20]) #, li_module_info['url'][-3:])
-            subpage_node['children'].append(li_module_info)
-            for li in rest:
-                pass
-                # print(' skipping non-module li', li.get_text()[0:20])
+
+
+            # COMBINED?
+            content_items = section_li.find_all("li", class_="modtype_oucontent")
+            resource_items = section_li.find_all("li", class_="modtype_resource")
+            if content_items and resource_items:
+                print('FOUND   content_items and resource_items: >>>>>>>>>>>>>>>>>>>>>>')
+
+            # STANDARD MODULES
+            content_items = section_li.find_all("li", class_="modtype_oucontent")
+            if content_items:
+                first, rest = content_items[0], content_items[1:]
+                li_module_info = get_resource_info(first)
+                print('Recognizd standard module structure. Taking whole module:')
+                print('         Content (%s):' % li_module_info['type'], li_module_info['title'])
+                subpage_node['children'].append(li_module_info)
+                for li in rest:
+                    print(' skipping module section li', li.get_text())
+
+            # RESOURCES
+            resource_items = section_li.find_all("li", class_="modtype_resource")
+            if resource_items:
+                for resouce_item in resource_items:
+                    resouce_dict = get_resource_info(resouce_item)
+                    print('         Resource (%s):' % resouce_dict['type'], resouce_dict['title'])
+                    subpage_node['children'].append(resouce_dict)
 
         else:
             print('non standard module, using fallback strategies...')
-            all_list_items = section_li.find('div', class_='content').find_all("li")
-            print('number unfiltered items =', len(all_list_items))
-            for item in all_list_items:
-                item_dict = dict(
-                    title=item.get_text().replace('\n',' ').strip()[0:40],
-                    type='UNPARSED'
-                )
-                subpage_node['children'].append(item_dict)
+            split_subpage_list_by_label(subpage, subpage_node)
+            # crawls `subpage` and appends elements as children of `subpage_node`
 
     return subpage_node
 
 
 
 
-def create_content_node(parent_node, content_dict):
+def create_content_node(content_dict):
+    """
+    Returns a `TessaContentWebResource` dictionary with the informaiton necessary
+    for the scraping step.
+    """
     source_id = url_to_id(content_dict['url'])
     if not source_id:
         return
     source_id = source_id[0]
+    print('source_id', source_id)
 
-    r = sess.get(content_dict['url'])
-    content_page = BeautifulSoup(r.content, 'html5lib')
-    downloads = content_page.find(id="downloads")
-    links = [a for a in downloads.find_all("a") if a['href'].endswith('html.zip') and a.find(class_="oucontent-title")]
-    if not links:
-        raise RuntimeError('No links found in create_content_node')
-
-    url = links[0]['href']
-
-    doc = HTML5AppNode(
+    content_node = dict(
+        type='TessaContentWebResource',
+        url=content_dict['url'],
         source_id=source_id,
         title=content_dict['title'],
-        files=[HTMLZipFile(path=url)],
+        # files=[HTMLZipFile(path=url)],
         license=licenses.CC_BY_SA
     )
-    parent_node.add_child(doc)
+    return content_node
 
 
 
