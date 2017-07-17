@@ -62,7 +62,7 @@ sess.mount('https://www.open.edu', forever_adapter)
 
 # Looks at the top nav to get the current page subsection.
 get_page_id = lambda p: get_text(p.find(id="page-navbar").find_all("span", itemprop='title')[-1])
-get_text = lambda x: "" if x is None else x.text.lstrip().strip()
+get_text = lambda x: "" if x is None else x.get_text().replace('\n', ' ').strip()
 # Used for modules that do not correspond to a single page ID.
 get_key = lambda s: s.replace(" ", "_").replace("-","_").lower()
 # Used for nodes that correspond to a single page (topics, sections).
@@ -393,21 +393,23 @@ def create_subpage_node(subpage_dict):
     course_content = subpage.find('div', class_='course-content')
     topics_ul = course_content.find('ul', class_='topics')
     section_lis = topics_ul.find_all('li', class_="section")
+    # print('len(section_lis) = ', len(section_lis)    )
 
     if len(section_lis) > 1:
         # STANDARD MODULE
         # Some modules are conained in a div.course-content > ul.topics > li.section > (title in h3)
-        for section_li in topics_ul.find_all('li', class_="section"):
+        for section_li in section_lis:
 
-            # skip last footer section
-            home_link = section_li.select('a[href="' + TESSA_HOME_URL + '"]')
-            if home_link:
+            module_heading_el = section_li.find('h3', class_="sectionname")
+            if module_heading_el is None:
+                module_heading_el = section_li.find('h4')  # fallback for headings as h4
+
+            # skip solo footer sections
+            if module_heading_el is None and section_li.select('a[href="' + TESSA_HOME_URL + '"]'):
                 continue
 
-
-            if section_li.find('h3', class_="sectionname"):
-                module_title = get_text(section_li.find(class_="sectionname"))
-
+            if module_heading_el:
+                module_title = get_text(module_heading_el)
                 # COMBINED?
                 content_items = section_li.find_all("li", class_="modtype_oucontent")
                 resource_items = section_li.find_all("li", class_="modtype_resource")
@@ -424,6 +426,11 @@ def create_subpage_node(subpage_dict):
                     subpage_node['children'].append(li_module_info)
                     for li in rest:
                         print('            skipping module section li', li.get_text())
+                    all_items = section_li.find_all("li")
+                    other_items = [item for item in all_items if item not in content_items]
+                    for other_item in other_items:
+                        print('            skipping other li', get_text(other_item)[0:40])
+
 
                 # RESOURCES
                 resource_items = section_li.find_all("li", class_="modtype_resource")
@@ -432,6 +439,15 @@ def create_subpage_node(subpage_dict):
                         resouce_dict = get_resource_info(resouce_item)
                         print('         Resource (%s):' % resouce_dict['type'], resouce_dict['title'])
                         subpage_node['children'].append(resouce_dict)
+
+                    all_items = section_li.find_all("li")
+                    other_items = [item for item in all_items if item not in resource_items]
+                    for other_item in other_items:
+                        print('            skipping other li', get_text(other_item)[0:40])
+
+            else:
+                print('       - No heading el found in section so skipping...', get_text(section_li)[0:20])
+
 
     elif len(section_lis) == 1:
         # NONSTANDARD MODULE
@@ -446,7 +462,7 @@ def create_subpage_node(subpage_dict):
         activity_lis = content_div.find('ul', class_='section').find_all('li', class_="activity")
         for activity_li in activity_lis:
             activity_type = get_modtype(activity_li)
-            print('         section_li (%s)' % activity_type, activity_li.get_text().replace('\n', ' ').strip()[0:40])
+            print('         section_li (%s)' % activity_type, get_text(activity_li)[0:40])
             # resouce_dict = get_resource_info(resouce_item)
             # split_subpage_list_by_label(subpage, subpage_node)
 
