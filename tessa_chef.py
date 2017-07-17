@@ -104,7 +104,7 @@ def get_resource_info(item):
         hidden_subspan.extract()    # remove resouce type indicaton
     else:
         hidden_subspan_text = None
-        print('no hidden_subspan ... but proceeeding anyway')
+        # print('no hidden_subspan ... but proceeeding anyway')
 
     title = title_span.get_text().replace('\n',' ').strip()
     return {
@@ -279,9 +279,8 @@ def split_subpage_list_by_label(subpage, subpage_node):
     """
     pre_activity_links = subpage.find(class_="course-content").find_all("li", class_="activity")
     activity_links = list(pre_activity_links)
-    print('\n\n')
-    print('Processing subpage', subpage_node['url'])
-    print('Number of activity links:', len(activity_links))
+    print('         - ', 'Processing subpage', subpage_node['url'])
+    print('           ', 'Number of activity links:', len(activity_links))
 
 
     def create_default_module(title, description, subpage_node):
@@ -343,7 +342,7 @@ def split_subpage_list_by_label(subpage, subpage_node):
 
         # SUBPAGES WITHIN SUBPAGES
         elif activity_type == 'subpage':
-            print('Encountered subpage within subpage #### RECUSING VIA create_subpage_node ##########')
+            print('           ', 'Encountered subpage within subpage #### RECUSING VIA create_subpage_node ##########')
             subsubpage_dict = get_resource_info(activity)
             subsubpage_node = create_subpage_node(subsubpage_dict)
             current_module['children'].append(subsubpage_node)
@@ -354,13 +353,13 @@ def split_subpage_list_by_label(subpage, subpage_node):
             if 'pdf' in info_dict['title']:
                 current_module['children'].append(info_dict)
             else:
-                print('Ignoring activity of type', activity_type, '\tstartswith:',
+                print('           ', 'Ignoring activity of type', activity_type, '\tstartswith:',
                       activity.get_text()[0:50].replace('\n',' '))
 
 
         # REJECT EVERYTHING ELSE
         else:
-            print('Ignoring activity of type', activity_type, '\tstartswith:',
+            print('           ', 'Ignoring activity of type', activity_type, '\tstartswith:',
                   activity.get_text()[0:50].replace('\n',' '))
 
 
@@ -392,42 +391,71 @@ def create_subpage_node(subpage_dict):
 
 
     course_content = subpage.find('div', class_='course-content')
-    for section_li in course_content.find_all('li', class_="section"):
+    topics_ul = course_content.find('ul', class_='topics')
+    section_lis = topics_ul.find_all('li', class_="section")
 
-        # Some modules are conained in a div.course-content
-        if section_li.find('h3', class_="sectionname"):
-            module_title = get_text(section_li.find(class_="sectionname"))
+    if len(section_lis) > 1:
+        # STANDARD MODULE
+        # Some modules are conained in a div.course-content > ul.topics > li.section > (title in h3)
+        for section_li in topics_ul.find_all('li', class_="section"):
+
+            # skip last footer section
+            home_link = section_li.select('a[href="' + TESSA_HOME_URL + '"]')
+            if home_link:
+                continue
 
 
-            # COMBINED?
-            content_items = section_li.find_all("li", class_="modtype_oucontent")
-            resource_items = section_li.find_all("li", class_="modtype_resource")
-            if content_items and resource_items:
-                print('FOUND   content_items and resource_items: >>>>>>>>>>>>>>>>>>>>>>')
+            if section_li.find('h3', class_="sectionname"):
+                module_title = get_text(section_li.find(class_="sectionname"))
 
-            # STANDARD MODULES
-            content_items = section_li.find_all("li", class_="modtype_oucontent")
-            if content_items:
-                first, rest = content_items[0], content_items[1:]
-                li_module_info = get_resource_info(first)
-                print('Recognizd standard module structure. Taking whole module:')
-                print('         Content (%s):' % li_module_info['type'], li_module_info['title'])
-                subpage_node['children'].append(li_module_info)
-                for li in rest:
-                    print(' skipping module section li', li.get_text())
+                # COMBINED?
+                content_items = section_li.find_all("li", class_="modtype_oucontent")
+                resource_items = section_li.find_all("li", class_="modtype_resource")
+                if content_items and resource_items:
+                    print('FOUND   content_items and resource_items: >>>>>>>>>>>>>>>>>>>>>>')
 
-            # RESOURCES
-            resource_items = section_li.find_all("li", class_="modtype_resource")
-            if resource_items:
-                for resouce_item in resource_items:
-                    resouce_dict = get_resource_info(resouce_item)
-                    print('         Resource (%s):' % resouce_dict['type'], resouce_dict['title'])
-                    subpage_node['children'].append(resouce_dict)
+                # STANDARD MODULES
+                content_items = section_li.find_all("li", class_="modtype_oucontent")
+                if content_items:
+                    first, rest = content_items[0], content_items[1:]
+                    li_module_info = get_resource_info(first)
+                    print('       - Recognizd standard module structure. Taking whole module:')
+                    print('         Content (%s):' % li_module_info['type'], li_module_info['title'])
+                    subpage_node['children'].append(li_module_info)
+                    for li in rest:
+                        print('            skipping module section li', li.get_text())
 
-        else:
-            print('non standard module, using fallback strategies...')
-            split_subpage_list_by_label(subpage, subpage_node)
-            # crawls `subpage` and appends elements as children of `subpage_node`
+                # RESOURCES
+                resource_items = section_li.find_all("li", class_="modtype_resource")
+                if resource_items:
+                    for resouce_item in resource_items:
+                        resouce_dict = get_resource_info(resouce_item)
+                        print('         Resource (%s):' % resouce_dict['type'], resouce_dict['title'])
+                        subpage_node['children'].append(resouce_dict)
+
+    elif len(section_lis) == 1:
+        # NONSTANDARD MODULE
+        # Other modules have > div.course-content
+        #                       > ul.topics
+        #                           > li.section [a single one]
+        #                               > div.content
+        #                                  > li.section
+        print('       - Nonstandard module, using fallback strategies...')
+        outer_section_li = section_lis[0]
+        content_div = outer_section_li.find('div', class_="content")
+        activity_lis = content_div.find('ul', class_='section').find_all('li', class_="activity")
+        for activity_li in activity_lis:
+            activity_type = get_modtype(activity_li)
+            print('         section_li (%s)' % activity_type, activity_li.get_text().replace('\n', ' ').strip()[0:40])
+            # resouce_dict = get_resource_info(resouce_item)
+            # split_subpage_list_by_label(subpage, subpage_node)
+
+
+    else:
+        print
+        print('Found third case')
+        raise ValueError('found third case')
+
 
     return subpage_node
 
@@ -450,11 +478,11 @@ def create_content_node(content_dict):
         url=content_dict['url'],
         source_id=source_id,
         title=content_dict['title'],
+        description=content_dict.get('description'),
         # files=[HTMLZipFile(path=url)],
         license=licenses.CC_BY_SA
     )
     return content_node
-
 
 
 
