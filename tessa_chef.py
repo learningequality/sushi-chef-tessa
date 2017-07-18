@@ -3,19 +3,22 @@
 from collections import defaultdict
 import logging
 import os
-import urllib.parse as urlparse
+import re
+import tempfile
+from urllib.parse import urlparse, parse_qs
 
 from bs4 import BeautifulSoup
 import requests
 
-from le_utils.constants import licenses
+from le_utils.constants import content_kinds, file_formats, licenses
 from ricecooker.chefs import SushiChef
-from ricecooker.classes.nodes import ChannelNode, HTML5AppNode, TopicNode
 from ricecooker.classes.files import HTMLZipFile
+from ricecooker.classes.licenses import get_license
+from ricecooker.classes.nodes import ChannelNode, HTML5AppNode, TopicNode
 from ricecooker.config import LOGGER
 from ricecooker.utils.caching import CacheForeverHeuristic, FileCache, CacheControlAdapter, InvalidatingCacheControlAdapter
 from ricecooker.utils.html import download_file
-
+from ricecooker.utils.zip import create_predictable_zip
 
 
 # Chef settings
@@ -60,17 +63,18 @@ sess.mount('https://www.open.edu', forever_adapter)
 
 
 
+
+
+# CRAWLING
+################################################################################
+
 # Looks at the top nav to get the current page subsection.
 get_page_id = lambda p: get_text(p.find(id="page-navbar").find_all("span", itemprop='title')[-1])
 get_text = lambda x: "" if x is None else x.get_text().replace('\n', ' ').strip()
 # Used for modules that do not correspond to a single page ID.
 get_key = lambda s: s.replace(" ", "_").replace("-","_").lower()
 # Used for nodes that correspond to a single page (topics, sections).
-url_to_id = lambda u: urlparse.parse_qs(urlparse.urlparse(u).query).get('id', '')
-
-
-
-
+url_to_id = lambda u: parse_qs(urlparse(u).query).get('id', '')
 
 
 ALL_HIDDEN_SUBSPANS = set()
@@ -104,7 +108,6 @@ def get_resource_info(item):
         hidden_subspan.extract()    # remove resouce type indicaton
     else:
         hidden_subspan_text = None
-        # print('no hidden_subspan ... but proceeeding anyway')
 
     title = title_span.get_text().replace('\n',' ').strip()
     return {
@@ -183,7 +186,7 @@ def extract_category_from_modtype_label(category):
 
 
 
-def split_list_by_label(lang, page):
+def process_language_page(lang, page):
     """
     Process a top-level collection page for a given language.
     """
@@ -231,7 +234,7 @@ def split_list_by_label(lang, page):
             else:
                 raise ValueError('Uknown action encountered:' + str(action) )
 
-        # SPECIAL HANDLINE FOR NON SUBPAGE CONTENT NODES
+        # SPECIAL HANDLING FOR NON SUBPAGE CONTENT NODES
         elif activity_type == 'oucontent':
             info_dict = get_resource_info(activity)
 
@@ -242,7 +245,6 @@ def split_list_by_label(lang, page):
             # print(info_dict)
             current_category['children'].append(subpage_node)
 
-
         # ALSO TAKE PDF RESOURCES
         elif activity_type == 'resource':
             info_dict = get_resource_info(activity)
@@ -251,7 +253,6 @@ def split_list_by_label(lang, page):
             else:
                 print('Ignoring activity of type', activity_type, '\tstartswith:',
                       activity.get_text()[0:50].replace('\n',' '))
-
 
         # REJECT EVERYTHING ELSE
         else:
@@ -395,8 +396,8 @@ def create_subpage_node(subpage_dict):
     section_lis = topics_ul.find_all('li', class_="section")
     # print('len(section_lis) = ', len(section_lis)    )
 
+    # CASE A: STANDARD MODULE
     if len(section_lis) > 1:
-        # STANDARD MODULE
         # Some modules are conained in a div.course-content > ul.topics > li.section > (title in h3)
         for section_li in section_lis:
 
@@ -448,9 +449,8 @@ def create_subpage_node(subpage_dict):
             else:
                 print('       - No heading el found in section so skipping...', get_text(section_li)[0:20])
 
-
+    # CASE B: NONSTANDARD MODULE
     elif len(section_lis) == 1:
-        # NONSTANDARD MODULE
         # Other modules have > div.course-content
         #                       > ul.topics
         #                           > li.section [a single one]
@@ -504,6 +504,42 @@ def create_content_node(content_dict):
 
 
 
+
+
+
+
+
+# SCRAPING
+################################################################################
+
+def make_request(url, *args, **kwargs):
+    response = sess.get(url, *args, **kwargs)
+    if response.status_code != 200:
+        print("NOT FOUND:", url)
+    elif not response.from_cache:
+        print("NOT CACHED:", url)
+    return response
+
+
+def get_parsed_html_from_url(url, *args, **kwargs):
+    html = make_request(url, *args, **kwargs).content
+    return BeautifulSoup(html, "html.parser")
+
+
+def make_fully_qualified_url(url):
+    if url.startswith("//"):
+        return "http:" + url
+    if url.startswith("/"):
+        return "http://www.africanstorybook.org" + url  # TODO: fix or adjust
+    if not url.startswith("http"):
+        return "http://www.africanstorybook.org/" + url # TODO: fix or adjust
+    return url
+
+
+
+
+# CHEF
+################################################################################
 
 class TessaChef(SushiChef):
     """
@@ -563,7 +599,7 @@ class TessaChef(SushiChef):
         top_level_page = sess.get(top_level_url)
         b = BeautifulSoup(top_level_page.content, "html5lib")
         page_id = get_page_id(b)
-        subpages = {k:v for k,v in split_list_by_label(b).items() if any(x and x.get('type','') == 'Subpage' for x in v)}
+        subpages = {k:v for k,v in process_language_page(b).items() if any(x and x.get('type','') == 'Subpage' for x in v)}
 
         for topic, subpages in subpages.items():
             # Subject Resources
