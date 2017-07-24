@@ -26,3 +26,7 @@ Special cases:
   - Sometimes there is a subpage within a subpage
     http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66699
 
+  - Broken links (or could be just a bad day for open.edu server?):
+    www.open.edu/openlearncreate/mod/oucontent/view.php?id=82912&section=4.1
+    www.open.edu/openlearncreate/mod/oucontent/view.php?id=82912&section=4.2
+

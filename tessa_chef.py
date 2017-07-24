@@ -534,13 +534,15 @@ def get_parsed_html_from_url(url, *args, **kwargs):
 
 def make_fully_qualified_url(url):
     if url.startswith("//"):
+        print('unexpecded // url', url)
         return "http:" + url
     if url.startswith("/"):
-        return "http://www.africanstorybook.org" + url  # TODO: fix or adjust
+        print('unexpecded / url', url)
+        return "http://www.open.edu" + url
     if not url.startswith("http"):
-        return "http://www.africanstorybook.org/" + url # TODO: fix or adjust
+        print('unexpecded non-full url', url)
+        return "http://www.open.edu/" + url
     return url
-
 
 
 
