@@ -8,6 +8,7 @@ import tempfile
 from urllib.parse import urlparse, parse_qs
 
 from bs4 import BeautifulSoup
+import jinja2
 import requests
 
 from le_utils.constants import content_kinds, file_formats, licenses
@@ -511,6 +512,11 @@ def create_content_node(content_dict):
 
 # SCRAPING
 ################################################################################
+
+def get_section_filename(sec_url):
+    sec_num = parse_qs(urlparse(sec_url).query)['section'][0]
+    return 'section_' + sec_num.replace('.', '_') + '.html'
+
 
 def make_request(url, *args, **kwargs):
     response = sess.get(url, *args, **kwargs)

@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>{{ module['title'] }}</title>
+    <link rel="stylesheet" href="Shared/styles.css" type="text/css"/>
+  </head>
+  <body class="mod-oucontent" id="mod-oucontent-view">
+    <div id="page">
+      <div class="package_header">
+        <span class="index-header">
+          <a xmlns:cc="http://creativecommons.org/ns#" href="./index.html">{{ module['title'] }}</a>
+        </span>
+        <span class="main-logo">
+          <a href="">
+            <img class="rightfloated" src="Shared/main_logo.png" width="444" height="63"/>
+          </a>
+        </span>
+      </div>
+      <div id="content">
+        <div id="middle-column">
+          <div class="oucontent-content">
+            <div class="oucontent-contents">
+              <div>
+                <a class="skip-block" href="#main"><span class="accesshide">Skip contents</span></a>
+                <div>
+                  <h2>Contents</h2>
+                </div>
+              </div>
+              <div class="content">
+
+                <ul>
+                {% for section in module['children'] %}
+                  <li>
+                    <a href="{{ section['filename'] }}">{{ section['title'] }}</a></li>
+                    <ul>
+                    {% for subsection in section['children'] %}
+                      <li><a href="{{ subsection['filename'] }}">{{ subsection['title'] }}</a></li>
+                    {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+                </ul>
+
+              </div>
+              <div class="oucontent-copyright" style="display:block">
+                <p><img src="Shared/oulogo-56.jpg" alt="ou logo" style="float: right; padding-left: 5px; padding-bottom: 5px;"/><img src="Shared/copyright.png" alt="Creative Commons non-commercial share alike icon" style="float: right; padding-left: 20px; padding-right: 10px;"/>
+                  Except for third party materials and otherwise stated in the acknowledgements section, this content is made available under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_GB">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Licence</a>
+                </p>
+                <p>Please see <a href="Items/copyright-full.html">full copyright statement</a> and terms of use for more details. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
