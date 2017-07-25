@@ -26,7 +26,15 @@ Special cases:
   - Sometimes there is a subpage within a subpage
     http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66699
 
-  - Broken links (or could be just a bad day for open.edu server?):
-    www.open.edu/openlearncreate/mod/oucontent/view.php?id=82912&section=4.1
-    www.open.edu/openlearncreate/mod/oucontent/view.php?id=82912&section=4.2
+  - Key resource links:
+    Every language has a module/subpage with articles called "Key resources".
+    These are sometimes linked-to within the learning modules, but these links
+    won't work within the `iframe`s because they are ouside of the module.
+    e.g.: module_1__personal_development___how_self_esteem_impacts_on_learning.html/Items/5x_tessa_eng_1_5.html
+    contains the link (see [Key Resource: Using mind maps and brainstorming to explore ideas](http://www.open.edu/openlearnworks/mod/oucontent/olinkremote.php?website=TESSA_Eng&targetdoc=Key%20Resource:%20Using%20mind%20maps%20and%20brainstorming%20to%20explore%20ideas) )
+      - What should we do with them?
+      - Remove link and replace with full content tree full path within TESSA channel?
 
+  - Should we keep the acknowledgements sections like this one:
+    http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81108&section=1.8
+    Maybe just de-linkify the links?

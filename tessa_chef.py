@@ -5,6 +5,7 @@ import logging
 import os
 import re
 import tempfile
+import shutil
 from urllib.parse import urlparse, parse_qs
 
 from bs4 import BeautifulSoup
