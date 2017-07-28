@@ -1,0 +1,339 @@
+{
+  "language": "en",
+  "children": [
+    {
+      "kind": "TopicNode",
+      "source_id": "category_Subject_resources",
+      "title": "Subject resources",
+      "author": "TESSA",
+      "description": "TODO description of Subject resources",
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_66754",
+          "title": "Life Skills (primary)",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66754",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "81108",
+              "title": "Module 1: Personal development \u2013 how self-esteem impacts on learning",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp0l9a_owo.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80895",
+              "title": "Module 2: Exploring social development",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp8butgdi8.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80429",
+              "title": "Module 3: Community issues and citizenship",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp6fwry_fn.zip",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_66755",
+          "title": "Literacy (primary)",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66755",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80974",
+              "title": "Module 1: Reading and writing for a range of purposes",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp56c3u10d.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80688",
+              "title": "Module 2: Using community voices in your classroom",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpa59bqqvp.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80632",
+              "title": "Module 3: Promoting Communication in an Additional Language",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpxticz153.zip",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_66756",
+          "title": "Numeracy (primary)",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66756",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "81239",
+              "title": "Module 1: Investigating Number and Pattern",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp5zjiu7bb.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80814",
+              "title": "Module 2: Exploring Shape and Space",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpql0e_qm5.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80823",
+              "title": "Module 3: Investigating measurement and data handling",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpyifzfzc_.zip",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_66764",
+          "title": "Social Studies and the Arts (primary)",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66764",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80637",
+              "title": "Module 1: Developing an Understanding of Place",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmphnnrlybt.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80903",
+              "title": "Module 2: Investigating History",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpe5mylmh3.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80636",
+              "title": "Module 3: Looking at the Arts",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpm20ouyb4.zip",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_66757",
+          "title": "Science (primary)",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66757",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80656",
+              "title": "Module 1: Science - Looking at Life",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp7nwj_epx.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80667",
+              "title": "Module 2: Science - Investigating Materials",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp3_t2l7vm.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "HTML5AppNode",
+              "source_id": "80682",
+              "title": "Module 3: Science - Energy and Movement",
+              "license": "CC BY-NC-SA",
+              "description": "fake descri",
+              "files": [
+                {
+                  "file_type": "HTMLZipFile",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpkonbe02e.zip",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_76672",
+          "title": "Science (secondary)",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=76672",
+          "thumbnail": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "TopicNode",
+      "source_id": "category_Additional_resources",
+      "title": "Additional resources",
+      "author": "TESSA",
+      "description": "TODO description of Additional resources",
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_66698",
+          "title": "Key resources for teachers and teacher educators",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66698",
+          "thumbnail": null,
+          "children": []
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_66699",
+          "title": "Handbooks and toolkits for teachers and teacher educators",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66699",
+          "thumbnail": null,
+          "children": []
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_66697",
+          "title": "Audio resources",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66697",
+          "thumbnail": null,
+          "children": []
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_74909",
+          "title": "Teaching packs",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=74909",
+          "thumbnail": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "TopicNode",
+      "source_id": "category_Download_the_complete_Pan-Africa_English\u00a0library",
+      "title": "Download the complete Pan-Africa English\u00a0library",
+      "author": "TESSA",
+      "description": "TODO description of Download the complete Pan-Africa English\u00a0library",
+      "thumbnail": null,
+      "children": []
+    }
+  ]
+}
