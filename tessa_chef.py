@@ -452,18 +452,18 @@ def create_subpage_node(subpage_dict, lang=None):
                 if content_items:
                     first, rest = content_items[0], content_items[1:]
                     li_module_info = get_resource_info(first)
-                    print('       - Recognizd standard module structure. Taking whole module:')
-                    print('         Content (%s):' % li_module_info['type'], li_module_info['title'])
+                    print(' - Recognizd standard module structure. Taking whole module:')
+                    print('   Content (%s):' % li_module_info['type'], li_module_info['title'])
                     del li_module_info['type']
                     li_module_info['kind'] = 'TessaModule'
                     li_module_info['lang'] = lang
                     subpage_node['children'].append(li_module_info)
                     for li in rest:
-                        print('            skipping module section li', li.get_text())
+                        print('    - skipping module section li', li.get_text())
                     all_items = section_li.find_all("li")
                     other_items = [item for item in all_items if item not in content_items]
                     for other_item in other_items:
-                        print('            skipping other li', get_text(other_item)[0:40])
+                        print('    - skipping other li', get_text(other_item)[0:40])
 
 
                 # RESOURCES
