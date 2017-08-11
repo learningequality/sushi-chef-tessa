@@ -10,7 +10,24 @@
         "title": "Curriculum framework",
         "lang": "en",
         "description": "An outline of all the TESSA modules can be found\u00a0in the following curriculum overviews:",
-        "children": []
+        "children": [
+          {
+            "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81683",
+            "source_id": "81683",
+            "type": "oucontent",
+            "title": "Primary Curriculum framework",
+            "hidden_subspan_text": "Unit content",
+            "children": []
+          },
+          {
+            "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81698",
+            "source_id": "81698",
+            "type": "oucontent",
+            "title": "Secondary Science Curriculum framework",
+            "hidden_subspan_text": "Unit content",
+            "children": []
+          }
+        ]
       },
       {
         "kind": "TessaCategory",
@@ -291,7 +308,16 @@
         "title": "R\u00e9sum\u00e9 et r\u00e9capitulatif des mat\u00e9riels TESSA",
         "lang": "fr",
         "description": "Le d\u00e9tail du contenu de tous les modules TESSA se trouve dans les documents suivants.",
-        "children": []
+        "children": [
+          {
+            "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84487",
+            "source_id": "84487",
+            "type": "oucontent",
+            "title": "R\u00e9sum\u00e9 des mat\u00e9riels p\u00e9dagogiques TESSA",
+            "hidden_subspan_text": "Website content",
+            "children": []
+          }
+        ]
       },
       {
         "kind": "TessaCategory",

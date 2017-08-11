@@ -93,22 +93,24 @@ logger = logging.getLogger('tessa')
 # Looks at the top nav to get the current page subsection.
 get_page_id = lambda p: get_text(p.find(id="page-navbar").find_all("span", itemprop='title')[-1])
 get_text = lambda x: "" if x is None else x.get_text().replace('\n', ' ').strip()
+
 # Used for modules that do not correspond to a single page ID.
 get_key = lambda s: s.replace(" ", "_").replace("-","_").lower()
+
 # Used for nodes that correspond to a single page (topics, sections).
 url_to_id = lambda u: parse_qs(urlparse(u).query).get('id', '')
 
 
-ALL_HIDDEN_SUBSPANS = set()
-
 
 def get_modtype(activity):
+    """
+    Extract the type of activity --- link, resouce, label, subpage, etc.
+    """
     classes = activity.get("class")
     for klass in classes:
         if klass.startswith('modtype_'):
             return klass.replace('modtype_', '')
     return None
-
 
 
 def get_resource_info(item):
@@ -117,29 +119,23 @@ def get_resource_info(item):
     """
     link = item.find("a")
     if not link or not hasattr(link, "href"):
-        print(item)
-        print('did not find link so returning None')
-        return None
+        raise ValueError('get_resource_info did not find link in item ' + str(item))
 
     source_id = url_to_id(link["href"])[0]
-
     title_span = item.find('span', class_="instancename")
     hidden_subspan = title_span.find("span", class_="accesshide")
-
     if hidden_subspan:
-        hidden_subspan_text = hidden_subspan.get_text().replace('\n', ' ').strip()
-        ALL_HIDDEN_SUBSPANS.add(hidden_subspan_text)
-        hidden_subspan.extract()    # remove resouce type indicaton
+        hidden_subspan_text = get_text(hidden_subspan)
+        hidden_subspan.extract()                 # remove resouce type indicaton
     else:
         hidden_subspan_text = None
-
-    title = title_span.get_text().replace('\n',' ').strip()
+    title = get_text(title_span)
     return {
         "url": link["href"],
         'source_id': source_id,
         "type": get_modtype(item),
         "title": title,
-        'hidden_subspan_text': hidden_subspan_text,
+        'hidden_subspan_text': hidden_subspan_text,  # human-readbale equiv. of type
         'children': [],
     }
 
@@ -223,7 +219,7 @@ def process_language_page(lang, page):
     pre_activity_links = page.find(class_="course-content").find_all("li", class_="activity")
     activity_links = list(pre_activity_links)
     print('\n\n')
-    print('Processing TESSA page ', lang.upper(), 'Number of unfiltered activity links:', len(activity_links))
+    print('Processing TESSA page ', lang.upper(), '    num of unfiltered activity links:', len(activity_links))
 
     current_category = None
     for activity in activity_links:
@@ -243,6 +239,7 @@ def process_language_page(lang, page):
             # skip last footer section
             home_link = activity.select('a[href="' + TESSA_HOME_URL + '"]')
             if home_link:
+                print('Skipping footer section....')
                 continue
 
             action, title, description = extract_category_from_modtype_label(activity)
@@ -262,9 +259,6 @@ def process_language_page(lang, page):
             else:
                 raise ValueError('Uknown action encountered:' + str(action) )
 
-        # SPECIAL HANDLING FOR NON SUBPAGE CONTENT NODES
-        elif activity_type == 'oucontent':
-            info_dict = get_resource_info(activity)
 
         # SUBPAGES
         elif activity_type == 'subpage':
@@ -272,6 +266,12 @@ def process_language_page(lang, page):
             subpage_node = create_subpage_node(info_dict, lang=lang)
             # print(info_dict)
             current_category['children'].append(subpage_node)
+
+
+        # SPECIAL HANDLING FOR NON SUBPAGE CONTENT NODES
+        elif activity_type == 'oucontent':
+            info_dict = get_resource_info(activity)
+            current_category['children'].append(info_dict)
 
         # ALSO TAKE PDF RESOURCES
         elif activity_type == 'resource':
