@@ -15,7 +15,6 @@ https://translate.google.ca/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&
 
 
 
-
 Special cases:
 
   - some pages link to img resources, e.g.
