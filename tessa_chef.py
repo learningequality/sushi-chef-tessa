@@ -36,8 +36,8 @@ from ricecooker.utils.zip import create_predictable_zip
 ################################################################################
 DATA_DIR = 'chefdata'
 TREES_DATA_DIR = os.path.join(DATA_DIR, 'trees')
-CRAWLING_STAGE_OUTPUT = 'web_resource_trees.json'
-SCRAPING_STAGE_OUTPUT = 'ricecooker_json_trees.json'
+CRAWLING_STAGE_OUTPUT_TPL = 'web_resource_tree_{}.json'
+SCRAPING_STAGE_OUTPUT_TPL = 'ricecooker_json_tree_{}.json'
 ZIP_FILES_TMP_DIR = os.path.join(DATA_DIR, 'zipfiles')
 
 
@@ -50,6 +50,7 @@ TESSA_LANG_URL_MAP = {
     'ar': 'http://www.open.edu/openlearnworks/course/view.php?id=2198',
     'sw': 'http://www.open.edu/openlearnworks/course/view.php?id=2199',
 }
+
 REJECT_TITLES = [
     # Overview pages that link to other modules --- TODO: scrape manually and process to remove link colors
     'Curriculum framework',
@@ -263,6 +264,7 @@ def process_language_page(lang, page):
         # SUBPAGES
         elif activity_type == 'subpage':
             info_dict = get_resource_info(activity)
+            print('\n\nAdding subpage', info_dict['title'])
             subpage_node = create_subpage_node(info_dict, lang=lang)
             # print(info_dict)
             current_category['children'].append(subpage_node)
@@ -271,6 +273,7 @@ def process_language_page(lang, page):
         # SPECIAL HANDLING FOR NON SUBPAGE CONTENT NODES
         elif activity_type == 'oucontent':
             info_dict = get_resource_info(activity)
+            print('Adding oucontent', info_dict['title'])
             current_category['children'].append(info_dict)
 
         # ALSO TAKE PDF RESOURCES
@@ -395,7 +398,6 @@ def process_language_page(lang, page):
 
 
 def create_subpage_node(subpage_dict, lang=None):
-    print('\n')
     url = subpage_dict["url"]
     print(url)
     topic_id = url_to_id(url)
@@ -458,8 +460,8 @@ def create_subpage_node(subpage_dict, lang=None):
                     li_module_info['kind'] = 'TessaModule'
                     li_module_info['lang'] = lang
                     subpage_node['children'].append(li_module_info)
-                    for li in rest:
-                        print('    - skipping module section li', li.get_text())
+                    # for li in rest:
+                    #     print('    - skipping module section li', li.get_text())
                     all_items = section_li.find_all("li")
                     other_items = [item for item in all_items if item not in content_items]
                     for other_item in other_items:
@@ -858,13 +860,9 @@ def scraping_part(args, options):
     """
     lang = options['lang']
     # Read web_resource_trees.json
-    with open(os.path.join(TREES_DATA_DIR, CRAWLING_STAGE_OUTPUT)) as json_file:
-        web_resource_trees = json.load(json_file)
-        web_resource_tree = None
-        for tree in web_resource_trees:
-            if tree['lang'] == lang:
-                web_resource_tree = tree
-    assert web_resource_tree['kind'] == 'TessaLangWebRessourceTree'
+    with open(os.path.join(TREES_DATA_DIR, CRAWLING_STAGE_OUTPUT_TPL.format(lang))) as json_file:
+        web_resource_tree = json.load(json_file)
+        assert web_resource_tree['kind'] == 'TessaLangWebRessourceTree'
 
     # Ricecooker tree
     ricecooker_json_tree = dict(
@@ -880,16 +878,11 @@ def scraping_part(args, options):
     print('finished building ricecooker_json_tree')
 
     # Write out ricecooker_json_tree.json
-    json_file_name = os.path.join(TREES_DATA_DIR, SCRAPING_STAGE_OUTPUT)
+    json_file_name = os.path.join(TREES_DATA_DIR, SCRAPING_STAGE_OUTPUT_TPL.format(lang))
     with open(json_file_name, 'w') as json_file:
         json.dump(ricecooker_json_tree, json_file, indent=2)
-    print('stored')
-    logger.info('Intermediate result stored in ' + json_file_name)
+        logger.info('Intermediate result stored in ' + json_file_name)
     logger.info('Scraping part finished.\n')
-
-
-
-
 
 
 
@@ -1021,35 +1014,29 @@ class TessaChef(SushiChef):
             langs_to_crawl = ['en', 'fr', 'ar', 'sw']
         else:
             langs_to_crawl = [lang]
-        #
-        tessa_wrtrees = []
+
         for lang in langs_to_crawl:
+            # 1. crawl
             top_level_url = TESSA_LANG_URL_MAP[lang]
             print('\n\n\n------- JULY 28 SPECIAL OUTPUT FOR CRAWLING REVIEW ------')
             print('crawling lang=', lang, 'starting at', top_level_url)
             response = requests.get(top_level_url)
             top_level_page = BeautifulSoup(response.content, "html5lib")
             web_resource_tree = process_language_page(lang, top_level_page)
-            tessa_wrtrees.append(web_resource_tree)
 
-        # save unfiltered data to chefdata/trees/
-        json_file_name = os.path.join(TREES_DATA_DIR, CRAWLING_STAGE_OUTPUT.replace('.json', '_unfiltered.json'))
-        with open(json_file_name, 'w') as json_file:
-            json.dump(tessa_wrtrees, json_file, indent=2)
-            print('Unfiltered result stored in ' + json_file_name)
+            # 2. save unfiltered data to chefdata/trees/
+            file_name_tpl = CRAWLING_STAGE_OUTPUT_TPL.replace('.json', '_unfiltered.json')
+            json_file_name = os.path.join(TREES_DATA_DIR, file_name_tpl.format(lang))
+            with open(json_file_name, 'w') as json_file:
+                json.dump(web_resource_tree, json_file, indent=2)
+                print('Unfiltered result stored in ' + json_file_name)
 
-        # call filter_unwanted_categories on each tree
-        filtered_tessa_wrtrees = []
-        for wrt in tessa_wrtrees:
-            filtered_wrt = filter_unwanted_categories(wrt)
-            filtered_tessa_wrtrees.append(filtered_wrt)
-
-        json_file_name = os.path.join(TREES_DATA_DIR, CRAWLING_STAGE_OUTPUT)
-        with open(json_file_name, 'w') as json_file:
-            json.dump(filtered_tessa_wrtrees, json_file, indent=2)
-            print('Filtered result stored in ' + json_file_name)
-
-
+            # 3. call filter_unwanted_categories and save filtered
+            filtered_wrt = filter_unwanted_categories(web_resource_tree)
+            json_file_name = os.path.join(TREES_DATA_DIR, CRAWLING_STAGE_OUTPUT_TPL.format(lang))
+            with open(json_file_name, 'w') as json_file:
+                json.dump(filtered_wrt, json_file, indent=2)
+                print('Filtered result stored in ' + json_file_name)
 
 
     def scrape(self, args, options):
@@ -1089,6 +1076,7 @@ class TessaChef(SushiChef):
             title = 'TESSA (%s)-testing' % lang.upper(),   # TODO: remove -testing
             thumbnail = 'http://www.tessafrica.net/sites/all/themes/tessafricav2/images/logotype_02.png',
             description = 'Teacher Education in Sub-Saharan Africa, TESSA, is a collaborative network to help you improve your practice as a teacher or teacher educator. We provide free, quality resources that support your national curriculum and can help you plan lessons that engage, involve and inspire.',
+            language = lang
         )
         return channel
 
@@ -1099,7 +1087,7 @@ class TessaChef(SushiChef):
         lang = kwargs['lang']
         channel = self.get_channel(**kwargs)
         # Load ricecooker json tree data for language `lang`
-        with open(os.path.join(TREES_DATA_DIR, SCRAPING_STAGE_OUTPUT)) as infile:
+        with open(os.path.join(TREES_DATA_DIR, SCRAPING_STAGE_OUTPUT_TPL.format(lang))) as infile:
             lang_json_tree = json.load(infile)
             # lang_json_tree = None
             # json_trees = json.load(infile)
