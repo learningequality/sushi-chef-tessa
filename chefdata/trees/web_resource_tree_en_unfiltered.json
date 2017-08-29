@@ -1,0 +1,298 @@
+{
+  "kind": "TessaLangWebRessourceTree",
+  "title": "TESSA (EN)",
+  "lang": "en",
+  "children": [
+    {
+      "kind": "TessaCategory",
+      "source_id": "category_Curriculum_framework",
+      "title": "Curriculum framework",
+      "lang": "en",
+      "description": "An outline of all the TESSA modules can be found\u00a0in the following curriculum overviews:",
+      "children": [
+        {
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81683",
+          "source_id": "81683",
+          "type": "oucontent",
+          "title": "Primary Curriculum framework",
+          "hidden_subspan_text": "Unit content",
+          "children": []
+        },
+        {
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81698",
+          "source_id": "81698",
+          "type": "oucontent",
+          "title": "Secondary Science Curriculum framework",
+          "hidden_subspan_text": "Unit content",
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "TessaCategory",
+      "source_id": "category_Subject_resources",
+      "title": "Subject resources",
+      "lang": "en",
+      "description": " The subject resources are divided into six subject areas which cover the primary school curriculum and selected topics from lower secondary science. Each subject area contains three modules which in turn contain five study sections to support school-based education and training of teachers. These resources are useful for teachers and teacher educators.",
+      "children": [
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66754",
+          "source_id": "topic_66754",
+          "title": "Life Skills (primary)",
+          "lang": "en",
+          "description": "TODO add descriptions for subpages....",
+          "children": [
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81108",
+              "source_id": "81108",
+              "title": "Module 1: Personal development \u2013 how self-esteem impacts on learning",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80895",
+              "source_id": "80895",
+              "title": "Module 2: Exploring social development",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80429",
+              "source_id": "80429",
+              "title": "Module 3: Community issues and citizenship",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66755",
+          "source_id": "topic_66755",
+          "title": "Literacy (primary)",
+          "lang": "en",
+          "description": "TODO add descriptions for subpages....",
+          "children": [
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80974",
+              "source_id": "80974",
+              "title": "Module 1: Reading and writing for a range of purposes",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80688",
+              "source_id": "80688",
+              "title": "Module 2: Using community voices in your classroom",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80632",
+              "source_id": "80632",
+              "title": "Module 3: Promoting Communication in an Additional Language",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66756",
+          "source_id": "topic_66756",
+          "title": "Numeracy (primary)",
+          "lang": "en",
+          "description": "TODO add descriptions for subpages....",
+          "children": [
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81239",
+              "source_id": "81239",
+              "title": "Module 1: Investigating Number and Pattern",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80814",
+              "source_id": "80814",
+              "title": "Module 2: Exploring Shape and Space",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80823",
+              "source_id": "80823",
+              "title": "Module 3: Investigating measurement and data handling",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66764",
+          "source_id": "topic_66764",
+          "title": "Social Studies and the Arts (primary)",
+          "lang": "en",
+          "description": "TODO add descriptions for subpages....",
+          "children": [
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80637",
+              "source_id": "80637",
+              "title": "Module 1: Developing an Understanding of Place",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80903",
+              "source_id": "80903",
+              "title": "Module 2: Investigating History",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80636",
+              "source_id": "80636",
+              "title": "Module 3: Looking at the Arts",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66757",
+          "source_id": "topic_66757",
+          "title": "Science (primary)",
+          "lang": "en",
+          "description": "TODO add descriptions for subpages....",
+          "children": [
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80656",
+              "source_id": "80656",
+              "title": "Module 1: Science - Looking at Life",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80667",
+              "source_id": "80667",
+              "title": "Module 2: Science - Investigating Materials",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80682",
+              "source_id": "80682",
+              "title": "Module 3: Science - Energy and Movement",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "en"
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=76672",
+          "source_id": "topic_76672",
+          "title": "Science (secondary)",
+          "lang": "en",
+          "description": "TODO add descriptions for subpages....",
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "TessaCategory",
+      "source_id": "category_Additional_resources",
+      "title": "Additional resources",
+      "lang": "en",
+      "description": "",
+      "children": [
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66698",
+          "source_id": "topic_66698",
+          "title": "Key resources for teachers and teacher educators",
+          "lang": "en",
+          "description": "TODO add descriptions for subpages....",
+          "children": []
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66699",
+          "source_id": "topic_66699",
+          "title": "Handbooks and toolkits for teachers and teacher educators",
+          "lang": "en",
+          "description": "TODO add descriptions for subpages....",
+          "children": []
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66697",
+          "source_id": "topic_66697",
+          "title": "Audio resources",
+          "lang": "en",
+          "description": "TODO add descriptions for subpages....",
+          "children": []
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=74909",
+          "source_id": "topic_74909",
+          "title": "Teaching packs",
+          "lang": "en",
+          "description": "TODO add descriptions for subpages....",
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "TessaCategory",
+      "source_id": "category_Download_the_complete_Pan-Africa_English\u00a0library",
+      "title": "Download the complete Pan-Africa English\u00a0library",
+      "lang": "en",
+      "description": "Here you can download the complete set of English materials in word or pdf format, in a zip file, to save to your device, USB drive or CD.",
+      "children": [
+        {
+          "url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=127149",
+          "source_id": "127149",
+          "type": "resource",
+          "title": "Download Pan-Africa English library in pdf format",
+          "hidden_subspan_text": "File",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "description": "TESSA materials have been created and developed by experts working across a range of African countries. They are provided under an open creative commons licence and can be used and adapted for your own context as required."
+}
