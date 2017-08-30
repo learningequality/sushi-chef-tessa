@@ -59,6 +59,15 @@ REJECT_TITLES = [
     'Mfumo wa mtaala',
     # 'Download the complete Pan-Africa English library' # keeping bcs we can handle pdf
 ]
+
+ADDITIONAL_RESOURCES_TITLES = [
+    'Additional resources',
+    'Autres ressources',
+    'موارد المواد',
+    'Nyenzo za zaidi',
+    # 'Download the complete Pan-Africa English library' # keeping bcs we can handle pdf
+]
+
 TESSA_STRINGS = {
     'en': {
         'module': 'Module',
@@ -93,7 +102,7 @@ logger = logging.getLogger('tessa')
 
 # Looks at the top nav to get the current page subsection.
 get_page_id = lambda p: get_text(p.find(id="page-navbar").find_all("span", itemprop='title')[-1])
-get_text = lambda x: "" if x is None else x.get_text().replace('\n', ' ').strip()
+get_text = lambda x: "" if x is None else x.get_text().replace('\r', '').replace('\n', ' ').strip()
 
 # Used for modules that do not correspond to a single page ID.
 get_key = lambda s: s.replace(" ", "_").replace("-","_").lower()
@@ -206,10 +215,12 @@ def extract_category_from_modtype_label(category):
 
 
 
-def process_language_page(lang, page):
+def process_language_page(lang, page_url):
     """
     Process a top-level collection page for a given language.
     """
+    page = get_parsed_html_from_url(page_url)
+
     web_resource_tree = dict(
         kind='TessaLangWebRessourceTree',
         title='TESSA (%s)' % lang.upper(),
@@ -222,6 +233,8 @@ def process_language_page(lang, page):
     print('\n\n')
     print('Processing TESSA page ', lang.upper(), '    num of unfiltered activity links:', len(activity_links))
 
+
+    finished_with_modules = False
     current_category = None
     for activity in activity_links:
         # print(activity.text[0:50])
@@ -229,6 +242,11 @@ def process_language_page(lang, page):
 
         # HEADINGS AND DESCRIPTIONS
         if activity_type in ['label', 'heading']:
+
+            # Recognize when done with modules and starting "Additional resources" section
+            activity_title = get_text(activity)
+            if activity_title in ADDITIONAL_RESOURCES_TITLES:
+                finished_with_modules = True
 
             # special handling for first list item--conatins ah-hoc formatted channel specific info
             if current_category is None and activity_type == 'label':
@@ -261,13 +279,23 @@ def process_language_page(lang, page):
                 raise ValueError('Uknown action encountered:' + str(action) )
 
 
-        # SUBPAGES
-        elif activity_type == 'subpage':
+        # ADDITIONAL RESOURCES SUBPAGES
+        elif activity_type == 'subpage' and finished_with_modules:
+            info_dict = get_resource_info(activity)
+            print('\n\nFound ADDITIONAL RESOURCES SUBPAGE', info_dict['title'])
+            print('skipping for now...')
+            # subpage_node = create_subpage_node(info_dict, lang=lang, lang_main_menu_url=page_url)
+            # print(info_dict)
+            # current_category['children'].append(subpage_node)
+
+        # MODULE SUBPAGES
+        elif activity_type == 'subpage' and finished_with_modules == False:
             info_dict = get_resource_info(activity)
             print('\n\nAdding subpage', info_dict['title'])
-            subpage_node = create_subpage_node(info_dict, lang=lang)
+            subpage_node = create_subpage_node(info_dict, lang=lang, lang_main_menu_url=page_url)
             # print(info_dict)
             current_category['children'].append(subpage_node)
+
 
 
         # SPECIAL HANDLING FOR NON SUBPAGE CONTENT NODES
@@ -294,110 +322,10 @@ def process_language_page(lang, page):
 
 
 
-
-
-
-
-
-
-
-
-
-# def split_subpage_list_by_label(subpage, subpage_node, lang=None):
-#     """
-#     Fallback logic for Tessa subpages that do not consist of separate modules.
-#     Implements an ad-hock strategy for grouping content items (`li.activity`)
-#     into modules that contain content nodes.
-#     """
-#     pre_activity_links = subpage.find(class_="course-content").find_all("li", class_="activity")
-#     activity_links = list(pre_activity_links)
-#     print('         - ', 'Processing subpage', subpage_node['url'])
-#     print('           ', 'Number of activity links:', len(activity_links))
-#
-#
-#     def create_default_module(title, description, subpage_node):
-#         """
-#         If we encounter content item before a module has been created, we must
-#         create a "default" using the info from the subpage.
-#         """
-#         default_module = dict(
-#             kind='TessaModule',
-#             title='FORCED::' + str(title) + 'maybe use ' + subpage_node['title'],
-#             lang=lang,
-#             description=description,
-#             children = [],
-#         )
-#         return default_module
-#
-#     current_module = None
-#     for activity in activity_links:
-#         # print(activity.text[0:50])
-#         activity_type = get_modtype(activity)
-#
-#         # HEADINGS AND DESCRIPTIONS
-#         if activity_type in ['label', 'heading']:
-#
-#             # skip last footer section
-#             home_link = activity.select('a[href="' + TESSA_HOME_URL + '"]')
-#             if home_link:
-#                 continue
-#
-#             action, title, description = extract_category_from_modtype_label(activity)
-#             if action == 'new':
-#                 new_module = dict(
-#                     kind='TessaModule',
-#                     title=title,
-#                     lang=lang,
-#                     description=description,
-#                     children = [],
-#                 )
-#                 subpage_node['children'].append(new_module)
-#                 current_module = new_module
-#             elif action == 'append':
-#                 if current_module:
-#                     current_module['description'] += ' ' + description   # TODO: add \n\n
-#                 else:
-#                     new_module = create_default_module(title, description, subpage_node)
-#                     subpage_node['children'].append(new_module)
-#                     current_module = new_module
-#             else:
-#                 raise ValueError('Uknown action encountered:' + str(action) )
-#
-#         # SPECIAL HANDLING FOR NON SUBPAGE CONTENT NODES
-#         elif activity_type == 'oucontent':
-#             info_dict = get_resource_info(activity)
-#             if current_module:
-#                 current_module['children'].append(info_dict)
-#             else:
-#                 new_module = create_default_module('NO TITLE KNOWN', 'NO DESCRIPTION KNOWN', subpage_node)
-#                 subpage_node['children'].append(new_module)
-#                 current_module = new_module
-#                 current_module['children'].append(info_dict)
-#
-#         # SUBPAGES WITHIN SUBPAGES
-#         elif activity_type == 'subpage':
-#             print('           ', 'Encountered subpage within subpage #### RECUSING VIA create_subpage_node ##########')
-#             subsubpage_dict = get_resource_info(activity)
-#             subsubpage_node = create_subpage_node(subsubpage_dict, lang=lang)
-#             current_module['children'].append(subsubpage_node)
-#
-#         # ALSO TAKE PDF RESOURCES
-#         elif activity_type == 'resource':
-#             info_dict = get_resource_info(activity)
-#             if 'pdf' in info_dict['title']:
-#                 current_module['children'].append(info_dict)
-#             else:
-#                 print('           ', 'Ignoring activity of type', activity_type, '\tstartswith:',
-#                       activity.get_text()[0:50].replace('\n',' '))
-#
-#
-#         # REJECT EVERYTHING ELSE
-#         else:
-#             print('           ', 'Ignoring activity of type', activity_type, '\tstartswith:',
-#                   activity.get_text()[0:50].replace('\n',' '))
-
-
-def create_subpage_node(subpage_dict, lang=None):
+def create_subpage_node(subpage_dict, lang=None, lang_main_menu_url=None):
+    """
+    Parse `TessaSubpage`-type objects linked to from the main language page.
+    """
     url = subpage_dict["url"]
     print(url)
     topic_id = url_to_id(url)
@@ -419,14 +347,13 @@ def create_subpage_node(subpage_dict, lang=None):
     # print('    subpage_node: ' + str(subpage_node))
 
     # let's go get subpage contents...
-    r = sess.get(url)
-    subpage = BeautifulSoup(r.content, "html5lib")
-
+    subpage = get_parsed_html_from_url(url)
 
     course_content = subpage.find('div', class_='course-content')
     topics_ul = course_content.find('ul', class_='topics')
     section_lis = topics_ul.find_all('li', class_="section")
     # print('len(section_lis) = ', len(section_lis)    )
+
 
     # CASE A: STANDARD MODULE
     if len(section_lis) > 1:
@@ -484,6 +411,8 @@ def create_subpage_node(subpage_dict, lang=None):
             else:
                 print('       - No heading el found in section so skipping...', get_text(section_li)[0:20])
 
+
+
     # CASE B: NONSTANDARD MODULE
     elif len(section_lis) == 1:
         # Other modules have > div.course-content
@@ -493,13 +422,78 @@ def create_subpage_node(subpage_dict, lang=None):
         #                                  > li.section
         print('       - Nonstandard module, using fallback strategies...')
         outer_section_li = section_lis[0]
-        content_div = outer_section_li.find('div', class_="content")
+        content_div = outer_section_li.find('div', class_="content", recusive=False)
         activity_lis = content_div.find('ul', class_='section').find_all('li', class_="activity")
+
+        # Check if first item is subpage description (if more than 100 chars)
+        first_activity = activity_lis[0]
+        first_activity_text = get_text(first_activity)
+        if len(first_activity_text) >= 100:
+            subpage_node['description'] = first_activity_text
+            activity_lis = activity_lis[1:]
+        else:
+            subpage_node['description'] = ''
+
+        # process list of items using state machine
+        # START = take content items until you find a label
+        # SKIPNEXTLABEL = skip next label item (to skip: Read or download individual sec...)
+        # SKIP = skip content items until next label (to skip individual sections files)
+        state = 'START'
+        current_subject = None
         for activity_li in activity_lis:
+
             activity_type = get_modtype(activity_li)
-            print('         section_li (%s)' % activity_type, get_text(activity_li)[0:40])
-            # resouce_dict = get_resource_info(resouce_item)
-            # split_subpage_list_by_label(subpage, subpage_node)  # NOT IMPLEMENTED YET
+            print('Processing nonstandard activity_li (%s)' % activity_type, get_text(activity_li)[0:40])
+
+            # skip back-to-menu links
+            if activity_li.select('a[href="' + TESSA_HOME_URL + '"]'):
+                print('skipping TESSA_HOME_URL link activity')
+                continue
+            elif activity_li.select('a[href="' + lang_main_menu_url + '"]'):
+                print('skipping lang_main_menu_url link-containing activity')   # this is not necessary since above will catch...
+                continue
+
+            # Main state-machine logic
+            if state == 'START':
+                if activity_type == 'label':
+                    # beginning of a new subject
+                    current_subject = dict(
+                        kind='TessaSubject',
+                        title=get_text(activity_li),
+                        children=[]
+                    )
+                    subpage_node['children'].append(current_subject)
+                    state = 'SKIPNEXTLABEL'
+                elif activity_type == 'oucontent':
+                    print('should never be here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+                    pass
+
+            elif state == 'SKIPNEXTLABEL':
+                if activity_type == 'label':
+                    state = 'SKIP'
+                elif activity_type == 'oucontent':
+                    module_info = get_resource_info(activity_li)
+                    print(' - NEW! Recognizd standard module structure. Taking whole module:')
+                    print('   Content (%s):' % module_info['type'], module_info['title'])
+                    del module_info['type']
+                    module_info['kind'] = 'TessaModule'
+                    module_info['lang'] = lang
+                    current_subject['children'].append(module_info)
+
+            elif state == 'SKIP':
+                if activity_type == 'label':
+                    # beginning of a new subject
+                    current_subject = dict(
+                        kind='TessaSubject',
+                        title=get_text(activity_li),
+                        children=[]
+                    )
+                    subpage_node['children'].append(current_subject)
+                    state = 'SKIPNEXTLABEL'
+                elif activity_type == 'oucontent':
+                    print('skipping section...')
+                    continue
+
 
     else:
         print
@@ -508,7 +502,6 @@ def create_subpage_node(subpage_dict, lang=None):
 
 
     return subpage_node
-
 
 
 def filter_unwanted_categories(tree):
@@ -705,8 +698,6 @@ def download_page(page_url, destination, filename, module_dict, page_info):
     print('Scrapring section/subsectino...', filename)
     doc = get_parsed_html_from_url(page_url)
     source_id = parse_qs(urlparse(page_url).query)['id'][0] + '/' + filename   # or should I use &section=1.6 ?
-
-
 
     # We're only interested in the main content inside the section#region-main
     main_region = dict(
@@ -1020,9 +1011,7 @@ class TessaChef(SushiChef):
             top_level_url = TESSA_LANG_URL_MAP[lang]
             print('\n\n\n------- JULY 28 SPECIAL OUTPUT FOR CRAWLING REVIEW ------')
             print('crawling lang=', lang, 'starting at', top_level_url)
-            response = requests.get(top_level_url)
-            top_level_page = BeautifulSoup(response.content, "html5lib")
-            web_resource_tree = process_language_page(lang, top_level_page)
+            web_resource_tree = process_language_page(lang, top_level_url)
 
             # 2. save unfiltered data to chefdata/trees/
             file_name_tpl = CRAWLING_STAGE_OUTPUT_TPL.replace('.json', '_unfiltered.json')
