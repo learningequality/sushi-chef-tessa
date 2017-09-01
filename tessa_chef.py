@@ -283,10 +283,10 @@ def process_language_page(lang, page_url):
         elif activity_type == 'subpage' and finished_with_modules:
             info_dict = get_resource_info(activity)
             print('\n\nFound ADDITIONAL RESOURCES SUBPAGE', info_dict['title'])
-            print('skipping for now...')
-            # subpage_node = create_subpage_node(info_dict, lang=lang, lang_main_menu_url=page_url)
-            # print(info_dict)
-            # current_category['children'].append(subpage_node)
+            subpage_node = create_subpage_node(info_dict, lang=lang, lang_main_menu_url=page_url)
+            print(subpage_node)
+            current_category['children'].append(subpage_node)
+
 
         # MODULE SUBPAGES
         elif activity_type == 'subpage' and finished_with_modules == False:
@@ -297,12 +297,12 @@ def process_language_page(lang, page_url):
             current_category['children'].append(subpage_node)
 
 
-
         # SPECIAL HANDLING FOR NON SUBPAGE CONTENT NODES
         elif activity_type == 'oucontent':
             info_dict = get_resource_info(activity)
             print('Adding oucontent', info_dict['title'])
             current_category['children'].append(info_dict)
+
 
         # ALSO TAKE PDF RESOURCES
         elif activity_type == 'resource':
@@ -312,6 +312,7 @@ def process_language_page(lang, page_url):
             else:
                 print('Ignoring activity of type', activity_type, '\tstartswith:',
                       activity.get_text()[0:50].replace('\n',' '))
+
 
         # REJECT EVERYTHING ELSE
         else:
@@ -420,7 +421,7 @@ def create_subpage_node(subpage_dict, lang=None, lang_main_menu_url=None):
         #                           > li.section [a single one]
         #                               > div.content
         #                                  > li.section
-        print('       - Nonstandard module, using fallback strategies...')
+        # print(' - Nonstandard module, using fallback strategies...')
         outer_section_li = section_lis[0]
         content_div = outer_section_li.find('div', class_="content", recusive=False)
         activity_lis = content_div.find('ul', class_='section').find_all('li', class_="activity")
@@ -440,14 +441,15 @@ def create_subpage_node(subpage_dict, lang=None, lang_main_menu_url=None):
         # SKIP = skip content items until next label (to skip individual sections files)
         state = 'START'
         current_subject = None
+        sections_skipped = 0
         for activity_li in activity_lis:
 
             activity_type = get_modtype(activity_li)
-            print('Processing nonstandard activity_li (%s)' % activity_type, get_text(activity_li)[0:40])
+            # print('Processing nonstandard activity_li (%s)' % activity_type, get_text(activity_li)[0:40])
 
             # skip back-to-menu links
             if activity_li.select('a[href="' + TESSA_HOME_URL + '"]'):
-                print('skipping TESSA_HOME_URL link activity')
+                # print('skipping TESSA_HOME_URL link activity')
                 continue
             elif activity_li.select('a[href="' + lang_main_menu_url + '"]'):
                 print('skipping lang_main_menu_url link-containing activity')   # this is not necessary since above will catch...
@@ -457,9 +459,11 @@ def create_subpage_node(subpage_dict, lang=None, lang_main_menu_url=None):
             if state == 'START':
                 if activity_type == 'label':
                     # beginning of a new subject
+                    title = get_text(activity_li)
                     current_subject = dict(
                         kind='TessaSubject',
-                        title=get_text(activity_li),
+                        source_id=topic_id + ':' + title,
+                        title=title,
                         children=[]
                     )
                     subpage_node['children'].append(current_subject)
@@ -483,17 +487,24 @@ def create_subpage_node(subpage_dict, lang=None, lang_main_menu_url=None):
             elif state == 'SKIP':
                 if activity_type == 'label':
                     # beginning of a new subject
+                    title = get_text(activity_li)
                     current_subject = dict(
                         kind='TessaSubject',
-                        title=get_text(activity_li),
+                        source_id=topic_id + ':' + title,
+                        title=title,
                         children=[]
                     )
                     subpage_node['children'].append(current_subject)
                     state = 'SKIPNEXTLABEL'
+                    print('   total oucontent sections skipped in prev module =', sections_skipped)
+                    sections_skipped = 0
                 elif activity_type == 'oucontent':
-                    print('skipping section...')
+                    # print('skipping section...')
+                    sections_skipped += 1
                     continue
 
+        # done processing NONSTANDARD MODULE
+        print('   total oucontent sections skipped in prev module =', sections_skipped)
 
     else:
         print
@@ -573,7 +584,7 @@ def download_module(module_url, lang=None):
     print('destination=', destination)
 
     # copy css/js/images from skel
-    shutil.copytree('../chefdata/templates/module_skel/styles', os.path.join(destination,'styles'))
+    shutil.copytree('chefdata/templates/module_skel/styles', os.path.join(destination,'styles'))
 
     source_id = parse_qs(urlparse(module_url).query)['id'][0]
     raw_title = doc.select_one("head title").text
@@ -592,6 +603,11 @@ def download_module(module_url, lang=None):
     )
     # print(module_contents_dict)
 
+
+
+    # CREATE MODULE TOC SIDEBAR MENU
+    ############################################################################
+
     is_first_section = True
     # module_toc_li = doc.find('li', class_='is-open')
     # July 28 HACK : infer module_toc_li  using marker on sublist-li
@@ -603,89 +619,150 @@ def download_module(module_url, lang=None):
     inner_module_ul = outer_module_ul.find('div', class_='oucontent-contents').find('ul', recursive=False)
     section_lis = inner_module_ul.find_all('li', recursive=False)
     print(len(section_lis))
-    for section_li in section_lis:
 
-        if 'download individual sections' in get_text(section_li):  # TODO: AR, SW, FR
-            print('skipping section "Read or download individual sections..." ')
-            continue
+    # DETECT IF SIMPLE MODULE (single page, so sections) OR COMPLEX MODULE (with sections)
+    if len(section_lis) == 0:
+        print('UNEXPECTED --------  len(section_lis) == 0')
+        print(module_url, '<<< <<< '*6)
+    if len(section_lis) == 1:
+        is_simple_module = True
+    else:
+        is_simple_module = False
 
-        # print(section_li.prettify())
-        # print('>'*80)
+
+    # SIMPLE MODULES THAT CONSIST OF A SINGLE PAGE -- becomes index.html
+    if  is_simple_module:
+
+        section_li =  section_lis[0]
+        print(section_li)
+
+        # if 'download individual sections' in get_text(section_li):  # TODO: AR, SW, FR
+        #     print('skipping section "Read or download individual sections..." ')
+        #     continue
+
+        print('*'*120)
+        print(section_li.prettify())
+
         section_title_span = section_li.find('span', class_='oucontent-tree-item')
-        if section_title_span:
-            if section_title_span.find('span', class_='current-title'):
-                section_href = module_url
-            else:
-                section_href = section_title_span.find('a')['href']
-        else:
-            section_href = '#NOLINK' # for sections like "Read or download individual sections of the m..."
-
-        # special case for first section --- since it doesn't save section in filename
-        # manually call download_page with filename section_1.html with contents of current page
-        if is_first_section:
-            section_filename = 'section_1.html'
-            is_first_section = False
-        else:
-            if '#NOLINK' not in section_href:
-                section_filename = get_section_filename(section_href)
-
-        # accesshide_span = section_title_span.find('span', class_='accesshide')
-        # if accesshide_span:
-        #     accesshide_span.extract()
-        # subsections_ul.extract()
         section_title = get_text(section_title_span)
+
+        print('Processing simple module:', section_title)
 
         section_dict = dict(
             kind='TessaModuleSection',
             title=section_title,
-            href=section_href,
-            filename=section_filename,
+            href=module_url,
+            filename='index.html',  # TODO: figure out if this is necessary
             children=[],
         )
         print('  section:', section_title)
         module_contents_dict['children'].append(section_dict)
 
-
         subsections_ul = section_li.find('ul', recursive=False)
         if subsections_ul:
-            subsection_lis = subsections_ul.find_all('li')
-            for subsection_li in subsection_lis:
-                #print('>>>>>')
-                #print(subsection_li.prettify())
-                subsection_link = subsection_li.find('a')
-                subsection_href = subsection_link['href']
-                subsection_filename = get_section_filename(subsection_href)
-                # subaccesshide_span = subsection_li.find('span', class_='accesshide')
-                # if subaccesshide_span:
-                #     subaccesshide_span.extract()
-                subsection_title = get_text(subsection_li)
-                subsection_dict = dict(
-                    kind='TessaModuleSubsection',
-                    title=subsection_title,
-                    href=subsection_href,
-                    filename=subsection_filename,
-                )
-                print('    subsection:', subsection_title)
-                section_dict['children'].append(subsection_dict)
+            print('found some subsections...')
         else:
             print('no subsections <ul> found in this section')
 
-    module_index_tmpl = jinja2.Template(open('../chefdata/templates/module_index.html').read())
-    index_contents = module_index_tmpl.render(module=module_contents_dict)
-    with open(os.path.join(destination, "index.html"), "w") as f:
-        f.write(index_contents)
+        download_page(module_url, destination, 'index.html', module_contents_dict)
+        # /SIMPLE MODULE
 
-    # download the html content from each section/subsection
-    for section in module_contents_dict['children']:
-        if '#NOLINK' in section['href']:
-            print('nothing to download for #NOLINK section')
-            continue
-        download_page(section['href'], destination, section['filename'], module_contents_dict, section)
-        for subsection in section['children']:
-            if '#NOLINK' in subsection['href']:
-                print('nothing to download for #NOLINK subsection')
+
+    # COMPLEX MODULES WITH SECTIONS AND custom-made TOC in index.html
+    else:
+        for section_li in section_lis:
+
+            if 'download individual sections' in get_text(section_li):  # TODO: AR, SW, FR
+                print('skipping section "Read or download individual sections..." ')
                 continue
-            download_page(subsection['href'], destination, subsection['filename'], module_contents_dict, subsection)
+
+            # print(section_li.prettify())
+            # print('>'*80)
+            section_title_span = section_li.find('span', class_='oucontent-tree-item')
+            if section_title_span:
+                if section_title_span.find('span', class_='current-title'):
+                    section_href = module_url
+                else:
+                    section_a = section_title_span.find('a')
+                    if section_a:
+                        section_href = section_a['href']
+                    else:
+                        section_href = '#NOLINK' # for sections like "Top 20 ideas for teaching large classes"
+            else:
+                section_href = '#NOLINK' # for sections like "Read or download individual sections of the m..."
+
+            # special case for first section --- since it doesn't save section in filename
+            # manually call download_page with filename section_1.html with contents of current page
+            if is_first_section:
+                section_filename = 'section_1.html'
+                is_first_section = False
+            else:
+                if '#NOLINK' not in section_href:
+                    section_filename = get_section_filename(section_href)
+
+            # accesshide_span = section_title_span.find('span', class_='accesshide')
+            # if accesshide_span:
+            #     accesshide_span.extract()
+            # subsections_ul.extract()
+            section_title = get_text(section_title_span)
+
+            section_dict = dict(
+                kind='TessaModuleSection',
+                title=section_title,
+                href=section_href,
+                filename=section_filename,
+                children=[],
+            )
+            print('  section:', section_title)
+            module_contents_dict['children'].append(section_dict)
+
+
+            subsections_ul = section_li.find('ul', recursive=False)
+            if subsections_ul:
+                subsection_lis = subsections_ul.find_all('li')
+                for subsection_li in subsection_lis:
+                    print('<'*100)
+                    print(subsection_li)
+                    #print('>>>>>')
+                    #print(subsection_li.prettify())
+                    subsection_link = subsection_li.find('a')
+                    subsection_href = subsection_link['href']
+                    subsection_filename = get_section_filename(subsection_href)
+                    # subaccesshide_span = subsection_li.find('span', class_='accesshide')
+                    # if subaccesshide_span:
+                    #     subaccesshide_span.extract()
+                    subsection_title = get_text(subsection_li)
+                    subsection_dict = dict(
+                        kind='TessaModuleSubsection',
+                        title=subsection_title,
+                        href=subsection_href,
+                        filename=subsection_filename,
+                    )
+                    print('    subsection:', subsection_title)
+                    section_dict['children'].append(subsection_dict)
+            else:
+                print('no subsections <ul> found in this section')
+
+        module_index_tmpl = jinja2.Template(open('chefdata/templates/module_index.html').read())
+        index_contents = module_index_tmpl.render(module=module_contents_dict)
+        with open(os.path.join(destination, "index.html"), "w") as f:
+            f.write(index_contents)
+
+        # download the html content from each section/subsection
+        for section in module_contents_dict['children']:
+            if '#NOLINK' in section['href']:
+                print('nothing to download for #NOLINK section')
+                continue
+            download_page(section['href'], destination, section['filename'], module_contents_dict)
+            for subsection in section['children']:
+                if '#NOLINK' in subsection['href']:
+                    print('nothing to download for #NOLINK subsection')
+                    continue
+                download_page(subsection['href'], destination, subsection['filename'], module_contents_dict)
+
+        # /COMPLEX MODULE
+
+
 
     # for debugging...
     # return module_contents_dict
@@ -694,7 +771,7 @@ def download_module(module_url, lang=None):
 
 
 
-def download_page(page_url, destination, filename, module_dict, page_info):
+def download_page(page_url, destination, filename, module_dict):
     print('Scrapring section/subsectino...', filename)
     doc = get_parsed_html_from_url(page_url)
     source_id = parse_qs(urlparse(page_url).query)['id'][0] + '/' + filename   # or should I use &section=1.6 ?
@@ -755,7 +832,7 @@ def download_page(page_url, destination, filename, module_dict, page_info):
         main_content=str(section),
     )
 
-    section_index_tmpl = jinja2.Template(open('../chefdata/templates/section_index.html').read())
+    section_index_tmpl = jinja2.Template(open('chefdata/templates/section_index.html').read())
     index_contents = section_index_tmpl.render(
         module = module_dict,
         section = section_dict,
@@ -813,6 +890,22 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
             )
             parent_node['children'].append(child_node)
             logger.debug('Created new TopicNode for TessaSubpage titled ' + child_node['title'])
+            source_tree_children = source_node.get("children", [])
+            _build_json_tree(child_node, source_tree_children, lang=lang)
+
+        elif kind == 'TessaSubject':
+            description = source_node.get('description', None)
+            child_node = dict(
+                kind='TopicNode',
+                source_id=source_node['source_id'],
+                title=source_node['title'],
+                author='TESSA',
+                description=description,
+                thumbnail=source_node.get("thumbnail"),
+                children=[],
+            )
+            parent_node['children'].append(child_node)
+            logger.debug('Created new TopicNode for TessaSubject titled ' + child_node['title'])
             source_tree_children = source_node.get("children", [])
             _build_json_tree(child_node, source_tree_children, lang=lang)
 
@@ -1047,8 +1140,8 @@ class TessaChef(SushiChef):
           - perform manual content fixes for video lessons with non-standard markup
         """
         pass
-        # self.crawl(args, options)
-        # self.scrape(args, options)
+        self.crawl(args, options)
+        self.scrape(args, options)
 
     # def run(self, args, options): # for debugging!
     #     self.pre_run(args, options)

@@ -1,2 +1,1 @@
-git+https://github.com/learningequality/ricecooker@8a99c3250f9f8ec1be0f379c420ab8d54f2535bb#egg=ricecooker
-# ricecooker==0.6.3
+ricecooker==0.6.4
