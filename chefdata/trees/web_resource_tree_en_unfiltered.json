@@ -5,10 +5,10 @@
   "children": [
     {
       "kind": "TessaCategory",
-      "source_id": "category_Curriculum_framework",
-      "title": "Curriculum framework",
+      "source_id": "category_Curriculum\r_framework",
+      "title": "Curriculum\r framework",
       "lang": "en",
-      "description": "An outline of all the TESSA modules can be found\u00a0in the following curriculum overviews:",
+      "description": "An\r outline of all the TESSA modules can be found\u00a0in the following curriculum\r overviews:",
       "children": [
         {
           "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81683",
@@ -30,8 +30,8 @@
     },
     {
       "kind": "TessaCategory",
-      "source_id": "category_Subject_resources",
-      "title": "Subject resources",
+      "source_id": "category_Subject\r_resources",
+      "title": "Subject\r resources",
       "lang": "en",
       "description": " The subject resources are divided into six subject areas which cover the primary school curriculum and selected topics from lower secondary science. Each subject area contains three modules which in turn contain five study sections to support school-based education and training of teachers. These resources are useful for teachers and teacher educators.",
       "children": [
@@ -226,15 +226,64 @@
           "source_id": "topic_76672",
           "title": "Science (secondary)",
           "lang": "en",
-          "description": "TODO add descriptions for subpages....",
-          "children": []
+          "description": "There are 15 TESSA Secondary Science units which you can access from this page. They were developed by colleagues in Ghana, Zambia, Kenya, Tanzania and Uganda. We have selected topics from the lower Secondary Science curriculum that are difficult to teach and common across all countries. The units are grouped into five pedagogical themes, which reflect the skills and attributes of an effective teacher. They are: Probing students\u2019 understandingMaking Science practicalMaking Science real and relevantProblem-solving and creativityTeaching challenging ideasEach theme is exemplified in Biology (Module 1), Chemistry (Module 2) and Physics (Module 3), making a total of 15 units. \u00a0If the topic that you are teaching is not covered, then we hope that you will be able to adapt one of the units to the context that you require. If you would prefer to focus on one pedagogical theme then download all the section 1s in order to learn about \u2018probing childrens\u2019 understanding\u2019; section 2s to learn about \u2018making science practical\u2019; section 3s to learn about \u2018making science relevant and real\u2019; section 4s to learn about \u2018problem-solving and creativity\u2019; and section 5s to learn and \u2018teaching challenging ideas\u2019.",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "76672:Biology",
+              "title": "Biology",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80623",
+                  "source_id": "80623",
+                  "title": "Module 1: Secondary Science - Biology",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "76672:Chemistry",
+              "title": "Chemistry",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80624",
+                  "source_id": "80624",
+                  "title": "Module 2: Secondary Science - Chemistry",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "76672:Physics",
+              "title": "Physics",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80905",
+                  "source_id": "80905",
+                  "title": "Module 3: Secondary Science - Physics",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "kind": "TessaCategory",
-      "source_id": "category_Additional_resources",
-      "title": "Additional resources",
+      "source_id": "category_Additional\r_resources",
+      "title": "Additional\r resources",
       "lang": "en",
       "description": "",
       "children": [
@@ -244,8 +293,169 @@
           "source_id": "topic_66698",
           "title": "Key resources for teachers and teacher educators",
           "lang": "en",
-          "description": "TODO add descriptions for subpages....",
-          "children": []
+          "description": "Key resources\u00a0have been produced for the TESSA community, describing some important aspects of the teaching and learning process. These are referred to throughout the TESSA materials.",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "66698:Read or download individual resources:",
+              "title": "Read or download individual resources:",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80315",
+                  "source_id": "80315",
+                  "title": "Introducing the TESSA Key Resources",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80316",
+                  "source_id": "80316",
+                  "title": "Key Resource: Assessing learning",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80317",
+                  "source_id": "80317",
+                  "title": "Key Resource: Using mind maps and brainstorming to explore ideas",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80318",
+                  "source_id": "80318",
+                  "title": "Key Resource: Being a resourceful teacher in challenging circumstances",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80319",
+                  "source_id": "80319",
+                  "title": "Key Resource: Using explaining and demonstrating to assist learning",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80320",
+                  "source_id": "80320",
+                  "title": "Key Resource: Using group work in your classroom",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80321",
+                  "source_id": "80321",
+                  "title": "Key Resource: Using investigations in the classroom",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80322",
+                  "source_id": "80322",
+                  "title": "Key Resource: Tools for planning and carrying out investigations in Science",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80323",
+                  "source_id": "80323",
+                  "title": "Key Resource: Working with large classes",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80324",
+                  "source_id": "80324",
+                  "title": "Key Resource: Using the local community/environment as a resource",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80325",
+                  "source_id": "80325",
+                  "title": "Key Resource: Planning and preparing your lessons",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80326",
+                  "source_id": "80326",
+                  "title": "Key Resource: Using questioning to promote thinking",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80327",
+                  "source_id": "80327",
+                  "title": "Key Resource: Researching in the classroom",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80328",
+                  "source_id": "80328",
+                  "title": "Key Resource: Using role play/dialogue/drama in the classroom",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80329",
+                  "source_id": "80329",
+                  "title": "Key Resource: Using storytelling in the classroom",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82493",
+                  "source_id": "82493",
+                  "title": "Key Resource: Using new technologies",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83251",
+                  "source_id": "83251",
+                  "title": "Key Resource: Working with multigrade classes",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "TessaSubpage",
@@ -253,8 +463,37 @@
           "source_id": "topic_66699",
           "title": "Handbooks and toolkits for teachers and teacher educators",
           "lang": "en",
-          "description": "TODO add descriptions for subpages....",
-          "children": []
+          "description": "",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "66699:A handbook designed to support teacher educators to use TESSA materials in courses and programmes. It is for lecturers, advisers, professional development leaders, policy makers and other colleagues working in teacher education. Working with teachers includes the handbook for teachers, Working with pupils.",
+              "title": "A handbook designed to support teacher educators to use TESSA materials in courses and programmes. It is for lecturers, advisers, professional development leaders, policy makers and other colleagues working in teacher education. Working with teachers includes the handbook for teachers, Working with pupils.",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80727",
+                  "source_id": "80727",
+                  "title": "Working with Pupils: A Guide for Teachers",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "66699:This handbook is designed for teacher educators working with pre-service teachers or planning in-service programmes. It provides practical advice on how to introduce teachers to the TESSA Secondary Science materials by integrating them into courses.",
+              "title": "This handbook is designed for teacher educators working with pre-service teachers or planning in-service programmes. It provides practical advice on how to introduce teachers to the TESSA Secondary Science materials by integrating them into courses.",
+              "children": []
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "66699:The toolkit contains a range of resources for teacher educators to use to help teachers develop strategies that enable all pupils to reach their potential whatever their abilities, disabilities and needs. The toolkit refers teacher educators and teachers to TESSA resources that are particularly suited to developing inclusive practices within the classroom and the school.",
+              "title": "The toolkit contains a range of resources for teacher educators to use to help teachers develop strategies that enable all pupils to reach their potential whatever their abilities, disabilities and needs. The toolkit refers teacher educators and teachers to TESSA resources that are particularly suited to developing inclusive practices within the classroom and the school.",
+              "children": []
+            }
+          ]
         },
         {
           "kind": "TessaSubpage",
@@ -262,7 +501,7 @@
           "source_id": "topic_66697",
           "title": "Audio resources",
           "lang": "en",
-          "description": "TODO add descriptions for subpages....",
+          "description": "TESSA has a range of audio resources covering different aspects of teachers' work in Africa. Click on the resources collection titles below to find out more and listen to the materials:",
           "children": []
         },
         {
@@ -271,8 +510,15 @@
           "source_id": "topic_74909",
           "title": "Teaching packs",
           "lang": "en",
-          "description": "TODO add descriptions for subpages....",
-          "children": []
+          "description": "",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "74909:",
+              "title": "",
+              "children": []
+            }
+          ]
         }
       ]
     },
@@ -294,5 +540,5 @@
       ]
     }
   ],
-  "description": "TESSA materials have been created and developed by experts working across a range of African countries. They are provided under an open creative commons licence and can be used and adapted for your own context as required."
+  "description": "TESSA materials have been\r created and developed by experts working across a range of African countries. They\r are provided under an open creative commons licence and can be used and adapted\r for your own context as required."
 }

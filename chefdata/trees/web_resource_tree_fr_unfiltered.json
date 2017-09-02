@@ -1,0 +1,517 @@
+{
+  "kind": "TessaLangWebRessourceTree",
+  "title": "TESSA (FR)",
+  "lang": "fr",
+  "children": [
+    {
+      "kind": "TessaCategory",
+      "source_id": "category_R\u00e9sum\u00e9_et_r\u00e9capitulatif_des_mat\u00e9riels_TESSA",
+      "title": "R\u00e9sum\u00e9 et r\u00e9capitulatif des mat\u00e9riels TESSA",
+      "lang": "fr",
+      "description": "Le d\u00e9tail du contenu de tous les modules TESSA se trouve dans les documents suivants.",
+      "children": [
+        {
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84487",
+          "source_id": "84487",
+          "type": "oucontent",
+          "title": "R\u00e9sum\u00e9 des mat\u00e9riels p\u00e9dagogiques TESSA",
+          "hidden_subspan_text": "Website content",
+          "children": []
+        }
+      ]
+    },
+    {
+      "kind": "TessaCategory",
+      "source_id": "category_Ressources_disciplinaires_de_formation_des_enseignants",
+      "title": "Ressources disciplinaires de formation des enseignants",
+      "lang": "fr",
+      "description": "Les mat\u00e9riels disciplinaires de formation\r sont organis\u00e9s en cinq domaines de modules correspondant aux disciplines\r curriculaires. Chaque domaine compte 3 modules qui contiennent 5 unit\u00e9s d\u2019\u00e9tude\r ou sections chacun pour la formation des enseignants. Ces ressources sont utiles\r pour les enseignants et les formateurs. Les modules de formation couvrent les\r programmes scolaires du primaire.",
+      "children": [
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66857",
+          "source_id": "topic_66857",
+          "title": "Comp\u00e9tences de la vie courante",
+          "lang": "fr",
+          "description": "",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "66857:Module 1 : D\u00e9veloppement personnel \u2013 Impact de l\u2019estime de soi sur l\u2019apprentissage",
+              "title": "Module 1 : D\u00e9veloppement personnel \u2013 Impact de l\u2019estime de soi sur l\u2019apprentissage",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105334",
+                  "source_id": "105334",
+                  "title": "Module 1 : D\u00e9veloppement personnel \u2013 Impact de l\u2019estime de soi sur l\u2019apprentissage",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "66857:Module 2 : Exploration du d\u00e9veloppement de l'enfant dans son contexte social",
+              "title": "Module 2 : Exploration du d\u00e9veloppement de l'enfant dans son contexte social",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105335",
+                  "source_id": "105335",
+                  "title": "Module 2 : Exploration du d\u00e9veloppement de l\u2019enfant dans son contexte social",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "66857:Module 3 : \u00c9tudes de questions relatives \u00e0 la communaut\u00e9 et \u00e0 la citoyennet\u00e9",
+              "title": "Module 3 : \u00c9tudes de questions relatives \u00e0 la communaut\u00e9 et \u00e0 la citoyennet\u00e9",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105336",
+                  "source_id": "105336",
+                  "title": "Module 3 : Etudes de questions relatives \u00e0 la communaut\u00e9 et \u00e0 la citoyennet\u00e9",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80922",
+          "source_id": "topic_80922",
+          "title": "Alphab\u00e9tisation",
+          "lang": "fr",
+          "description": "",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "80922:Module 1\u00a0: Des raisons pour lire et \u00e9crire",
+              "title": "Module 1\u00a0: Des raisons pour lire et \u00e9crire",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82498",
+                  "source_id": "82498",
+                  "title": "Module 1 : Des raisons pour lire et \u00e9crire",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "80922:Module 2 : Utilisation des voix de la communaut\u00e9 dans la classe",
+              "title": "Module 2 : Utilisation des voix de la communaut\u00e9 dans la classe",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82572",
+                  "source_id": "82572",
+                  "title": "Module 2 : Utilisation des voix de la communaut\u00e9 dans la classe",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "80922:Module 3 : Mise en place de situations pour l'apprentissage et l'utilisation d'une langue suppl\u00e9mentaire",
+              "title": "Module 3 : Mise en place de situations pour l'apprentissage et l'utilisation d'une langue suppl\u00e9mentaire",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82513",
+                  "source_id": "82513",
+                  "title": "Module 3 : Mise en place de situation pour l\u2019apprentissage et l\u2019utilisation d\u2019une langue suppl\u00e9mentaire",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66860",
+          "source_id": "topic_66860",
+          "title": "Math\u00e9matiques",
+          "lang": "fr",
+          "description": "",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "66860:Module 1 : \u00c9tude du nombre et de la structure",
+              "title": "Module 1 : \u00c9tude du nombre et de la structure",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82514",
+                  "source_id": "82514",
+                  "title": "Module 1 : \u00c9tude du nombre et de la structure",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "66860:Module 2 : Exploration de la forme et de l\u2019espace",
+              "title": "Module 2 : Exploration de la forme et de l\u2019espace",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82576",
+                  "source_id": "82576",
+                  "title": "Module 2 : \u00c9tude de la forme et de l\u2019espace",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "66860:Module 3 : \u00c9tudes des mesures et de l'utilisation des donn\u00e9es",
+              "title": "Module 3 : \u00c9tudes des mesures et de l'utilisation des donn\u00e9es",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82577",
+                  "source_id": "82577",
+                  "title": "Module 3 : \u00c9tude des mesures et de l\u2019utilisation des donn\u00e9es",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80923",
+          "source_id": "topic_80923",
+          "title": "Sciences",
+          "lang": "fr",
+          "description": "",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "80923:Module 1 : Observation du vivant",
+              "title": "Module 1 : Observation du vivant",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82515",
+                  "source_id": "82515",
+                  "title": "Module 1 : Observation du vivant",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "80923:Module 2 : \u00c9tude des mat\u00e9riaux",
+              "title": "Module 2 : \u00c9tude des mat\u00e9riaux",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82517",
+                  "source_id": "82517",
+                  "title": "Module 2 : \u00c9tude des mat\u00e9riaux",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "80923:Module 3: L\u2019\u00e9nergie et le mouvement",
+              "title": "Module 3: L\u2019\u00e9nergie et le mouvement",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82524",
+                  "source_id": "82524",
+                  "title": "Module 3 : L\u2019\u00e9nergie et le mouvement",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80924",
+          "source_id": "topic_80924",
+          "title": "Sciences humaines et arts",
+          "lang": "fr",
+          "description": "",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "80924:Module 1: Comprendre les lieux",
+              "title": "Module 1: Comprendre les lieux",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82525",
+                  "source_id": "82525",
+                  "title": "Module 1 : Comprendre les lieux",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "80924:Module 2 : \u00c9tude de l\u2019histoire",
+              "title": "Module 2 : \u00c9tude de l\u2019histoire",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82527",
+                  "source_id": "82527",
+                  "title": "Module 2 : \u00c9tude de l\u2019Histoire",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "80924:Module 3 : Examen des arts",
+              "title": "Module 3 : Examen des arts",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82528",
+                  "source_id": "82528",
+                  "title": "Module 3 : Examen des arts",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "TessaCategory",
+      "source_id": "category_Autres_ressources",
+      "title": "Autres ressources",
+      "lang": "fr",
+      "description": "",
+      "children": [
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80919",
+          "source_id": "topic_80919",
+          "title": "Ressources cl\u00e9s",
+          "lang": "fr",
+          "description": "Les ressources cl\u00e9s ont \u00e9t\u00e9 produites pour la communaut\u00e9 TESSA. Elles d\u00e9crivent des aspects importants du processus d'enseignement apprentissage. Les ressources de TESSA font constamment appel \u00e0 ces ressources fondamentales.",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "80919:Pour\u00a0lire ou t\u00e9l\u00e9charger une ressource individuelle, s\u00e9lectionnez le lien qui convient :",
+              "title": "Pour\u00a0lire ou t\u00e9l\u00e9charger une ressource individuelle, s\u00e9lectionnez le lien qui convient :",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84354",
+                  "source_id": "84354",
+                  "title": "Ressource cl\u00e9 : Travailler avec des classes \u00e0 effectif lourd ou \u00e0 niveaux multiples",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84355",
+                  "source_id": "84355",
+                  "title": "Ressource cl\u00e9 : Travailler en groupes dans la classe",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84356",
+                  "source_id": "84356",
+                  "title": "Ressource cl\u00e9 : Utiliser des cartes conceptuelles et le remue-m\u00e9ninges pour explorer les id\u00e9es",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84357",
+                  "source_id": "84357",
+                  "title": "Ressource cl\u00e9 : Planifiez et pr\u00e9parez vos le\u00e7ons",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84358",
+                  "source_id": "84358",
+                  "title": "Ressource cl\u00e9 : Evaluer l'apprentissage",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84359",
+                  "source_id": "84359",
+                  "title": "Ressource cl\u00e9 : Travail d'investigation et de recherche en classe",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84360",
+                  "source_id": "84360",
+                  "title": "Ressource cl\u00e9 : \u00catre chercheur dans sa classe",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84361",
+                  "source_id": "84361",
+                  "title": "Ressource cl\u00e9 : Utiliser les jeux de r\u00f4les, l'expression orale et l'art dramatique dans la classe",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84362",
+                  "source_id": "84362",
+                  "title": "Ressource cl\u00e9 : Utiliser le questionnement pour d\u00e9velopper la pens\u00e9e",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84363",
+                  "source_id": "84363",
+                  "title": "Ressource cl\u00e9 : Utiliser les r\u00e9cits dans la classe",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84364",
+                  "source_id": "84364",
+                  "title": "Ressource cl\u00e9 : Utiliser l'explication et la d\u00e9monstration pour favoriser l'apprentissage",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84365",
+                  "source_id": "84365",
+                  "title": "Ressource cl\u00e9 : Utiliser l'environnement local et la communaut\u00e9 comme ressource",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84366",
+                  "source_id": "84366",
+                  "title": "Ressource cl\u00e9 : Utiliser les nouvelles technologies",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84367",
+                  "source_id": "84367",
+                  "title": "Ressource cl\u00e9 : Etre un enseignant inventif et cr\u00e9atif dans des conditions difficiles",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=78407",
+          "source_id": "topic_78407",
+          "title": "Guides pour les enseignants et les formateurs d\u2019enseignants",
+          "lang": "fr",
+          "description": "L\u2019\u00e9quipe TESSA a r\u00e9dig\u00e9 plusieurs guides sur lesquels les enseignants et les formateurs d'enseignants peuvent s'appuyer pour leur travail avec les \u00e9l\u00e8ves et les enseignants. Tous les guides peuvent \u00eatre adapt\u00e9s \u00e0 votre situation sp\u00e9cifique. T\u00e9l\u00e9chargez et imprimez la version PDF ou t\u00e9l\u00e9chargez et adaptez le document Word pour votre propre \u00e9cole ou institution",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "78407:Travailler avec les \u00e9l\u00e8ves\u00a0: guide de l\u2019enseignant Ce court guide destin\u00e9 aux enseignants explique comment utiliser les ressources TESSA dans la classe en fonction des programmes scolaires et du contexte de votre \u00e9tablissement.",
+              "title": "Travailler avec les \u00e9l\u00e8ves\u00a0: guide de l\u2019enseignant Ce court guide destin\u00e9 aux enseignants explique comment utiliser les ressources TESSA dans la classe en fonction des programmes scolaires et du contexte de votre \u00e9tablissement.",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84301",
+                  "source_id": "84301",
+                  "title": "Travailler avec les \u00e9l\u00e8ves: Guide de l\u2019enseignant",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "78407:Bo\u00eete \u00e0 outils pour les superviseurs de pratiques p\u00e9dagogiques La Bo\u00eete \u00e0 outils contient des ressources que les superviseurs de pratiques p\u00e9dagogiques peuvent utiliser pour soutenir les enseignants en formation au cours de leurs pratiques ou stages p\u00e9dagogiques. La Bo\u00eete \u00e0 outils aidera aussi les superviseurs \u00e0 encourager l'int\u00e9gration des ressources TESSA dans pratique des enseignants en formation.",
+              "title": "Bo\u00eete \u00e0 outils pour les superviseurs de pratiques p\u00e9dagogiques La Bo\u00eete \u00e0 outils contient des ressources que les superviseurs de pratiques p\u00e9dagogiques peuvent utiliser pour soutenir les enseignants en formation au cours de leurs pratiques ou stages p\u00e9dagogiques. La Bo\u00eete \u00e0 outils aidera aussi les superviseurs \u00e0 encourager l'int\u00e9gration des ressources TESSA dans pratique des enseignants en formation.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66858",
+          "source_id": "topic_66858",
+          "title": "Ressources  audio",
+          "lang": "fr",
+          "description": "TESSA offre des ressources audio couvrant diff\u00e9rents aspects du travail des enseignants en Afrique. Ces ressources sont organis\u00e9es sous diff\u00e9rents th\u00e8mes. Cliquez sur le th\u00e8me pour acc\u00e9der aux mat\u00e9riels.",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "description": "Les mat\u00e9riels ont \u00e9t\u00e9 con\u00e7us et r\u00e9dig\u00e9s par\r des experts\u00a0de divers pays d\u2019Afrique. Ils sont publi\u00e9s sous licence\r Creative Commons et peuvent \u00eatre utilis\u00e9s et adapt\u00e9s comme il sied \u00e0 votre\r situation sp\u00e9cifique."
+}

@@ -1,0 +1,447 @@
+{
+  "kind": "TessaLangWebRessourceTree",
+  "title": "TESSA (SW)",
+  "lang": "sw",
+  "children": [
+    {
+      "kind": "TessaCategory",
+      "source_id": "category_Nyenzo_za_kufundishia_somo",
+      "title": "Nyenzo za kufundishia somo",
+      "lang": "sw",
+      "description": " Nyenzo za kufundishia somo zimegawika katika maeneo sita ya somo yanayojumuisha mtaala wa shule za msingi pamoja na mada kadha za sayansi zilizochaguliwa kutokana na shule za sekondari za kiwango cha awali. Kila eneo la somo lina moduli tatu na kwa upande wake huwa na sehemu tano za kusaidia elimu inayohusiana na shule pamoja na ufundishaji wa walimu. Nyenzo hizi ni muhimu kwa walimu na wakufunzi.",
+      "children": [
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82842",
+          "source_id": "topic_82842",
+          "title": "Stadi za maisha",
+          "lang": "sw",
+          "description": "TODO add descriptions for subpages....",
+          "children": [
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82898",
+              "source_id": "82898",
+              "title": "Namba ya moduli 1: Maendeleo ya Mtu Binafsi \u2013Jinsi Kujiheshimu Kunavyoathiri Kujifunza",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83057",
+              "source_id": "83057",
+              "title": "Namba ya moduli 2: Kutalii Maendeleo ya Jamii",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83058",
+              "source_id": "83058",
+              "title": "Namba ya moduli 3: Masuala ya Jumuiya na Uraia",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82843",
+          "source_id": "topic_82843",
+          "title": "Kujua kusoma na kuandika",
+          "lang": "sw",
+          "description": "TODO add descriptions for subpages....",
+          "children": [
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83070",
+              "source_id": "83070",
+              "title": "Namba ya moduli 1: Kusoma na Kuandika kwa madhumuni mbalimbali",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83071",
+              "source_id": "83071",
+              "title": "Namba ya moduli 2: Kutumia Sauti za Kijumuia Darasani Kwako",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83072",
+              "source_id": "83072",
+              "title": "Namba ya moduli 3: Uhamasishaji wa mawasiliano katika lugha ya ziada",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82844",
+          "source_id": "topic_82844",
+          "title": "Hisabati",
+          "lang": "sw",
+          "description": "TODO add descriptions for subpages....",
+          "children": [
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83059",
+              "source_id": "83059",
+              "title": "Namba ya moduli 1:Kuchunguza namba na sulubu",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83060",
+              "source_id": "83060",
+              "title": "Namba ya moduli 2: Kuchunguza Maumbo na Uwazi",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83061",
+              "source_id": "83061",
+              "title": "Namba ya moduli 3: Kuchunguza vipimo na Kusimamia",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82845",
+          "source_id": "topic_82845",
+          "title": "Sayansi",
+          "lang": "sw",
+          "description": "TODO add descriptions for subpages....",
+          "children": [
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83062",
+              "source_id": "83062",
+              "title": "Namba ya moduli 1: Kuchunguza maisha",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83063",
+              "source_id": "83063",
+              "title": "Namba ya moduli 2: Kuchunguza maunzi/vitu",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83064",
+              "source_id": "83064",
+              "title": "Namba ya moduli 3: Nishati na mwendo",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82846",
+          "source_id": "topic_82846",
+          "title": "Mafunzo Ya Jamii Na Sanaa",
+          "lang": "sw",
+          "description": "TODO add descriptions for subpages....",
+          "children": [
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83360",
+              "source_id": "83360",
+              "title": "Namba ya moduli 1: Kujenga Welewa wa Mahali",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83361",
+              "source_id": "83361",
+              "title": "Namba ya moduli 2: Utafiti wa Kihistoria",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82847",
+          "source_id": "topic_82847",
+          "title": "Sayansi ya shule za Sekondari",
+          "lang": "sw",
+          "description": "TODO add descriptions for subpages....",
+          "children": [
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105311",
+              "source_id": "105311",
+              "title": "Module 1: Secondary Science - Biology",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105317",
+              "source_id": "105317",
+              "title": "Module 2: Secondary Science - Chemistry",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            },
+            {
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105323",
+              "source_id": "105323",
+              "title": "Module 3: Secondary Science - Physics",
+              "hidden_subspan_text": "Unit content",
+              "children": [],
+              "kind": "TessaModule",
+              "lang": "sw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "TessaCategory",
+      "source_id": "category_Nyenzo_za_zaidi",
+      "title": "Nyenzo za zaidi",
+      "lang": "sw",
+      "description": "",
+      "children": [
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82848",
+          "source_id": "topic_82848",
+          "title": "Nyenzo za msingi kwa walimu na wakufunzi",
+          "lang": "sw",
+          "description": "Nyenzo za msingi zimetengenezwa kwa ajili ya jumuiya ya TESSA, zinazoelezea vipengele muhimu kadhaa vya kufundishia na kujifunzia. Hizi zimerejelewa kote katika nyenzo za TESSA. Kama rasilimali hizi ni inapatikana kwa Kiingereza utaelekezwa kwa pan-Afrika\u00a0toleo English",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "82848:Soma au pakua nyenzo binafsi:",
+              "title": "Soma au pakua nyenzo binafsi:",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113701",
+                  "source_id": "113701",
+                  "title": "Kutambulisha Nyenzo-rejea muhimu za TESSA",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113702",
+                  "source_id": "113702",
+                  "title": "Nyenzo-rejea muhimu: Kutathmini mafunzo",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113703",
+                  "source_id": "113703",
+                  "title": "Nyenzo-rejea muhimu: kutumia ramani mawazo na majadiliano kugundua mawazo",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113704",
+                  "source_id": "113704",
+                  "title": "Nyenzo-rejea muhimu: Kuwa mwalimu mbunifu katika mazingira yenye changamoto",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113705",
+                  "source_id": "113705",
+                  "title": "Nyenzo-rejea muhimu: Kutumia Uelezaji na Uoneshaji katika kusaidia mafunzo",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113706",
+                  "source_id": "113706",
+                  "title": "Nyenzo-rejea muhimu: Kutumia kazi ya vikundi darasani kwako",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113707",
+                  "source_id": "113707",
+                  "title": "Nyenzo-rejea muhimu: kutumia utafiti darasani",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113708",
+                  "source_id": "113708",
+                  "title": "Nyenzo-rejea muhimu: Vifaa vya kupanga na kufanya utafiti wa Sayansi",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113709",
+                  "source_id": "113709",
+                  "title": "Nyenzo-rejea muhimu: Kufanya kazi na madarasa makubwa",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113710",
+                  "source_id": "113710",
+                  "title": "Nyenzo-rejea muhimu: Kutumia jumuia/mazingira ya mahali hapo kama nyenzo",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113711",
+                  "source_id": "113711",
+                  "title": "Nyenzo-rejea muhimu: kupanga na kuandaa masomo yako",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113712",
+                  "source_id": "113712",
+                  "title": "Nyenzo-rejea muhimu: Kutumia maswali kukuza fikira",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113713",
+                  "source_id": "113713",
+                  "title": "Nyenzo-rejea muhimu: Kufanya utafiti darasani",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113717",
+                  "source_id": "113717",
+                  "title": "Nyenzo-rejea muhimu : kufanya kazi na darasa kubwa au madarasa ya ngazi mbalimbali",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113714",
+                  "source_id": "113714",
+                  "title": "Nyenzo-rejea muhimu: Kutumia uigizaji/mazugumzo/michezo ya kuigiza darasani",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113716",
+                  "source_id": "113716",
+                  "title": "Nyenzo-rejea muhimu: Utumiaji wa teknolojia mpya",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113715",
+                  "source_id": "113715",
+                  "title": "Nyenzo-rejea muhimu: Kutumia hadithi za kusimulia darasani",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TessaSubpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82849",
+          "source_id": "topic_82849",
+          "title": "Vitabu vya maelekezo na miongozo ya vitendea kazi kwa ajili ya walimu na wakufunzi",
+          "lang": "sw",
+          "description": "Timu ya TESSA imetoa vitabu kadha vya maelekezo na miongozo ya vitendea kazi ili kusaidia walimu na wakufunzi katika kazi zao pamoja na wanafunzi na walimu.  Vitabu vyote vya maelekezo vinaweza kurekebishwa na kutumika kulingana na hali halisi ya kile unachokihitaji. Pakua na chapisha aina ya PDF au pakua na kuirekebisha nyaraka aina ya Word kwa ajili ya shule au taasisi yako. Kama rasilimali hizi ni inapatikana kwa Kiingereza utaelekezwa kwa pan-Afrika\u00a0toleo English",
+          "children": [
+            {
+              "kind": "TessaSubject",
+              "source_id": "82849:Kitabu cha maelekezo kilichotengenezwa ili kuwasaidia wakufunzi kutumia vifaa katika masomo ya muda na katika programu.  Ni kwa ajili ya wahadhiri, washauri, viongozi wa mabingwa wa maendeleo, watengenezaji sera na washiriki wengineo wanaofanya kazi katika mafunzo ya ualimu.",
+              "title": "Kitabu cha maelekezo kilichotengenezwa ili kuwasaidia wakufunzi kutumia vifaa katika masomo ya muda na katika programu.  Ni kwa ajili ya wahadhiri, washauri, viongozi wa mabingwa wa maendeleo, watengenezaji sera na washiriki wengineo wanaofanya kazi katika mafunzo ya ualimu.",
+              "children": [
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113602",
+                  "source_id": "113602",
+                  "title": "Working with Pupils: A Guide for Teachers",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                }
+              ]
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "82849:Kitabu hiki kimetengenezwa kwa ajili ya wakufunzi wanaowafundisha walimu wapya ambao bado hawajaanza utumishi, au kwa kupanga programu za walimu waliokuwa tayari katika utumishi.  Inatoa ushauri wenye vitendo jinsi ya kuwajulisha walimu katika nyenzo za sayansi ya Sekondari ya TESSA kwa kuwaunganisha kikamilifu katika masomo hayo mafupi.",
+              "title": "Kitabu hiki kimetengenezwa kwa ajili ya wakufunzi wanaowafundisha walimu wapya ambao bado hawajaanza utumishi, au kwa kupanga programu za walimu waliokuwa tayari katika utumishi.  Inatoa ushauri wenye vitendo jinsi ya kuwajulisha walimu katika nyenzo za sayansi ya Sekondari ya TESSA kwa kuwaunganisha kikamilifu katika masomo hayo mafupi.",
+              "children": []
+            },
+            {
+              "kind": "TessaSubject",
+              "source_id": "82849:Mwongozo wa kitendea kazi una mlolongo wa nyenzo kwa ajili ya matumizi ya wakufunzi kuendeleza mikakati ya kuwawezesha wanafunzi wote kufikia upeo wao bila ya kujali uwezo wao, udhaifu na mahitaji yao.  Mwongozo wa kitendea kazi unawalenga wakufunzi na walimu kwenye nyenzo za TESSA ambazo zimepangwa kwa utaratibu maalum ili kuendeleza uzoefu wa pamoja katika darasa na shule.",
+              "title": "Mwongozo wa kitendea kazi una mlolongo wa nyenzo kwa ajili ya matumizi ya wakufunzi kuendeleza mikakati ya kuwawezesha wanafunzi wote kufikia upeo wao bila ya kujali uwezo wao, udhaifu na mahitaji yao.  Mwongozo wa kitendea kazi unawalenga wakufunzi na walimu kwenye nyenzo za TESSA ambazo zimepangwa kwa utaratibu maalum ili kuendeleza uzoefu wa pamoja katika darasa na shule.",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Unakaribishwa katika ukurasa wa TESSA wa Kiswahili cha Afrika yote. Nyenzo za TESSA zimeundwa na kuendelezwa na wataalamu wanaofanya kazi nchi mbalimbali za Kiafrika. Zimetolewa kwa kupitia leseni bunifu ya pamoja na zinaweza kutumika na kurekebishwa kwa mahitaji yako ipasavyo, kuendana na hali halisi kama inavyohitajika."
+}
