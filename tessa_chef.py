@@ -193,16 +193,23 @@ def extract_category_from_modtype_label(category):
         for title_b in title_bs:
             title = title_b.get_text().replace('\n',' ').strip()
             if len(title) > 0:
+                print('Bold title:', title)
                 title_el = title_b
-                # print('Bold title:', title)
                 break
 
     if title_el is None:
-        pre_description = ' '.join([p.get_text().replace('\n',' ').strip() for p in description_pars])
+        title_h4 = category.find('h4')
+        if title_h4:
+            title = get_text(title_h4)
+            if len(title) > 0:
+                print('H4 title:', title)
+                title_el = title_h4
+
+    if title_el is None:
+        pre_description = ' '.join([get_text(p) for p in description_pars])
         description = pre_description.strip()
         print('Append description:', description[0:30]+'..')
         return 'append', None, description
-
 
     # extract title_el form DOM
     title_el.extract()
@@ -284,7 +291,7 @@ def process_language_page(lang, page_url):
             info_dict = get_resource_info(activity)
             print('\n\nFound ADDITIONAL RESOURCES SUBPAGE', info_dict['title'])
             subpage_node = create_subpage_node(info_dict, lang=lang, lang_main_menu_url=page_url)
-            print(subpage_node)
+            # print(subpage_node)
             current_category['children'].append(subpage_node)
 
 
@@ -507,7 +514,6 @@ def create_subpage_node(subpage_dict, lang=None, lang_main_menu_url=None):
         print('   total oucontent sections skipped in prev module =', sections_skipped)
 
     else:
-        print
         print('Found third case')
         raise ValueError('found third case')
 
@@ -629,25 +635,14 @@ def download_module(module_url, lang=None):
     else:
         is_simple_module = False
 
-
     # SIMPLE MODULES THAT CONSIST OF A SINGLE PAGE -- becomes index.html
     if  is_simple_module:
-
         section_li =  section_lis[0]
-        print(section_li)
-
-        # if 'download individual sections' in get_text(section_li):  # TODO: AR, SW, FR
-        #     print('skipping section "Read or download individual sections..." ')
-        #     continue
-
-        print('*'*120)
-        print(section_li.prettify())
-
+        # print('*'*120)
+        # print(section_li.prettify())
         section_title_span = section_li.find('span', class_='oucontent-tree-item')
         section_title = get_text(section_title_span)
-
         print('Processing simple module:', section_title)
-
         section_dict = dict(
             kind='TessaModuleSection',
             title=section_title,
@@ -665,7 +660,7 @@ def download_module(module_url, lang=None):
             print('no subsections <ul> found in this section')
 
         download_page(module_url, destination, 'index.html', module_contents_dict)
-        # /SIMPLE MODULE
+    # /SIMPLE MODULE
 
 
     # COMPLEX MODULES WITH SECTIONS AND custom-made TOC in index.html
@@ -721,8 +716,8 @@ def download_module(module_url, lang=None):
             if subsections_ul:
                 subsection_lis = subsections_ul.find_all('li')
                 for subsection_li in subsection_lis:
-                    print('<'*100)
-                    print(subsection_li)
+                    # print('<'*100)
+                    # print(subsection_li)
                     #print('>>>>>')
                     #print(subsection_li.prettify())
                     subsection_link = subsection_li.find('a')
@@ -1139,13 +1134,8 @@ class TessaChef(SushiChef):
             of the channel (see result in `chefdata/ricecooker_json_tree.json`)
           - perform manual content fixes for video lessons with non-standard markup
         """
-        pass
         self.crawl(args, options)
         self.scrape(args, options)
-
-    # def run(self, args, options): # for debugging!
-    #     self.pre_run(args, options)
-    #     print('Called run but skipping...')
 
 
     def get_channel(self, **kwargs):
