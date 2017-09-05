@@ -552,15 +552,15 @@ def filter_unwanted_categories(tree):
 
 def get_section_filename(sec_url):
     sec_num = parse_qs(urlparse(sec_url).query)['section'][0]
-    return 'section_' + sec_num.replace('.', '_') + '.html'
+    return 'section-' + sec_num.replace('.', '_') + '.html'
 
 
 def make_request(url, *args, **kwargs):
     response = sess.get(url, *args, **kwargs)
     if response.status_code != 200:
-        print("NOT FOUND:", url)
+        LOGGER.debug("NOT FOUND:", url)
     elif not response.from_cache:
-        print("NOT CACHED:", url)
+        LOGGER.debug("NOT CACHED:", url)
     return response
 
 
@@ -689,7 +689,7 @@ def download_module(module_url, lang=None):
             # special case for first section --- since it doesn't save section in filename
             # manually call download_page with filename section_1.html with contents of current page
             if is_first_section:
-                section_filename = 'section_1.html'
+                section_filename = 'section-1.html'
                 is_first_section = False
             else:
                 if '#NOLINK' not in section_href:
@@ -763,6 +763,26 @@ def download_module(module_url, lang=None):
     # return module_contents_dict
     zip_path = create_predictable_zip(destination)
     return zip_path
+
+
+
+def _get_next_section_url(doc):
+    # PARSE CURRENT PAGE
+    wrapper_div = doc.find('div', class_="direction-btn-wrapper")
+    if wrapper_div is None:
+        print('wrapper_div is None')
+        return None
+    next_link = wrapper_div.find('a', class_="next")
+    if next_link is None:
+        print('next_link is None')
+        return None
+    return next_link['href']
+
+
+
+
+
+
 
 
 
