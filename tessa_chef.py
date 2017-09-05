@@ -586,12 +586,6 @@ def make_fully_qualified_url(url):
 def download_module(module_url, lang=None):
     print('Scrapring module @ url =', module_url)
     doc = get_parsed_html_from_url(module_url)
-    destination = tempfile.mkdtemp()
-    print('destination=', destination)
-
-    # copy css/js/images from skel
-    shutil.copytree('chefdata/templates/module_skel/styles', os.path.join(destination,'styles'))
-
     source_id = parse_qs(urlparse(module_url).query)['id'][0]
     raw_title = doc.select_one("head title").text
     module_title = raw_title.replace('OLCreate:', '')\
@@ -599,7 +593,6 @@ def download_module(module_url, lang=None):
             .replace('TESSA_Eng', '')\
             .replace('TESSA_Fr', '')\
             .strip()
-
     module_contents_dict = dict(
         kind='TessaModuleContentsDict',
         lang=lang,
@@ -607,17 +600,25 @@ def download_module(module_url, lang=None):
         title=module_title,
         children=[],
     )
-    # print(module_contents_dict)
 
+    # TRY TO CREATE MODULE TOC SIDEBAR MENU
+    ############################################################################
+    current_li_deep = doc.find('li', class_='oucontent-tree-current')
+
+    # Sept 5th: special treatement for modules with no TOC in sidebar
+    if current_li_deep is None:
+        return download_module_no_toc(module_url, lang=lang)
 
 
     # CREATE MODULE TOC SIDEBAR MENU
+    # July 28 HACK : infer module_toc_li  using marker on sublist-li
     ############################################################################
+    destination = tempfile.mkdtemp()
+    print('destination=', destination)
+    # copy css/js/images from skel
+    shutil.copytree('chefdata/templates/module_skel/styles', os.path.join(destination,'styles'))
 
     is_first_section = True
-    # module_toc_li = doc.find('li', class_='is-open')
-    # July 28 HACK : infer module_toc_li  using marker on sublist-li
-    current_li_deep = doc.find('li', class_='oucontent-tree-current')
     module_toc_li = current_li_deep.find_parent('li', class_='item-section')
     # print(module_toc_li.prettify())
     # module_contents_div = module_toc_li.find('div', class_='oucontent-contents')
@@ -754,13 +755,8 @@ def download_module(module_url, lang=None):
                     print('nothing to download for #NOLINK subsection')
                     continue
                 download_page(subsection['href'], destination, subsection['filename'], module_contents_dict)
-
         # /COMPLEX MODULE
 
-
-
-    # for debugging...
-    # return module_contents_dict
     zip_path = create_predictable_zip(destination)
     return zip_path
 
@@ -779,6 +775,119 @@ def _get_next_section_url(doc):
     return next_link['href']
 
 
+def download_module_no_toc(module_url, lang=None):
+    """
+    Extracting the module table of contents from the sidebad nav doesn't work for certain modules in FR
+    e.g. http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105334&section=1.1
+
+    If NO TOC is available, then we'll crawl pages one by one
+    (`module_contents_dict`)
+    """
+    LOGGER.debug('Scrapring module @ url =' + str(module_url))
+    doc = get_parsed_html_from_url(module_url)
+    destination = tempfile.mkdtemp()
+    print('destination=', destination)
+
+    # copy css/js/images from skel
+    shutil.copytree('chefdata/templates/module_skel/styles', os.path.join(destination,'styles'))
+
+    source_id = parse_qs(urlparse(module_url).query)['id'][0]
+    raw_title = doc.select_one("head title").text
+    module_title = raw_title.replace('OLCreate:', '')\
+            .replace('TESSA_ARABIC', '')\
+            .replace('TESSA_Eng', '')\
+            .replace('TESSA_Fr', '')\
+            .strip()
+
+    module_contents_dict = dict(
+        kind='TessaModuleContentsDict',
+        lang=lang,
+        source_id=source_id,
+        title=module_title,
+        children=[],
+    )
+    # print(module_contents_dict)
+
+    # recusively download all sections by following "Next" links
+    current_url = module_url
+    current_section = None
+    is_first_section = True
+    while True:
+        LOGGER.debug('processing current_url' + str(current_url))
+        current_doc = get_parsed_html_from_url(current_url)
+
+
+        # special handling for module-level page (no section in url but is really Section 1)
+        if is_first_section:
+            section_filename = 'section-1.html'
+            is_first_section = False
+        else:
+            section_filename = get_section_filename(current_url)
+
+
+        # Do the actual download
+        download_page(current_url, destination, section_filename, module_contents_dict)
+
+
+        # Store section/subsecito info so we can build TOC later
+        doc = get_parsed_html_from_url(current_url)
+        raw_title = doc.select_one("head title").text
+        the_title = raw_title.replace('OLCreate:', '')\
+                .replace('TESSA_ARABIC', '')\
+                .replace('TESSA_Eng', '')\
+                .replace('TESSA_Fr', '')\
+                .strip()
+
+        # sections e.g. section-3.html
+        if '_' not in section_filename:
+            section_dict = dict(
+                kind='TessaModuleSection',
+                title=the_title,
+                href=current_url,
+                filename=section_filename,
+                children=[]
+            )
+            module_contents_dict['children'].append(section_dict)
+            print('  - section:', the_title[0:80])
+            current_section = section_dict
+
+        # subsections e.g. section-3_2.html
+        else:
+            subsection_title = the_title.replace(module_title,'')
+            subsection_title.replace(current_section['title'],'')
+            subsection_title = subsection_title.lstrip()
+            if subsection_title.startswith(': '):
+                subsection_title = subsection_title.replace(': ', '', 1)
+            subsection_dict = dict(
+                kind='TessaModuleSubsection',
+                title=subsection_title,
+                href=current_url,
+                filename=section_filename,
+            )
+            print('     - subsection:', subsection_title[0:80])
+            current_section['children'].append(subsection_dict)
+
+
+        # Recurse if next
+        next_url = _get_next_section_url(current_doc)
+        if next_url:
+            current_url = next_url
+        else:
+            break
+
+    # for debugging...
+    # pp.pprint(module_contents_dict)
+
+    module_index_tmpl = jinja2.Template(open('chefdata/templates/module_index.html').read())
+    index_contents = module_index_tmpl.render(module=module_contents_dict)
+    with open(os.path.join(destination, "index.html"), "w") as f:
+        f.write(index_contents)
+
+    # return module_contents_dict
+    zip_path = create_predictable_zip(destination)
+    return zip_path
+
+
 
 
 
@@ -787,7 +896,7 @@ def _get_next_section_url(doc):
 
 
 def download_page(page_url, destination, filename, module_dict):
-    print('Scrapring section/subsectino...', filename)
+    LOGGER.debug('Scrapring section/subsectino...', filename)
     doc = get_parsed_html_from_url(page_url)
     source_id = parse_qs(urlparse(page_url).query)['id'][0] + '/' + filename   # or should I use &section=1.6 ?
 
