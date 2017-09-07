@@ -291,6 +291,7 @@ def process_language_page(lang, page_url):
         elif activity_type == 'subpage' and finished_with_modules:
             info_dict = get_resource_info(activity)
             print('\n\nFound ADDITIONAL RESOURCES SUBPAGE', info_dict['title'])
+            # TODO: remove one folder-deep, process title and description  :TODO:  :TODO:  :TODO:  :TODO:
             subpage_node = create_subpage_node(info_dict, lang=lang, lang_main_menu_url=page_url)
             # print(subpage_node)
             current_category['children'].append(subpage_node)
@@ -307,10 +308,12 @@ def process_language_page(lang, page_url):
 
         # SPECIAL HANDLING FOR NON SUBPAGE CONTENT NODES
         elif activity_type == 'oucontent':
-            info_dict = get_resource_info(activity)
-            print('Adding oucontent', info_dict['title'])
-            current_category['children'].append(info_dict)
-
+            outcontent_dict = get_resource_info(activity)
+            print('Adding oucontent', outcontent_dict['title'])
+            del outcontent_dict['type']
+            outcontent_dict['kind'] = 'TessaContentPage'
+            outcontent_dict['lang'] = lang
+            current_category['children'].append(outcontent_dict)
 
         # ALSO TAKE PDF RESOURCES
         elif activity_type == 'resource':
@@ -585,7 +588,7 @@ def make_fully_qualified_url(url):
 
 
 def download_module(module_url, lang=None):
-    print('Scrapring module @ url =', module_url)
+    LOGGER.debug('Scrapring module @ url =', module_url)
     doc = get_parsed_html_from_url(module_url)
     source_id = parse_qs(urlparse(module_url).query)['id'][0]
     raw_title = doc.select_one("head title").text
@@ -661,7 +664,7 @@ def download_module(module_url, lang=None):
         else:
             print('no subsections <ul> found in this section')
 
-        download_page(module_url, destination, 'index.html', module_contents_dict)
+        download_page(module_url, destination, 'index.html', lang)
     # /SIMPLE MODULE
 
 
@@ -750,12 +753,12 @@ def download_module(module_url, lang=None):
             if '#NOLINK' in section['href']:
                 print('nothing to download for #NOLINK section')
                 continue
-            download_page(section['href'], destination, section['filename'], module_contents_dict)
+            download_page(section['href'], destination, section['filename'], lang)
             for subsection in section['children']:
                 if '#NOLINK' in subsection['href']:
                     print('nothing to download for #NOLINK subsection')
                     continue
-                download_page(subsection['href'], destination, subsection['filename'], module_contents_dict)
+                download_page(subsection['href'], destination, subsection['filename'], lang)
         # /COMPLEX MODULE
 
     zip_path = create_predictable_zip(destination)
@@ -771,7 +774,7 @@ def _get_next_section_url(doc):
         return None
     next_link = wrapper_div.find('a', class_="next")
     if next_link is None:
-        print('next_link is None')
+        # print('next_link is None')
         return None
     return next_link['href']
 
@@ -827,7 +830,7 @@ def download_module_no_toc(module_url, lang=None):
 
 
         # Do the actual download
-        download_page(current_url, destination, section_filename, module_contents_dict)
+        download_page(current_url, destination, section_filename, lang)
 
 
         # Store section/subsecito info so we can build TOC later
@@ -891,12 +894,54 @@ def download_module_no_toc(module_url, lang=None):
 
 
 
+def scrape_content_page(content_page_url, lang):
+    """
+    Download standalone HTML content pages (non-modules).
+    Used for "Curriculum framework" and standalone pages in "Resources".
+    Returns:
+        page_info (dict):  info necessary to constructing HTML5AppNode and HTMLZipFile
+          - title
+          - source_id
+          - description
+          - zip_path
+    """
+    LOGGER.debug('Scrapring content page @ url =' + str(content_page_url))
+    doc = get_parsed_html_from_url(content_page_url)
+
+    destination = tempfile.mkdtemp()
+    print('destination=', destination)
+
+    source_id = parse_qs(urlparse(content_page_url).query)['id'][0]
+    raw_title = doc.select_one("head title").text
+    content_title = raw_title.replace('OLCreate:', '')\
+            .replace('TESSA_ARABIC', '')\
+            .replace('TESSA_Eng', '')\
+            .replace('TESSA_Fr', '')\
+            .strip()
+
+    page_info = dict(
+        lang=lang,
+        source_id=source_id,
+        title=content_title,
+        description=None,
+        children=[],
+    )
+
+    # Do the actual download
+    download_page(content_page_url, destination, 'index.html', lang)
+
+    # zip it
+    page_info['zip_path'] = create_predictable_zip(destination)
+
+    # ship it
+    return page_info
 
 
 
 
 
-def download_page(page_url, destination, filename, module_dict):
+
+def download_page(page_url, destination, filename, lang):
     LOGGER.debug('Scrapring section/subsectino...', filename)
     doc = get_parsed_html_from_url(page_url)
     source_id = parse_qs(urlparse(page_url).query)['id'][0] + '/' + filename   # or should I use &section=1.6 ?
@@ -953,13 +998,12 @@ def download_page(page_url, destination, filename, module_dict):
 
     section_dict = dict(
         title=section_title,
-        lang=module_dict['lang'],
+        lang=lang,
         main_content=str(section),
     )
 
     section_index_tmpl = jinja2.Template(open('chefdata/templates/section_index.html').read())
     index_contents = section_index_tmpl.render(
-        module = module_dict,
         section = section_dict,
     )
     with open(os.path.join(destination, filename), "w") as f:
@@ -1053,6 +1097,26 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
             child_node['files'] = [module_html_file]
             parent_node['children'].append(child_node)
             logger.debug('Created HTML5AppNode for TessaModule titled ' + child_node['title'])
+
+        elif kind == 'TessaContentPage':
+            page_info = scrape_content_page(source_node['url'], lang)
+            child_node = dict(
+                kind='HTML5AppNode',
+                source_id=source_node['source_id'],
+                # language=source_node['lang'],  # node-level language is not supported yet...
+                title=source_node['title'],
+                license=TESSA_LICENSE,
+                description=source_node.get('description', ''),
+                files=[],
+            )
+            module_html_file = dict(
+                file_type='HTMLZipFile',
+                path=page_info['zip_path'],
+                language=source_node['lang'],
+            )
+            child_node['files'] = [module_html_file]
+            parent_node['children'].append(child_node)
+            logger.debug('Created HTML5AppNode for TessaContentPage titled ' + child_node['title'])
 
         else:
             # logger.critical("Encountered an unknown content node format.")
@@ -1227,7 +1291,7 @@ class TessaChef(SushiChef):
         for lang in langs_to_crawl:
             # 1. crawl
             top_level_url = TESSA_LANG_URL_MAP[lang]
-            print('\n\n\n------- JULY 28 SPECIAL OUTPUT FOR CRAWLING REVIEW ------')
+            print('\n\n\n')
             print('crawling lang=', lang, 'starting at', top_level_url)
             web_resource_tree = process_language_page(lang, top_level_url)
 
