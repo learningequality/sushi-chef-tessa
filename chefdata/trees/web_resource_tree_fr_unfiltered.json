@@ -14,10 +14,11 @@
         {
           "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84487",
           "source_id": "84487",
-          "type": "oucontent",
           "title": "R\u00e9sum\u00e9 des mat\u00e9riels p\u00e9dagogiques TESSA",
           "hidden_subspan_text": "Website content",
-          "children": []
+          "children": [],
+          "kind": "TessaContentPage",
+          "lang": "fr"
         }
       ]
     },

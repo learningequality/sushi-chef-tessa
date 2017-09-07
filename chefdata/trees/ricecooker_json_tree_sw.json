@@ -3,6 +3,15 @@
   "children": [
     {
       "kind": "TopicNode",
+      "source_id": "category_Mfumo_wa_mtaala",
+      "title": "Mfumo wa mtaala",
+      "author": "TESSA",
+      "description": "TODO description of Mfumo wa mtaala",
+      "thumbnail": null,
+      "children": []
+    },
+    {
+      "kind": "TopicNode",
       "source_id": "category_Nyenzo_za_kufundishia_somo",
       "title": "Nyenzo za kufundishia somo",
       "author": "TESSA",
@@ -26,7 +35,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp7mx3rxd3.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmppo3mpgho.zip",
                   "language": "sw"
                 }
               ]
@@ -40,7 +49,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpr0bsqi5r.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpcrjh5oab.zip",
                   "language": "sw"
                 }
               ]
@@ -54,7 +63,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpf_pl35tn.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpb8bdvklk.zip",
                   "language": "sw"
                 }
               ]
@@ -78,7 +87,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpc4bxd4ng.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpsztkfy0z.zip",
                   "language": "sw"
                 }
               ]
@@ -92,7 +101,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp5a3ibzta.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmphr9cw2rd.zip",
                   "language": "sw"
                 }
               ]
@@ -106,7 +115,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp7sndbtia.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmphbqgjr6m.zip",
                   "language": "sw"
                 }
               ]
@@ -130,7 +139,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp48xjwxe8.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpxf131p6u.zip",
                   "language": "sw"
                 }
               ]
@@ -144,7 +153,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpyotezk40.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp7plut5p_.zip",
                   "language": "sw"
                 }
               ]
@@ -158,7 +167,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp23pvj5hx.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmppbzr4qeq.zip",
                   "language": "sw"
                 }
               ]
@@ -182,7 +191,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp4mcmq781.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpcmc_gp_m.zip",
                   "language": "sw"
                 }
               ]
@@ -196,7 +205,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp2_oltd09.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpj4rfclcf.zip",
                   "language": "sw"
                 }
               ]
@@ -210,7 +219,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp6udf8d7_.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpg76utva4.zip",
                   "language": "sw"
                 }
               ]
@@ -234,7 +243,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmplbkjtpkd.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmph78p70_6.zip",
                   "language": "sw"
                 }
               ]
@@ -248,7 +257,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpf_uat5bs.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp1crfjdj_.zip",
                   "language": "sw"
                 }
               ]
@@ -272,7 +281,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp6yllbxup.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpwhho_v8u.zip",
                   "language": "sw"
                 }
               ]
@@ -286,7 +295,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmprz88pf73.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpd6ajhb5a.zip",
                   "language": "sw"
                 }
               ]
@@ -300,7 +309,7 @@
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpvsgxuzhs.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpjn7gi3zr.zip",
                   "language": "sw"
                 }
               ]
@@ -342,7 +351,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmplnzfzc54.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpv_mg3ift.zip",
                       "language": "sw"
                     }
                   ]
@@ -356,7 +365,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmput_blcsl.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmptonbv1xe.zip",
                       "language": "sw"
                     }
                   ]
@@ -370,7 +379,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpv42kdz_6.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpl9lsaw7d.zip",
                       "language": "sw"
                     }
                   ]
@@ -384,7 +393,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpnpw4w0ks.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmprrtlnmyw.zip",
                       "language": "sw"
                     }
                   ]
@@ -398,7 +407,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpnu1s9l45.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpn1l69_89.zip",
                       "language": "sw"
                     }
                   ]
@@ -412,7 +421,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpqdl5y__a.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpdtjtmd0p.zip",
                       "language": "sw"
                     }
                   ]
@@ -426,7 +435,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp3lzpfoin.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpe6gdh7bq.zip",
                       "language": "sw"
                     }
                   ]
@@ -440,7 +449,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpfu6ed9h0.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpy4i51pm9.zip",
                       "language": "sw"
                     }
                   ]
@@ -454,7 +463,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpkcopujow.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpohbbyifi.zip",
                       "language": "sw"
                     }
                   ]
@@ -468,7 +477,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpuay2q_8m.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpxyfztyf8.zip",
                       "language": "sw"
                     }
                   ]
@@ -482,7 +491,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp56rzq5f_.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp5f8qnfv_.zip",
                       "language": "sw"
                     }
                   ]
@@ -496,7 +505,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpg7v9hoxw.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpkhtke_qu.zip",
                       "language": "sw"
                     }
                   ]
@@ -510,7 +519,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp6ex1sha2.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmphxh4e07n.zip",
                       "language": "sw"
                     }
                   ]
@@ -524,7 +533,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpzzeegk12.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp2ihat5xd.zip",
                       "language": "sw"
                     }
                   ]
@@ -538,7 +547,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp3logpr0d.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpaxpc8q13.zip",
                       "language": "sw"
                     }
                   ]
@@ -552,7 +561,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp99scixc5.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpf39uurgi.zip",
                       "language": "sw"
                     }
                   ]
@@ -566,7 +575,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpb1dxuexu.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp7el4h7rf.zip",
                       "language": "sw"
                     }
                   ]
@@ -600,7 +609,7 @@
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp08g0bjng.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmph1yb6w24.zip",
                       "language": "sw"
                     }
                   ]

@@ -1,8 +1,17 @@
 {
   "kind": "TessaLangWebRessourceTree",
   "title": "TESSA (SW)",
+  "url": "http://www.open.edu/openlearnworks/course/view.php?id=2199",
   "lang": "sw",
   "children": [
+    {
+      "kind": "TessaCategory",
+      "source_id": "category_Mfumo_wa_mtaala",
+      "title": "Mfumo wa mtaala",
+      "lang": "sw",
+      "description": "Muhtasari wa moduli za TESSA unaweza kupatikana katika maelezo ya mitaala ya kijumla:",
+      "children": []
+    },
     {
       "kind": "TessaCategory",
       "source_id": "category_Nyenzo_za_kufundishia_somo",

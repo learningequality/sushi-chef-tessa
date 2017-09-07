@@ -1,6 +1,7 @@
 {
   "kind": "TessaLangWebRessourceTree",
   "title": "TESSA (EN)",
+  "url": "http://www.open.edu/openlearncreate/course/view.php?id=2042",
   "lang": "en",
   "children": [
     {
@@ -13,18 +14,20 @@
         {
           "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81683",
           "source_id": "81683",
-          "type": "oucontent",
           "title": "Primary Curriculum framework",
           "hidden_subspan_text": "Unit content",
-          "children": []
+          "children": [],
+          "kind": "TessaContentPage",
+          "lang": "en"
         },
         {
           "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81698",
           "source_id": "81698",
-          "type": "oucontent",
           "title": "Secondary Science Curriculum framework",
           "hidden_subspan_text": "Unit content",
-          "children": []
+          "children": [],
+          "kind": "TessaContentPage",
+          "lang": "en"
         }
       ]
     },
