@@ -231,6 +231,7 @@ def process_language_page(lang, page_url):
     web_resource_tree = dict(
         kind='TessaLangWebRessourceTree',
         title='TESSA (%s)' % lang.upper(),
+        url=page_url,
         lang=lang,
         children=[],
     )
@@ -645,7 +646,7 @@ def download_module(module_url, lang=None):
         section_title = get_text(section_title_span)
         print('Processing simple module:', section_title)
         section_dict = dict(
-            kind='TessaModuleSection',
+            kind='TessaModuleContentsSection',
             title=section_title,
             href=module_url,
             filename='index.html',  # TODO: figure out if this is necessary
@@ -703,7 +704,7 @@ def download_module(module_url, lang=None):
             section_title = get_text(section_title_span)
 
             section_dict = dict(
-                kind='TessaModuleSection',
+                kind='TessaModuleContentsSection',
                 title=section_title,
                 href=section_href,
                 filename=section_filename,
@@ -729,7 +730,7 @@ def download_module(module_url, lang=None):
                     #     subaccesshide_span.extract()
                     subsection_title = get_text(subsection_li)
                     subsection_dict = dict(
-                        kind='TessaModuleSubsection',
+                        kind='TessaModuleContentsSubsection',
                         title=subsection_title,
                         href=subsection_href,
                         filename=subsection_filename,
@@ -841,7 +842,7 @@ def download_module_no_toc(module_url, lang=None):
         # sections e.g. section-3.html
         if '_' not in section_filename:
             section_dict = dict(
-                kind='TessaModuleSection',
+                kind='TessaModuleContentsSection',
                 title=the_title,
                 href=current_url,
                 filename=section_filename,
@@ -859,7 +860,7 @@ def download_module_no_toc(module_url, lang=None):
             if subsection_title.startswith(': '):
                 subsection_title = subsection_title.replace(': ', '', 1)
             subsection_dict = dict(
-                kind='TessaModuleSubsection',
+                kind='TessaModuleContentsSubsection',
                 title=subsection_title,
                 href=current_url,
                 filename=section_filename,
@@ -1238,7 +1239,8 @@ class TessaChef(SushiChef):
                 print('Unfiltered result stored in ' + json_file_name)
 
             # 3. call filter_unwanted_categories and save filtered
-            filtered_wrt = filter_unwanted_categories(web_resource_tree)
+            # filtered_wrt = filter_unwanted_categories(web_resource_tree)  # Disable so we scrape all
+            filtered_wrt = web_resource_tree
             json_file_name = os.path.join(TREES_DATA_DIR, CRAWLING_STAGE_OUTPUT_TPL.format(lang))
             with open(json_file_name, 'w') as json_file:
                 json.dump(filtered_wrt, json_file, indent=2)

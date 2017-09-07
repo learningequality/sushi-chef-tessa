@@ -1,0 +1,712 @@
+{
+  "language": "fr",
+  "children": [
+    {
+      "kind": "TopicNode",
+      "source_id": "category_R\u00e9sum\u00e9_et_r\u00e9capitulatif_des_mat\u00e9riels_TESSA",
+      "title": "R\u00e9sum\u00e9 et r\u00e9capitulatif des mat\u00e9riels TESSA",
+      "author": "TESSA",
+      "description": "TODO description of R\u00e9sum\u00e9 et r\u00e9capitulatif des mat\u00e9riels TESSA",
+      "thumbnail": null,
+      "children": []
+    },
+    {
+      "kind": "TopicNode",
+      "source_id": "category_Ressources_disciplinaires_de_formation_des_enseignants",
+      "title": "Ressources disciplinaires de formation des enseignants",
+      "author": "TESSA",
+      "description": "TODO description of Ressources disciplinaires de formation des enseignants",
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_66857",
+          "title": "Comp\u00e9tences de la vie courante",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66857",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "TopicNode",
+              "source_id": "66857:Module 1 : D\u00e9veloppement personnel \u2013 Impact de l\u2019estime de soi sur l\u2019apprentissage",
+              "title": "Module 1 : D\u00e9veloppement personnel \u2013 Impact de l\u2019estime de soi sur l\u2019apprentissage",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "105334",
+                  "title": "Module 1 : D\u00e9veloppement personnel \u2013 Impact de l\u2019estime de soi sur l\u2019apprentissage",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmppbx9v9p1.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TopicNode",
+              "source_id": "66857:Module 2 : Exploration du d\u00e9veloppement de l'enfant dans son contexte social",
+              "title": "Module 2 : Exploration du d\u00e9veloppement de l'enfant dans son contexte social",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "105335",
+                  "title": "Module 2 : Exploration du d\u00e9veloppement de l\u2019enfant dans son contexte social",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpkxs9zraa.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TopicNode",
+              "source_id": "66857:Module 3 : \u00c9tudes de questions relatives \u00e0 la communaut\u00e9 et \u00e0 la citoyennet\u00e9",
+              "title": "Module 3 : \u00c9tudes de questions relatives \u00e0 la communaut\u00e9 et \u00e0 la citoyennet\u00e9",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "105336",
+                  "title": "Module 3 : Etudes de questions relatives \u00e0 la communaut\u00e9 et \u00e0 la citoyennet\u00e9",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpxvhljl9a.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_80922",
+          "title": "Alphab\u00e9tisation",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80922",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "TopicNode",
+              "source_id": "80922:Module 1\u00a0: Des raisons pour lire et \u00e9crire",
+              "title": "Module 1\u00a0: Des raisons pour lire et \u00e9crire",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82498",
+                  "title": "Module 1 : Des raisons pour lire et \u00e9crire",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp16z059lw.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TopicNode",
+              "source_id": "80922:Module 2 : Utilisation des voix de la communaut\u00e9 dans la classe",
+              "title": "Module 2 : Utilisation des voix de la communaut\u00e9 dans la classe",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82572",
+                  "title": "Module 2 : Utilisation des voix de la communaut\u00e9 dans la classe",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp2we_ytod.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TopicNode",
+              "source_id": "80922:Module 3 : Mise en place de situations pour l'apprentissage et l'utilisation d'une langue suppl\u00e9mentaire",
+              "title": "Module 3 : Mise en place de situations pour l'apprentissage et l'utilisation d'une langue suppl\u00e9mentaire",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82513",
+                  "title": "Module 3 : Mise en place de situation pour l\u2019apprentissage et l\u2019utilisation d\u2019une langue suppl\u00e9mentaire",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp6c7kwyfv.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_66860",
+          "title": "Math\u00e9matiques",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66860",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "TopicNode",
+              "source_id": "66860:Module 1 : \u00c9tude du nombre et de la structure",
+              "title": "Module 1 : \u00c9tude du nombre et de la structure",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82514",
+                  "title": "Module 1 : \u00c9tude du nombre et de la structure",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp8_gm33je.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TopicNode",
+              "source_id": "66860:Module 2 : Exploration de la forme et de l\u2019espace",
+              "title": "Module 2 : Exploration de la forme et de l\u2019espace",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82576",
+                  "title": "Module 2 : \u00c9tude de la forme et de l\u2019espace",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpm66zxbj8.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TopicNode",
+              "source_id": "66860:Module 3 : \u00c9tudes des mesures et de l'utilisation des donn\u00e9es",
+              "title": "Module 3 : \u00c9tudes des mesures et de l'utilisation des donn\u00e9es",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82577",
+                  "title": "Module 3 : \u00c9tude des mesures et de l\u2019utilisation des donn\u00e9es",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpll3_sd58.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_80923",
+          "title": "Sciences",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80923",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "TopicNode",
+              "source_id": "80923:Module 1 : Observation du vivant",
+              "title": "Module 1 : Observation du vivant",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82515",
+                  "title": "Module 1 : Observation du vivant",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp6m6y_9cn.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TopicNode",
+              "source_id": "80923:Module 2 : \u00c9tude des mat\u00e9riaux",
+              "title": "Module 2 : \u00c9tude des mat\u00e9riaux",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82517",
+                  "title": "Module 2 : \u00c9tude des mat\u00e9riaux",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpvb0mqw7e.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TopicNode",
+              "source_id": "80923:Module 3: L\u2019\u00e9nergie et le mouvement",
+              "title": "Module 3: L\u2019\u00e9nergie et le mouvement",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82524",
+                  "title": "Module 3 : L\u2019\u00e9nergie et le mouvement",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpv3knklk4.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_80924",
+          "title": "Sciences humaines et arts",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80924",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "TopicNode",
+              "source_id": "80924:Module 1: Comprendre les lieux",
+              "title": "Module 1: Comprendre les lieux",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82525",
+                  "title": "Module 1 : Comprendre les lieux",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpoe2qpem1.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TopicNode",
+              "source_id": "80924:Module 2 : \u00c9tude de l\u2019histoire",
+              "title": "Module 2 : \u00c9tude de l\u2019histoire",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82527",
+                  "title": "Module 2 : \u00c9tude de l\u2019Histoire",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpjw_pyt4n.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TopicNode",
+              "source_id": "80924:Module 3 : Examen des arts",
+              "title": "Module 3 : Examen des arts",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "82528",
+                  "title": "Module 3 : Examen des arts",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpole8pnu4.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "TopicNode",
+      "source_id": "category_Autres_ressources",
+      "title": "Autres ressources",
+      "author": "TESSA",
+      "description": "TODO description of Autres ressources",
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_80919",
+          "title": "Ressources cl\u00e9s",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80919",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "TopicNode",
+              "source_id": "80919:Pour\u00a0lire ou t\u00e9l\u00e9charger une ressource individuelle, s\u00e9lectionnez le lien qui convient :",
+              "title": "Pour\u00a0lire ou t\u00e9l\u00e9charger une ressource individuelle, s\u00e9lectionnez le lien qui convient :",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84354",
+                  "title": "Ressource cl\u00e9 : Travailler avec des classes \u00e0 effectif lourd ou \u00e0 niveaux multiples",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp53ew67rx.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84355",
+                  "title": "Ressource cl\u00e9 : Travailler en groupes dans la classe",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp4o4ldd_9.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84356",
+                  "title": "Ressource cl\u00e9 : Utiliser des cartes conceptuelles et le remue-m\u00e9ninges pour explorer les id\u00e9es",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp46zj2g11.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84357",
+                  "title": "Ressource cl\u00e9 : Planifiez et pr\u00e9parez vos le\u00e7ons",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpy03acxf0.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84358",
+                  "title": "Ressource cl\u00e9 : Evaluer l'apprentissage",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp0a0wnq0q.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84359",
+                  "title": "Ressource cl\u00e9 : Travail d'investigation et de recherche en classe",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpqpqtucl3.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84360",
+                  "title": "Ressource cl\u00e9 : \u00catre chercheur dans sa classe",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpziks2ben.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84361",
+                  "title": "Ressource cl\u00e9 : Utiliser les jeux de r\u00f4les, l'expression orale et l'art dramatique dans la classe",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpc_xn8bxc.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84362",
+                  "title": "Ressource cl\u00e9 : Utiliser le questionnement pour d\u00e9velopper la pens\u00e9e",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpdi6ttfhu.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84363",
+                  "title": "Ressource cl\u00e9 : Utiliser les r\u00e9cits dans la classe",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpth945y8w.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84364",
+                  "title": "Ressource cl\u00e9 : Utiliser l'explication et la d\u00e9monstration pour favoriser l'apprentissage",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpe58p37vi.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84365",
+                  "title": "Ressource cl\u00e9 : Utiliser l'environnement local et la communaut\u00e9 comme ressource",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpoow_u2hf.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84366",
+                  "title": "Ressource cl\u00e9 : Utiliser les nouvelles technologies",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp8bcey1au.zip",
+                      "language": "fr"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84367",
+                  "title": "Ressource cl\u00e9 : Etre un enseignant inventif et cr\u00e9atif dans des conditions difficiles",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp31h3x9hx.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_78407",
+          "title": "Guides pour les enseignants et les formateurs d\u2019enseignants",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=78407",
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "TopicNode",
+              "source_id": "78407:Travailler avec les \u00e9l\u00e8ves\u00a0: guide de l\u2019enseignant Ce court guide destin\u00e9 aux enseignants explique comment utiliser les ressources TESSA dans la classe en fonction des programmes scolaires et du contexte de votre \u00e9tablissement.",
+              "title": "Travailler avec les \u00e9l\u00e8ves\u00a0: guide de l\u2019enseignant Ce court guide destin\u00e9 aux enseignants explique comment utiliser les ressources TESSA dans la classe en fonction des programmes scolaires et du contexte de votre \u00e9tablissement.",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "84301",
+                  "title": "Travailler avec les \u00e9l\u00e8ves: Guide de l\u2019enseignant",
+                  "license": "CC BY-NC-SA",
+                  "description": "fake descri",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpso6vdg1l.zip",
+                      "language": "fr"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TopicNode",
+              "source_id": "78407:Bo\u00eete \u00e0 outils pour les superviseurs de pratiques p\u00e9dagogiques La Bo\u00eete \u00e0 outils contient des ressources que les superviseurs de pratiques p\u00e9dagogiques peuvent utiliser pour soutenir les enseignants en formation au cours de leurs pratiques ou stages p\u00e9dagogiques. La Bo\u00eete \u00e0 outils aidera aussi les superviseurs \u00e0 encourager l'int\u00e9gration des ressources TESSA dans pratique des enseignants en formation.",
+              "title": "Bo\u00eete \u00e0 outils pour les superviseurs de pratiques p\u00e9dagogiques La Bo\u00eete \u00e0 outils contient des ressources que les superviseurs de pratiques p\u00e9dagogiques peuvent utiliser pour soutenir les enseignants en formation au cours de leurs pratiques ou stages p\u00e9dagogiques. La Bo\u00eete \u00e0 outils aidera aussi les superviseurs \u00e0 encourager l'int\u00e9gration des ressources TESSA dans pratique des enseignants en formation.",
+              "author": "TESSA",
+              "description": null,
+              "thumbnail": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "TopicNode",
+          "source_id": "topic_66858",
+          "title": "Ressources  audio",
+          "author": "TESSA",
+          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66858",
+          "thumbnail": null,
+          "children": []
+        }
+      ]
+    }
+  ]
+}
