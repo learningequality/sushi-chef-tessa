@@ -753,12 +753,12 @@ def download_module(module_url, lang=None):
             if '#NOLINK' in section['href']:
                 print('nothing to download for #NOLINK section')
                 continue
-            download_page(section['href'], destination, section['filename'], lang)
+            download_section(section['href'], destination, section['filename'], lang)
             for subsection in section['children']:
                 if '#NOLINK' in subsection['href']:
                     print('nothing to download for #NOLINK subsection')
                     continue
-                download_page(subsection['href'], destination, subsection['filename'], lang)
+                download_section(subsection['href'], destination, subsection['filename'], lang)
         # /COMPLEX MODULE
 
     zip_path = create_predictable_zip(destination)
@@ -805,9 +805,9 @@ def download_module_no_toc(module_url, lang=None):
 
     module_contents_dict = dict(
         kind='TessaModuleContentsDict',
-        lang=lang,
         source_id=source_id,
         title=module_title,
+        lang=lang,
         children=[],
     )
     # print(module_contents_dict)
@@ -830,7 +830,7 @@ def download_module_no_toc(module_url, lang=None):
 
 
         # Do the actual download
-        download_page(current_url, destination, section_filename, lang)
+        download_section(current_url, destination, section_filename, lang)
 
 
         # Store section/subsecito info so we can build TOC later
@@ -939,9 +939,24 @@ def scrape_content_page(content_page_url, lang):
 
 
 
+def download_assets(doc, selector, attr, destination, middleware=None):
+    """
+    Find all assets in `attr` for DOM elements that match `selector` within doc
+    and download them to `destination` dir.
+    """
+    nodes = doc.select(selector)
+    for i, node in enumerate(nodes):
+        url = make_fully_qualified_url(node[attr])
+        filename = "%s_%s" % (i, os.path.basename(url))
+        node[attr] = filename
+        download_file(url, destination, request_fn=make_request, filename=filename, middleware_callbacks=middleware)
 
 
-def download_page(page_url, destination, filename, lang):
+def js_middleware(content, url, **kwargs):
+    return content
+
+
+def download_section(page_url, destination, filename, lang):
     LOGGER.debug('Scrapring section/subsectino...', filename)
     doc = get_parsed_html_from_url(page_url)
     source_id = parse_qs(urlparse(page_url).query)['id'][0] + '/' + filename   # or should I use &section=1.6 ?
@@ -966,28 +981,10 @@ def download_page(page_url, destination, filename, lang):
     if copyright_info_div:
         copyright_info_div.extract()
 
-
-    def download_assets(selector, attr, middleware=None):
-        """
-        Download all assets refered to in `attr` for dom elements that match
-        `selector` within of section (taken from download_page's scope).
-        """
-        # print('donwloading all', selector, 'assets')
-        nodes = section.select(selector)
-
-        for i, node in enumerate(nodes):
-            url = make_fully_qualified_url(node[attr])
-            filename = "%s_%s" % (i, os.path.basename(url))
-            node[attr] = filename
-            download_file(url, destination, request_fn=make_request, filename=filename, middleware_callbacks=middleware)
-
-    def js_middleware(content, url, **kwargs):
-        return content
-
     # Download all static assets
-    download_assets("img[src]", "src")     # Images
-    download_assets("link[href]", "href")  # CSS
-    download_assets("script[src]", "src", middleware=js_middleware) # JS
+    download_assets(section, "img[src]", "src", destination)     # Images
+    download_assets(section, "link[href]", "href", destination)  # CSS
+    download_assets(section, "script[src]", "src", destination, middleware=js_middleware) # JS
 
     raw_title = doc.select_one("head title").text
     section_title = raw_title.replace('OLCreate:', '')\
@@ -1008,6 +1005,59 @@ def download_page(page_url, destination, filename, lang):
     )
     with open(os.path.join(destination, filename), "w") as f:
         f.write(index_contents)
+
+
+
+
+def download_page(page_url, destination, filename, lang):
+    LOGGER.debug('Scrapring page...', page_url)
+    doc = get_parsed_html_from_url(page_url)
+    source_id = parse_qs(urlparse(page_url).query)['id'][0] + '/' + filename   # or should I use &section=1.6 ?
+
+    # We're only interested in the main content inside the section#region-main
+    main_region = dict(
+        args=['section'],
+        kwargs={'id': 'region-main'},
+    )
+    section = doc.find(*main_region['args'], **main_region['kwargs'])
+
+    # CLEANUP
+    course_details_header_div = section.find('div', class_='course-details-content-header')
+    if course_details_header_div:
+        course_details_header_div.extract()
+
+    print_page_div = section.find('div', class_='print-page-section')
+    if print_page_div:
+        print_page_div.extract()
+
+    copyright_info_div = section.find('div', class_='copyright-info-content')
+    if copyright_info_div:
+        copyright_info_div.extract()
+
+    # Download all static assets
+    download_assets(section, "img[src]", "src", destination)     # Images
+    download_assets(section, "link[href]", "href", destination)  # CSS
+    download_assets(section, "script[src]", "src", destination, middleware=js_middleware) # JS
+
+    raw_title = doc.select_one("head title").text
+    page_title = raw_title.replace('OLCreate:', '')\
+            .replace('TESSA_ARABIC', '')\
+            .replace('TESSA_Eng', '')\
+            .replace('TESSA_Fr', '')\
+            .strip()
+
+    page_dict = dict(
+        title=page_title,
+        lang=lang,
+        main_content=str(section),
+    )
+    page_index_tmpl = jinja2.Template(open('chefdata/templates/content_page_index.html').read())
+    index_contents = page_index_tmpl.render(
+        page = page_dict,
+    )
+    with open(os.path.join(destination, filename), "w") as f:
+        f.write(index_contents)
+
 
 
 

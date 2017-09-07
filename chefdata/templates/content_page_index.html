@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ section['lang'] }}" lang="{{ section['lang'] }}">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ page['lang'] }}" lang="{{ page['lang']   }}">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>{{ section['title'] }}</title>
+    <title>{{ page['title'] }}</title>
     <link rel="stylesheet" href="styles/main.css" type="text/css"/>
     <!--
     <script type="text/javascript" src="../Shared/yahoo-min.js"> </script>
@@ -23,7 +23,7 @@
   <body class="mod-oucontent" id="mod-oucontent-view">
     <div id="page">
       <div class="package_header">
-        <span>{{ section['title'] }}</span>
+        <span>{{ page['title'] }}</span>
         <span class="main-logo">
           <a href=""> <!-- TODO: link to what? -->
             <img class="rightfloated" src="../Shared/main_logo.png" width="444" height="63"/>
@@ -34,11 +34,11 @@
         <div id="middle-column">
           <div class="oucontent-content">
 
-            {{ section['main_content'] }}
+            {{ page['main_content'] }}
 
             <div class="oucontent-copyright" style="display:block">
               <p>
-                <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"/>{{ section['title'] }}</span>
+                <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"/>{{ page['title'] }}</span>
                 <br/>
                 <img src="images/copyright.png" alt="Creative Commons non-commercial share alike icon" style="float: right; padding-left: 20px; padding-right: 10px;"/>
                 Except for third party materials and otherwise,
