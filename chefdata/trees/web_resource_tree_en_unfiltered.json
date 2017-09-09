@@ -462,33 +462,171 @@
         },
         {
           "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66699",
-          "source_id": "topic_66699",
-          "title": "Handbooks and toolkits for teachers and teacher educators",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80058",
+          "source_id": "topic_80058",
+          "title": "Teaching practice supervisors' toolkit",
           "lang": "en",
-          "description": "",
+          "description": "This toolkit is aimed at teaching practice supervisors working on the NCE and Diploma teacher education programmes in Nigeria. It was developed by a group of educators from NCCE, NTI and TESSA at workshops held in Kaduna and Abuja in 2011-2012. The toolkit contains a range of resources for supervisors to use to develop teaching and supervisory skills to support student\u00a0teachers in their Teaching Practice. The toolkit will also help supervisors encourage the integration of TESSA materials into the teaching practice experience. The toolkit can be downloaded or printed as a single document or as individual tools. It is not intended to be a book which is read from cover to cover, but rather treated as a collection of tools which can be used to address certain challenges which occur in the process of teaching practice supervision. The tools are listed below and they can be accessed in any order. The Teaching Practice Supervisors' Toolkit is an Open Educational Resource (OER) and can be edited or adapted by users. We welcome feedback from those who read and make use of the toolkit. [Please note: If you are planning to adapt the toolkit for your own use, you may find it easier to download and edit the tools individually rather than working with the entire document at once.]",
           "children": [
             {
               "kind": "TessaSubject",
-              "source_id": "66699:A handbook designed to support teacher educators to use TESSA materials in courses and programmes. It is for lecturers, advisers, professional development leaders, policy makers and other colleagues working in teacher education. Working with teachers includes the handbook for teachers, Working with pupils.",
-              "title": "A handbook designed to support teacher educators to use TESSA materials in courses and programmes. It is for lecturers, advisers, professional development leaders, policy makers and other colleagues working in teacher education. Working with teachers includes the handbook for teachers, Working with pupils.",
+              "source_id": "80058:Read or download individual resources:",
+              "title": "Read or download individual resources:",
               "children": [
                 {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80727",
-                  "source_id": "80727",
-                  "title": "Working with Pupils: A Guide for Teachers",
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80711",
+                  "source_id": "80711",
+                  "title": "Teaching Practice Supervisors' Toolkit",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80712",
+                  "source_id": "80712",
+                  "title": "Welcome to the Teaching Practice Supervisors' Toolkit",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80713",
+                  "source_id": "80713",
+                  "title": "1. The Teaching Practice Supervisor",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80714",
+                  "source_id": "80714",
+                  "title": "2. About TESSA",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80715",
+                  "source_id": "80715",
+                  "title": "3. Recognising a good lesson",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80716",
+                  "source_id": "80716",
+                  "title": "4. Planning and using TESSA materials with student teachers",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80717",
+                  "source_id": "80717",
+                  "title": "5. Helping student teachers to carry out action planning",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80718",
+                  "source_id": "80718",
+                  "title": "6. Getting the most out of the school visit",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80719",
+                  "source_id": "80719",
+                  "title": "7. Giving constructive feedback",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80720",
+                  "source_id": "80720",
+                  "title": "8. Guidance on assessment of student teachers",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80721",
+                  "source_id": "80721",
+                  "title": "9. Advice and hints for running seminars and workshops",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80722",
+                  "source_id": "80722",
+                  "title": "10. Counselling student teachers with teaching-related difficulties",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80723",
+                  "source_id": "80723",
+                  "title": "11. Self-audit and targets: active teaching and learning methods",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80724",
+                  "source_id": "80724",
+                  "title": "Other useful resources",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83585",
+                  "source_id": "83585",
+                  "title": "Table of Toolkit activities",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83586",
+                  "source_id": "83586",
+                  "title": "Table of Toolkit case studies",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "en"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83587",
+                  "source_id": "83587",
+                  "title": "Acknowledgements",
                   "hidden_subspan_text": "Unit content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
                 }
               ]
-            },
-            {
-              "kind": "TessaSubject",
-              "source_id": "66699:This handbook is designed for teacher educators working with pre-service teachers or planning in-service programmes. It provides practical advice on how to introduce teachers to the TESSA Secondary Science materials by integrating them into courses.",
-              "title": "This handbook is designed for teacher educators working with pre-service teachers or planning in-service programmes. It provides practical advice on how to introduce teachers to the TESSA Secondary Science materials by integrating them into courses.",
-              "children": []
             },
             {
               "kind": "TessaSubject",

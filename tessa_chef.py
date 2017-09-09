@@ -494,6 +494,12 @@ def create_subpage_node(subpage_dict, lang=None, lang_main_menu_url=None):
                     module_info['kind'] = 'TessaModule'
                     module_info['lang'] = lang
                     current_subject['children'].append(module_info)
+                elif activity_type == 'subpage':
+                    info_dict = get_resource_info(activity_li)
+                    print('ZZZZZZZ Adding subpage', info_dict['title'])
+                    subpage_node = create_subpage_node(info_dict, lang=lang, lang_main_menu_url=lang_main_menu_url)
+                    # print(info_dict)
+                    current_subject['children'].append(subpage_node)
 
             elif state == 'SKIP':
                 if activity_type == 'label':

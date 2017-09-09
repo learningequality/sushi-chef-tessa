@@ -473,33 +473,171 @@
         },
         {
           "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=78407",
-          "source_id": "topic_78407",
-          "title": "Guides pour les enseignants et les formateurs d\u2019enseignants",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80972",
+          "source_id": "topic_80972",
+          "title": "Bo\u00eete \u00e0 outils pour les superviseurs de pratiques p\u00e9dagogiques",
           "lang": "fr",
-          "description": "L\u2019\u00e9quipe TESSA a r\u00e9dig\u00e9 plusieurs guides sur lesquels les enseignants et les formateurs d'enseignants peuvent s'appuyer pour leur travail avec les \u00e9l\u00e8ves et les enseignants. Tous les guides peuvent \u00eatre adapt\u00e9s \u00e0 votre situation sp\u00e9cifique. T\u00e9l\u00e9chargez et imprimez la version PDF ou t\u00e9l\u00e9chargez et adaptez le document Word pour votre propre \u00e9cole ou institution",
+          "description": "La Bo\u00eete \u00e0 outils est destin\u00e9e aux Superviseurs et Encadreurs de pratiques p\u00e9dagogiques, quel que soit leur r\u00f4le : professeur d\u2019institut de formation, conseiller p\u00e9dagogique, inspecteur ou formateur des formateurs. Elle est le r\u00e9sultat de l'adaptation scientifique par des experts de la Direction des Formations du Togo du document propos\u00e9 par les coll\u00e8gues du National Teachers' Institute (NTI) et de la National Commission for Colleges of Education (NCCE) du Nigeria. La Bo\u00eete \u00e0 outils offre une collection de ressources dont les Superviseurs et Encadreurs de pratiques p\u00e9dagogiques peuvent se servir pour soutenir le d\u00e9veloppement des pratiques d'enseignement de tous les enseignants en formation, que cette formation soit initiale ou continue. La Bo\u00eete \u00e0 outils offre aussi aux formateurs d'enseignants des strat\u00e9gies facilitant l'int\u00e9gration des ressources TESSA dans leur pratique de formation et d'enseignement. Vous pouvez t\u00e9l\u00e9charger ou imprimer la Bo\u00eete \u00e0 outils dans son int\u00e9gralit\u00e9 ou chaque outil s\u00e9par\u00e9ment. La Bo\u00eete \u00e0 outils n'est pas destin\u00e9e \u00e0 \u00eatre lue de la premi\u00e8re \u00e0 la derni\u00e8re page. Il semble plus judicieux de s\u00e9lectionner l'outil qui convient \u00e0 la situation \u00e0 laquelle vous faites face lors de votre travail de supervision. La liste des outils est disponible ci-dessous et vous pouvez vous servir de ces outils dans n'importe quel ordre. La Bo\u00eete \u00e0 outils pour les Superviseurs de pratiques p\u00e9dagogiques est une ressource \u00e9ducative libre (REL) et peut \u00eatre modifi\u00e9e et adapt\u00e9e par les utilisateurs comme il leur convient. [Remarque : si vous souhaitez adapter la Bo\u00eete \u00e0 outils pour votre utilisation personnelle, il sera plus facile de travailler sur un outil \u00e0 la fois plut\u00f4t que sur le document entier.]",
           "children": [
             {
               "kind": "TessaSubject",
-              "source_id": "78407:Travailler avec les \u00e9l\u00e8ves\u00a0: guide de l\u2019enseignant Ce court guide destin\u00e9 aux enseignants explique comment utiliser les ressources TESSA dans la classe en fonction des programmes scolaires et du contexte de votre \u00e9tablissement.",
-              "title": "Travailler avec les \u00e9l\u00e8ves\u00a0: guide de l\u2019enseignant Ce court guide destin\u00e9 aux enseignants explique comment utiliser les ressources TESSA dans la classe en fonction des programmes scolaires et du contexte de votre \u00e9tablissement.",
+              "source_id": "80972:Pour lire ou t\u00e9l\u00e9charger un outil individuel, s\u00e9lectionnez un lien qui convient\u00a0:",
+              "title": "Pour lire ou t\u00e9l\u00e9charger un outil individuel, s\u00e9lectionnez un lien qui convient\u00a0:",
               "children": [
                 {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=84301",
-                  "source_id": "84301",
-                  "title": "Travailler avec les \u00e9l\u00e8ves: Guide de l\u2019enseignant",
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109691",
+                  "source_id": "109691",
+                  "title": "Un guide pour les Formateurs et les Encadreurs p\u00e9dagogiques",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109692",
+                  "source_id": "109692",
+                  "title": "Bienvenue dans la Bo\u00eete \u00e0 outils pour les Superviseurs de pratiques p\u00e9dagogiques\u00a0!",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109693",
+                  "source_id": "109693",
+                  "title": "1. Le Superviseur de pratiques p\u00e9dagogiques",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109694",
+                  "source_id": "109694",
+                  "title": "2. \u00c0 propos de TESSA",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109695",
+                  "source_id": "109695",
+                  "title": "3. Reconna\u00eetre une bonne le\u00e7on",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109696",
+                  "source_id": "109696",
+                  "title": "4. Planifier et utiliser les mat\u00e9riels TESSA avec les enseignants",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109697",
+                  "source_id": "109697",
+                  "title": "5. Aider les enseignants en formation \u00e0 \u00e9tablir un plan d\u2019action",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109698",
+                  "source_id": "109698",
+                  "title": "6. Tirer le meilleur parti de la visite de classe",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109699",
+                  "source_id": "109699",
+                  "title": "7. Donner de la r\u00e9troaction constructive",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109700",
+                  "source_id": "109700",
+                  "title": "8. Lignes directrices sur l\u2019\u00e9valuation des stagiaires",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109701",
+                  "source_id": "109701",
+                  "title": "9. Conseils et astuces pour l\u2019organisation de s\u00e9minaires et d\u2019ateliers",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109702",
+                  "source_id": "109702",
+                  "title": "10. Conseiller des \u00e9l\u00e8ves-enseignants ayant des difficult\u00e9s li\u00e9es \u00e0 l\u2019enseignement",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109703",
+                  "source_id": "109703",
+                  "title": "11. Audit des m\u00e9thodes d\u2019enseignement pour un apprentissage actif",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109704",
+                  "source_id": "109704",
+                  "title": "Lectures compl\u00e9mentaires",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109705",
+                  "source_id": "109705",
+                  "title": "Activit\u00e9s de la Bo\u00eete \u00e0 outils",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109756",
+                  "source_id": "109756",
+                  "title": "Les \u00e9tudes de cas de la Bo\u00eete \u00e0 outils",
+                  "hidden_subspan_text": "Website content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "fr"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=109706",
+                  "source_id": "109706",
+                  "title": "Remerciements",
                   "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "fr"
                 }
               ]
-            },
-            {
-              "kind": "TessaSubject",
-              "source_id": "78407:Bo\u00eete \u00e0 outils pour les superviseurs de pratiques p\u00e9dagogiques La Bo\u00eete \u00e0 outils contient des ressources que les superviseurs de pratiques p\u00e9dagogiques peuvent utiliser pour soutenir les enseignants en formation au cours de leurs pratiques ou stages p\u00e9dagogiques. La Bo\u00eete \u00e0 outils aidera aussi les superviseurs \u00e0 encourager l'int\u00e9gration des ressources TESSA dans pratique des enseignants en formation.",
-              "title": "Bo\u00eete \u00e0 outils pour les superviseurs de pratiques p\u00e9dagogiques La Bo\u00eete \u00e0 outils contient des ressources que les superviseurs de pratiques p\u00e9dagogiques peuvent utiliser pour soutenir les enseignants en formation au cours de leurs pratiques ou stages p\u00e9dagogiques. La Bo\u00eete \u00e0 outils aidera aussi les superviseurs \u00e0 encourager l'int\u00e9gration des ressources TESSA dans pratique des enseignants en formation.",
-              "children": []
             }
           ]
         },
