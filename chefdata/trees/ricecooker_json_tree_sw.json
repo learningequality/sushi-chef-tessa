@@ -6,7 +6,7 @@
       "source_id": "category_Mfumo_wa_mtaala",
       "title": "Mfumo wa mtaala",
       "author": "TESSA",
-      "description": "TODO description of Mfumo wa mtaala",
+      "description": "",
       "thumbnail": null,
       "children": []
     },
@@ -15,7 +15,7 @@
       "source_id": "category_Nyenzo_za_kufundishia_somo",
       "title": "Nyenzo za kufundishia somo",
       "author": "TESSA",
-      "description": "TODO description of Nyenzo za kufundishia somo",
+      "description": "",
       "thumbnail": null,
       "children": [
         {
@@ -23,19 +23,18 @@
           "source_id": "topic_82842",
           "title": "Stadi za maisha",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82842",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
               "kind": "HTML5AppNode",
               "source_id": "82898",
               "title": "Namba ya moduli 1: Maendeleo ya Mtu Binafsi \u2013Jinsi Kujiheshimu Kunavyoathiri Kujifunza",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmppo3mpgho.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpljn3x_tg.zip",
                   "language": "sw"
                 }
               ]
@@ -44,12 +43,11 @@
               "kind": "HTML5AppNode",
               "source_id": "83057",
               "title": "Namba ya moduli 2: Kutalii Maendeleo ya Jamii",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpcrjh5oab.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpsimthx9i.zip",
                   "language": "sw"
                 }
               ]
@@ -58,12 +56,11 @@
               "kind": "HTML5AppNode",
               "source_id": "83058",
               "title": "Namba ya moduli 3: Masuala ya Jumuiya na Uraia",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpb8bdvklk.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpuufu5aio.zip",
                   "language": "sw"
                 }
               ]
@@ -75,19 +72,18 @@
           "source_id": "topic_82843",
           "title": "Kujua kusoma na kuandika",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82843",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
               "kind": "HTML5AppNode",
               "source_id": "83070",
               "title": "Namba ya moduli 1: Kusoma na Kuandika kwa madhumuni mbalimbali",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpsztkfy0z.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpwszg0w49.zip",
                   "language": "sw"
                 }
               ]
@@ -96,12 +92,11 @@
               "kind": "HTML5AppNode",
               "source_id": "83071",
               "title": "Namba ya moduli 2: Kutumia Sauti za Kijumuia Darasani Kwako",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmphr9cw2rd.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp3v_7e8fs.zip",
                   "language": "sw"
                 }
               ]
@@ -110,12 +105,11 @@
               "kind": "HTML5AppNode",
               "source_id": "83072",
               "title": "Namba ya moduli 3: Uhamasishaji wa mawasiliano katika lugha ya ziada",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmphbqgjr6m.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpampilj4v.zip",
                   "language": "sw"
                 }
               ]
@@ -127,19 +121,18 @@
           "source_id": "topic_82844",
           "title": "Hisabati",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82844",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
               "kind": "HTML5AppNode",
               "source_id": "83059",
               "title": "Namba ya moduli 1:Kuchunguza namba na sulubu",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpxf131p6u.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp9u014fhh.zip",
                   "language": "sw"
                 }
               ]
@@ -148,12 +141,11 @@
               "kind": "HTML5AppNode",
               "source_id": "83060",
               "title": "Namba ya moduli 2: Kuchunguza Maumbo na Uwazi",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp7plut5p_.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpuo3rjm4g.zip",
                   "language": "sw"
                 }
               ]
@@ -162,12 +154,11 @@
               "kind": "HTML5AppNode",
               "source_id": "83061",
               "title": "Namba ya moduli 3: Kuchunguza vipimo na Kusimamia",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmppbzr4qeq.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmphw4zs7ex.zip",
                   "language": "sw"
                 }
               ]
@@ -179,19 +170,18 @@
           "source_id": "topic_82845",
           "title": "Sayansi",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82845",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
               "kind": "HTML5AppNode",
               "source_id": "83062",
               "title": "Namba ya moduli 1: Kuchunguza maisha",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpcmc_gp_m.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpl6pd_4j8.zip",
                   "language": "sw"
                 }
               ]
@@ -200,12 +190,11 @@
               "kind": "HTML5AppNode",
               "source_id": "83063",
               "title": "Namba ya moduli 2: Kuchunguza maunzi/vitu",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpj4rfclcf.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmplzo6n1uf.zip",
                   "language": "sw"
                 }
               ]
@@ -214,12 +203,11 @@
               "kind": "HTML5AppNode",
               "source_id": "83064",
               "title": "Namba ya moduli 3: Nishati na mwendo",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpg76utva4.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp5t42tjsi.zip",
                   "language": "sw"
                 }
               ]
@@ -231,19 +219,18 @@
           "source_id": "topic_82846",
           "title": "Mafunzo Ya Jamii Na Sanaa",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82846",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
               "kind": "HTML5AppNode",
               "source_id": "83360",
               "title": "Namba ya moduli 1: Kujenga Welewa wa Mahali",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmph78p70_6.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpqs4km8ue.zip",
                   "language": "sw"
                 }
               ]
@@ -252,12 +239,11 @@
               "kind": "HTML5AppNode",
               "source_id": "83361",
               "title": "Namba ya moduli 2: Utafiti wa Kihistoria",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp1crfjdj_.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp09ukeyp4.zip",
                   "language": "sw"
                 }
               ]
@@ -269,19 +255,18 @@
           "source_id": "topic_82847",
           "title": "Sayansi ya shule za Sekondari",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82847",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
               "kind": "HTML5AppNode",
               "source_id": "105311",
               "title": "Module 1: Secondary Science - Biology",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpwhho_v8u.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmppk3mqf2v.zip",
                   "language": "sw"
                 }
               ]
@@ -290,12 +275,11 @@
               "kind": "HTML5AppNode",
               "source_id": "105317",
               "title": "Module 2: Secondary Science - Chemistry",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpd6ajhb5a.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpsojtne3o.zip",
                   "language": "sw"
                 }
               ]
@@ -304,12 +288,11 @@
               "kind": "HTML5AppNode",
               "source_id": "105323",
               "title": "Module 3: Secondary Science - Physics",
-              "license": "CC BY-NC-SA",
-              "description": "fake descri",
+              "description": "",
               "files": [
                 {
                   "file_type": "HTMLZipFile",
-                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpjn7gi3zr.zip",
+                  "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp7_k8t0sx.zip",
                   "language": "sw"
                 }
               ]
@@ -323,7 +306,7 @@
       "source_id": "category_Nyenzo_za_zaidi",
       "title": "Nyenzo za zaidi",
       "author": "TESSA",
-      "description": "TODO description of Nyenzo za zaidi",
+      "description": "",
       "thumbnail": null,
       "children": [
         {
@@ -331,7 +314,7 @@
           "source_id": "topic_82848",
           "title": "Nyenzo za msingi kwa walimu na wakufunzi",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82848",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
@@ -346,12 +329,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113701",
                   "title": "Kutambulisha Nyenzo-rejea muhimu za TESSA",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpv_mg3ift.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpr9bq5cqc.zip",
                       "language": "sw"
                     }
                   ]
@@ -360,12 +342,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113702",
                   "title": "Nyenzo-rejea muhimu: Kutathmini mafunzo",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmptonbv1xe.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp0brbipkg.zip",
                       "language": "sw"
                     }
                   ]
@@ -374,12 +355,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113703",
                   "title": "Nyenzo-rejea muhimu: kutumia ramani mawazo na majadiliano kugundua mawazo",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpl9lsaw7d.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp2mf79wst.zip",
                       "language": "sw"
                     }
                   ]
@@ -388,12 +368,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113704",
                   "title": "Nyenzo-rejea muhimu: Kuwa mwalimu mbunifu katika mazingira yenye changamoto",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmprrtlnmyw.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp8ukt8tnf.zip",
                       "language": "sw"
                     }
                   ]
@@ -402,12 +381,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113705",
                   "title": "Nyenzo-rejea muhimu: Kutumia Uelezaji na Uoneshaji katika kusaidia mafunzo",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpn1l69_89.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmphshu8yez.zip",
                       "language": "sw"
                     }
                   ]
@@ -416,12 +394,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113706",
                   "title": "Nyenzo-rejea muhimu: Kutumia kazi ya vikundi darasani kwako",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpdtjtmd0p.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpi54nil0u.zip",
                       "language": "sw"
                     }
                   ]
@@ -430,12 +407,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113707",
                   "title": "Nyenzo-rejea muhimu: kutumia utafiti darasani",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpe6gdh7bq.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp7_aske83.zip",
                       "language": "sw"
                     }
                   ]
@@ -444,12 +420,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113708",
                   "title": "Nyenzo-rejea muhimu: Vifaa vya kupanga na kufanya utafiti wa Sayansi",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpy4i51pm9.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpqxii9gi2.zip",
                       "language": "sw"
                     }
                   ]
@@ -458,12 +433,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113709",
                   "title": "Nyenzo-rejea muhimu: Kufanya kazi na madarasa makubwa",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpohbbyifi.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpqknktami.zip",
                       "language": "sw"
                     }
                   ]
@@ -472,12 +446,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113710",
                   "title": "Nyenzo-rejea muhimu: Kutumia jumuia/mazingira ya mahali hapo kama nyenzo",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpxyfztyf8.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpk6vn7l34.zip",
                       "language": "sw"
                     }
                   ]
@@ -486,12 +459,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113711",
                   "title": "Nyenzo-rejea muhimu: kupanga na kuandaa masomo yako",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp5f8qnfv_.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmplxq3ag5o.zip",
                       "language": "sw"
                     }
                   ]
@@ -500,12 +472,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113712",
                   "title": "Nyenzo-rejea muhimu: Kutumia maswali kukuza fikira",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpkhtke_qu.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpi4yd9mkr.zip",
                       "language": "sw"
                     }
                   ]
@@ -514,12 +485,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113713",
                   "title": "Nyenzo-rejea muhimu: Kufanya utafiti darasani",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmphxh4e07n.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpprkjo2p2.zip",
                       "language": "sw"
                     }
                   ]
@@ -528,12 +498,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113717",
                   "title": "Nyenzo-rejea muhimu : kufanya kazi na darasa kubwa au madarasa ya ngazi mbalimbali",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp2ihat5xd.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmprdrt8mth.zip",
                       "language": "sw"
                     }
                   ]
@@ -542,12 +511,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113714",
                   "title": "Nyenzo-rejea muhimu: Kutumia uigizaji/mazugumzo/michezo ya kuigiza darasani",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpaxpc8q13.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp9zbo9ivx.zip",
                       "language": "sw"
                     }
                   ]
@@ -556,12 +524,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113716",
                   "title": "Nyenzo-rejea muhimu: Utumiaji wa teknolojia mpya",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpf39uurgi.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpmqg7n6v8.zip",
                       "language": "sw"
                     }
                   ]
@@ -570,12 +537,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "113715",
                   "title": "Nyenzo-rejea muhimu: Kutumia hadithi za kusimulia darasani",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp7el4h7rf.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpib9v7b_9.zip",
                       "language": "sw"
                     }
                   ]
@@ -586,44 +552,242 @@
         },
         {
           "kind": "TopicNode",
-          "source_id": "topic_82849",
-          "title": "Vitabu vya maelekezo na miongozo ya vitendea kazi kwa ajili ya walimu na wakufunzi",
+          "source_id": "topic_105247",
+          "title": "Kurasa ya ndani ya mwongozo wa kitendea kazi cha msimamizi wa mazoezi ya kufundisha",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82849",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
               "kind": "TopicNode",
-              "source_id": "82849:Kitabu cha maelekezo kilichotengenezwa ili kuwasaidia wakufunzi kutumia vifaa katika masomo ya muda na katika programu.  Ni kwa ajili ya wahadhiri, washauri, viongozi wa mabingwa wa maendeleo, watengenezaji sera na washiriki wengineo wanaofanya kazi katika mafunzo ya ualimu.",
-              "title": "Kitabu cha maelekezo kilichotengenezwa ili kuwasaidia wakufunzi kutumia vifaa katika masomo ya muda na katika programu.  Ni kwa ajili ya wahadhiri, washauri, viongozi wa mabingwa wa maendeleo, watengenezaji sera na washiriki wengineo wanaofanya kazi katika mafunzo ya ualimu.",
+              "source_id": "105247:Soma au pakua nyenzo moja moja:",
+              "title": "Soma au pakua nyenzo moja moja:",
               "author": "TESSA",
               "description": null,
               "thumbnail": null,
               "children": [
                 {
                   "kind": "HTML5AppNode",
-                  "source_id": "113602",
-                  "title": "Working with Pupils: A Guide for Teachers",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "source_id": "113683",
+                  "title": "Teaching Practice Supervisors' Toolkit",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmph1yb6w24.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp0khttd4h.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113684",
+                  "title": "Welcome to the Teaching Practice Supervisors' Toolkit",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp0yvp0zp7.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113685",
+                  "title": "1. The Teaching Practice Supervisor",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpds8aie4b.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113686",
+                  "title": "2. About TESSA",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpq_cjrp5b.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113687",
+                  "title": "3. Recognising a good lesson",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp8474xjpd.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113688",
+                  "title": "4. Planning and using TESSA materials with student teachers",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp9zz5hy5_.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113689",
+                  "title": "5. Helping student teachers to carry out action planning",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp6ammzi5i.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113690",
+                  "title": "6. Getting the most out of the school visit",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpjz9h89yv.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113691",
+                  "title": "7. Giving constructive feedback",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpz8jeaqn1.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113692",
+                  "title": "8. Guidance on assessment of student teachers",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpwteeezx7.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113693",
+                  "title": "9. Advice and hints for running seminars and workshops",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpu65ufftm.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113694",
+                  "title": "10. Counselling student teachers with teaching-related difficulties",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpij5pph0j.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113695",
+                  "title": "11. Self-audit and targets: active teaching and learning methods",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpdcyg5oaf.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113696",
+                  "title": "Other useful resources",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpuvx1jgt4.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113697",
+                  "title": "Table of Toolkit activities",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmps7qxd6ka.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113698",
+                  "title": "Table of Toolkit case studies",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpmuyr23fz.zip",
+                      "language": "sw"
+                    }
+                  ]
+                },
+                {
+                  "kind": "HTML5AppNode",
+                  "source_id": "113699",
+                  "title": "Acknowledgements",
+                  "description": "",
+                  "files": [
+                    {
+                      "file_type": "HTMLZipFile",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpy88d6ok5.zip",
                       "language": "sw"
                     }
                   ]
                 }
               ]
-            },
-            {
-              "kind": "TopicNode",
-              "source_id": "82849:Kitabu hiki kimetengenezwa kwa ajili ya wakufunzi wanaowafundisha walimu wapya ambao bado hawajaanza utumishi, au kwa kupanga programu za walimu waliokuwa tayari katika utumishi.  Inatoa ushauri wenye vitendo jinsi ya kuwajulisha walimu katika nyenzo za sayansi ya Sekondari ya TESSA kwa kuwaunganisha kikamilifu katika masomo hayo mafupi.",
-              "title": "Kitabu hiki kimetengenezwa kwa ajili ya wakufunzi wanaowafundisha walimu wapya ambao bado hawajaanza utumishi, au kwa kupanga programu za walimu waliokuwa tayari katika utumishi.  Inatoa ushauri wenye vitendo jinsi ya kuwajulisha walimu katika nyenzo za sayansi ya Sekondari ya TESSA kwa kuwaunganisha kikamilifu katika masomo hayo mafupi.",
-              "author": "TESSA",
-              "description": null,
-              "thumbnail": null,
-              "children": []
             },
             {
               "kind": "TopicNode",

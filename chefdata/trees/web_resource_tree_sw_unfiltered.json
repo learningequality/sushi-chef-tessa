@@ -9,7 +9,7 @@
       "source_id": "category_Mfumo_wa_mtaala",
       "title": "Mfumo wa mtaala",
       "lang": "sw",
-      "description": "Muhtasari wa moduli za TESSA unaweza kupatikana katika maelezo ya mitaala ya kijumla:",
+      "description": "",
       "children": []
     },
     {
@@ -25,7 +25,7 @@
           "source_id": "topic_82842",
           "title": "Stadi za maisha",
           "lang": "sw",
-          "description": "TODO add descriptions for subpages....",
+          "description": "",
           "children": [
             {
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82898",
@@ -62,7 +62,7 @@
           "source_id": "topic_82843",
           "title": "Kujua kusoma na kuandika",
           "lang": "sw",
-          "description": "TODO add descriptions for subpages....",
+          "description": "",
           "children": [
             {
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83070",
@@ -99,7 +99,7 @@
           "source_id": "topic_82844",
           "title": "Hisabati",
           "lang": "sw",
-          "description": "TODO add descriptions for subpages....",
+          "description": "",
           "children": [
             {
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83059",
@@ -136,7 +136,7 @@
           "source_id": "topic_82845",
           "title": "Sayansi",
           "lang": "sw",
-          "description": "TODO add descriptions for subpages....",
+          "description": "",
           "children": [
             {
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83062",
@@ -173,7 +173,7 @@
           "source_id": "topic_82846",
           "title": "Mafunzo Ya Jamii Na Sanaa",
           "lang": "sw",
-          "description": "TODO add descriptions for subpages....",
+          "description": "",
           "children": [
             {
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83360",
@@ -201,7 +201,7 @@
           "source_id": "topic_82847",
           "title": "Sayansi ya shule za Sekondari",
           "lang": "sw",
-          "description": "TODO add descriptions for subpages....",
+          "description": "",
           "children": [
             {
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105311",
@@ -413,33 +413,171 @@
         },
         {
           "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82849",
-          "source_id": "topic_82849",
-          "title": "Vitabu vya maelekezo na miongozo ya vitendea kazi kwa ajili ya walimu na wakufunzi",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=105247",
+          "source_id": "topic_105247",
+          "title": "Kurasa ya ndani ya mwongozo wa kitendea kazi cha msimamizi wa mazoezi ya kufundisha",
           "lang": "sw",
-          "description": "Timu ya TESSA imetoa vitabu kadha vya maelekezo na miongozo ya vitendea kazi ili kusaidia walimu na wakufunzi katika kazi zao pamoja na wanafunzi na walimu.  Vitabu vyote vya maelekezo vinaweza kurekebishwa na kutumika kulingana na hali halisi ya kile unachokihitaji. Pakua na chapisha aina ya PDF au pakua na kuirekebisha nyaraka aina ya Word kwa ajili ya shule au taasisi yako. Kama rasilimali hizi ni inapatikana kwa Kiingereza utaelekezwa kwa pan-Afrika\u00a0toleo English",
+          "description": "Mwongozo huu wa kitendea kazi umelengwa kwa wasimamizi wa uzoefu wa kufundisha wanaoshughulikia NCE na programu za Diploma ya elimu ya walimu huko Nigeria.  Umeundwa na kikundi cha waelimishaji kutoka NCCE, NTI na TESSA kwenye warsha zilizofanyika Kaduna na Abudja baina ya mwaka 2011-2012. Mwongozo wa kitendea kazi una mlolongo wa nyenzo kwa ajili ya matumizi ya wasimamizi ili kuendeleza ujuzi wa ufundishaji na ujuzi wa usimamizi ili kusaidia walimu wanafunzi katika Mazoezi ya Kufundisha.  Mwongozo wa kitendea kazi utawasaidia pia wasimamizi kwa kuwapa nguvu za kuunganisha nyenzo za TESSA katika mazoezi ya kufundisha. Mwongozo wa kitendea kazi unaweza kupakuliwa au kuchapishwa kama nyaraka moja au kama kitendea kazi kimoja. Haikudhamiriwa kuwa kama kitabu cha kusomwa ukurasa wa kwanza hadi wa mwisho, ila kuchukuliwa kama mkusanyiko wa vitendea kazi ambavyo vinaweza kutumika kukabili changamoto fulani ambazo hujitokeza katika changamoto za mazoezi ya kufundisha.  Vitendea kazi vimeorodheshwa hapo chini na vinaweza kupatikana kwa utaratibu wowote. Mwongozo wa Mazoezi ya Kufundisha kwa Wasimamizi wa Ufundishaji ni Nyenzo ya Wazi ya Ualimu au Open Educational Resource (OER) na unaweza kuhaririwa au kurekebishwa na watumiaji.  Tunakaribisha maoni kutoka kwa wale wanaosoma na kutumia mwongozo wa kitendea kazi. \\[Tafadhali weka makini: Kama una mpango wa kurekebisha mwongozo wa kitendea kazi kwa manufaa yako mwenyewe, utaona ni wepesi zadi kupakua na kurekebisha vitendea kazi kimoja kimoja kuliko kufanya kazi kwa kutumia nyaraka kamili mara moja.] Kama rasilimali hizi ni inapatikana kwa Kiingereza utaelekezwa kwa pan-Afrika toleo English",
           "children": [
             {
               "kind": "TessaSubject",
-              "source_id": "82849:Kitabu cha maelekezo kilichotengenezwa ili kuwasaidia wakufunzi kutumia vifaa katika masomo ya muda na katika programu.  Ni kwa ajili ya wahadhiri, washauri, viongozi wa mabingwa wa maendeleo, watengenezaji sera na washiriki wengineo wanaofanya kazi katika mafunzo ya ualimu.",
-              "title": "Kitabu cha maelekezo kilichotengenezwa ili kuwasaidia wakufunzi kutumia vifaa katika masomo ya muda na katika programu.  Ni kwa ajili ya wahadhiri, washauri, viongozi wa mabingwa wa maendeleo, watengenezaji sera na washiriki wengineo wanaofanya kazi katika mafunzo ya ualimu.",
+              "source_id": "105247:Soma au pakua nyenzo moja moja:",
+              "title": "Soma au pakua nyenzo moja moja:",
               "children": [
                 {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113602",
-                  "source_id": "113602",
-                  "title": "Working with Pupils: A Guide for Teachers",
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113683",
+                  "source_id": "113683",
+                  "title": "Teaching Practice Supervisors' Toolkit",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113684",
+                  "source_id": "113684",
+                  "title": "Welcome to the Teaching Practice Supervisors' Toolkit",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113685",
+                  "source_id": "113685",
+                  "title": "1. The Teaching Practice Supervisor",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113686",
+                  "source_id": "113686",
+                  "title": "2. About TESSA",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113687",
+                  "source_id": "113687",
+                  "title": "3. Recognising a good lesson",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113688",
+                  "source_id": "113688",
+                  "title": "4. Planning and using TESSA materials with student teachers",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113689",
+                  "source_id": "113689",
+                  "title": "5. Helping student teachers to carry out action planning",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113690",
+                  "source_id": "113690",
+                  "title": "6. Getting the most out of the school visit",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113691",
+                  "source_id": "113691",
+                  "title": "7. Giving constructive feedback",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113692",
+                  "source_id": "113692",
+                  "title": "8. Guidance on assessment of student teachers",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113693",
+                  "source_id": "113693",
+                  "title": "9. Advice and hints for running seminars and workshops",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113694",
+                  "source_id": "113694",
+                  "title": "10. Counselling student teachers with teaching-related difficulties",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113695",
+                  "source_id": "113695",
+                  "title": "11. Self-audit and targets: active teaching and learning methods",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113696",
+                  "source_id": "113696",
+                  "title": "Other useful resources",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113697",
+                  "source_id": "113697",
+                  "title": "Table of Toolkit activities",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113698",
+                  "source_id": "113698",
+                  "title": "Table of Toolkit case studies",
+                  "hidden_subspan_text": "Unit content",
+                  "children": [],
+                  "kind": "TessaModule",
+                  "lang": "sw"
+                },
+                {
+                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113699",
+                  "source_id": "113699",
+                  "title": "Acknowledgements",
                   "hidden_subspan_text": "Unit content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "sw"
                 }
               ]
-            },
-            {
-              "kind": "TessaSubject",
-              "source_id": "82849:Kitabu hiki kimetengenezwa kwa ajili ya wakufunzi wanaowafundisha walimu wapya ambao bado hawajaanza utumishi, au kwa kupanga programu za walimu waliokuwa tayari katika utumishi.  Inatoa ushauri wenye vitendo jinsi ya kuwajulisha walimu katika nyenzo za sayansi ya Sekondari ya TESSA kwa kuwaunganisha kikamilifu katika masomo hayo mafupi.",
-              "title": "Kitabu hiki kimetengenezwa kwa ajili ya wakufunzi wanaowafundisha walimu wapya ambao bado hawajaanza utumishi, au kwa kupanga programu za walimu waliokuwa tayari katika utumishi.  Inatoa ushauri wenye vitendo jinsi ya kuwajulisha walimu katika nyenzo za sayansi ya Sekondari ya TESSA kwa kuwaunganisha kikamilifu katika masomo hayo mafupi.",
-              "children": []
             },
             {
               "kind": "TessaSubject",

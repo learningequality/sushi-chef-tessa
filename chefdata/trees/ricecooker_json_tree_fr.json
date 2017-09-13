@@ -6,19 +6,18 @@
       "source_id": "category_R\u00e9sum\u00e9_et_r\u00e9capitulatif_des_mat\u00e9riels_TESSA",
       "title": "R\u00e9sum\u00e9 et r\u00e9capitulatif des mat\u00e9riels TESSA",
       "author": "TESSA",
-      "description": "TODO description of R\u00e9sum\u00e9 et r\u00e9capitulatif des mat\u00e9riels TESSA",
+      "description": "",
       "thumbnail": null,
       "children": [
         {
           "kind": "HTML5AppNode",
           "source_id": "84487",
           "title": "R\u00e9sum\u00e9 des mat\u00e9riels p\u00e9dagogiques TESSA",
-          "license": "CC BY-NC-SA",
           "description": "",
           "files": [
             {
               "file_type": "HTMLZipFile",
-              "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpdq7_wafa.zip",
+              "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpab_eb_0w.zip",
               "language": "fr"
             }
           ]
@@ -30,7 +29,7 @@
       "source_id": "category_Ressources_disciplinaires_de_formation_des_enseignants",
       "title": "Ressources disciplinaires de formation des enseignants",
       "author": "TESSA",
-      "description": "TODO description of Ressources disciplinaires de formation des enseignants",
+      "description": "",
       "thumbnail": null,
       "children": [
         {
@@ -38,7 +37,7 @@
           "source_id": "topic_66857",
           "title": "Comp\u00e9tences de la vie courante",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66857",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
@@ -53,12 +52,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "105334",
                   "title": "Module 1 : D\u00e9veloppement personnel \u2013 Impact de l\u2019estime de soi sur l\u2019apprentissage",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpso4q_ro5.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpt5e5e221.zip",
                       "language": "fr"
                     }
                   ]
@@ -77,12 +75,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "105335",
                   "title": "Module 2 : Exploration du d\u00e9veloppement de l\u2019enfant dans son contexte social",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpuz_1kfdg.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp22qo72p5.zip",
                       "language": "fr"
                     }
                   ]
@@ -101,12 +98,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "105336",
                   "title": "Module 3 : Etudes de questions relatives \u00e0 la communaut\u00e9 et \u00e0 la citoyennet\u00e9",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmplov3ejzi.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp72hj9vwo.zip",
                       "language": "fr"
                     }
                   ]
@@ -120,7 +116,7 @@
           "source_id": "topic_80922",
           "title": "Alphab\u00e9tisation",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80922",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
@@ -135,12 +131,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82498",
                   "title": "Module 1 : Des raisons pour lire et \u00e9crire",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpfl073vov.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpegnu6_sl.zip",
                       "language": "fr"
                     }
                   ]
@@ -159,12 +154,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82572",
                   "title": "Module 2 : Utilisation des voix de la communaut\u00e9 dans la classe",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpopjopwst.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpav387olq.zip",
                       "language": "fr"
                     }
                   ]
@@ -183,12 +177,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82513",
                   "title": "Module 3 : Mise en place de situation pour l\u2019apprentissage et l\u2019utilisation d\u2019une langue suppl\u00e9mentaire",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp00f5nw2p.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpqk96_dgh.zip",
                       "language": "fr"
                     }
                   ]
@@ -202,7 +195,7 @@
           "source_id": "topic_66860",
           "title": "Math\u00e9matiques",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66860",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
@@ -217,12 +210,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82514",
                   "title": "Module 1 : \u00c9tude du nombre et de la structure",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp18oy_643.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp5i24nf36.zip",
                       "language": "fr"
                     }
                   ]
@@ -241,12 +233,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82576",
                   "title": "Module 2 : \u00c9tude de la forme et de l\u2019espace",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpkdcjeq5s.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp9hl61amw.zip",
                       "language": "fr"
                     }
                   ]
@@ -265,12 +256,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82577",
                   "title": "Module 3 : \u00c9tude des mesures et de l\u2019utilisation des donn\u00e9es",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpoz2gutsa.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp1j5zgm3z.zip",
                       "language": "fr"
                     }
                   ]
@@ -284,7 +274,7 @@
           "source_id": "topic_80923",
           "title": "Sciences",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80923",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
@@ -299,12 +289,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82515",
                   "title": "Module 1 : Observation du vivant",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpxal_8q8a.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpajtl2ipi.zip",
                       "language": "fr"
                     }
                   ]
@@ -323,12 +312,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82517",
                   "title": "Module 2 : \u00c9tude des mat\u00e9riaux",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpfo8b6typ.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpt03blqav.zip",
                       "language": "fr"
                     }
                   ]
@@ -347,12 +335,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82524",
                   "title": "Module 3 : L\u2019\u00e9nergie et le mouvement",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpcwfo1rbx.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmprz7nq_h4.zip",
                       "language": "fr"
                     }
                   ]
@@ -366,7 +353,7 @@
           "source_id": "topic_80924",
           "title": "Sciences humaines et arts",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80924",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
@@ -381,12 +368,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82525",
                   "title": "Module 1 : Comprendre les lieux",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpx9754ak9.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp_vn0c0s2.zip",
                       "language": "fr"
                     }
                   ]
@@ -405,12 +391,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82527",
                   "title": "Module 2 : \u00c9tude de l\u2019Histoire",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpd31yvdc0.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpwm36p4wv.zip",
                       "language": "fr"
                     }
                   ]
@@ -429,12 +414,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "82528",
                   "title": "Module 3 : Examen des arts",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp7ylo0mp5.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpk2ayp3l9.zip",
                       "language": "fr"
                     }
                   ]
@@ -450,7 +434,7 @@
       "source_id": "category_Autres_ressources",
       "title": "Autres ressources",
       "author": "TESSA",
-      "description": "TODO description of Autres ressources",
+      "description": "",
       "thumbnail": null,
       "children": [
         {
@@ -458,7 +442,7 @@
           "source_id": "topic_80919",
           "title": "Ressources cl\u00e9s",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80919",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
@@ -473,12 +457,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84354",
                   "title": "Ressource cl\u00e9 : Travailler avec des classes \u00e0 effectif lourd ou \u00e0 niveaux multiples",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpattrm_8p.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpijqr96wb.zip",
                       "language": "fr"
                     }
                   ]
@@ -487,12 +470,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84355",
                   "title": "Ressource cl\u00e9 : Travailler en groupes dans la classe",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpt6q4g8sk.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpgl_pk284.zip",
                       "language": "fr"
                     }
                   ]
@@ -501,12 +483,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84356",
                   "title": "Ressource cl\u00e9 : Utiliser des cartes conceptuelles et le remue-m\u00e9ninges pour explorer les id\u00e9es",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmptfx6ah26.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpn3wzws37.zip",
                       "language": "fr"
                     }
                   ]
@@ -515,12 +496,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84357",
                   "title": "Ressource cl\u00e9 : Planifiez et pr\u00e9parez vos le\u00e7ons",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpg5sezogs.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp056lh7n7.zip",
                       "language": "fr"
                     }
                   ]
@@ -529,12 +509,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84358",
                   "title": "Ressource cl\u00e9 : Evaluer l'apprentissage",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpl6pbw7ad.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpv3y5y_sa.zip",
                       "language": "fr"
                     }
                   ]
@@ -543,12 +522,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84359",
                   "title": "Ressource cl\u00e9 : Travail d'investigation et de recherche en classe",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp5jlwez2t.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp0mw17y3b.zip",
                       "language": "fr"
                     }
                   ]
@@ -557,12 +535,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84360",
                   "title": "Ressource cl\u00e9 : \u00catre chercheur dans sa classe",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpx__tuu3q.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpqn3yf_ej.zip",
                       "language": "fr"
                     }
                   ]
@@ -571,12 +548,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84361",
                   "title": "Ressource cl\u00e9 : Utiliser les jeux de r\u00f4les, l'expression orale et l'art dramatique dans la classe",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpqjmvo_y1.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpg7w939up.zip",
                       "language": "fr"
                     }
                   ]
@@ -585,12 +561,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84362",
                   "title": "Ressource cl\u00e9 : Utiliser le questionnement pour d\u00e9velopper la pens\u00e9e",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpsyxkofd6.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpj96t1trs.zip",
                       "language": "fr"
                     }
                   ]
@@ -599,12 +574,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84363",
                   "title": "Ressource cl\u00e9 : Utiliser les r\u00e9cits dans la classe",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp1j72jort.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpde0j1pdt.zip",
                       "language": "fr"
                     }
                   ]
@@ -613,12 +587,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84364",
                   "title": "Ressource cl\u00e9 : Utiliser l'explication et la d\u00e9monstration pour favoriser l'apprentissage",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpwa5qdcev.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp95q7kv3g.zip",
                       "language": "fr"
                     }
                   ]
@@ -627,12 +600,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84365",
                   "title": "Ressource cl\u00e9 : Utiliser l'environnement local et la communaut\u00e9 comme ressource",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp5n5dge2i.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmps0x421pg.zip",
                       "language": "fr"
                     }
                   ]
@@ -641,12 +613,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84366",
                   "title": "Ressource cl\u00e9 : Utiliser les nouvelles technologies",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp19vq828g.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp1cjxbwea.zip",
                       "language": "fr"
                     }
                   ]
@@ -655,12 +626,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "84367",
                   "title": "Ressource cl\u00e9 : Etre un enseignant inventif et cr\u00e9atif dans des conditions difficiles",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpcv_h8hl7.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpxuwlt3bu.zip",
                       "language": "fr"
                     }
                   ]
@@ -674,7 +644,7 @@
           "source_id": "topic_80972",
           "title": "Bo\u00eete \u00e0 outils pour les superviseurs de pratiques p\u00e9dagogiques",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80972",
+          "description": "",
           "thumbnail": null,
           "children": [
             {
@@ -689,12 +659,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109691",
                   "title": "Un guide pour les Formateurs et les Encadreurs p\u00e9dagogiques",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmph3ihiis3.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpyju0g_yz.zip",
                       "language": "fr"
                     }
                   ]
@@ -703,12 +672,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109692",
                   "title": "Bienvenue dans la Bo\u00eete \u00e0 outils pour les Superviseurs de pratiques p\u00e9dagogiques\u00a0!",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpb3xbw74o.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpv09u_rrh.zip",
                       "language": "fr"
                     }
                   ]
@@ -717,12 +685,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109693",
                   "title": "1. Le Superviseur de pratiques p\u00e9dagogiques",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp34txeigz.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpu_ow7dzb.zip",
                       "language": "fr"
                     }
                   ]
@@ -731,12 +698,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109694",
                   "title": "2. \u00c0 propos de TESSA",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpigigl1gr.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpputei4pn.zip",
                       "language": "fr"
                     }
                   ]
@@ -745,12 +711,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109695",
                   "title": "3. Reconna\u00eetre une bonne le\u00e7on",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp6dj9j9oz.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpii0a2h0l.zip",
                       "language": "fr"
                     }
                   ]
@@ -759,12 +724,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109696",
                   "title": "4. Planifier et utiliser les mat\u00e9riels TESSA avec les enseignants",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpqx5txw19.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp2n7co64q.zip",
                       "language": "fr"
                     }
                   ]
@@ -773,12 +737,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109697",
                   "title": "5. Aider les enseignants en formation \u00e0 \u00e9tablir un plan d\u2019action",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpyzx85iwp.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp97h28p2m.zip",
                       "language": "fr"
                     }
                   ]
@@ -787,12 +750,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109698",
                   "title": "6. Tirer le meilleur parti de la visite de classe",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp84lakuyy.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp2b1or9n0.zip",
                       "language": "fr"
                     }
                   ]
@@ -801,12 +763,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109699",
                   "title": "7. Donner de la r\u00e9troaction constructive",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp4_fzj4up.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp8x034fg8.zip",
                       "language": "fr"
                     }
                   ]
@@ -815,12 +776,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109700",
                   "title": "8. Lignes directrices sur l\u2019\u00e9valuation des stagiaires",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmphd4wxljv.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp4sxzco68.zip",
                       "language": "fr"
                     }
                   ]
@@ -829,12 +789,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109701",
                   "title": "9. Conseils et astuces pour l\u2019organisation de s\u00e9minaires et d\u2019ateliers",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpnjlpltvr.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpy59bpvpy.zip",
                       "language": "fr"
                     }
                   ]
@@ -843,12 +802,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109702",
                   "title": "10. Conseiller des \u00e9l\u00e8ves-enseignants ayant des difficult\u00e9s li\u00e9es \u00e0 l\u2019enseignement",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpkefan0hr.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpwbsf6o61.zip",
                       "language": "fr"
                     }
                   ]
@@ -857,12 +815,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109703",
                   "title": "11. Audit des m\u00e9thodes d\u2019enseignement pour un apprentissage actif",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpcvdq5s62.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmp2qkd4wb1.zip",
                       "language": "fr"
                     }
                   ]
@@ -871,12 +828,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109704",
                   "title": "Lectures compl\u00e9mentaires",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmperf77du2.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpcqhfgisv.zip",
                       "language": "fr"
                     }
                   ]
@@ -885,12 +841,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109705",
                   "title": "Activit\u00e9s de la Bo\u00eete \u00e0 outils",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpoluj6fv3.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpvfiaympr.zip",
                       "language": "fr"
                     }
                   ]
@@ -899,12 +854,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109756",
                   "title": "Les \u00e9tudes de cas de la Bo\u00eete \u00e0 outils",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpi859tgd1.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpq_rv54sm.zip",
                       "language": "fr"
                     }
                   ]
@@ -913,12 +867,11 @@
                   "kind": "HTML5AppNode",
                   "source_id": "109706",
                   "title": "Remerciements",
-                  "license": "CC BY-NC-SA",
-                  "description": "fake descri",
+                  "description": "",
                   "files": [
                     {
                       "file_type": "HTMLZipFile",
-                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpijokapnf.zip",
+                      "path": "/var/folders/k3/r74jr38d56v717n39fd073f80000gn/T/tmpoufjg55m.zip",
                       "language": "fr"
                     }
                   ]
@@ -932,7 +885,7 @@
           "source_id": "topic_66858",
           "title": "Ressources  audio",
           "author": "TESSA",
-          "description": "TODO description of http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66858",
+          "description": "",
           "thumbnail": null,
           "children": []
         }
