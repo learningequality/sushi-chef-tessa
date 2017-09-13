@@ -74,7 +74,7 @@ TESSA_STRINGS = {
         'key resource': 'Key Resource',
     }
 }
-TESSA_LICENSE = licenses.CC_BY_NC_SA # get_license(licenses.CC_BY_NC_SA, copyright_holder='TESSA')
+TESSA_LICENSE = get_license(licenses.CC_BY_NC_SA, copyright_holder='TESSA')
 
 
 # Set up webcaches
@@ -276,7 +276,7 @@ def process_language_page(lang, page_url):
                     source_id='category_' + title.replace(' ', '_'),
                     title=title,
                     lang=lang,
-                    description=description,
+                    description='',  # description, #        # Sept13hack
                     children = [],
                 )
                 web_resource_tree['children'].append(new_category)
@@ -353,7 +353,7 @@ def create_subpage_node(subpage_dict, lang=None, lang_main_menu_url=None):
         source_id="topic_%s" % topic_id,
         title=subpage_dict["title"],
         lang=lang,
-        description='TODO add descriptions for subpages....',
+        description='', # TODO add descriptions for subpages....',
         children=[],
     )
     # print('    subpage_node: ' + str(subpage_node))
@@ -1094,7 +1094,7 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
                 source_id=source_node['source_id'],
                 title=source_node['title'],
                 author='TESSA',
-                description='TODO description of ' + source_node['title'],
+                description='', # TODO description of ' + source_node['title'],
                 thumbnail=source_node.get("thumbnail"),
                 children=[],
             )
@@ -1109,7 +1109,7 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
                 source_id=source_node['source_id'],
                 title=source_node['title'],
                 author='TESSA',
-                description='TODO description of ' + source_node['url'],
+                description='', # 'TODO description of ' + source_node['url'],
                 thumbnail=source_node.get("thumbnail"),
                 children=[],
             )
@@ -1140,8 +1140,7 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
                 source_id=source_node['source_id'],
                 # language=source_node['lang'],  # node-level language is not supported yet...
                 title=source_node['title'],
-                license=TESSA_LICENSE,
-                description='fake descri', # TODO source_node['description']
+                description='', # 'fake descri', # TODO source_node['description']
                 files=[],
             )
             zip_path = download_module(source_node['url'], lang=source_node['lang'])
@@ -1161,7 +1160,6 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
                 source_id=source_node['source_id'],
                 # language=source_node['lang'],  # node-level language is not supported yet...
                 title=source_node['title'],
-                license=TESSA_LICENSE,
                 description=source_node.get('description', ''),
                 files=[],
             )
