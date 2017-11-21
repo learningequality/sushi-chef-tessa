@@ -6,33 +6,6 @@
   "children": [
     {
       "kind": "TessaCategory",
-      "source_id": "category_Curriculum\r_framework",
-      "title": "Curriculum\r framework",
-      "lang": "en",
-      "description": "",
-      "children": [
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81683",
-          "source_id": "81683",
-          "title": "Primary Curriculum framework",
-          "hidden_subspan_text": "Unit content",
-          "children": [],
-          "kind": "TessaContentPage",
-          "lang": "en"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81698",
-          "source_id": "81698",
-          "title": "Secondary Science Curriculum framework",
-          "hidden_subspan_text": "Unit content",
-          "children": [],
-          "kind": "TessaContentPage",
-          "lang": "en"
-        }
-      ]
-    },
-    {
-      "kind": "TessaCategory",
       "source_id": "category_Subject\r_resources",
       "title": "Subject\r resources",
       "lang": "en",
@@ -50,7 +23,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81108",
               "source_id": "81108",
               "title": "Module 1: Personal development \u2013 how self-esteem impacts on learning",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -59,7 +32,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80895",
               "source_id": "80895",
               "title": "Module 2: Exploring social development",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -68,7 +41,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80429",
               "source_id": "80429",
               "title": "Module 3: Community issues and citizenship",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -87,7 +60,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80974",
               "source_id": "80974",
               "title": "Module 1: Reading and writing for a range of purposes",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -96,7 +69,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80688",
               "source_id": "80688",
               "title": "Module 2: Using community voices in your classroom",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -105,7 +78,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80632",
               "source_id": "80632",
               "title": "Module 3: Promoting Communication in an Additional Language",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -124,7 +97,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81239",
               "source_id": "81239",
               "title": "Module 1: Investigating Number and Pattern",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -133,7 +106,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80814",
               "source_id": "80814",
               "title": "Module 2: Exploring Shape and Space",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -142,7 +115,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80823",
               "source_id": "80823",
               "title": "Module 3: Investigating measurement and data handling",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -161,7 +134,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80637",
               "source_id": "80637",
               "title": "Module 1: Developing an Understanding of Place",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -170,7 +143,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80903",
               "source_id": "80903",
               "title": "Module 2: Investigating History",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -179,7 +152,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80636",
               "source_id": "80636",
               "title": "Module 3: Looking at the Arts",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -198,7 +171,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80656",
               "source_id": "80656",
               "title": "Module 1: Science - Looking at Life",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -207,7 +180,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80667",
               "source_id": "80667",
               "title": "Module 2: Science - Investigating Materials",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -216,7 +189,7 @@
               "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80682",
               "source_id": "80682",
               "title": "Module 3: Science - Energy and Movement",
-              "hidden_subspan_text": "Unit content",
+              "hidden_subspan_text": "Website content",
               "children": [],
               "kind": "TessaModule",
               "lang": "en"
@@ -240,7 +213,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80623",
                   "source_id": "80623",
                   "title": "Module 1: Secondary Science - Biology",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -256,7 +229,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80624",
                   "source_id": "80624",
                   "title": "Module 2: Secondary Science - Chemistry",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -272,7 +245,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80905",
                   "source_id": "80905",
                   "title": "Module 3: Secondary Science - Physics",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -307,7 +280,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80315",
                   "source_id": "80315",
                   "title": "Introducing the TESSA Key Resources",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -316,7 +289,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80316",
                   "source_id": "80316",
                   "title": "Key Resource: Assessing learning",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -325,7 +298,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80317",
                   "source_id": "80317",
                   "title": "Key Resource: Using mind maps and brainstorming to explore ideas",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -334,7 +307,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80318",
                   "source_id": "80318",
                   "title": "Key Resource: Being a resourceful teacher in challenging circumstances",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -343,7 +316,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80319",
                   "source_id": "80319",
                   "title": "Key Resource: Using explaining and demonstrating to assist learning",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -352,7 +325,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80320",
                   "source_id": "80320",
                   "title": "Key Resource: Using group work in your classroom",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -361,7 +334,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80321",
                   "source_id": "80321",
                   "title": "Key Resource: Using investigations in the classroom",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -370,7 +343,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80322",
                   "source_id": "80322",
                   "title": "Key Resource: Tools for planning and carrying out investigations in Science",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -379,7 +352,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80323",
                   "source_id": "80323",
                   "title": "Key Resource: Working with large classes",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -388,7 +361,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80324",
                   "source_id": "80324",
                   "title": "Key Resource: Using the local community/environment as a resource",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -397,7 +370,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80325",
                   "source_id": "80325",
                   "title": "Key Resource: Planning and preparing your lessons",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -406,7 +379,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80326",
                   "source_id": "80326",
                   "title": "Key Resource: Using questioning to promote thinking",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -415,7 +388,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80327",
                   "source_id": "80327",
                   "title": "Key Resource: Researching in the classroom",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -424,7 +397,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80328",
                   "source_id": "80328",
                   "title": "Key Resource: Using role play/dialogue/drama in the classroom",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -433,7 +406,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80329",
                   "source_id": "80329",
                   "title": "Key Resource: Using storytelling in the classroom",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -442,7 +415,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82493",
                   "source_id": "82493",
                   "title": "Key Resource: Using new technologies",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -451,7 +424,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83251",
                   "source_id": "83251",
                   "title": "Key Resource: Working with multigrade classes",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -477,7 +450,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80711",
                   "source_id": "80711",
                   "title": "Teaching Practice Supervisors' Toolkit",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -486,7 +459,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80712",
                   "source_id": "80712",
                   "title": "Welcome to the Teaching Practice Supervisors' Toolkit",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -495,7 +468,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80713",
                   "source_id": "80713",
                   "title": "1. The Teaching Practice Supervisor",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -504,7 +477,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80714",
                   "source_id": "80714",
                   "title": "2. About TESSA",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -513,7 +486,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80715",
                   "source_id": "80715",
                   "title": "3. Recognising a good lesson",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -522,7 +495,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80716",
                   "source_id": "80716",
                   "title": "4. Planning and using TESSA materials with student teachers",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -531,7 +504,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80717",
                   "source_id": "80717",
                   "title": "5. Helping student teachers to carry out action planning",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -540,7 +513,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80718",
                   "source_id": "80718",
                   "title": "6. Getting the most out of the school visit",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -549,7 +522,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80719",
                   "source_id": "80719",
                   "title": "7. Giving constructive feedback",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -558,7 +531,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80720",
                   "source_id": "80720",
                   "title": "8. Guidance on assessment of student teachers",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -567,7 +540,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80721",
                   "source_id": "80721",
                   "title": "9. Advice and hints for running seminars and workshops",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -576,7 +549,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80722",
                   "source_id": "80722",
                   "title": "10. Counselling student teachers with teaching-related difficulties",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -585,7 +558,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80723",
                   "source_id": "80723",
                   "title": "11. Self-audit and targets: active teaching and learning methods",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -594,7 +567,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80724",
                   "source_id": "80724",
                   "title": "Other useful resources",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -603,7 +576,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83585",
                   "source_id": "83585",
                   "title": "Table of Toolkit activities",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -612,7 +585,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83586",
                   "source_id": "83586",
                   "title": "Table of Toolkit case studies",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"
@@ -621,7 +594,7 @@
                   "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83587",
                   "source_id": "83587",
                   "title": "Acknowledgements",
-                  "hidden_subspan_text": "Unit content",
+                  "hidden_subspan_text": "Website content",
                   "children": [],
                   "kind": "TessaModule",
                   "lang": "en"

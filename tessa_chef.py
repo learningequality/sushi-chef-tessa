@@ -260,7 +260,9 @@ def process_language_page(lang, page_url):
             if current_category is None and activity_type == 'label':
                 channel_description = extract_channel_description(activity)
                 web_resource_tree['description'] = channel_description
-                current_category = {'title':'Something not-None that will be overwritten very soon...'}
+                current_category = {'title':'Something not-None that will be overwritten very soon...',
+                                    'description':'',
+                                    'children':[]}
                 continue
 
             # skip last footer section

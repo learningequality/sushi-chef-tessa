@@ -1,1 +1,2 @@
-ricecooker==0.6.4
+ricecooker>=0.6.10
+basiccrawler>=0.1.0
