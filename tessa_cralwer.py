@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 import argparse
 import re
 from urllib.parse import urljoin, urldefrag
@@ -26,7 +27,7 @@ class TessaCrawler(BasicCrawler):
     """
     MAIN_SOURCE_DOMAIN = 'http://www.open.edu'
     START_PAGE = None  # set in __init__
-    START_PAGE_CONTEXT = {'kind':'tessa_language_page'}
+    START_PAGE_CONTEXT = {'kind':'TessaLangWebRessourceTree'}
 
     SOURCE_DOMAINS = ['http://www.tessafrica.net', 'http://www.open.edu', 'https://www.open.edu']
     IGNORE_URLS = [
@@ -50,7 +51,7 @@ class TessaCrawler(BasicCrawler):
         re.compile('.*oucontent/hidetip.php.*'),
     ]
 
-    CRAWLING_STAGE_OUTPUT = 'chefdata/trees/tessa_web_resource_tree.json'
+    CRAWLING_STAGE_OUTPUT = 'chefdata/trees/web_resource_tree.json'
 
 
 
@@ -58,6 +59,7 @@ class TessaCrawler(BasicCrawler):
     def __init__(self, *args, lang='en', **kwargs):
         super().__init__(*args, **kwargs)
         self.START_PAGE = TESSA_LANG_URL_MAP[lang]
+        self.START_PAGE_CONTEXT['lang'] = lang
 
         # save output for specific lang
         self.CRAWLING_STAGE_OUTPUT = self.CRAWLING_STAGE_OUTPUT.replace('.json', '_'+lang+'.json')
@@ -68,7 +70,7 @@ class TessaCrawler(BasicCrawler):
         self.IGNORE_URLS.extend(other_links.values())
 
         self.kind_handlers = {  # mapping from web resource kinds (user defined) and handlers
-            'tessa_language_page': self.on_tessa_language_page,
+            'TessaLangWebRessourceTree': self.on_tessa_language_page,
             'subpage': self.on_subpage,
             'oucontent': self.on_oucontent,
             'resource': self.on_resource,

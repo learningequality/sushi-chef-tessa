@@ -1,2 +1,4 @@
 ricecooker>=0.6.10
-basiccrawler>=0.1.0
+#basiccrawler>=0.1.0
+git+https://github.com/learningequality/BasicCrawler@master
+

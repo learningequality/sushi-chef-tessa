@@ -1,658 +1,316 @@
 {
   "kind": "TessaLangWebRessourceTree",
-  "title": "TESSA (EN)",
   "url": "http://www.open.edu/openlearncreate/course/view.php?id=2042",
-  "lang": "en",
+  "title": "TESSA (EN)-testing",
   "children": [
     {
-      "kind": "TessaCategory",
-      "source_id": "category_Subject\r_resources",
-      "title": "Subject\r resources",
-      "lang": "en",
-      "description": " The subject resources are divided into six subject areas which cover the primary school curriculum and selected topics from lower secondary science. Each subject area contains three modules which in turn contain five study sections to support school-based education and training of teachers. These resources are useful for teachers and teacher educators.",
+      "kind": "oucontent",
+      "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81683",
+      "title": "OLCreate: TESSA_Eng Primary Curriculum framework",
+      "children": []
+    },
+    {
+      "kind": "oucontent",
+      "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81698",
+      "title": "OLCreate: TESSA_Eng Secondary Science Curriculum framework",
+      "children": []
+    },
+    {
+      "kind": "subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66754",
+      "title": "OLCreate: TESSA_Eng: Life Skills (primary)",
       "children": [
         {
-          "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66754",
-          "source_id": "topic_66754",
-          "title": "Life Skills (primary)",
-          "lang": "en",
-          "description": "",
-          "children": [
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81108",
-              "source_id": "81108",
-              "title": "Module 1: Personal development \u2013 how self-esteem impacts on learning",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80895",
-              "source_id": "80895",
-              "title": "Module 2: Exploring social development",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80429",
-              "source_id": "80429",
-              "title": "Module 3: Community issues and citizenship",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            }
-          ]
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81108",
+          "title": "OLCreate: TESSA_Eng Module 1: Personal development \u2013 how self-esteem impacts on learning",
+          "children": []
         },
         {
-          "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66755",
-          "source_id": "topic_66755",
-          "title": "Literacy (primary)",
-          "lang": "en",
-          "description": "",
-          "children": [
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80974",
-              "source_id": "80974",
-              "title": "Module 1: Reading and writing for a range of purposes",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80688",
-              "source_id": "80688",
-              "title": "Module 2: Using community voices in your classroom",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80632",
-              "source_id": "80632",
-              "title": "Module 3: Promoting Communication in an Additional Language",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            }
-          ]
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80800",
+          "title": "OLCreate: TESSA_Eng Section 1: Ways to explore who pupils are",
+          "children": []
         },
         {
-          "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66756",
-          "source_id": "topic_66756",
-          "title": "Numeracy (primary)",
-          "lang": "en",
-          "description": "",
-          "children": [
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81239",
-              "source_id": "81239",
-              "title": "Module 1: Investigating Number and Pattern",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80814",
-              "source_id": "80814",
-              "title": "Module 2: Exploring Shape and Space",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80823",
-              "source_id": "80823",
-              "title": "Module 3: Investigating measurement and data handling",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            }
-          ]
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80801",
+          "title": "OLCreate: TESSA_Eng Section 2: Planning physical growth and development sessions",
+          "children": []
         },
         {
-          "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66764",
-          "source_id": "topic_66764",
-          "title": "Social Studies and the Arts (primary)",
-          "lang": "en",
-          "description": "",
-          "children": [
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80637",
-              "source_id": "80637",
-              "title": "Module 1: Developing an Understanding of Place",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80903",
-              "source_id": "80903",
-              "title": "Module 2: Investigating History",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80636",
-              "source_id": "80636",
-              "title": "Module 3: Looking at the Arts",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            }
-          ]
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80802",
+          "title": "OLCreate: TESSA_Eng Section 3: Exploring pupils' ideas about healthy living",
+          "children": []
         },
         {
-          "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66757",
-          "source_id": "topic_66757",
-          "title": "Science (primary)",
-          "lang": "en",
-          "description": "",
-          "children": [
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80656",
-              "source_id": "80656",
-              "title": "Module 1: Science - Looking at Life",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80667",
-              "source_id": "80667",
-              "title": "Module 2: Science - Investigating Materials",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80682",
-              "source_id": "80682",
-              "title": "Module 3: Science - Energy and Movement",
-              "hidden_subspan_text": "Website content",
-              "children": [],
-              "kind": "TessaModule",
-              "lang": "en"
-            }
-          ]
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80803",
+          "title": "OLCreate: TESSA_Eng Section 4: Activities to support emotional well-being",
+          "children": []
         },
         {
-          "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=76672",
-          "source_id": "topic_76672",
-          "title": "Science (secondary)",
-          "lang": "en",
-          "description": "There are 15 TESSA Secondary Science units which you can access from this page. They were developed by colleagues in Ghana, Zambia, Kenya, Tanzania and Uganda. We have selected topics from the lower Secondary Science curriculum that are difficult to teach and common across all countries. The units are grouped into five pedagogical themes, which reflect the skills and attributes of an effective teacher. They are: Probing students\u2019 understandingMaking Science practicalMaking Science real and relevantProblem-solving and creativityTeaching challenging ideasEach theme is exemplified in Biology (Module 1), Chemistry (Module 2) and Physics (Module 3), making a total of 15 units. \u00a0If the topic that you are teaching is not covered, then we hope that you will be able to adapt one of the units to the context that you require. If you would prefer to focus on one pedagogical theme then download all the section 1s in order to learn about \u2018probing childrens\u2019 understanding\u2019; section 2s to learn about \u2018making science practical\u2019; section 3s to learn about \u2018making science relevant and real\u2019; section 4s to learn about \u2018problem-solving and creativity\u2019; and section 5s to learn and \u2018teaching challenging ideas\u2019.",
-          "children": [
-            {
-              "kind": "TessaSubject",
-              "source_id": "76672:Biology",
-              "title": "Biology",
-              "children": [
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80623",
-                  "source_id": "80623",
-                  "title": "Module 1: Secondary Science - Biology",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                }
-              ]
-            },
-            {
-              "kind": "TessaSubject",
-              "source_id": "76672:Chemistry",
-              "title": "Chemistry",
-              "children": [
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80624",
-                  "source_id": "80624",
-                  "title": "Module 2: Secondary Science - Chemistry",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                }
-              ]
-            },
-            {
-              "kind": "TessaSubject",
-              "source_id": "76672:Physics",
-              "title": "Physics",
-              "children": [
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80905",
-                  "source_id": "80905",
-                  "title": "Module 3: Secondary Science - Physics",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                }
-              ]
-            }
-          ]
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80804",
+          "title": "OLCreate: TESSA_Eng Section 5: Ways to promote spiritual well-being",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80895",
+          "title": "OLCreate: TESSA_Eng Module 2: Exploring social development",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80896",
+          "title": "OLCreate: TESSA_Eng Section 1 : Exploring social networks",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80897",
+          "title": "OLCreate: TESSA_Eng Section 2 : Investigating our place in the community",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80898",
+          "title": "OLCreate: TESSA_Eng Section 3 : Ways of taking responsibility",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80899",
+          "title": "OLCreate: TESSA_Eng Section 4 : Investigating self-esteem",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80900",
+          "title": "OLCreate: TESSA_Eng Section 5 : Ways of managing conflict",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80429",
+          "title": "OLCreate: TESSA_Eng Module 3: Community issues and citizenship",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80677",
+          "title": "OLCreate: TESSA_Eng Section 1: Exploring good citizenship",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80678",
+          "title": "OLCreate: TESSA_Eng Section 2: Ways to investigate gender issues",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80679",
+          "title": "OLCreate: TESSA_Eng Section 3: Looking at work and employment",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80680",
+          "title": "OLCreate: TESSA_Eng Section 4: Exploring the environment",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80681",
+          "title": "OLCreate: TESSA_Eng Section 5: Sensitive ways to raise HIV and AIDS",
+          "children": []
         }
       ]
     },
     {
-      "kind": "TessaCategory",
-      "source_id": "category_Additional\r_resources",
-      "title": "Additional\r resources",
-      "lang": "en",
-      "description": "",
+      "kind": "subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66755",
+      "title": "OLCreate: TESSA_Eng: Literacy (primary)",
       "children": [
         {
-          "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66698",
-          "source_id": "topic_66698",
-          "title": "Key resources for teachers and teacher educators",
-          "lang": "en",
-          "description": "Key resources\u00a0have been produced for the TESSA community, describing some important aspects of the teaching and learning process. These are referred to throughout the TESSA materials.",
-          "children": [
-            {
-              "kind": "TessaSubject",
-              "source_id": "66698:Read or download individual resources:",
-              "title": "Read or download individual resources:",
-              "children": [
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80315",
-                  "source_id": "80315",
-                  "title": "Introducing the TESSA Key Resources",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80316",
-                  "source_id": "80316",
-                  "title": "Key Resource: Assessing learning",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80317",
-                  "source_id": "80317",
-                  "title": "Key Resource: Using mind maps and brainstorming to explore ideas",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80318",
-                  "source_id": "80318",
-                  "title": "Key Resource: Being a resourceful teacher in challenging circumstances",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80319",
-                  "source_id": "80319",
-                  "title": "Key Resource: Using explaining and demonstrating to assist learning",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80320",
-                  "source_id": "80320",
-                  "title": "Key Resource: Using group work in your classroom",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80321",
-                  "source_id": "80321",
-                  "title": "Key Resource: Using investigations in the classroom",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80322",
-                  "source_id": "80322",
-                  "title": "Key Resource: Tools for planning and carrying out investigations in Science",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80323",
-                  "source_id": "80323",
-                  "title": "Key Resource: Working with large classes",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80324",
-                  "source_id": "80324",
-                  "title": "Key Resource: Using the local community/environment as a resource",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80325",
-                  "source_id": "80325",
-                  "title": "Key Resource: Planning and preparing your lessons",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80326",
-                  "source_id": "80326",
-                  "title": "Key Resource: Using questioning to promote thinking",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80327",
-                  "source_id": "80327",
-                  "title": "Key Resource: Researching in the classroom",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80328",
-                  "source_id": "80328",
-                  "title": "Key Resource: Using role play/dialogue/drama in the classroom",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80329",
-                  "source_id": "80329",
-                  "title": "Key Resource: Using storytelling in the classroom",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82493",
-                  "source_id": "82493",
-                  "title": "Key Resource: Using new technologies",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83251",
-                  "source_id": "83251",
-                  "title": "Key Resource: Working with multigrade classes",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80058",
-          "source_id": "topic_80058",
-          "title": "Teaching practice supervisors' toolkit",
-          "lang": "en",
-          "description": "This toolkit is aimed at teaching practice supervisors working on the NCE and Diploma teacher education programmes in Nigeria. It was developed by a group of educators from NCCE, NTI and TESSA at workshops held in Kaduna and Abuja in 2011-2012. The toolkit contains a range of resources for supervisors to use to develop teaching and supervisory skills to support student\u00a0teachers in their Teaching Practice. The toolkit will also help supervisors encourage the integration of TESSA materials into the teaching practice experience. The toolkit can be downloaded or printed as a single document or as individual tools. It is not intended to be a book which is read from cover to cover, but rather treated as a collection of tools which can be used to address certain challenges which occur in the process of teaching practice supervision. The tools are listed below and they can be accessed in any order. The Teaching Practice Supervisors' Toolkit is an Open Educational Resource (OER) and can be edited or adapted by users. We welcome feedback from those who read and make use of the toolkit. [Please note: If you are planning to adapt the toolkit for your own use, you may find it easier to download and edit the tools individually rather than working with the entire document at once.]",
-          "children": [
-            {
-              "kind": "TessaSubject",
-              "source_id": "80058:Read or download individual resources:",
-              "title": "Read or download individual resources:",
-              "children": [
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80711",
-                  "source_id": "80711",
-                  "title": "Teaching Practice Supervisors' Toolkit",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80712",
-                  "source_id": "80712",
-                  "title": "Welcome to the Teaching Practice Supervisors' Toolkit",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80713",
-                  "source_id": "80713",
-                  "title": "1. The Teaching Practice Supervisor",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80714",
-                  "source_id": "80714",
-                  "title": "2. About TESSA",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80715",
-                  "source_id": "80715",
-                  "title": "3. Recognising a good lesson",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80716",
-                  "source_id": "80716",
-                  "title": "4. Planning and using TESSA materials with student teachers",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80717",
-                  "source_id": "80717",
-                  "title": "5. Helping student teachers to carry out action planning",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80718",
-                  "source_id": "80718",
-                  "title": "6. Getting the most out of the school visit",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80719",
-                  "source_id": "80719",
-                  "title": "7. Giving constructive feedback",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80720",
-                  "source_id": "80720",
-                  "title": "8. Guidance on assessment of student teachers",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80721",
-                  "source_id": "80721",
-                  "title": "9. Advice and hints for running seminars and workshops",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80722",
-                  "source_id": "80722",
-                  "title": "10. Counselling student teachers with teaching-related difficulties",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80723",
-                  "source_id": "80723",
-                  "title": "11. Self-audit and targets: active teaching and learning methods",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80724",
-                  "source_id": "80724",
-                  "title": "Other useful resources",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83585",
-                  "source_id": "83585",
-                  "title": "Table of Toolkit activities",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83586",
-                  "source_id": "83586",
-                  "title": "Table of Toolkit case studies",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                },
-                {
-                  "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83587",
-                  "source_id": "83587",
-                  "title": "Acknowledgements",
-                  "hidden_subspan_text": "Website content",
-                  "children": [],
-                  "kind": "TessaModule",
-                  "lang": "en"
-                }
-              ]
-            },
-            {
-              "kind": "TessaSubject",
-              "source_id": "66699:The toolkit contains a range of resources for teacher educators to use to help teachers develop strategies that enable all pupils to reach their potential whatever their abilities, disabilities and needs. The toolkit refers teacher educators and teachers to TESSA resources that are particularly suited to developing inclusive practices within the classroom and the school.",
-              "title": "The toolkit contains a range of resources for teacher educators to use to help teachers develop strategies that enable all pupils to reach their potential whatever their abilities, disabilities and needs. The toolkit refers teacher educators and teachers to TESSA resources that are particularly suited to developing inclusive practices within the classroom and the school.",
-              "children": []
-            }
-          ]
-        },
-        {
-          "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66697",
-          "source_id": "topic_66697",
-          "title": "Audio resources",
-          "lang": "en",
-          "description": "TESSA has a range of audio resources covering different aspects of teachers' work in Africa. Click on the resources collection titles below to find out more and listen to the materials:",
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80974",
+          "title": "OLCreate: TESSA_Eng Module 1: Reading and writing for a range of purposes",
           "children": []
         },
         {
-          "kind": "TessaSubpage",
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=74909",
-          "source_id": "topic_74909",
-          "title": "Teaching packs",
-          "lang": "en",
-          "description": "",
-          "children": [
-            {
-              "kind": "TessaSubject",
-              "source_id": "74909:",
-              "title": "",
-              "children": []
-            }
-          ]
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80975",
+          "title": "OLCreate: TESSA_Eng Section 1: Supporting and assessing reading and writing",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80976",
+          "title": "OLCreate: TESSA_Eng Section 2: Stimulating interest in reading stories",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80977",
+          "title": "OLCreate: TESSA_Eng Section 3: Ways of reading and responding to information texts",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80978",
+          "title": "OLCreate: TESSA_Eng Section 4: Ways of presenting your point of view",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80979",
+          "title": "OLCreate: TESSA_Eng Section 5: Ways of becoming a critical reader and writer",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80688",
+          "title": "OLCreate: TESSA_Eng Module 2: Using community voices in your classroom",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80689",
+          "title": "OLCreate: TESSA_Eng Section 1: Investigating stories",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80690",
+          "title": "OLCreate: TESSA_Eng Section 2: Ways to collect and perform stories",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80691",
+          "title": "OLCreate: TESSA_Eng Section 3: Using local games for learning",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80692",
+          "title": "OLCreate: TESSA_Eng Section 4: Using story and poetry",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80693",
+          "title": "OLCreate: TESSA_Eng Section 5: Turning oral stories, poems and games into books",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80632",
+          "title": "OLCreate: TESSA_Eng Module 3: Promoting Communication in an Additional Language",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80662",
+          "title": "OLCreate: TESSA_Eng Section 1: Providing natural contexts for language practice",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80663",
+          "title": "OLCreate: TESSA_Eng Section 2: Ways towards fluency and accuracy",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80664",
+          "title": "OLCreate: TESSA_Eng Section 3: Creating opportunities for communication",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80665",
+          "title": "OLCreate: TESSA_Eng Section 4: Ways to build on home language knowledge",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80666",
+          "title": "OLCreate: TESSA_Eng Section 5: Supporting additional language learning",
+          "children": []
         }
       ]
     },
     {
-      "kind": "TessaCategory",
-      "source_id": "category_Download_the_complete_Pan-Africa_English\u00a0library",
-      "title": "Download the complete Pan-Africa English\u00a0library",
-      "lang": "en",
-      "description": "",
+      "kind": "subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66756",
+      "title": "OLCreate: TESSA_Eng: Numeracy (primary)",
       "children": [
         {
-          "url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=127149",
-          "source_id": "127149",
-          "type": "resource",
-          "title": "Download Pan-Africa English library in pdf format",
-          "hidden_subspan_text": "File",
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81239",
+          "title": "OLCreate: TESSA_Eng Module 1: Investigating Number and Pattern",
+          "children": []
+        },
+        {
+          "kind": "oucontent",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81140",
+          "title": "OLCreate: TESSA_Eng Section 1: Learning through games",
           "children": []
         }
       ]
+    },
+    {
+      "kind": "subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66764",
+      "title": "OLCreate: TESSA_Eng: Social Studies and the Arts (primary)",
+      "children": []
+    },
+    {
+      "kind": "subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66757",
+      "title": "OLCreate: TESSA_Eng: Science (primary)",
+      "children": []
+    },
+    {
+      "kind": "subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=76672",
+      "title": "OLCreate: TESSA_Eng: Science (secondary)",
+      "children": []
+    },
+    {
+      "kind": "subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66698",
+      "title": "OLCreate: TESSA_Eng: Key resources for teachers and teacher educators",
+      "children": []
+    },
+    {
+      "kind": "subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66699",
+      "title": "OLCreate: TESSA_Eng: Handbooks and toolkits for teachers and teacher educators",
+      "children": []
+    },
+    {
+      "kind": "subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66697",
+      "title": "OLCreate: TESSA_Eng: Audio resources",
+      "children": []
+    },
+    {
+      "kind": "subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=74909",
+      "title": "OLCreate: TESSA_Eng: Teaching packs",
+      "children": []
     }
   ],
-  "description": "TESSA materials have been\r created and developed by experts working across a range of African countries. They\r are provided under an open creative commons licence and can be used and adapted\r for your own context as required."
+  "lang": "en",
+  "source_domain": "tessafrica.net",
+  "source_id": "TESSA_en-testing",
+  "thumbnail": "http://www.tessafrica.net/sites/all/themes/tessafricav2/images/logotype_02.png",
+  "description": "Teacher Education in Sub-Saharan Africa, TESSA, is a collaborative network to help you improve your practice as a teacher or teacher educator. We provide free, quality resources that support your national curriculum and can help you plan lessons that engage, involve and inspire.",
+  "language": "en"
 }
