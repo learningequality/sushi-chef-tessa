@@ -4,7 +4,7 @@ TESSA Sushi Chef
 Related docs
 ------------
   - [spec doc](https://docs.google.com/document/d/1JD3M_ll7BUSaqHewhcCInj3leGAsRlFtJHc2qoTTUeM/edit#)
-  - [
+  - [trello card](https://trello.com/c/AWsJ86VU/28-tessa)
 
 
 Install
@@ -20,9 +20,9 @@ Running
 
 Need to start four separate chefs runs, one for each language:
 
-    ./tessa_chef.py -v --token=<YOURTOKEN> --reset lang=en
-    ./tessa_chef.py -v --token=<YOURTOKEN> --reset lang=fr
     ./tessa_chef.py -v --token=<YOURTOKEN> --reset lang=sw
     ./tessa_chef.py -v --token=<YOURTOKEN> --reset lang=ar
+    ./tessa_chef.py -v --token=<YOURTOKEN> --reset lang=fr
+    ./tessa_chef.py -v --token=<YOURTOKEN> --reset lang=en
 
 
