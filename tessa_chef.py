@@ -286,6 +286,14 @@ def process_language_page(lang, page_url):
             else:
                 raise ValueError('Uknown action encountered:' + str(action) )
 
+        # MODULE SUBPAGES
+        elif activity_type == 'subpage' and finished_with_modules == False:
+            info_dict = get_resource_info(activity)
+            print('\n\nAdding subpage', info_dict['title'])
+            subpage_node = create_subpage_node(info_dict, lang=lang, lang_main_menu_url=page_url)
+            # print(info_dict)
+            current_category['children'].append(subpage_node)
+
 
         # ADDITIONAL RESOURCES SUBPAGES
         elif activity_type == 'subpage' and finished_with_modules:
@@ -294,15 +302,6 @@ def process_language_page(lang, page_url):
             # TODO: remove one folder-deep, process title and description  :TODO:  :TODO:  :TODO:  :TODO:
             subpage_node = create_subpage_node(info_dict, lang=lang, lang_main_menu_url=page_url)
             # print(subpage_node)
-            current_category['children'].append(subpage_node)
-
-
-        # MODULE SUBPAGES
-        elif activity_type == 'subpage' and finished_with_modules == False:
-            info_dict = get_resource_info(activity)
-            print('\n\nAdding subpage', info_dict['title'])
-            subpage_node = create_subpage_node(info_dict, lang=lang, lang_main_menu_url=page_url)
-            # print(info_dict)
             current_category['children'].append(subpage_node)
 
 
@@ -531,25 +530,7 @@ def create_subpage_node(subpage_dict, lang=None, lang_main_menu_url=None):
     return subpage_node
 
 
-def filter_unwanted_categories(tree):
-    filtered_resource_tree = tree.copy()
-    filtered_resource_tree['children'] = []
 
-    for category in tree['children']:
-
-        filter_exclue_match_found = False
-        for reject_title in REJECT_TITLES:
-            #print('ZZZ'+reject_title+'ZZZ')
-            if reject_title in category['title']:
-                filter_exclue_match_found = True
-                print('filter_exclue_match_found', reject_title)
-
-        if filter_exclue_match_found:
-            pass
-        else:
-            filtered_resource_tree['children'].append(category)
-
-    return filtered_resource_tree
 
 
 
@@ -661,14 +642,16 @@ def download_module(module_url, lang=None):
             filename='index.html',  # TODO: figure out if this is necessary
             children=[],
         )
-        print('  section:', section_title)
+        # print('  section:', section_title)
         module_contents_dict['children'].append(section_dict)
 
         subsections_ul = section_li.find('ul', recursive=False)
         if subsections_ul:
-            print('found some subsections...')
+            pass
+            #print('found some subsections...')
         else:
-            print('no subsections <ul> found in this section')
+            pass
+            #print('no subsections <ul> found in this section')
 
         download_page(module_url, destination, 'index.html', lang)
     # /SIMPLE MODULE
@@ -719,7 +702,7 @@ def download_module(module_url, lang=None):
                 filename=section_filename,
                 children=[],
             )
-            print('  section:', section_title)
+            # print('  section:', section_title)
             module_contents_dict['children'].append(section_dict)
 
 
@@ -744,7 +727,7 @@ def download_module(module_url, lang=None):
                         href=subsection_href,
                         filename=subsection_filename,
                     )
-                    print('    subsection:', subsection_title)
+                    # print('    subsection:', subsection_title)
                     section_dict['children'].append(subsection_dict)
             else:
                 print('no subsections <ul> found in this section')
@@ -1386,6 +1369,9 @@ class TessaChef(SushiChef):
         self.crawl(args, options)
         self.scrape(args, options)
 
+    def run(self, args, options):
+        self.pre_run(args, options)
+        print('skipping rest of run because want to debug quickly...')
 
     def get_channel(self, **kwargs):
         if 'lang' not in kwargs:
