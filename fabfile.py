@@ -52,7 +52,7 @@ def setup_chef():
         sudo('chown -R {}:{}  {}'.format(CHEF_USER, CHEF_USER, CHEF_DATA_DIR))
         # setup python virtualenv
         with cd(CHEF_DATA_DIR):
-            sudo('virtualenv -p python3  venv', user=CHEF_USER)
+            sudo('virtualenv -p python3.5  venv', user=CHEF_USER)
         # install requirements
         activate_sh = os.path.join(CHEF_DATA_DIR, 'venv/bin/activate')
         reqs_filepath = os.path.join(CHEF_DATA_DIR, 'requirements.txt')

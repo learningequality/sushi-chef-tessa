@@ -13,8 +13,8 @@ from bs4 import BeautifulSoup
 import jinja2
 import requests
 
-from le_utils.constants import content_kinds, file_formats, licenses
-from ricecooker.chefs import SushiChef
+from le_utils.constants import content_kinds, file_types, licenses
+from ricecooker.chefs import JsonTreeChef
 from ricecooker.classes import nodes
 from ricecooker.classes import files
 from ricecooker.classes.files import HTMLZipFile
@@ -27,7 +27,6 @@ from ricecooker.utils.html import download_file
 from ricecooker.utils.zip import create_predictable_zip
 
 from tessa_cralwer import TessaCrawler
-
 
 
 
@@ -49,31 +48,14 @@ TESSA_LANG_URL_MAP = {
     'ar': 'http://www.open.edu/openlearnworks/course/view.php?id=2198',
     'sw': 'http://www.open.edu/openlearnworks/course/view.php?id=2199',
 }
-
-REJECT_TITLES = [
-    # Overview pages that link to other modules --- TODO: scrape manually and process to remove link colors
-    'Curriculum framework',
-    'Résumé et récapitulatif des matériels TESSA',
-    'طار المناهج',
-    'Mfumo wa mtaala',
-    # 'Download the complete Pan-Africa English library' # keeping bcs we can handle pdf
-]
-
-ADDITIONAL_RESOURCES_TITLES = [
-    'Additional resources',
-    'Autres ressources',
-    'موارد المواد',
-    'Nyenzo za zaidi',
-    # 'Download the complete Pan-Africa English library' # keeping bcs we can handle pdf
-]
-
-TESSA_STRINGS = {
-    'en': {
-        'module': 'Module',
-        'key resource': 'Key Resource',
-    }
+TESSA_LICENSE = get_license(licenses.CC_BY_NC_SA, copyright_holder='TESSA').as_dict()
+REJECT_SECTION_STINGS = {
+    'en': 'Section',
+    'fr': 'Section',
+    'ar': 'القسم',
+    'sw': 'Sehemu ya',
 }
-TESSA_LICENSE = get_license(licenses.CC_BY_NC_SA, copyright_holder='TESSA')
+
 
 
 # Set up webcaches
@@ -93,15 +75,113 @@ sess.mount('https://www.open.edu', forever_adapter)
 ################################################################################
 logging.getLogger("cachecontrol.controller").setLevel(logging.WARNING)
 logging.getLogger("requests.packages").setLevel(logging.WARNING)
-logger = logging.getLogger('tessa')
+LOGGER = logging.getLogger('tessa')
+LOGGER.setLevel(logging.DEBUG)
+
+
+
+# Helper Methods
+################################################################################
+
+def get_text(element):
+    """
+    Extract text contents of `element`, normalizing newlines to spaces and stripping.
+    """
+    if element is None:
+        return ''
+    else:
+        return element.get_text().replace('\r', '').replace('\n', ' ').strip()
+
+
+def url_to_id(url):
+    """
+    Used for nodes that correspond to a single page (topics, sections).
+    """
+    ids = parse_qs(urlparse(url).query).get('id', '')
+    if len(ids) == 1:
+        return ids[0]
+    else:
+        return None
+
 
 
 # CRAWLING
 ################################################################################
 
-get_text = lambda x: "" if x is None else x.get_text().replace('\r', '').replace('\n', ' ').strip()
+
+def restructure_web_resource_tree(raw_tree):
+    """
+    Performs the following conversion on raw web resource tree:
+       - change top level oucontent to TessaContentPage
+       - change all other oucontent to TessaModule
+       - change subpage to TessaSubpage
+    """
+    lang = raw_tree['lang']
+
+    def _recursive_restrucutre_walk(subtree, depth):
+        # set source_id
+        if subtree['kind'] in ['oucontent', 'subpage', 'resource']:
+            subtree['source_id'] = subtree['kind'] + ':' + url_to_id(subtree['url'])
+
+        # rename kind to scraper-recognized names
+        if subtree['kind'] == 'oucontent' and depth==1:
+            subtree['kind'] = 'TessaContentPage'
+        #
+        elif subtree['kind'] == 'oucontent':
+            subtree['kind'] = 'TessaModule'
+        #
+        elif subtree['kind'] == 'subpage':
+            subtree['kind'] = 'TessaSubpage'
+        #
+        elif subtree['kind'] == 'NoDownloadWebResource':
+            if 'content-type' in subtree and subtree['content-type'] == 'application/pdf':
+                subtree['kind'] == 'TessaPDFDocument'
+                subtree['source_id'] = subtree['url']
+
+        # set lang on all nodes based on top-level channel lang proprty
+        subtree['lang'] = lang
+
+        # recurse
+        if 'children' in subtree:
+            for child in subtree['children']:
+                _recursive_restrucutre_walk(child, depth+1)
+
+    _recursive_restrucutre_walk(raw_tree, 1)
 
 
+def remove_sections(web_resource_tree):
+    """
+    TESSA website lists individual module sections, but we want use only the whole
+    modeules, so this step removes all links that start with word "Section".
+    """
+    lang = web_resource_tree['lang']
+    section_str = REJECT_SECTION_STINGS[lang]
+
+    def _recusive_section_remover(subtree):
+
+        if 'children' in subtree:
+
+            # filter sections
+            new_children = []
+            for child in subtree['children']:
+                if 'title' in child:
+                    title = child['title']
+                    if title.startswith(section_str):
+                        pass
+                    elif lang=='sw' and title.startswith('Section'):
+                        pass  # special case since certain SW modules are in English
+                    else:
+                        new_children.append(child)
+                else:
+                    LOGGER.warning('FOUND a title less child', child['url'])
+                    new_children.append(child)
+            subtree['children'] = new_children
+
+            # recurse
+            for child in subtree['children']:
+                _recusive_section_remover(child)
+
+    _recusive_section_remover(web_resource_tree)
 
 
 
@@ -116,9 +196,9 @@ def get_section_filename(sec_url):
 def make_request(url, *args, **kwargs):
     response = sess.get(url, *args, **kwargs)
     if response.status_code != 200:
-        LOGGER.debug("NOT FOUND:", url)
+        LOGGER.debug("NOT FOUND:" + url)
     elif not response.from_cache:
-        LOGGER.debug("NOT CACHED:", url)
+        LOGGER.debug("NOT CACHED:" + url)
     return response
 
 
@@ -142,7 +222,7 @@ def make_fully_qualified_url(url):
 
 
 def download_module(module_url, lang=None):
-    LOGGER.debug('Scrapring module @ url =', module_url)
+    LOGGER.debug('Scrapring module @ url =' + module_url)
     doc = get_parsed_html_from_url(module_url)
     source_id = parse_qs(urlparse(module_url).query)['id'][0]
     raw_title = doc.select_one("head title").text
@@ -282,6 +362,9 @@ def download_module(module_url, lang=None):
                     #print('>>>>>')
                     #print(subsection_li.prettify())
                     subsection_link = subsection_li.find('a')
+                    if not subsection_link:  # handle wrird
+                        LOGGER.warning('(((((  Skipping section ' + subsection_li.get_text() + ' because no subsection_link')
+                        continue
                     subsection_href = subsection_link['href']
                     subsection_filename = get_section_filename(subsection_href)
                     # subaccesshide_span = subsection_li.find('span', class_='accesshide')
@@ -513,7 +596,7 @@ def js_middleware(content, url, **kwargs):
 
 
 def download_section(page_url, destination, filename, lang):
-    LOGGER.debug('Scrapring section/subsectino...', filename)
+    LOGGER.debug('Scrapring section/subsectino...' + filename)
     doc = get_parsed_html_from_url(page_url)
     source_id = parse_qs(urlparse(page_url).query)['id'][0] + '/' + filename   # or should I use &section=1.6 ?
 
@@ -566,7 +649,7 @@ def download_section(page_url, destination, filename, lang):
 
 
 def download_page(page_url, destination, filename, lang):
-    LOGGER.debug('Scrapring page...', page_url)
+    LOGGER.debug('Scrapring page...' + page_url)
     doc = get_parsed_html_from_url(page_url)
     source_id = parse_qs(urlparse(page_url).query)['id'][0] + '/' + filename   # or should I use &section=1.6 ?
 
@@ -640,7 +723,7 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
 
         elif kind == 'TessaCategory':
             child_node = dict(
-                kind='TopicNode',
+                kind=content_kinds.TOPIC,
                 source_id=source_node['source_id'],
                 title=source_node['title'],
                 author='TESSA',
@@ -649,13 +732,13 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
                 children=[],
             )
             parent_node['children'].append(child_node)
-            logger.debug('Created new TopicNode for TessaSubpage titled ' + child_node['title'])
+            LOGGER.debug('Created new TopicNode for TessaSubpage titled ' + child_node['title'])
             source_tree_children = source_node.get("children", [])
             _build_json_tree(child_node, source_tree_children, lang=lang)
 
         elif kind == 'TessaSubpage':
             child_node = dict(
-                kind='TopicNode',
+                kind=content_kinds.TOPIC,
                 source_id=source_node['source_id'],
                 title=source_node['title'],
                 author='TESSA',
@@ -664,14 +747,14 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
                 children=[],
             )
             parent_node['children'].append(child_node)
-            logger.debug('Created new TopicNode for TessaSubpage titled ' + child_node['title'])
+            LOGGER.debug('Created new TopicNode for TessaSubpage titled ' + child_node['title'])
             source_tree_children = source_node.get("children", [])
             _build_json_tree(child_node, source_tree_children, lang=lang)
 
         elif kind == 'TessaSubject':
             description = source_node.get('description', None)
             child_node = dict(
-                kind='TopicNode',
+                kind=content_kinds.TOPIC,
                 source_id=source_node['source_id'],
                 title=source_node['title'],
                 author='TESSA',
@@ -680,51 +763,72 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
                 children=[],
             )
             parent_node['children'].append(child_node)
-            logger.debug('Created new TopicNode for TessaSubject titled ' + child_node['title'])
+            LOGGER.debug('Created new TopicNode for TessaSubject titled ' + child_node['title'])
             source_tree_children = source_node.get("children", [])
             _build_json_tree(child_node, source_tree_children, lang=lang)
 
         elif kind == 'TessaModule':
             child_node = dict(
-                kind='HTML5AppNode',
+                kind=content_kinds.HTML5,
                 source_id=source_node['source_id'],
-                # language=source_node['lang'],  # node-level language is not supported yet...
+                language=source_node['lang'],
                 title=source_node['title'],
                 description='', # 'fake descri', # TODO source_node['description']
+                license=TESSA_LICENSE,
                 files=[],
             )
             zip_path = download_module(source_node['url'], lang=source_node['lang'])
             module_html_file = dict(
-                file_type='HTMLZipFile',
+                file_type=file_types.HTML5,
                 path=zip_path,
                 language=source_node['lang'],
             )
             child_node['files'] = [module_html_file]
             parent_node['children'].append(child_node)
-            logger.debug('Created HTML5AppNode for TessaModule titled ' + child_node['title'])
+            LOGGER.debug('Created HTML5AppNode for TessaModule titled ' + child_node['title'])
 
         elif kind == 'TessaContentPage':
             page_info = scrape_content_page(source_node['url'], lang)
             child_node = dict(
-                kind='HTML5AppNode',
+                kind=content_kinds.HTML5,
                 source_id=source_node['source_id'],
-                # language=source_node['lang'],  # node-level language is not supported yet...
+                language=source_node['lang'],
                 title=source_node['title'],
                 description=source_node.get('description', ''),
+                license=TESSA_LICENSE,
                 files=[],
             )
             module_html_file = dict(
-                file_type='HTMLZipFile',
+                file_type=file_types.HTML5,
                 path=page_info['zip_path'],
                 language=source_node['lang'],
             )
             child_node['files'] = [module_html_file]
             parent_node['children'].append(child_node)
-            logger.debug('Created HTML5AppNode for TessaContentPage titled ' + child_node['title'])
+            LOGGER.debug('Created HTML5AppNode for TessaContentPage titled ' + child_node['title'])
+
+        elif kind == 'TessaPDFDocument':
+            child_node = dict(
+                kind=content_kinds.DOCUMENT,
+                source_id=source_node['source_id'],  # ???
+                language=source_node['lang'],
+                title=source_node['url'], # source_node['title'],
+                description='', # 'fake descri', # TODO source_node['description']
+                license=TESSA_LICENSE,
+                files=[],
+            )
+            pdf_file = dict(
+                file_type=file_types.DOCUMENT,
+                path=source_node['url'],
+                language=source_node['lang'],
+            )
+            child_node['files'] = [pdf_file]
+            parent_node['children'].append(child_node)
+            LOGGER.debug('Created PDF Document Node from url ' + source_node['url'])
 
         else:
-            # logger.critical("Encountered an unknown content node format.")
-            print('Skipping content kind', source_node['kind'], 'titled', source_node['title'])
+            # LOGGER.critical("Encountered an unknown content node format.")
+            print('***** Skipping content kind', source_node['kind'], 'titled', source_node['title'])
             continue
 
     return parent_node
@@ -744,24 +848,26 @@ def scraping_part(args, options):
     # Ricecooker tree
     ricecooker_json_tree = dict(
         # kind='USEDTOBEChannelNode',
-        # source_domain=web_resource_tree['source_domain'],
-        # source_id=web_resource_tree['source_id'] + source_id_suffix,
-        # title=web_resource_tree['title'] + source_id_suffix,
-        # thumbnail=web_resource_tree['thumbnail'],
+        source_domain=web_resource_tree['source_domain'],
+        source_id=web_resource_tree['source_id'],
+        title=web_resource_tree['title'],
+        description=web_resource_tree['description'],
+        thumbnail=web_resource_tree['thumbnail'],
         language=web_resource_tree['lang'],
         children=[],
+        #
+        # other non-essential attributes for
+        url=web_resource_tree['url'],
     )
-    print('ricecooker_json_tree=', web_resource_tree)
-    print('ricecooker_json_tree=', ricecooker_json_tree)
-    # _build_json_tree(ricecooker_json_tree, web_resource_tree['children'], lang=options['lang'])
+    _build_json_tree(ricecooker_json_tree, web_resource_tree['children'], lang=options['lang'])
     print('finished building ricecooker_json_tree')
 
     # Write out ricecooker_json_tree_{{lang}}.json
     json_file_name = os.path.join(TREES_DATA_DIR, SCRAPING_STAGE_OUTPUT_TPL.format(lang))
     with open(json_file_name, 'w') as json_file:
         json.dump(ricecooker_json_tree, json_file, indent=2)
-        logger.info('Intermediate result stored in ' + json_file_name)
-    logger.info('Scraping part finished.\n')
+        LOGGER.info('Intermediate result stored in ' + json_file_name)
+    LOGGER.info('Scraping part finished.\n')
 
 
 
@@ -773,7 +879,7 @@ def scraping_part(args, options):
 # CHEF
 ################################################################################
 
-class TessaChef(SushiChef):
+class TessaChef(JsonTreeChef):
     """
     This class takes care of downloading content from tessafrica.net and uplaoding
     it to the Kolibri content curation server.
@@ -805,8 +911,8 @@ class TessaChef(SushiChef):
             print('\n\n\n')
             print('crawling lang=', lang)
             crawler = TessaCrawler(lang=lang)
-            web_resource_tree = crawler.crawl(debug=True, limit=50, save_web_resource_tree=False)  # TODO(check) limit...
-
+            web_resource_tree = crawler.crawl(debug=True, limit=10000,
+                                              save_web_resource_tree=False)
             channel_metadata = dict(
                 source_domain = 'tessafrica.net',
                 source_id = 'TESSA_%s-testing' % lang,         # TODO: remove -testing
@@ -816,6 +922,10 @@ class TessaChef(SushiChef):
                 language = lang,
             )
             web_resource_tree.update(channel_metadata)
+
+            # convert tree format expected by scraping functions
+            restructure_web_resource_tree(web_resource_tree)
+            remove_sections(web_resource_tree)
             crawler.write_web_resource_tree_json(web_resource_tree)
 
             # optional debug print...
@@ -844,9 +954,9 @@ class TessaChef(SushiChef):
         self.crawl(args, options)
         self.scrape(args, options)
 
-    def run(self, args, options):
-        self.pre_run(args, options)
-        print('skipping rest of run because want to debug quickly...')
+    # def run(self, args, options):
+    #     self.pre_run(args, options)
+    #     print('skipping rest of run because want to debug quickly...')
 
 
     def get_json_tree_path(self, **kwargs):
@@ -873,4 +983,3 @@ if __name__ == '__main__':
     if 'lang' not in options:
         raise ValueError('Need to specify command line option `lang=XY`, where XY in en, fr, ar, sw.')
     tessa_chef.main()
-

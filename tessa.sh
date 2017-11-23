@@ -2,17 +2,16 @@
 
 echo ""
 echo "1. RUNNING TESSA Swahili >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-./tessa_cralwer.py  --lang=sw
+./tessa_chef.py  -v --reset --token=$STUDIO_TOKEN  lang=sw
 
 echo ""
 echo "2. RUNNING TESSA Arabic >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-./tessa_cralwer.py  --lang=ar
+./tessa_chef.py  -v --reset --token=$STUDIO_TOKEN  lang=ar
 
 echo ""
 echo "3. RUNNING TESSA Francais >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-./tessa_cralwer.py  --lang=fr
+./tessa_chef.py  -v --reset --token=$STUDIO_TOKEN  lang=fr
 
 echo ""
 echo "4. RUNNING TESSA English >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-./tessa_cralwer.py  --lang=en
-
+./tessa_chef.py  -v --reset --token=$STUDIO_TOKEN  lang=en

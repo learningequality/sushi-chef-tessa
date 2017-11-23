@@ -5,7 +5,8 @@ import re
 from urllib.parse import urljoin, urldefrag
 
 
-from basiccrawler.crawler import BasicCrawler
+from basiccrawler.crawler import BasicCrawler, LOGGER, logging
+LOGGER.setLevel(logging.INFO)
 
 
 TESSA_HOME_URL = 'http://www.tessafrica.net/home'   # content is not here though...
@@ -19,6 +20,24 @@ SUBPAGE_RE = re.compile('.*mod/subpage/.*')
 CONTENT_RE = re.compile('.*mod/oucontent/.*')
 RESOURCE_RE = re.compile('.*mod/resource/.*')
 
+
+
+# Helper Methods
+################################################################################
+
+def get_text(element):
+    """
+    Extract text contents of `element`, normalizing newlines to spaces and stripping.
+    """
+    if element is None:
+        return ''
+    else:
+        return element.get_text().replace('\r', '').replace('\n', ' ').strip()
+
+
+
+# CRAWLER
+################################################################################
 
 class TessaCrawler(BasicCrawler):
     """
@@ -99,7 +118,7 @@ class TessaCrawler(BasicCrawler):
         Basic handler that adds current page to parent's children array and adds
         all links on current page to the crawling queue.
         """
-        print('Procesing tessa_language_page', url)
+        LOGGER.info('Procesing tessa_language_page ' + url)
         page_dict = dict(
             kind='TessaLangWebRessourceTree',
             url=url,
@@ -116,8 +135,12 @@ class TessaCrawler(BasicCrawler):
         for i, link in enumerate(links):
             if link.has_attr('href'):
                 link_url = self.normalize_href_relto_curpage(link['href'], url)
+                link_title = get_text(link)
                 if self.should_visit_url(link_url):
-                    context = {'parent':page_dict}
+                    context = dict(
+                        parent=page_dict,
+                        title=link_title,
+                    )
                     if SUBPAGE_RE.match(link_url):
                         context.update({'kind':'subpage'})
                         self.enqueue_url_and_context(link_url, context)
@@ -125,18 +148,17 @@ class TessaCrawler(BasicCrawler):
                         context.update({'kind':'oucontent'})
                         self.enqueue_url_and_context(link_url, context)
                     else:
-                        print('Skipping link', link_url, 'on page', url)
+                        LOGGER.debug('Skipping link ' + link_url + ' on page ' + url)
             else:
                 pass
                 # print(i, 'nohref', link)
 
 
     def on_subpage(self, url, page, context):
-        print('Procesing subpage', url)
+        LOGGER.info('Procesing subpage ' + url + ' title:' + context['title'])
         subpage_dict = dict(
             kind='TessaSubpage',
             url=url,
-            title=self.get_title(page),
             children=[],
         )
         subpage_dict.update(context)
@@ -149,8 +171,12 @@ class TessaCrawler(BasicCrawler):
         for i, link in enumerate(links):
             if link.has_attr('href'):
                 link_url = self.normalize_href_relto_curpage(link['href'], url)
+                link_title = get_text(link)
                 if self.should_visit_url(link_url):
-                    context = {'parent':subpage_dict}
+                    context = dict(
+                        parent=subpage_dict,
+                        title=link_title,
+                    )
                     if SUBPAGE_RE.match(link_url):
                         context.update({'kind':'subpage'})
                         self.enqueue_url_and_context(link_url, context)
@@ -161,18 +187,17 @@ class TessaCrawler(BasicCrawler):
                         context.update({'kind':'resource'})
                         self.enqueue_url_and_context(link_url, context)
                     else:
-                        print('>>> Skipping link', link_url)
+                        LOGGER.debug('>>> Skipping link ' + link_url)
             else:
                 pass
-                print(i, 'nohref', link)
+                LOGGER.warning('a link with no href ' + str(link))
 
 
     def on_oucontent(self, url, page, context):
-        print('Procesing oucontent', url, self.get_title(page))
+        LOGGER.info('Procesing oucontent ' + url + ' title:' + context['title'])
         oucontent_dict = dict(
             kind='TessaContent',
             url=url,
-            title=self.get_title(page),
             children=[],
         )
         oucontent_dict.update(context)
@@ -182,11 +207,10 @@ class TessaCrawler(BasicCrawler):
 
 
     def on_resource(self, url, page, context):
-        print('Procesing resource', url, self.get_title(page))
+        LOGGER.info('Procesing resource ' + url + ' title:' + context['title'])
         resource_dict = dict(
             kind='TessaResource',
             url=url,
-            title=self.get_title(page),
             children=[],
         )
         resource_dict.update(context)
