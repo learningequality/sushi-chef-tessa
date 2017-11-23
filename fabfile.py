@@ -11,6 +11,9 @@ env.hosts = [
 env.user = os.environ.get('USER')
 env.password = os.environ.get('VADER_PASSWORD')
 
+STUDIO_TOKEN = os.environ.get('STUDIO_TOKEN')
+
+
 
 CHEF_USER = 'chef'
 CHEF_REPO_URL = 'https://github.com/learningequality/sushi-chef-tessa.git'
@@ -18,6 +21,8 @@ GIT_BRANCH = 'master'
 CHEFS_DATA_DIR = '/data'
 CHEF_PROJECT_SLUG = 'sushi-chef-tessa'
 CHEF_DATA_DIR = os.path.join(CHEFS_DATA_DIR, CHEF_PROJECT_SLUG)
+
+
 
 
 @task
@@ -32,14 +37,11 @@ def chef_info():
 # RUN CHEF
 ################################################################################
 @task
-def chef_info():
+def chef_run(lang):
     with cd(CHEF_DATA_DIR):
-        sudo("ls", user=CHEF_USER)
-        sudo("whoami", user=CHEF_USER)
-        run("ls")
-        run("whoami")
-
-
+        with prefix('source ' + os.path.join(CHEF_DATA_DIR, 'venv/bin/activate')):
+            cmd = './tessa_chef.py  -v --reset --token={}  lang={}'.format(STUDIO_TOKEN, lang)
+            sudo(cmd, user=CHEF_USER)
 
 # SETUP
 ################################################################################
@@ -48,8 +50,15 @@ def setup_chef():
     with cd(CHEFS_DATA_DIR):
         sudo('git clone  --quiet  ' + CHEF_REPO_URL)
         sudo('chown -R {}:{}  {}'.format(CHEF_USER, CHEF_USER, CHEF_DATA_DIR))
-        # with prefix("source activate"):
-        #     sudo("pip install -r requirements.txt")
+        # setup python virtualenv
+        with cd(CHEF_DATA_DIR):
+            sudo('virtualenv -p python3  venv', user=CHEF_USER)
+        # install requirements
+        activate_sh = os.path.join(CHEF_DATA_DIR, 'venv/bin/activate')
+        reqs_filepath = os.path.join(CHEF_DATA_DIR, 'requirements.txt')
+        # Nov 23: workaround____ necessary to avoid HOME env var being set wrong
+        with prefix('export HOME=/data && source ' + activate_sh):
+            sudo('pip install --no-input --quiet -r ' + reqs_filepath, user=CHEF_USER)
         puts(green('Cloned chef code from ' + CHEF_REPO_URL + ' in ' + CHEF_DATA_DIR))
 
 @task
