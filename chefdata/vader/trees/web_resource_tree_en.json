@@ -1,0 +1,1996 @@
+{
+  "language": "en",
+  "source_domain": "tessafrica.net",
+  "thumbnail": "http://www.tessafrica.net/sites/all/themes/tessafricav2/images/logotype_02.png",
+  "lang": "en",
+  "title": "TESSA (en)-testing",
+  "url": "http://www.open.edu/openlearncreate/course/view.php?id=2042",
+  "kind": "TessaLangWebRessourceTree",
+  "description": "Teacher Education in Sub-Saharan Africa, TESSA, is a collaborative network to help you improve your practice as a teacher or teacher educator. We provide free, quality resources that support your national curriculum and can help you plan lessons that engage, involve and inspire.",
+  "source_id": "TESSA_en-testing",
+  "children": [
+    {
+      "lang": "en",
+      "title": "Primary Curriculum framework Website content",
+      "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81683",
+      "kind": "TessaModule",
+      "source_id": "oucontent:81683",
+      "children": []
+    },
+    {
+      "lang": "en",
+      "title": "Secondary Science Curriculum framework Website content",
+      "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81698",
+      "kind": "TessaModule",
+      "source_id": "oucontent:81698",
+      "children": []
+    },
+    {
+      "lang": "en",
+      "title": "Life Skills (primary) Subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66754",
+      "kind": "TessaSubpage",
+      "source_id": "subpage:66754",
+      "children": [
+        {
+          "lang": "en",
+          "title": "Module 1: Personal development \u2013 how self-esteem impacts on learning Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81108",
+          "kind": "TessaModule",
+          "source_id": "oucontent:81108",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 2: Exploring social development Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80895",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80895",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 3: Community issues and citizenship Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80429",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80429",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "title": "Literacy (primary) Subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66755",
+      "kind": "TessaSubpage",
+      "source_id": "subpage:66755",
+      "children": [
+        {
+          "lang": "en",
+          "title": "Module 1: Reading and writing for a range of purposes Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80974",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80974",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 2: Using community voices in your classroom Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80688",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80688",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 3: Promoting Communication in an Additional Language Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80632",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80632",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "title": "Numeracy (primary) Subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66756",
+      "kind": "TessaSubpage",
+      "source_id": "subpage:66756",
+      "children": [
+        {
+          "lang": "en",
+          "title": "Module 1: Investigating Number and Pattern Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81239",
+          "kind": "TessaModule",
+          "source_id": "oucontent:81239",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 2: Exploring Shape and Space Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80814",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80814",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 3: Investigating measurement and data handling Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80823",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80823",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "title": "Social Studies and the Arts (primary) Subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66764",
+      "kind": "TessaSubpage",
+      "source_id": "subpage:66764",
+      "children": [
+        {
+          "lang": "en",
+          "title": "Module 1: Developing an Understanding of Place Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80637",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80637",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 2: Investigating History Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80903",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80903",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 3: Looking at the Arts Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80636",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80636",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "title": "Science (primary) Subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66757",
+      "kind": "TessaSubpage",
+      "source_id": "subpage:66757",
+      "children": [
+        {
+          "lang": "en",
+          "title": "Module 1: Science - Looking at Life Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80656",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80656",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 2: Science - Investigating Materials Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80667",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80667",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 3: Science - Energy and Movement Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80682",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80682",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "title": "Science (secondary) Subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=76672",
+      "kind": "TessaSubpage",
+      "source_id": "subpage:76672",
+      "children": [
+        {
+          "lang": "en",
+          "title": "Module 1: Secondary Science - Biology Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80623",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80623",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 2: Secondary Science - Chemistry Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80624",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80624",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Module 3: Secondary Science - Physics Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80905",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80905",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "title": "Key resources for teachers and teacher educators Subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66698",
+      "kind": "TessaSubpage",
+      "source_id": "subpage:66698",
+      "children": [
+        {
+          "lang": "en",
+          "title": "Key Resources (All) Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80312",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80312",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Introducing the TESSA Key Resources Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80315",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80315",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Assessing learning Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80316",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80316",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Using mind maps and brainstorming to explore ideas Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80317",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80317",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Being a resourceful teacher in challenging circumstances Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80318",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80318",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Using explaining and demonstrating to assist learning Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80319",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80319",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Using group work in your classroom Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80320",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80320",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Using investigations in the classroom Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80321",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80321",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Tools for planning and carrying out investigations in Science Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80322",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80322",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Working with large classes Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80323",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80323",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Using the local community/environment as a resource Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80324",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80324",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Planning and preparing your lessons Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80325",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80325",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Using questioning to promote thinking Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80326",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80326",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Researching in the classroom Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80327",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80327",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Using role play/dialogue/drama in the classroom Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80328",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80328",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Using storytelling in the classroom Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80329",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80329",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Using new technologies Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82493",
+          "kind": "TessaModule",
+          "source_id": "oucontent:82493",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Key Resource: Working with multigrade classes Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83251",
+          "kind": "TessaModule",
+          "source_id": "oucontent:83251",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "title": "Handbooks and toolkits for teachers and teacher educators  Subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66699",
+      "kind": "TessaSubpage",
+      "source_id": "subpage:66699",
+      "children": [
+        {
+          "lang": "en",
+          "title": "Working with Teachers: A Handbook for Teacher Educators Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80793",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80793",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Working with Pupils: A Guide for Teachers Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80727",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80727",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "TESSA Teaching Lower Secondary Science A Handbook for Teacher Educators Website content",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80794",
+          "kind": "TessaModule",
+          "source_id": "oucontent:80794",
+          "children": []
+        },
+        {
+          "lang": "en",
+          "title": "Teaching practice supervisors' toolkit Subpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80058",
+          "kind": "TessaSubpage",
+          "source_id": "subpage:80058",
+          "children": [
+            {
+              "lang": "en",
+              "title": "Teaching Practice Supervisors\u2019 Toolkit A Handbook for Teaching Practice Supervisors Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80710",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80710",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Teaching Practice Supervisors' Toolkit Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80711",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80711",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Welcome to the Teaching Practice Supervisors' Toolkit Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80712",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80712",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "1. The Teaching Practice Supervisor Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80713",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80713",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "2. About TESSA Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80714",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80714",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "3. Recognising a good lesson Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80715",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80715",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "4. Planning and using TESSA materials with student teachers Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80716",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80716",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "5. Helping student teachers to carry out action planning Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80717",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80717",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "6. Getting the most out of the school visit Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80718",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80718",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "7. Giving constructive feedback Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80719",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80719",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "8. Guidance on assessment of student teachers Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80720",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80720",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "9. Advice and hints for running seminars and workshops Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80721",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80721",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "10. Counselling student teachers with teaching-related difficulties Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80722",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80722",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "11. Self-audit and targets: active teaching and learning methods Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80723",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80723",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Other useful resources Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80724",
+              "kind": "TessaModule",
+              "source_id": "oucontent:80724",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Table of Toolkit activities Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83585",
+              "kind": "TessaModule",
+              "source_id": "oucontent:83585",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Table of Toolkit case studies Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83586",
+              "kind": "TessaModule",
+              "source_id": "oucontent:83586",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Acknowledgements Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83587",
+              "kind": "TessaModule",
+              "source_id": "oucontent:83587",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Back",
+              "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66699",
+              "kind": "TessaSubpage",
+              "source_id": "subpage:66699",
+              "original_url": "http://www.open.edu/openlearnworks/mod/subpage/view.php?id=66699",
+              "children": []
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "title": "Inclusive education toolkit Subpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80110",
+          "kind": "TessaSubpage",
+          "source_id": "subpage:80110",
+          "children": [
+            {
+              "lang": "en",
+              "title": "TESSA Inclusive Education Toolkit A guide to the education and training of teachers in inclusive education Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81337",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81337",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "TESSA Inclusive Education Toolkit Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81618",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81618",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "1. Different types of schools Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81619",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81619",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "2. The inclusive teacher's attitude and behaviour Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81620",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81620",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "3. A classroom for all in a school for all Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81621",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81621",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "4. Using language accessible to all Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81622",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81622",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "5. Planning and preparing lessons to include all pupils Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81623",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81623",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "6. Assessment and feedback for learning Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81624",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81624",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "7. An appropriate support for all Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81625",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81625",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "8. Managing and including the opinion of the community Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81626",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81626",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "9. Auditing an inclusive teacher's behaviour Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81627",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81627",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Bibliography Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81628",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81628",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Additional Readings Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81629",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81629",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Case studies in the Toolkit Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81630",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81630",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Activities in the Toolkit Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81631",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81631",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Attribution of illustrations Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81632",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81632",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Acknowledgements Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83868",
+              "kind": "TessaModule",
+              "source_id": "oucontent:83868",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "title": "Audio resources Subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66697",
+      "kind": "TessaSubpage",
+      "source_id": "subpage:66697",
+      "children": [
+        {
+          "lang": "en",
+          "title": "Active learning  Subpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67219",
+          "kind": "TessaSubpage",
+          "source_id": "subpage:67219",
+          "children": [
+            {
+              "content-length": "2058760",
+              "content-disposition": "attachment; filename=\"04_cast_the_spell (1).mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157598/mod_resource/content/1/04_cast_the_spell%20%281%29.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157598/mod_resource/content/1/04_cast_the_spell%20%281%29.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75146",
+              "children": []
+            },
+            {
+              "content-length": "73047",
+              "content-disposition": "attachment; filename=\"castthespell_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157599/mod_resource/content/1/castthespell_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157599/mod_resource/content/1/castthespell_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75147",
+              "children": []
+            },
+            {
+              "content-length": "56330",
+              "content-disposition": "attachment; filename=\"castthespell_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157600/mod_resource/content/1/castthespell_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157600/mod_resource/content/1/castthespell_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75148",
+              "children": []
+            },
+            {
+              "content-length": "1563079",
+              "content-disposition": "attachment; filename=\"18_seven_rivers_in_africa.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157602/mod_resource/content/1/18_seven_rivers_in_africa.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157602/mod_resource/content/1/18_seven_rivers_in_africa.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75150",
+              "children": []
+            },
+            {
+              "content-length": "76863",
+              "content-disposition": "attachment; filename=\"sevenrivers_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157603/mod_resource/content/1/sevenrivers_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157603/mod_resource/content/1/sevenrivers_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75151",
+              "children": []
+            },
+            {
+              "content-length": "55124",
+              "content-disposition": "attachment; filename=\"sevenrivers_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157604/mod_resource/content/1/sevenrivers_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157604/mod_resource/content/1/sevenrivers_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75152",
+              "children": []
+            },
+            {
+              "content-length": "2153438",
+              "content-disposition": "attachment; filename=\"24_the_maths_game.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157606/mod_resource/content/1/24_the_maths_game.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157606/mod_resource/content/1/24_the_maths_game.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75154",
+              "children": []
+            },
+            {
+              "content-length": "83753",
+              "content-disposition": "attachment; filename=\"mathsgame_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157607/mod_resource/content/1/mathsgame_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157607/mod_resource/content/1/mathsgame_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75155",
+              "children": []
+            },
+            {
+              "content-length": "54647",
+              "content-disposition": "attachment; filename=\"mathsgame_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157608/mod_resource/content/1/mathsgame_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157608/mod_resource/content/1/mathsgame_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75156",
+              "children": []
+            },
+            {
+              "content-length": "1589188",
+              "content-disposition": "attachment; filename=\"14_the_open_day_drama.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157610/mod_resource/content/1/14_the_open_day_drama.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157610/mod_resource/content/1/14_the_open_day_drama.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75158",
+              "children": []
+            },
+            {
+              "content-length": "77368",
+              "content-disposition": "attachment; filename=\"openday_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157611/mod_resource/content/1/openday_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157611/mod_resource/content/1/openday_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75159",
+              "children": []
+            },
+            {
+              "content-length": "55516",
+              "content-disposition": "attachment; filename=\"openday_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157612/mod_resource/content/2/openday_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157612/mod_resource/content/2/openday_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75160",
+              "children": []
+            },
+            {
+              "content-length": "2019277",
+              "content-disposition": "attachment; filename=\"27_the_town_meeting.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157614/mod_resource/content/1/27_the_town_meeting.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157614/mod_resource/content/1/27_the_town_meeting.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75162",
+              "children": []
+            },
+            {
+              "content-length": "79131",
+              "content-disposition": "attachment; filename=\"townmeeting_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157615/mod_resource/content/1/townmeeting_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157615/mod_resource/content/1/townmeeting_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75163",
+              "children": []
+            },
+            {
+              "content-length": "55424",
+              "content-disposition": "attachment; filename=\"townmeeting_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157616/mod_resource/content/1/townmeeting_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157616/mod_resource/content/1/townmeeting_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75164",
+              "children": []
+            },
+            {
+              "content-length": "2004642",
+              "content-disposition": "attachment; filename=\"10_let_me_do_the_cooking.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157618/mod_resource/content/1/10_let_me_do_the_cooking.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157618/mod_resource/content/1/10_let_me_do_the_cooking.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75166",
+              "children": []
+            },
+            {
+              "content-length": "90583",
+              "content-disposition": "attachment; filename=\"letmedocooking_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157619/mod_resource/content/1/letmedocooking_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157619/mod_resource/content/1/letmedocooking_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75167",
+              "children": []
+            },
+            {
+              "content-length": "63737",
+              "content-disposition": "attachment; filename=\"cooking_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157620/mod_resource/content/1/cooking_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157620/mod_resource/content/1/cooking_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75168",
+              "children": []
+            },
+            {
+              "lang": "en",
+              "title": "Back",
+              "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66697",
+              "kind": "TessaSubpage",
+              "source_id": "subpage:66697",
+              "original_url": "http://www.open.edu/openlearnworks/mod/subpage/view.php?id=66697",
+              "children": []
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "title": "Being a professional Subpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67220",
+          "kind": "TessaSubpage",
+          "source_id": "subpage:67220",
+          "children": [
+            {
+              "content-length": "1821167",
+              "content-disposition": "attachment; filename=\"25_the_show_must_go_on.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157624/mod_resource/content/1/25_the_show_must_go_on.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157624/mod_resource/content/1/25_the_show_must_go_on.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75171",
+              "children": []
+            },
+            {
+              "content-length": "74928",
+              "content-disposition": "attachment; filename=\"showgoon_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157625/mod_resource/content/1/showgoon_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157625/mod_resource/content/1/showgoon_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75172",
+              "children": []
+            },
+            {
+              "content-length": "56370",
+              "content-disposition": "attachment; filename=\"showmustgo_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157626/mod_resource/content/1/showmustgo_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157626/mod_resource/content/1/showmustgo_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75173",
+              "children": []
+            },
+            {
+              "content-length": "1302472",
+              "content-disposition": "attachment; filename=\"28_viva_unweze.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157628/mod_resource/content/1/28_viva_unweze.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157628/mod_resource/content/1/28_viva_unweze.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75175",
+              "children": []
+            },
+            {
+              "content-length": "70882",
+              "content-disposition": "attachment; filename=\"viva_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157629/mod_resource/content/1/viva_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157629/mod_resource/content/1/viva_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75176",
+              "children": []
+            },
+            {
+              "content-length": "63610",
+              "content-disposition": "attachment; filename=\"viva_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157630/mod_resource/content/1/viva_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157630/mod_resource/content/1/viva_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75177",
+              "children": []
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "title": "Dealing with sensitive issues Subpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67221",
+          "kind": "TessaSubpage",
+          "source_id": "subpage:67221",
+          "children": [
+            {
+              "content-length": "2133161",
+              "content-disposition": "attachment; filename=\"01_adjuas_predicament.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157633/mod_resource/content/1/01_adjuas_predicament.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157633/mod_resource/content/1/01_adjuas_predicament.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75180",
+              "children": []
+            },
+            {
+              "content-length": "79507",
+              "content-disposition": "attachment; filename=\"adjua_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157634/mod_resource/content/1/adjua_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157634/mod_resource/content/1/adjua_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75181",
+              "children": []
+            },
+            {
+              "content-length": "57277",
+              "content-disposition": "attachment; filename=\"adjua_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157635/mod_resource/content/1/adjua_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157635/mod_resource/content/1/adjua_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75182",
+              "children": []
+            },
+            {
+              "content-length": "2051244",
+              "content-disposition": "attachment; filename=\"13_the_notorious_fighter.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157637/mod_resource/content/1/13_the_notorious_fighter.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157637/mod_resource/content/1/13_the_notorious_fighter.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75184",
+              "children": []
+            },
+            {
+              "content-length": "78296",
+              "content-disposition": "attachment; filename=\"notorious_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157638/mod_resource/content/1/notorious_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157638/mod_resource/content/1/notorious_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75185",
+              "children": []
+            },
+            {
+              "content-length": "55575",
+              "content-disposition": "attachment; filename=\"notorious_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157639/mod_resource/content/2/notorious_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157639/mod_resource/content/2/notorious_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75186",
+              "children": []
+            },
+            {
+              "content-length": "1530465",
+              "content-disposition": "attachment; filename=\"22_the_chase.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157641/mod_resource/content/1/22_the_chase.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157641/mod_resource/content/1/22_the_chase.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75188",
+              "children": []
+            },
+            {
+              "content-length": "79164",
+              "content-disposition": "attachment; filename=\"chase_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157642/mod_resource/content/1/chase_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157642/mod_resource/content/1/chase_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75189",
+              "children": []
+            },
+            {
+              "content-length": "64996",
+              "content-disposition": "attachment; filename=\"chase_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157643/mod_resource/content/1/chase_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157643/mod_resource/content/1/chase_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75190",
+              "children": []
+            },
+            {
+              "content-length": "1383362",
+              "content-disposition": "attachment; filename=\"30_where_do_babies_come_from.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157645/mod_resource/content/1/30_where_do_babies_come_from.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157645/mod_resource/content/1/30_where_do_babies_come_from.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75192",
+              "children": []
+            },
+            {
+              "content-length": "74982",
+              "content-disposition": "attachment; filename=\"babies_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157646/mod_resource/content/1/babies_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157646/mod_resource/content/1/babies_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75193",
+              "children": []
+            },
+            {
+              "content-length": "65168",
+              "content-disposition": "attachment; filename=\"babies_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157647/mod_resource/content/1/babies_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157647/mod_resource/content/1/babies_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75194",
+              "children": []
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "title": "Equal opportunities Subpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67222",
+          "kind": "TessaSubpage",
+          "source_id": "subpage:67222",
+          "children": [
+            {
+              "content-length": "2257301",
+              "content-disposition": "attachment; filename=\"16_public_holiday.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157650/mod_resource/content/1/16_public_holiday.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157650/mod_resource/content/1/16_public_holiday.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75197",
+              "children": []
+            },
+            {
+              "content-length": "81275",
+              "content-disposition": "attachment; filename=\"public_holiday_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157651/mod_resource/content/1/public_holiday_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157651/mod_resource/content/1/public_holiday_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75198",
+              "children": []
+            },
+            {
+              "content-length": "56012",
+              "content-disposition": "attachment; filename=\"public_holiday_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157652/mod_resource/content/1/public_holiday_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157652/mod_resource/content/1/public_holiday_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75199",
+              "children": []
+            },
+            {
+              "content-length": "1522318",
+              "content-disposition": "attachment; filename=\"17_seeking_help.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157654/mod_resource/content/1/17_seeking_help.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157654/mod_resource/content/1/17_seeking_help.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75201",
+              "children": []
+            },
+            {
+              "content-length": "74477",
+              "content-disposition": "attachment; filename=\"seeking_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157655/mod_resource/content/1/seeking_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157655/mod_resource/content/1/seeking_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75202",
+              "children": []
+            },
+            {
+              "content-length": "55961",
+              "content-disposition": "attachment; filename=\"seekinghelp_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157656/mod_resource/content/1/seekinghelp_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157656/mod_resource/content/1/seekinghelp_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75203",
+              "children": []
+            },
+            {
+              "content-length": "1639556",
+              "content-disposition": "attachment; filename=\"19_smart_father.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157658/mod_resource/content/1/19_smart_father.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157658/mod_resource/content/1/19_smart_father.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75205",
+              "children": []
+            },
+            {
+              "content-length": "75232",
+              "content-disposition": "attachment; filename=\"smartfather_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157659/mod_resource/content/1/smartfather_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157659/mod_resource/content/1/smartfather_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75206",
+              "children": []
+            },
+            {
+              "content-length": "55390",
+              "content-disposition": "attachment; filename=\"smartfather_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157660/mod_resource/content/1/smartfather_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157660/mod_resource/content/1/smartfather_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75207",
+              "children": []
+            },
+            {
+              "content-length": "1844565",
+              "content-disposition": "attachment; filename=\"23_the_lost_boy.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157662/mod_resource/content/1/23_the_lost_boy.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157662/mod_resource/content/1/23_the_lost_boy.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75209",
+              "children": []
+            },
+            {
+              "content-length": "79439",
+              "content-disposition": "attachment; filename=\"lostboy_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157663/mod_resource/content/1/lostboy_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157663/mod_resource/content/1/lostboy_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75210",
+              "children": []
+            },
+            {
+              "content-length": "56072",
+              "content-disposition": "attachment; filename=\"lostboy_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157664/mod_resource/content/1/lostboy_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157664/mod_resource/content/1/lostboy_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75211",
+              "children": []
+            },
+            {
+              "content-length": "1166423",
+              "content-disposition": "attachment; filename=\"08_keep_your_mouth_shut.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/171879/mod_resource/content/2/08_keep_your_mouth_shut.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/171879/mod_resource/content/2/08_keep_your_mouth_shut.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=80989",
+              "children": []
+            },
+            {
+              "content-length": "73336",
+              "content-disposition": "attachment; filename=\"keepmouthshut_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/171880/mod_resource/content/3/keepmouthshut_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/171880/mod_resource/content/3/keepmouthshut_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=80990",
+              "children": []
+            },
+            {
+              "content-length": "64416",
+              "content-disposition": "attachment; filename=\"keepmouthshut_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/171881/mod_resource/content/3/keepmouthshut_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/171881/mod_resource/content/3/keepmouthshut_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=80991",
+              "children": []
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "title": "Listening to pupils Subpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67223",
+          "kind": "TessaSubpage",
+          "source_id": "subpage:67223",
+          "children": [
+            {
+              "content-length": "2278184",
+              "content-disposition": "attachment; filename=\"03_be_careful.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157667/mod_resource/content/1/03_be_careful.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157667/mod_resource/content/1/03_be_careful.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75214",
+              "children": []
+            },
+            {
+              "content-length": "76806",
+              "content-disposition": "attachment; filename=\"becareful_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157668/mod_resource/content/1/becareful_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157668/mod_resource/content/1/becareful_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75215",
+              "children": []
+            },
+            {
+              "content-length": "55729",
+              "content-disposition": "attachment; filename=\"becareful_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157669/mod_resource/content/1/becareful_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157669/mod_resource/content/1/becareful_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75216",
+              "children": []
+            },
+            {
+              "content-length": "2066702",
+              "content-disposition": "attachment; filename=\"05_catch_the_thief.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157671/mod_resource/content/1/05_catch_the_thief.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157671/mod_resource/content/1/05_catch_the_thief.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75218",
+              "children": []
+            },
+            {
+              "content-length": "77346",
+              "content-disposition": "attachment; filename=\"catchthief_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157672/mod_resource/content/1/catchthief_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157672/mod_resource/content/1/catchthief_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75219",
+              "children": []
+            },
+            {
+              "content-length": "53021",
+              "content-disposition": "attachment; filename=\"catchthethief_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157673/mod_resource/content/1/catchthethief_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157673/mod_resource/content/1/catchthethief_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75220",
+              "children": []
+            },
+            {
+              "content-length": "2107463",
+              "content-disposition": "attachment; filename=\"20_something_good.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157675/mod_resource/content/1/20_something_good.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157675/mod_resource/content/1/20_something_good.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75222",
+              "children": []
+            },
+            {
+              "content-length": "78699",
+              "content-disposition": "attachment; filename=\"somethinggood_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157676/mod_resource/content/1/somethinggood_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157676/mod_resource/content/1/somethinggood_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75223",
+              "children": []
+            },
+            {
+              "content-length": "55982",
+              "content-disposition": "attachment; filename=\"somethinggood_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157677/mod_resource/content/1/somethinggood_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157677/mod_resource/content/1/somethinggood_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75224",
+              "children": []
+            },
+            {
+              "content-length": "1394833",
+              "content-disposition": "attachment; filename=\"07_the_eye_witness.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157679/mod_resource/content/1/07_the_eye_witness.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157679/mod_resource/content/1/07_the_eye_witness.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75226",
+              "children": []
+            },
+            {
+              "content-length": "73445",
+              "content-disposition": "attachment; filename=\"eyewitness_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157680/mod_resource/content/1/eyewitness_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157680/mod_resource/content/1/eyewitness_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75227",
+              "children": []
+            },
+            {
+              "content-length": "53681",
+              "content-disposition": "attachment; filename=\"eyewitness_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157681/mod_resource/content/1/eyewitness_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157681/mod_resource/content/1/eyewitness_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75228",
+              "children": []
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "title": "Motivating pupils Subpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67224",
+          "kind": "TessaSubpage",
+          "source_id": "subpage:67224",
+          "children": [
+            {
+              "content-length": "1777687",
+              "content-disposition": "attachment; filename=\"02_anything_for_school.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157684/mod_resource/content/1/02_anything_for_school.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157684/mod_resource/content/1/02_anything_for_school.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75231",
+              "children": []
+            },
+            {
+              "content-length": "77105",
+              "content-disposition": "attachment; filename=\"anythingforschool_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157685/mod_resource/content/1/anythingforschool_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157685/mod_resource/content/1/anythingforschool_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75232",
+              "children": []
+            },
+            {
+              "content-length": "56040",
+              "content-disposition": "attachment; filename=\"anythingforschool_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157686/mod_resource/content/1/anythingforschool_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157686/mod_resource/content/1/anythingforschool_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75233",
+              "children": []
+            },
+            {
+              "content-length": "1409880",
+              "content-disposition": "attachment; filename=\"15_plantain_seller.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157688/mod_resource/content/1/15_plantain_seller.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157688/mod_resource/content/1/15_plantain_seller.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75235",
+              "children": []
+            },
+            {
+              "content-length": "75810",
+              "content-disposition": "attachment; filename=\"plaintain_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157689/mod_resource/content/1/plaintain_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157689/mod_resource/content/1/plaintain_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75236",
+              "children": []
+            },
+            {
+              "content-length": "55829",
+              "content-disposition": "attachment; filename=\"plaintainseller_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157690/mod_resource/content/1/plaintainseller_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157690/mod_resource/content/1/plaintainseller_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75237",
+              "children": []
+            },
+            {
+              "content-length": "3308147",
+              "content-disposition": "attachment; filename=\"11_the_music_teacher.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157692/mod_resource/content/1/11_the_music_teacher.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157692/mod_resource/content/1/11_the_music_teacher.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75239",
+              "children": []
+            },
+            {
+              "content-length": "90291",
+              "content-disposition": "attachment; filename=\"musicteacher_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157693/mod_resource/content/1/musicteacher_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157693/mod_resource/content/1/musicteacher_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75240",
+              "children": []
+            },
+            {
+              "content-length": "72119",
+              "content-disposition": "attachment; filename=\"musicteacher_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157694/mod_resource/content/1/musicteacher_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157694/mod_resource/content/1/musicteacher_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75241",
+              "children": []
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "title": "Using appropriate language Subpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67225",
+          "kind": "TessaSubpage",
+          "source_id": "subpage:67225",
+          "children": [
+            {
+              "content-length": "1375198",
+              "content-disposition": "attachment; filename=\"26_thief_thief.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157697/mod_resource/content/1/26_thief_thief.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157697/mod_resource/content/1/26_thief_thief.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75244",
+              "children": []
+            },
+            {
+              "content-length": "75455",
+              "content-disposition": "attachment; filename=\"thief_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157698/mod_resource/content/1/thief_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157698/mod_resource/content/1/thief_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75245",
+              "children": []
+            },
+            {
+              "content-length": "54936",
+              "content-disposition": "attachment; filename=\"thief_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157699/mod_resource/content/1/thief_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157699/mod_resource/content/1/thief_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75246",
+              "children": []
+            },
+            {
+              "content-length": "1841649",
+              "content-disposition": "attachment; filename=\"29_walking_encyclopaedia.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157701/mod_resource/content/1/29_walking_encyclopaedia.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157701/mod_resource/content/1/29_walking_encyclopaedia.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75248",
+              "children": []
+            },
+            {
+              "content-length": "79379",
+              "content-disposition": "attachment; filename=\"walking_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157702/mod_resource/content/1/walking_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157702/mod_resource/content/1/walking_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75249",
+              "children": []
+            },
+            {
+              "content-length": "55648",
+              "content-disposition": "attachment; filename=\"walking_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157703/mod_resource/content/1/walking_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157703/mod_resource/content/1/walking_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75250",
+              "children": []
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "title": "Using local resources Subpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67226",
+          "kind": "TessaSubpage",
+          "source_id": "subpage:67226",
+          "children": [
+            {
+              "content-length": "1956146",
+              "content-disposition": "attachment; filename=\"06_excursion.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157706/mod_resource/content/1/06_excursion.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157706/mod_resource/content/1/06_excursion.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75253",
+              "children": []
+            },
+            {
+              "content-length": "80931",
+              "content-disposition": "attachment; filename=\"excursion_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157707/mod_resource/content/1/excursion_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157707/mod_resource/content/1/excursion_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75254",
+              "children": []
+            },
+            {
+              "content-length": "56825",
+              "content-disposition": "attachment; filename=\"excursion_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157708/mod_resource/content/1/excursion_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157708/mod_resource/content/1/excursion_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75255",
+              "children": []
+            },
+            {
+              "content-length": "1661906",
+              "content-disposition": "attachment; filename=\"09_kite_for_rent.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157710/mod_resource/content/1/09_kite_for_rent.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157710/mod_resource/content/1/09_kite_for_rent.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75257",
+              "children": []
+            },
+            {
+              "content-length": "73905",
+              "content-disposition": "attachment; filename=\"kiteforrent_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157711/mod_resource/content/1/kiteforrent_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157711/mod_resource/content/1/kiteforrent_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75258",
+              "children": []
+            },
+            {
+              "content-length": "55783",
+              "content-disposition": "attachment; filename=\"kiteforrent_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157712/mod_resource/content/1/kiteforrent_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157712/mod_resource/content/1/kiteforrent_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75259",
+              "children": []
+            },
+            {
+              "content-length": "2161998",
+              "content-disposition": "attachment; filename=\"12_no_hiding_place.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157714/mod_resource/content/1/12_no_hiding_place.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157714/mod_resource/content/1/12_no_hiding_place.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75261",
+              "children": []
+            },
+            {
+              "content-length": "81626",
+              "content-disposition": "attachment; filename=\"nohidingplace_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157715/mod_resource/content/1/nohidingplace_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157715/mod_resource/content/1/nohidingplace_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75262",
+              "children": []
+            },
+            {
+              "content-length": "55907",
+              "content-disposition": "attachment; filename=\"nohidingplace_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157716/mod_resource/content/1/nohidingplace_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157716/mod_resource/content/1/nohidingplace_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75263",
+              "children": []
+            },
+            {
+              "content-length": "2133582",
+              "content-disposition": "attachment; filename=\"21_the_artwork.mp3\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157718/mod_resource/content/1/21_the_artwork.mp3?forcedownload=1",
+              "kind": "TessaAudioResoucePage",
+              "content-type": "audio/mp3",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157718/mod_resource/content/1/21_the_artwork.mp3?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75265",
+              "children": []
+            },
+            {
+              "content-length": "77735",
+              "content-disposition": "attachment; filename=\"artwork_transcript.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157719/mod_resource/content/1/artwork_transcript.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157719/mod_resource/content/1/artwork_transcript.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75266",
+              "children": []
+            },
+            {
+              "content-length": "54907",
+              "content-disposition": "attachment; filename=\"artwork_synopsis.pdf\"",
+              "lang": "en",
+              "url": "http://www.open.edu/openlearncreate/pluginfile.php/157721/mod_resource/content/1/artwork_synopsis.pdf?forcedownload=1",
+              "kind": "TessaPDFDocument",
+              "content-type": "application/pdf",
+              "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157721/mod_resource/content/1/artwork_synopsis.pdf?forcedownload=1",
+              "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75267",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "title": "Teaching packs Subpage",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=74909",
+      "kind": "TessaSubpage",
+      "source_id": "subpage:74909",
+      "children": [
+        {
+          "content-length": "6926204",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - Combined.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158024/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%20Combined.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158024/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%20Combined.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75519",
+          "children": []
+        },
+        {
+          "content-length": "1262701",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 01.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158008/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2001.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158008/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2001.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75503",
+          "children": []
+        },
+        {
+          "content-length": "592473",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 02.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158009/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2002.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158009/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2002.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75504",
+          "children": []
+        },
+        {
+          "content-length": "341341",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 03.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158010/mod_resource/content/4/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2003.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158010/mod_resource/content/4/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2003.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75505",
+          "children": []
+        },
+        {
+          "content-length": "997582",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 04.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158011/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2004.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158011/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2004.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75506",
+          "children": []
+        },
+        {
+          "content-length": "544526",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 05.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158012/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2005.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158012/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2005.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75507",
+          "children": []
+        },
+        {
+          "content-length": "500888",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 06.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158013/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2006.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158013/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2006.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75508",
+          "children": []
+        },
+        {
+          "content-length": "584165",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 07.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158014/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2007.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158014/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2007.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75509",
+          "children": []
+        },
+        {
+          "content-length": "563248",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 08.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158015/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2008.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158015/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2008.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75510",
+          "children": []
+        },
+        {
+          "content-length": "352199",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 09.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158016/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2009.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158016/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2009.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75511",
+          "children": []
+        },
+        {
+          "content-length": "716142",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 10.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158017/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2010.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158017/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2010.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75512",
+          "children": []
+        },
+        {
+          "content-length": "585698",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 11.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158018/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2011.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158018/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2011.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75513",
+          "children": []
+        },
+        {
+          "content-length": "401189",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 12.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158019/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2012.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158019/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2012.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75514",
+          "children": []
+        },
+        {
+          "content-length": "347874",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 13.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158020/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2013.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158020/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2013.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75515",
+          "children": []
+        },
+        {
+          "content-length": "1234618",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 14.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158021/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2014.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158021/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2014.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75516",
+          "children": []
+        },
+        {
+          "content-length": "1163088",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - 15.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158022/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2015.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158022/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2015.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75517",
+          "children": []
+        },
+        {
+          "content-length": "394185",
+          "content-disposition": "attachment; filename=\"0000 - Open University - Tessa Training Packs - Additional_Resources.pdf\"",
+          "lang": "en",
+          "url": "http://www.open.edu/openlearncreate/pluginfile.php/158023/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%20Additional_Resources.pdf?forcedownload=1",
+          "kind": "TessaPDFDocument",
+          "content-type": "application/pdf",
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158023/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%20Additional_Resources.pdf?forcedownload=1",
+          "original_url": "http://www.open.edu/openlearncreate/mod/resource/view.php?id=75518",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
