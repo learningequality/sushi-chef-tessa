@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-from collections import defaultdict
 import json
 import logging
 import os
@@ -15,14 +14,9 @@ import requests
 
 from le_utils.constants import content_kinds, file_types, licenses
 from ricecooker.chefs import JsonTreeChef
-from ricecooker.classes import nodes
-from ricecooker.classes import files
-from ricecooker.classes.files import HTMLZipFile
 from ricecooker.classes.licenses import get_license
-from ricecooker.classes.nodes import ChannelNode, HTML5AppNode, TopicNode
 from ricecooker.config import LOGGER
-from ricecooker.exceptions import UnknownFileTypeError, raise_for_invalid_channel
-from ricecooker.utils.caching import CacheForeverHeuristic, FileCache, CacheControlAdapter, InvalidatingCacheControlAdapter
+from ricecooker.utils.caching import CacheForeverHeuristic, FileCache, CacheControlAdapter
 from ricecooker.utils.html import download_file
 from ricecooker.utils.zip import create_predictable_zip
 
@@ -49,12 +43,7 @@ TESSA_LANG_URL_MAP = {
     'sw': 'http://www.open.edu/openlearnworks/course/view.php?id=2199',
 }
 TESSA_LICENSE = get_license(licenses.CC_BY_NC_SA, copyright_holder='TESSA').as_dict()
-REJECT_SECTION_STINGS = {
-    'en': 'Section',
-    'fr': 'Section',
-    'ar': 'القسم',
-    'sw': 'Sehemu ya',
-}
+
 
 
 
@@ -75,7 +64,6 @@ sess.mount('https://www.open.edu', forever_adapter)
 ################################################################################
 logging.getLogger("cachecontrol.controller").setLevel(logging.WARNING)
 logging.getLogger("requests.packages").setLevel(logging.WARNING)
-LOGGER = logging.getLogger('tessa')
 LOGGER.setLevel(logging.DEBUG)
 
 
@@ -93,101 +81,10 @@ def get_text(element):
         return element.get_text().replace('\r', '').replace('\n', ' ').strip()
 
 
-def url_to_id(url):
-    """
-    Used for nodes that correspond to a single page (topics, sections).
-    """
-    ids = parse_qs(urlparse(url).query).get('id', '')
-    if len(ids) == 1:
-        return ids[0]
-    else:
-        return None
-
-
 
 # CRAWLING
 ################################################################################
-
-
-def restructure_web_resource_tree(raw_tree):
-    """
-    Performs the following conversion on raw web resource tree:
-       - change top level oucontent to TessaContentPage
-       - change all other oucontent to TessaModule
-       - change subpage to TessaSubpage
-    """
-    lang = raw_tree['lang']
-
-    def _recursive_restrucutre_walk(subtree, depth):
-        # set source_id
-        if subtree['kind'] in ['oucontent', 'subpage', 'resource']:
-            subtree['source_id'] = subtree['kind'] + ':' + url_to_id(subtree['url'])
-
-        # rename kind to scraper-recognized names
-        if subtree['kind'] == 'oucontent' and depth==1:
-            subtree['kind'] = 'TessaContentPage'
-        #
-        elif subtree['kind'] == 'oucontent':
-            subtree['kind'] = 'TessaModule'
-        #
-        elif subtree['kind'] == 'subpage':
-            subtree['kind'] = 'TessaSubpage'
-        #
-        elif subtree['kind'] == 'MediaWebResource':
-            if subtree['content-type'] == 'application/pdf':
-                LOGGER.info('Found PDF ' + subtree['url'])
-                subtree['kind'] = 'TessaPDFDocument'
-                subtree['source_id'] = subtree['url']
-
-            if subtree['content-type'] == 'audio/mp3':
-                LOGGER.info('Found MP# ' + subtree['url'])
-                subtree['kind'] = 'TessaAudioResoucePage'
-                subtree['source_id'] = subtree['url']
-
-        # set lang on all nodes based on top-level channel lang proprty
-        subtree['lang'] = lang
-
-        # recurse
-        if 'children' in subtree:
-            for child in subtree['children']:
-                _recursive_restrucutre_walk(child, depth+1)
-
-    _recursive_restrucutre_walk(raw_tree, 1)
-
-
-def remove_sections(web_resource_tree):
-    """
-    TESSA website lists individual module sections, but we want use only the whole
-    modeules, so this step removes all links that start with word "Section".
-    """
-    lang = web_resource_tree['lang']
-    section_str = REJECT_SECTION_STINGS[lang]
-
-    def _recusive_section_remover(subtree):
-
-        if 'children' in subtree:
-
-            # filter sections
-            new_children = []
-            for child in subtree['children']:
-                if 'title' in child:
-                    title = child['title']
-                    if title.startswith(section_str):
-                        pass
-                    elif lang=='sw' and title.startswith('Section'):
-                        pass  # special case since certain SW modules are in English
-                    else:
-                        new_children.append(child)
-                else:
-                    LOGGER.warning('FOUND a title less child ' + child['url'])
-                    new_children.append(child)
-            subtree['children'] = new_children
-
-            # recurse
-            for child in subtree['children']:
-                _recusive_section_remover(child)
-
-    _recusive_section_remover(web_resource_tree)
+# see tessa_cralwer.py
 
 
 
@@ -937,22 +834,7 @@ class TessaChef(JsonTreeChef):
             print('\n\n\n')
             print('crawling lang=', lang)
             crawler = TessaCrawler(lang=lang)
-            web_resource_tree = crawler.crawl(devmode=True, limit=10000,
-                                              save_web_resource_tree=False)
-            channel_metadata = dict(
-                source_domain = 'tessafrica.net',
-                source_id = 'TESSA_%s-testing' % lang,         # TODO: remove -testing
-                title = 'TESSA (%s)-testing' % lang.upper(),   # TODO: remove -testing
-                thumbnail = 'http://www.tessafrica.net/sites/all/themes/tessafricav2/images/logotype_02.png',
-                description = 'Teacher Education in Sub-Saharan Africa, TESSA, is a collaborative network to help you improve your practice as a teacher or teacher educator. We provide free, quality resources that support your national curriculum and can help you plan lessons that engage, involve and inspire.',
-                language = lang,
-            )
-            web_resource_tree.update(channel_metadata)
-
-            # convert tree format expected by scraping functions
-            restructure_web_resource_tree(web_resource_tree)
-            remove_sections(web_resource_tree)
-            crawler.write_web_resource_tree_json(web_resource_tree)
+            web_resource_tree = crawler.crawl(devmode=True, limit=10000)
 
             # optional debug print...
             crawler.print_tree(web_resource_tree)
@@ -978,11 +860,11 @@ class TessaChef(JsonTreeChef):
           - perform manual content fixes for video lessons with non-standard markup
         """
         self.crawl(args, options)
-        self.scrape(args, options)
+        # self.scrape(args, options)
 
-    # def run(self, args, options):
-    #     self.pre_run(args, options)
-    #     print('skipping rest of run because want to debug quickly...')
+    def run(self, args, options):
+        self.pre_run(args, options)
+        print('skipping rest of run because want to debug quickly...')
 
 
     def get_json_tree_path(self, **kwargs):

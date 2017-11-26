@@ -2,7 +2,7 @@
 
 import argparse
 import re
-from urllib.parse import urljoin, urldefrag
+from urllib.parse import urljoin, urldefrag, urlparse, parse_qs
 
 
 from basiccrawler.crawler import BasicCrawler, LOGGER, logging
@@ -20,6 +20,12 @@ SUBPAGE_RE = re.compile('.*mod/subpage/.*')
 CONTENT_RE = re.compile('.*mod/oucontent/.*')
 RESOURCE_RE = re.compile('.*mod/resource/.*')
 
+REJECT_SECTION_STINGS = {
+    'en': 'Section',
+    'fr': 'Section',
+    'ar': 'القسم',
+    'sw': 'Sehemu ya',
+}
 
 
 # Helper Methods
@@ -71,6 +77,110 @@ def get_resource_info(item):
         'hidden_subspan_text': hidden_subspan_text,  # human-readbale equiv. of type
     }
     return resource_info
+
+
+def url_to_id(url):
+    """
+    Used for nodes that correspond to a single page (topics, sections).
+    """
+    ids = parse_qs(urlparse(url).query).get('id', '')
+    if len(ids) == 1:
+        return ids[0]
+    else:
+        return None
+
+
+
+
+# POST-CRAWLING CLANUP
+################################################################################
+
+def restructure_web_resource_tree(raw_tree):
+    """
+    Performs the following conversion on raw web resource tree:
+       - change top level oucontent to TessaContentPage
+       - change all other oucontent to TessaModule
+       - change subpage to TessaSubpage
+    """
+    lang = raw_tree['lang']
+
+    def _recursive_restrucutre_walk(subtree, depth):
+        # set source_id
+        if subtree['kind'] in ['oucontent', 'subpage', 'resource']:
+            subtree['source_id'] = subtree['kind'] + ':' + url_to_id(subtree['url'])
+
+        # rename kind to scraper-recognized names
+        if subtree['kind'] == 'oucontent' and depth==1:
+            subtree['kind'] = 'TessaContentPage'
+        #
+        elif subtree['kind'] == 'oucontent':
+            subtree['kind'] = 'TessaModule'
+        #
+        elif subtree['kind'] == 'subpage':
+            subtree['kind'] = 'TessaSubpage'
+        #
+        elif subtree['kind'] == 'MediaWebResource':
+            if subtree['content-type'] == 'application/pdf':
+                LOGGER.info('Found PDF ' + subtree['url'])
+                subtree['kind'] = 'TessaPDFDocument'
+                subtree['source_id'] = subtree['url']
+
+            elif subtree['content-type'] == 'audio/mp3':
+                LOGGER.info('Found MP3 ' + subtree['url'])
+                subtree['kind'] = 'TessaAudioResoucePage'
+                subtree['source_id'] = subtree['url']
+
+            else:
+                LOGGER.warning('Unsupported format ' + subtree['content-type'] + ' url=' + subtree['url'])
+
+        else:
+            LOGGER.warning('Unknown kind ' + subtree['kind'] + ' url=' + subtree['url'])
+
+        # set lang on all nodes based on top-level channel lang proprty
+        subtree['lang'] = lang
+
+        # recurse
+        if 'children' in subtree:
+            for child in subtree['children']:
+                _recursive_restrucutre_walk(child, depth+1)
+
+    _recursive_restrucutre_walk(raw_tree, 1)
+
+
+def remove_sections(web_resource_tree):
+    """
+    TESSA website lists individual module sections, but we want use only the whole
+    modeules, so this step removes all links that start with word "Section".
+    """
+    lang = web_resource_tree['lang']
+    section_str = REJECT_SECTION_STINGS[lang]
+
+    def _recusive_section_remover(subtree):
+
+        if 'children' in subtree:
+
+            # filter sections
+            new_children = []
+            for child in subtree['children']:
+                if 'title' in child:
+                    title = child['title']
+                    if title.startswith(section_str):
+                        pass
+                    elif lang=='sw' and title.startswith('Section'):
+                        pass  # special case since certain SW modules are in English
+                    else:
+                        new_children.append(child)
+                else:
+                    LOGGER.warning('FOUND a title less child ' + child['url'])
+                    new_children.append(child)
+            subtree['children'] = new_children
+
+            # recurse
+            for child in subtree['children']:
+                _recusive_section_remover(child)
+
+    _recusive_section_remover(web_resource_tree)
+
 
 
 
@@ -347,6 +457,28 @@ class TessaCrawler(BasicCrawler):
             else:
                 LOGGER.warning('a link with no href ' + str(link))
 
+
+
+    def crawl(self, *args, **kwargs):
+        """
+        Extend base class crawl method with special tree-rewriging steps.
+        """
+        web_resource_tree = super().crawl(*args, **kwargs)
+        lang = web_resource_tree['lang']
+        channel_metadata = dict(
+            source_domain = 'tessafrica.net',
+            source_id = 'TESSA_%s-testing' % lang,       # TODO: remove -testing
+            title = 'TESSA (%s)-testing' % lang,         # TODO: remove -testing
+            thumbnail = 'http://www.tessafrica.net/sites/all/themes/tessafricav2/images/logotype_02.png',
+            description = 'Teacher Education in Sub-Saharan Africa, TESSA, is a collaborative network to help you improve your practice as a teacher or teacher educator. We provide free, quality resources that support your national curriculum and can help you plan lessons that engage, involve and inspire.',
+            language = lang,
+        )
+        web_resource_tree.update(channel_metadata)
+
+        # convert tree format expected by scraping functions
+        restructure_web_resource_tree(web_resource_tree)
+        remove_sections(web_resource_tree)
+        self.write_web_resource_tree_json(web_resource_tree)
 
 
 # CLI
