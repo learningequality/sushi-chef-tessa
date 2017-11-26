@@ -1,6 +1,6 @@
 import os
 
-from fabric.api import env, task, local, sudo, run
+from fabric.api import env, task, local, sudo, run, get
 from fabric.context_managers import cd, prefix, show, hide, shell_env
 from fabric.colors import red, green, blue, yellow
 from fabric.utils import puts
@@ -22,7 +22,8 @@ CHEFS_DATA_DIR = '/data'
 CHEF_PROJECT_SLUG = 'sushi-chef-tessa'
 CHEF_DATA_DIR = os.path.join(CHEFS_DATA_DIR, CHEF_PROJECT_SLUG)
 
-
+CRAWLING_STAGE_OUTPUT_TPL = 'web_resource_tree_{}.json'
+SCRAPING_STAGE_OUTPUT_TPL = 'ricecooker_json_tree_{}.json'
 
 
 @task
@@ -42,6 +43,28 @@ def chef_run(lang):
         with prefix('source ' + os.path.join(CHEF_DATA_DIR, 'venv/bin/activate')):
             cmd = './tessa_chef.py  -v --reset --token={}  lang={}'.format(STUDIO_TOKEN, lang)
             sudo(cmd, user=CHEF_USER)
+
+# GET RUN TREE OUTPUTS
+################################################################################
+@task
+def get_trees(lang='all'):
+    trees_dir = os.path.join(CHEF_DATA_DIR, 'chefdata', 'trees')
+    local_dir = os.path.join('chefdata', 'vader', 'trees')
+
+    if lang == 'all':
+        langs = ['sw', 'ar', 'fr', 'en']
+    else:
+        langs = [lang]
+
+    for lang in langs:
+        web_resource_tree_filename = CRAWLING_STAGE_OUTPUT_TPL.format(lang)
+        ricecooker_json_tree_filename = SCRAPING_STAGE_OUTPUT_TPL.format(lang)
+        get(os.path.join(trees_dir, web_resource_tree_filename),
+            os.path.join(local_dir, web_resource_tree_filename))
+        get(os.path.join(trees_dir, ricecooker_json_tree_filename),
+            os.path.join(local_dir, ricecooker_json_tree_filename))
+
+
 
 # SETUP
 ################################################################################

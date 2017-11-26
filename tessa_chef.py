@@ -133,9 +133,15 @@ def restructure_web_resource_tree(raw_tree):
         elif subtree['kind'] == 'subpage':
             subtree['kind'] = 'TessaSubpage'
         #
-        elif subtree['kind'] == 'NoDownloadWebResource':
-            if 'content-type' in subtree and subtree['content-type'] == 'application/pdf':
-                subtree['kind'] == 'TessaPDFDocument'
+        elif subtree['kind'] == 'MediaWebResource':
+            if subtree['content-type'] == 'application/pdf':
+                LOGGER.info('Found PDF ' + subtree['url'])
+                subtree['kind'] = 'TessaPDFDocument'
+                subtree['source_id'] = subtree['url']
+
+            if subtree['content-type'] == 'audio/mp3':
+                LOGGER.info('Found MP# ' + subtree['url'])
+                subtree['kind'] = 'TessaAudioResoucePage'
                 subtree['source_id'] = subtree['url']
 
         # set lang on all nodes based on top-level channel lang proprty
@@ -807,12 +813,32 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
             parent_node['children'].append(child_node)
             LOGGER.debug('Created HTML5AppNode for TessaContentPage titled ' + child_node['title'])
 
+        elif kind == 'TessaAudioResoucePage':
+            mp3_resource = source_node  # after refactor ... source_node['children'][0]
+            child_node = dict(
+                kind=content_kinds.AUDIO,
+                source_id=source_node['source_id'],
+                language=source_node['lang'],
+                title=source_node['title'],
+                description='', # 'fake descri', # TODO source_node['description']
+                license=TESSA_LICENSE,
+                files=[],
+            )
+            mp3_file = dict(
+                file_type=file_types.AUDIO,
+                path=mp3_resource['url'],
+                language=source_node['lang'],
+            )
+            child_node['files'] = [mp3_file]
+            parent_node['children'].append(child_node)
+            LOGGER.debug('Created AudioNode from file url ' + mp3_resource['url'])
+
         elif kind == 'TessaPDFDocument':
             child_node = dict(
                 kind=content_kinds.DOCUMENT,
-                source_id=source_node['source_id'],  # ???
+                source_id=source_node['source_id'],
                 language=source_node['lang'],
-                title=source_node['url'], # source_node['title'],
+                title=source_node['title'],
                 description='', # 'fake descri', # TODO source_node['description']
                 license=TESSA_LICENSE,
                 files=[],
@@ -828,7 +854,7 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
 
         else:
             # LOGGER.critical("Encountered an unknown content node format.")
-            print('***** Skipping content kind', source_node['kind'], 'titled', source_node['title'])
+            print('***** Skipping content kind', source_node['kind'], 'titled', source_node.get('title', 'NOTITLE') )
             continue
 
     return parent_node
@@ -911,7 +937,7 @@ class TessaChef(JsonTreeChef):
             print('\n\n\n')
             print('crawling lang=', lang)
             crawler = TessaCrawler(lang=lang)
-            web_resource_tree = crawler.crawl(debug=True, limit=10000,
+            web_resource_tree = crawler.crawl(devmode=True, limit=10000,
                                               save_web_resource_tree=False)
             channel_metadata = dict(
                 source_domain = 'tessafrica.net',

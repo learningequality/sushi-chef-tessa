@@ -35,6 +35,45 @@ def get_text(element):
         return element.get_text().replace('\r', '').replace('\n', ' ').strip()
 
 
+def get_modtype(activity):
+    """
+    Extract the type of activity --- link, resouce, label, subpage, etc.
+    """
+    classes = activity.get("class")
+    for klass in classes:
+        if klass.startswith('modtype_'):
+            return klass.replace('modtype_', '')
+    return None
+
+
+def get_resource_info(item):
+    """
+    Process a list item in a top-level page or subpage and return info as dict.
+    """
+    link = item.find("a")
+    if not link or not hasattr(link, "href"):
+        raise ValueError('get_resource_info did not find link in item ' + str(item))
+
+    source_id = url_to_id(link["href"])[0]
+    title_span = item.find('span', class_="instancename")
+    hidden_subspan = title_span.find("span", class_="accesshide")
+    if hidden_subspan:
+        hidden_subspan_text = get_text(hidden_subspan)
+        hidden_subspan.extract()                 # remove resouce type indicaton
+    else:
+        hidden_subspan_text = None
+    title = get_text(title_span)
+    resource_info =  {
+        "url": link["href"],
+        'source_id': source_id,
+        "type": get_modtype(item),
+        "title": title,
+        'hidden_subspan_text': hidden_subspan_text,  # human-readbale equiv. of type
+    }
+    return resource_info
+
+
+
 
 # CRAWLER
 ################################################################################
@@ -134,9 +173,9 @@ class TessaCrawler(BasicCrawler):
         links = course_content_div.find_all('a')
         for i, link in enumerate(links):
             if link.has_attr('href'):
-                link_url = self.normalize_href_relto_curpage(link['href'], url)
+                link_url = urljoin(url, link['href'])
                 link_title = get_text(link)
-                if self.should_visit_url(link_url):
+                if not self.should_ignore_url(link_url):
                     context = dict(
                         parent=page_dict,
                         title=link_title,
@@ -170,9 +209,9 @@ class TessaCrawler(BasicCrawler):
         links = course_content_div.find_all('a')
         for i, link in enumerate(links):
             if link.has_attr('href'):
-                link_url = self.normalize_href_relto_curpage(link['href'], url)
+                link_url = urljoin(url, link['href'])
                 link_title = get_text(link)
-                if self.should_visit_url(link_url):
+                if not self.should_ignore_url(link_url):
                     context = dict(
                         parent=subpage_dict,
                         title=link_title,
@@ -182,15 +221,90 @@ class TessaCrawler(BasicCrawler):
                         self.enqueue_url_and_context(link_url, context)
                     elif CONTENT_RE.match(link_url):
                         context.update({'kind':'oucontent'})
+                        if 'Section' in link_title:
+                            print('skipping secion...', link_title)
+                            continue
                         self.enqueue_url_and_context(link_url, context)
                     elif RESOURCE_RE.match(link_url):
                         context.update({'kind':'resource'})
                         self.enqueue_url_and_context(link_url, context)
                     else:
-                        LOGGER.debug('>>> Skipping link ' + link_url)
+                        LOGGER.debug(':::subpage::: Skipping link ' + link_url + ' ' + link_title)
             else:
                 pass
                 LOGGER.warning('a link with no href ' + str(link))
+
+
+    def on_resources_subpage(self, url, page, context):
+        LOGGER.info('Procesing resources_subpage ' + url + ' title:' + context['title'])
+        subpage_dict = dict(
+            kind='TessaResourcesSubpage',
+            url=url,
+            children=[],
+        )
+        subpage_dict.update(context)
+
+        # attach this page as another child in parent page
+        context['parent']['children'].append(subpage_dict)
+
+        course_content_div = page.find(class_="pagecontent-content")
+
+
+        course_content_div = page.find('div', class_="course-content")
+        section_lis = course_content_div.find_all('li', class_="section")
+
+        for section_li in section_lis:
+            section_name = section_li.find(class_="sectionname")
+            section_content_ul = section_li.find('ul', class_="section")
+            activity_lis = section_content_ul.find_all('li', class_="activity")
+
+            section_description = ''
+            for activity_li in activity_lis:
+                activity_type = get_modtype(activity_li)
+
+                if activity_type in ['label', 'heading']:
+                    section_description.append(activity_li.get_text())
+
+                elif activity_type == 'resource':
+                    link = activity_li.find_all('a')
+                    link_url = urljoin(url, link['href'])
+                    rsrc_info = get_resource_info(link)
+                    context = dict(
+                        parent=subpage_dict,
+                        title=rsrc_info['title'],
+                    )
+                    context.update({'kind':'resource'})
+                    self.enqueue_url_and_context(link_url, context)
+                else:
+                    LOGGER.debug(':::resources_subpage::: Skipping activity ' + str(activity_type) + ' ' + rsrc_info['title'])
+
+        #
+        #
+        # links = course_content_div.find_all('a')
+        # for i, link in enumerate(links):
+        #     if link.has_attr('href'):
+        #         link_url = urljoin(url, link['href'])
+        #         link_title = get_text(link)
+        #         if not self.should_ignore_url(link_url):
+        #             context = dict(
+        #                 parent=subpage_dict,
+        #                 title=link_title,
+        #             )
+        #             if SUBPAGE_RE.match(link_url):
+        #                 context.update({'kind':'subpage'})
+        #                 self.enqueue_url_and_context(link_url, context)
+        #             elif CONTENT_RE.match(link_url):
+        #                 context.update({'kind':'oucontent'})
+        #                 self.enqueue_url_and_context(link_url, context)
+        #             elif RESOURCE_RE.match(link_url):
+        #                 context.update({'kind':'resource'})
+        #                 self.enqueue_url_and_context(link_url, context)
+        #             else:
+        #                 LOGGER.debug(':::subpage::: Skipping link ' + link_url + ' ' + link_title)
+        #     else:
+        #         pass
+        #         LOGGER.warning('a link with no href ' + str(link))
+
 
 
     def on_oucontent(self, url, page, context):
@@ -218,6 +332,22 @@ class TessaCrawler(BasicCrawler):
         # attach this resource as another child in parent page
         context['parent']['children'].append(resource_dict)
 
+        pagecontent_div = page.find(class_="pagecontent-content")
+        links = pagecontent_div.find_all('a')
+        for i, link in enumerate(links):
+            if link.has_attr('href'):
+                link_url = urljoin(url, link['href'])
+                link_title = get_text(link)
+                if not self.should_ignore_url(link_url):
+                    context = dict(
+                        parent=resource_dict,
+                        title=link_title,
+                    )
+                    self.enqueue_url_and_context(link_url, context)
+            else:
+                LOGGER.warning('a link with no href ' + str(link))
+
+
 
 # CLI
 ################################################################################
@@ -228,5 +358,5 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     crawler = TessaCrawler(lang=args.lang)
-    channel_tree = crawler.crawl(debug=True, limit=500)
+    channel_tree = crawler.crawl(devmode=True, limit=10000)
     crawler.print_tree(channel_tree)
