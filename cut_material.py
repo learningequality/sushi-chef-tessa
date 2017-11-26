@@ -1,3 +1,39 @@
+        elif kind == 'TessaCategory':
+            child_node = dict(
+                kind=content_kinds.TOPIC,
+                source_id=source_node['source_id'],
+                title=source_node['title'],
+                author='TESSA',
+                description='', # TODO description of ' + source_node['title'],
+                thumbnail=source_node.get("thumbnail"),
+                children=[],
+            )
+            parent_node['children'].append(child_node)
+            LOGGER.debug('Created new TopicNode for TessaSubpage titled ' + child_node['title'])
+            source_tree_children = source_node.get("children", [])
+            _build_json_tree(child_node, source_tree_children, lang=lang)
+
+        elif kind == 'TessaSubject':
+            description = source_node.get('description', None)
+            child_node = dict(
+                kind=content_kinds.TOPIC,
+                source_id=source_node['source_id'],
+                title=source_node['title'],
+                author='TESSA',
+                description=description,
+                thumbnail=source_node.get("thumbnail"),
+                children=[],
+            )
+            parent_node['children'].append(child_node)
+            LOGGER.debug('Created new TopicNode for TessaSubject titled ' + child_node['title'])
+            source_tree_children = source_node.get("children", [])
+            _build_json_tree(child_node, source_tree_children, lang=lang)
+
+
+
+
+
+
     def get_channel(self, **kwargs):
         if 'lang' not in kwargs:
             raise ValueError('Must specify lang=?? on the command line. Supported languages are en, fr, ar, and sw.')

@@ -119,20 +119,38 @@ def restructure_web_resource_tree(raw_tree):
         elif subtree['kind'] == 'subpage':
             subtree['kind'] = 'TessaSubpage'
         #
+        #
+        # MP3 and PDF media files
         elif subtree['kind'] == 'MediaWebResource':
             if subtree['content-type'] == 'application/pdf':
-                LOGGER.info('Found PDF ' + subtree['url'])
                 subtree['kind'] = 'TessaPDFDocument'
                 subtree['source_id'] = subtree['url']
+                LOGGER.info('Found PDF ' + subtree['url'])
 
             elif subtree['content-type'] == 'audio/mp3':
-                LOGGER.info('Found MP3 ' + subtree['url'])
-                subtree['kind'] = 'TessaAudioResoucePage'
+                subtree['kind'] = 'TessaAudioResouce'
                 subtree['source_id'] = subtree['url']
+                LOGGER.info('Found MP3 ' + subtree['url'])
 
             else:
                 LOGGER.warning('Unsupported format ' + subtree['content-type'] + ' url=' + subtree['url'])
-
+        #
+        # handle special case for 'ar' where mp3 resources appear on a subpage, not direct
+        elif subtree['kind'] == 'resource':
+            if len(subtree['children']) != 1:
+                LOGGER.error('Multiple children found on ' + subtree['url'] + ' Expected a single mp3 MediaWebResource child.')
+            mp3_child_node = subtree['children'][0]
+            subtree['children'] = []
+            subtree['kind'] = 'TessaAudioResouce'
+            subtree['url'] = mp3_child_node['url']
+            subtree['source_id'] = subtree['url']
+            subtree['content-type'] = mp3_child_node['content-type']
+            if 'content-disposition' in mp3_child_node:
+                subtree['content-disposition'] = mp3_child_node['content-disposition']
+            if 'content-length' in mp3_child_node:
+                subtree['content-length'] = mp3_child_node['content-length']
+            LOGGER.info('Found MP3 ' + subtree['url'])
+        #
         else:
             LOGGER.warning('Unknown kind ' + subtree['kind'] + ' url=' + subtree['url'])
 
@@ -155,13 +173,23 @@ def remove_sections(web_resource_tree):
     lang = web_resource_tree['lang']
     section_str = REJECT_SECTION_STINGS[lang]
 
+    breadcrumbs = []  # keep track of parent urls, so can skip Back and Return links
+
     def _recusive_section_remover(subtree):
+
+        breadcrumbs.append(subtree['url'])
 
         if 'children' in subtree:
 
-            # filter sections
             new_children = []
             for child in subtree['children']:
+
+                # remove back-links
+                if child['url'] in breadcrumbs:
+                    LOGGER.warning('Found a back-link ' + child['url'])
+                    continue
+
+                # filter sections
                 if 'title' in child:
                     title = child['title']
                     if title.startswith(section_str):
@@ -173,11 +201,14 @@ def remove_sections(web_resource_tree):
                 else:
                     LOGGER.warning('FOUND a title less child ' + child['url'])
                     new_children.append(child)
+
             subtree['children'] = new_children
 
             # recurse
             for child in subtree['children']:
                 _recusive_section_remover(child)
+
+        breadcrumbs.pop()
 
     _recusive_section_remover(web_resource_tree)
 
@@ -326,18 +357,22 @@ class TessaCrawler(BasicCrawler):
                         parent=subpage_dict,
                         title=link_title,
                     )
+
                     if SUBPAGE_RE.match(link_url):
                         context.update({'kind':'subpage'})
                         self.enqueue_url_and_context(link_url, context)
+
                     elif CONTENT_RE.match(link_url):
                         context.update({'kind':'oucontent'})
                         if 'Section' in link_title:
                             print('skipping secion...', link_title)
                             continue
                         self.enqueue_url_and_context(link_url, context)
+
                     elif RESOURCE_RE.match(link_url):
                         context.update({'kind':'resource'})
                         self.enqueue_url_and_context(link_url, context)
+
                     else:
                         LOGGER.debug(':::subpage::: Skipping link ' + link_url + ' ' + link_title)
             else:

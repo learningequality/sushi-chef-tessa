@@ -7,6 +7,14 @@ Related docs
   - [trello card](https://trello.com/c/AWsJ86VU/28-tessa)
 
 
+
+TODO
+----
+
+  - Handle titles using `get_resource_info` not `get_title` (to avoid Subpage in title)
+  - 
+
+
 Install
 -------
 

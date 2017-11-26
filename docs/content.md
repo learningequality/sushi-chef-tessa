@@ -37,3 +37,41 @@ Special cases:
   - Should we keep the acknowledgements sections like this one:
     http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81108&section=1.8
     Maybe just de-linkify the links?
+
+
+
+
+
+Current scraper bugs / edge cases
+
+
+          "lang": "en",
+          "title": "Inclusive education toolkit Subpage",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=80110",
+          "kind": "TessaSubpage",
+          "source_id": "subpage:80110",
+          "children": [
+            {
+              "lang": "en",
+              "title": "TESSA Inclusive Education Toolkit A guide to the education and training of teachers in inclusive education Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81337",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81337",
+              "children": []
+            },
+
+            ^ first pages broken link "section-1.html" does not exist inside "12f985b0d4a76800b7d6b6e99ae19dab.zip"
+
+
+            {
+              "lang": "en",
+              "title": "TESSA Inclusive Education Toolkit Website content",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=81618",
+              "kind": "TessaModule",
+              "source_id": "oucontent:81618",
+              "children": []
+            },
+
+
+            ^ doesnt' render says needs js to render clickable concep map
+

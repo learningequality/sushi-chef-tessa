@@ -624,20 +624,7 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
             source_tree_children = source_node.get("children", [])
             _build_json_tree(parent_node, source_tree_children, lang=lang)
 
-        elif kind == 'TessaCategory':
-            child_node = dict(
-                kind=content_kinds.TOPIC,
-                source_id=source_node['source_id'],
-                title=source_node['title'],
-                author='TESSA',
-                description='', # TODO description of ' + source_node['title'],
-                thumbnail=source_node.get("thumbnail"),
-                children=[],
-            )
-            parent_node['children'].append(child_node)
-            LOGGER.debug('Created new TopicNode for TessaSubpage titled ' + child_node['title'])
-            source_tree_children = source_node.get("children", [])
-            _build_json_tree(child_node, source_tree_children, lang=lang)
+
 
         elif kind == 'TessaSubpage':
             child_node = dict(
@@ -654,21 +641,6 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
             source_tree_children = source_node.get("children", [])
             _build_json_tree(child_node, source_tree_children, lang=lang)
 
-        elif kind == 'TessaSubject':
-            description = source_node.get('description', None)
-            child_node = dict(
-                kind=content_kinds.TOPIC,
-                source_id=source_node['source_id'],
-                title=source_node['title'],
-                author='TESSA',
-                description=description,
-                thumbnail=source_node.get("thumbnail"),
-                children=[],
-            )
-            parent_node['children'].append(child_node)
-            LOGGER.debug('Created new TopicNode for TessaSubject titled ' + child_node['title'])
-            source_tree_children = source_node.get("children", [])
-            _build_json_tree(child_node, source_tree_children, lang=lang)
 
         elif kind == 'TessaModule':
             child_node = dict(
@@ -710,8 +682,7 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
             parent_node['children'].append(child_node)
             LOGGER.debug('Created HTML5AppNode for TessaContentPage titled ' + child_node['title'])
 
-        elif kind == 'TessaAudioResoucePage':
-            mp3_resource = source_node  # after refactor ... source_node['children'][0]
+        elif kind == 'TessaAudioResouce':
             child_node = dict(
                 kind=content_kinds.AUDIO,
                 source_id=source_node['source_id'],
@@ -723,12 +694,12 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
             )
             mp3_file = dict(
                 file_type=file_types.AUDIO,
-                path=mp3_resource['url'],
+                path=source_node['url'],
                 language=source_node['lang'],
             )
             child_node['files'] = [mp3_file]
             parent_node['children'].append(child_node)
-            LOGGER.debug('Created AudioNode from file url ' + mp3_resource['url'])
+            LOGGER.debug('Created AudioNode from file url ' + source_node['url'])
 
         elif kind == 'TessaPDFDocument':
             child_node = dict(
