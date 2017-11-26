@@ -179,7 +179,7 @@ def remove_sections(web_resource_tree):
                     else:
                         new_children.append(child)
                 else:
-                    LOGGER.warning('FOUND a title less child', child['url'])
+                    LOGGER.warning('FOUND a title less child ' + child['url'])
                     new_children.append(child)
             subtree['children'] = new_children
 

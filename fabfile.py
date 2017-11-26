@@ -35,8 +35,15 @@ def chef_info():
         run("whoami")
 
 
+
 # RUN CHEF
 ################################################################################
+
+@task
+def run_tessa():
+    for lang in ['sw', 'ar', 'fr', 'en']:
+        chef_run(lang)
+
 @task
 def chef_run(lang):
     with cd(CHEF_DATA_DIR):
@@ -44,8 +51,11 @@ def chef_run(lang):
             cmd = './tessa_chef.py  -v --reset --token={}  lang={}'.format(STUDIO_TOKEN, lang)
             sudo(cmd, user=CHEF_USER)
 
+
+
 # GET RUN TREE OUTPUTS
 ################################################################################
+
 @task
 def get_trees(lang='all'):
     trees_dir = os.path.join(CHEF_DATA_DIR, 'chefdata', 'trees')
@@ -68,6 +78,7 @@ def get_trees(lang='all'):
 
 # SETUP
 ################################################################################
+
 @task
 def setup_chef():
     with cd(CHEFS_DATA_DIR):
@@ -91,8 +102,10 @@ def unsetup_chef():
 
 
 
+
 # GIT-BASED DEPLOYMENT
 ################################################################################
+
 @task
 def git_fetch():
     with cd(CHEF_DATA_DIR):
@@ -104,4 +117,9 @@ def update():
     with cd(CHEF_DATA_DIR):
         sudo('git checkout ' + GIT_BRANCH, user=CHEF_USER)
         sudo('git reset --hard origin/' + GIT_BRANCH, user=CHEF_USER)
+    # update requirements
+    activate_sh = os.path.join(CHEF_DATA_DIR, 'venv/bin/activate')
+    reqs_filepath = os.path.join(CHEF_DATA_DIR, 'requirements.txt')
+    with prefix('export HOME=/data && source ' + activate_sh):
+        sudo('pip install -U --no-input --quiet -r ' + reqs_filepath, user=CHEF_USER)
 
