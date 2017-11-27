@@ -125,7 +125,7 @@ def make_fully_qualified_url(url):
 
 
 def download_module(module_url, lang=None):
-    LOGGER.debug('Scrapring module @ url =' + module_url)
+    LOGGER.debug('Scrapring module @ url = ' + module_url)
     doc = get_parsed_html_from_url(module_url)
     source_id = parse_qs(urlparse(module_url).query)['id'][0]
     raw_title = doc.select_one("head title").text
@@ -329,7 +329,7 @@ def download_module_no_toc(module_url, lang=None):
     If NO TOC is available, then we'll crawl pages one by one
     (`module_contents_dict`)
     """
-    LOGGER.debug('Scrapring module @ url =' + str(module_url))
+    LOGGER.debug('Scrapring module @ url = ' + str(module_url))
     doc = get_parsed_html_from_url(module_url)
     destination = tempfile.mkdtemp()
     print('destination=', destination)
@@ -447,7 +447,7 @@ def scrape_content_page(content_page_url, lang):
           - description
           - zip_path
     """
-    LOGGER.debug('Scrapring content page @ url =' + str(content_page_url))
+    LOGGER.debug('Scrapring content page @ url = ' + str(content_page_url))
     doc = get_parsed_html_from_url(content_page_url)
 
     destination = tempfile.mkdtemp()
@@ -624,8 +624,6 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
             source_tree_children = source_node.get("children", [])
             _build_json_tree(parent_node, source_tree_children, lang=lang)
 
-
-
         elif kind == 'TessaSubpage':
             child_node = dict(
                 kind=content_kinds.TOPIC,
@@ -641,6 +639,50 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
             source_tree_children = source_node.get("children", [])
             _build_json_tree(child_node, source_tree_children, lang=lang)
 
+        elif kind == 'TessaAudioResourcesSubpage':
+            child_node = dict(
+                kind=content_kinds.TOPIC,
+                source_id=source_node['source_id'],
+                title=source_node['title'],
+                author='TESSA',
+                description='', # 'TODO description of ' + source_node['url'],
+                thumbnail=source_node.get("thumbnail"),
+                children=[],
+            )
+            parent_node['children'].append(child_node)
+            LOGGER.debug('Created new TopicNode for TessaAudioResourcesSubpage titled ' + child_node['title'])
+            source_tree_children = source_node.get("children", [])
+            _build_json_tree(child_node, source_tree_children, lang=lang)
+
+        elif kind == 'TessaAudioResourceTopicSubpage':
+            child_node = dict(
+                kind=content_kinds.TOPIC,
+                source_id=source_node['source_id'],
+                title=source_node['title'],
+                author='TESSA',
+                description='', # 'TODO description of ' + source_node['url'],
+                thumbnail=source_node.get("thumbnail"),
+                children=[],
+            )
+            parent_node['children'].append(child_node)
+            LOGGER.debug('Created new TopicNode for TessaAudioResourceTopicSubpage titled ' + child_node['title'])
+            source_tree_children = source_node.get("children", [])
+            _build_json_tree(child_node, source_tree_children, lang=lang)
+
+        elif kind == 'TessaAudioResourceSubtopic':
+            child_node = dict(
+                kind=content_kinds.TOPIC,
+                source_id=source_node['source_id'],
+                title=source_node['title'],
+                author='TESSA',
+                description='', # 'TODO description of ' + source_node['url'],
+                thumbnail=source_node.get("thumbnail"),
+                children=[],
+            )
+            parent_node['children'].append(child_node)
+            LOGGER.debug('Created new TopicNode for TessaAudioResourceSubtopic titled ' + child_node['title'])
+            source_tree_children = source_node.get("children", [])
+            _build_json_tree(child_node, source_tree_children, lang=lang)
 
         elif kind == 'TessaModule':
             child_node = dict(
@@ -687,7 +729,7 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
                 kind=content_kinds.AUDIO,
                 source_id=source_node['source_id'],
                 language=source_node['lang'],
-                title=source_node['title'],
+                title=source_node.get('title', 'NOTITLE'),
                 description='', # 'fake descri', # TODO source_node['description']
                 license=TESSA_LICENSE,
                 files=[],
@@ -706,7 +748,7 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
                 kind=content_kinds.DOCUMENT,
                 source_id=source_node['source_id'],
                 language=source_node['lang'],
-                title=source_node['title'],
+                title=source_node.get('title', 'NOTITLE'),
                 description='', # 'fake descri', # TODO source_node['description']
                 license=TESSA_LICENSE,
                 files=[],

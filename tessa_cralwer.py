@@ -19,7 +19,7 @@ TESSA_LANG_URL_MAP = {
 SUBPAGE_RE = re.compile('.*mod/subpage/.*')
 CONTENT_RE = re.compile('.*mod/oucontent/.*')
 RESOURCE_RE = re.compile('.*mod/resource/.*')
-
+TESSA_AUDIO_RESOURCES_SUBPAGES = ['66697', '81259', '66858']  # special handling for pages with audio resouces
 REJECT_SECTION_STINGS = {
     'en': 'Section',
     'fr': 'Section',
@@ -119,6 +119,11 @@ def restructure_web_resource_tree(raw_tree):
         elif subtree['kind'] == 'subpage':
             subtree['kind'] = 'TessaSubpage'
         #
+        elif subtree['kind'] == 'audio_resources_subpage':
+            subtree['kind'] = 'TessaAudioResourcesSubpage'
+        #
+        elif subtree['kind'] == 'audio_resource_topic_subpage':
+            subtree['kind'] = 'TessaAudioResourceTopicSubpage'
         #
         # MP3 and PDF media files
         elif subtree['kind'] == 'MediaWebResource':
@@ -135,7 +140,7 @@ def restructure_web_resource_tree(raw_tree):
             else:
                 LOGGER.warning('Unsupported format ' + subtree['content-type'] + ' url=' + subtree['url'])
         #
-        # handle special case for 'ar' where mp3 resources appear on a subpage, not direct
+        # handle special case for 'ar' where mp3 resources appear on a subpage, not direct links
         elif subtree['kind'] == 'resource':
             if len(subtree['children']) != 1:
                 LOGGER.error('Multiple children found on ' + subtree['url'] + ' Expected a single mp3 MediaWebResource child.')
@@ -273,12 +278,14 @@ class TessaCrawler(BasicCrawler):
             'subpage': self.on_subpage,
             'oucontent': self.on_oucontent,
             'resource': self.on_resource,
+            'audio_resources_subpage': self.on_audio_resources_subpage,
+            'audio_resource_topic_subpage': self.on_audio_resource_topic_subpage,
         }
 
 
     def cleanup_url(self, url):
         """
-        Removes fragment and query string parameters that falsely make URLs look diffent.
+        Remove fragment and query string params that falsely make URLs look distinct.
         """
         url = urldefrag(url)[0]
         url = re.sub('&section=\d+(\.\d+)?', '', url)
@@ -288,6 +295,8 @@ class TessaCrawler(BasicCrawler):
         url = re.sub(r'\?forcedownload=1', '', url)
         url = re.sub('&forcedownload=1', '', url)
         return url
+
+
 
 
     # PAGE HANDLERS
@@ -300,7 +309,7 @@ class TessaCrawler(BasicCrawler):
         """
         LOGGER.info('Procesing tessa_language_page ' + url)
         page_dict = dict(
-            kind='TessaLangWebRessourceTree',
+            # kind='TessaLangWebRessourceTree',
             url=url,
             title=self.get_title(page),
             children=[],
@@ -315,14 +324,18 @@ class TessaCrawler(BasicCrawler):
         for i, link in enumerate(links):
             if link.has_attr('href'):
                 link_url = urljoin(url, link['href'])
-                link_title = get_text(link)
+                rsrc_info = get_resource_info(link)
+                link_title = rsrc_info['title']
                 if not self.should_ignore_url(link_url):
                     context = dict(
                         parent=page_dict,
                         title=link_title,
                     )
                     if SUBPAGE_RE.match(link_url):
-                        context.update({'kind':'subpage'})
+                        if rsrc_info['source_id'] in TESSA_AUDIO_RESOURCES_SUBPAGES:
+                            context.update({'kind':'audio_resources_subpage'})
+                        else:
+                            context.update({'kind':'subpage'})
                         self.enqueue_url_and_context(link_url, context)
                     elif CONTENT_RE.match(link_url):
                         context.update({'kind':'oucontent'})
@@ -330,14 +343,13 @@ class TessaCrawler(BasicCrawler):
                     else:
                         LOGGER.debug('Skipping link ' + link_url + ' on page ' + url)
             else:
-                pass
-                # print(i, 'nohref', link)
+                LOGGER.debug('Ignoring link ' + link_url + ' on page ' + url)
 
 
     def on_subpage(self, url, page, context):
         LOGGER.info('Procesing subpage ' + url + ' title:' + context['title'])
         subpage_dict = dict(
-            kind='TessaSubpage',
+            # kind='TessaSubpage',
             url=url,
             children=[],
         )
@@ -351,7 +363,8 @@ class TessaCrawler(BasicCrawler):
         for i, link in enumerate(links):
             if link.has_attr('href'):
                 link_url = urljoin(url, link['href'])
-                link_title = get_text(link)
+                rsrc_info = get_resource_info(link)
+                link_title = rsrc_info['title']
                 if not self.should_ignore_url(link_url):
                     context = dict(
                         parent=subpage_dict,
@@ -380,10 +393,14 @@ class TessaCrawler(BasicCrawler):
                 LOGGER.warning('a link with no href ' + str(link))
 
 
-    def on_resources_subpage(self, url, page, context):
-        LOGGER.info('Procesing resources_subpage ' + url + ' title:' + context['title'])
+    def on_audio_resources_subpage(self, url, page, context):
+        """
+        Special handler for pages that link to audio resources on different topics.
+        """
+        LOGGER.info('Procesing audio_resources_subpage ' + url + ' title:' + context['title'])
         subpage_dict = dict(
-            kind='TessaResourcesSubpage',
+            # kind='TessaAudioResourcesSubpage',
+            title=context['title'],
             url=url,
             children=[],
         )
@@ -393,63 +410,90 @@ class TessaCrawler(BasicCrawler):
         context['parent']['children'].append(subpage_dict)
 
         course_content_div = page.find(class_="pagecontent-content")
+        links = course_content_div.find_all('a')
+        for i, link in enumerate(links):
+            if link.has_attr('href'):
+                link_url = urljoin(url, link['href'])
+                rsrc_info = get_resource_info(link)
+                link_title = rsrc_info['title']
+                if not self.should_ignore_url(link_url):
+                    context = dict(
+                        parent=subpage_dict,
+                        title=link_title,
+                    )
+                    if SUBPAGE_RE.match(link_url):
+                        context.update({'kind':'audio_resource_topic_subpage'})
+                        self.enqueue_url_and_context(link_url, context)
+                    else:
+                        LOGGER.debug(':::audio_resources_subpage::: Skipping link ' + link_url + ' ' + link_title)
+            else:
+                LOGGER.warning('a link with no href ' + str(link))
 
+
+    def on_audio_resource_topic_subpage(self, url, page, context):
+        """
+        Process pages like http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67220
+        which contain sections on different subtopics, e.g. "The show must go on"
+        """
+        LOGGER.info('Procesing audio_resource_topic_subpage ' + url + ' title:' + context['title'])
+        topic_subpage_dict = dict(
+            # kind='TessaAudioResourceTopicSubpage',
+            title=context['title'],
+            url=url,
+            children=[],
+        )
+        topic_subpage_dict.update(context)
+
+        # attach this page as another child in parent page
+        context['parent']['children'].append(topic_subpage_dict)
 
         course_content_div = page.find('div', class_="course-content")
         section_lis = course_content_div.find_all('li', class_="section")
 
         for section_li in section_lis:
-            section_name = section_li.find(class_="sectionname")
+            section_name = get_text(section_li.find(class_="sectionname"))
+            subtopic_dict = dict(
+                kind='TessaAudioResourceSubtopic',
+                title=section_name,
+                parent=topic_subpage_dict,
+                children=[],
+            )
             section_content_ul = section_li.find('ul', class_="section")
             activity_lis = section_content_ul.find_all('li', class_="activity")
-
-            section_description = ''
+            subtopic_description = ''
             for activity_li in activity_lis:
                 activity_type = get_modtype(activity_li)
 
                 if activity_type in ['label', 'heading']:
-                    section_description.append(activity_li.get_text())
+                    subtopic_description.append(activity_li.get_text())
 
                 elif activity_type == 'resource':
                     link = activity_li.find_all('a')
                     link_url = urljoin(url, link['href'])
                     rsrc_info = get_resource_info(link)
-                    context = dict(
-                        parent=subpage_dict,
-                        title=rsrc_info['title'],
-                    )
-                    context.update({'kind':'resource'})
-                    self.enqueue_url_and_context(link_url, context)
+
+                    verdict, head_response = self.is_media_file(link_url)
+                    if head_response is None:
+                        LOGGER.warning('HEAD ' + link_url + ' did not return response.')
+
+                    if verdict == True:  # Direct-links to media files
+                        media_rsrc_dict = self.create_media_url_dict(link_url, head_response)
+                        media_rsrc_dict['title'] = rsrc_info['title']
+                        subtopic_dict['children'].append(media_rsrc_dict)
+
+                    else:  # Indirect-links to media files that pass through an extra HTML page
+                        resource_dict = dict(
+                            kind='resource',
+                            url=link_url,
+                            parent=subtopic_dict,
+                            title=rsrc_info['title'],
+                            children=[],
+                        )
+                        self.enqueue_url_and_context(link_url, resource_dict)
                 else:
-                    LOGGER.debug(':::resources_subpage::: Skipping activity ' + str(activity_type) + ' ' + rsrc_info['title'])
-
-        #
-        #
-        # links = course_content_div.find_all('a')
-        # for i, link in enumerate(links):
-        #     if link.has_attr('href'):
-        #         link_url = urljoin(url, link['href'])
-        #         link_title = get_text(link)
-        #         if not self.should_ignore_url(link_url):
-        #             context = dict(
-        #                 parent=subpage_dict,
-        #                 title=link_title,
-        #             )
-        #             if SUBPAGE_RE.match(link_url):
-        #                 context.update({'kind':'subpage'})
-        #                 self.enqueue_url_and_context(link_url, context)
-        #             elif CONTENT_RE.match(link_url):
-        #                 context.update({'kind':'oucontent'})
-        #                 self.enqueue_url_and_context(link_url, context)
-        #             elif RESOURCE_RE.match(link_url):
-        #                 context.update({'kind':'resource'})
-        #                 self.enqueue_url_and_context(link_url, context)
-        #             else:
-        #                 LOGGER.debug(':::subpage::: Skipping link ' + link_url + ' ' + link_title)
-        #     else:
-        #         pass
-        #         LOGGER.warning('a link with no href ' + str(link))
-
+                    LOGGER.debug(':::audio_resource_topic_subpage::: Skipping activity ' + str(activity_type) + ' ' + rsrc_info['title'])
+            subtopic_dict['description'] = subtopic_description
+            topic_subpage_dict['children'].append(subtopic_dict)
 
 
     def on_oucontent(self, url, page, context):
@@ -494,9 +538,13 @@ class TessaCrawler(BasicCrawler):
 
 
 
+
+    # CRALWING
+    ############################################################################
+
     def crawl(self, *args, **kwargs):
         """
-        Extend base class crawl method with special tree-rewriging steps.
+        Extend base class crawl method with special tree post-processing step.
         """
         web_resource_tree = super().crawl(*args, **kwargs)
         lang = web_resource_tree['lang']
@@ -514,6 +562,7 @@ class TessaCrawler(BasicCrawler):
         restructure_web_resource_tree(web_resource_tree)
         remove_sections(web_resource_tree)
         self.write_web_resource_tree_json(web_resource_tree)
+
 
 
 # CLI

@@ -39,7 +39,10 @@ Special cases:
     Maybe just de-linkify the links?
 
 
-
+  - TESSA SHARE: seems like user-contributed content
+    Following the links from here http://www.open.edu/openlearncreate/course/view.php?id=2110
+    leads to pages that say "This course is currently unavailable to students"
+    Do we want this material?
 
 
 Current scraper bugs / edge cases
