@@ -60,7 +60,7 @@ def get_resource_info(activity_li):
     link = activity_li.find("a")
     if not link or not hasattr(link, "href"):
         raise ValueError('get_resource_info did not find link in activity_li ' + str(activity_li))
-    source_id = url_to_id(link["href"])[0]
+    source_id = url_to_id(link["href"])
     title_span = activity_li.find('span', class_="instancename")
     if title_span:
         hidden_subspan = title_span.find("span", class_="accesshide")
@@ -380,9 +380,6 @@ class TessaCrawler(BasicCrawler):
 
                         elif CONTENT_RE.match(link_url):
                             context.update({'kind':'oucontent'})
-                            if 'Section' in link_title:
-                                print('skipping secion...', link_title)
-                                continue
                             self.enqueue_url_and_context(link_url, context)
 
                         elif RESOURCE_RE.match(link_url):
