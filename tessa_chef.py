@@ -669,7 +669,7 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
             source_tree_children = source_node.get("children", [])
             _build_json_tree(child_node, source_tree_children, lang=lang)
 
-        elif kind == 'TessaAudioResourceSubtopic':
+        elif kind == 'TessaAudioResourceSection':
             child_node = dict(
                 kind=content_kinds.TOPIC,
                 source_id=source_node['source_id'],
@@ -680,7 +680,7 @@ def _build_json_tree(parent_node, sourcetree, lang=None):
                 children=[],
             )
             parent_node['children'].append(child_node)
-            LOGGER.debug('Created new TopicNode for TessaAudioResourceSubtopic titled ' + child_node['title'])
+            LOGGER.debug('Created new TopicNode for TessaAudioResourceSection titled ' + child_node['title'])
             source_tree_children = source_node.get("children", [])
             _build_json_tree(child_node, source_tree_children, lang=lang)
 

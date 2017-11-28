@@ -2,7 +2,7 @@
 
 import argparse
 import re
-from urllib.parse import urljoin, urldefrag, urlparse, parse_qs
+from urllib.parse import urljoin, urldefrag, urlparse, parse_qs, quote_plus
 
 
 from basiccrawler.crawler import BasicCrawler, LOGGER, logging
@@ -453,16 +453,18 @@ class TessaCrawler(BasicCrawler):
         section_lis = course_content_div.find_all('li', class_="section")
 
         for section_li in section_lis:
-            section_name = get_text(section_li.find(class_="sectionname"))
+            section_name = section_li.find(class_="sectionname")
+            if section_name is None:         # handle empty section_li edge case
+                continue
+            section_title = get_text(section_name)
             subtopic_dict = dict(
-                kind='TessaAudioResourceSubtopic',
-                title=section_name,
+                kind='TessaAudioResourceSection',
+                url=url + '#' + quote_plus(section_title),
+                title=section_title,
                 parent=topic_subpage_dict,
                 children=[],
             )
             sections_ul = section_li.find('ul', class_="section")
-            if sections_ul is None:
-                sections_ul = section_li.find('ul', class_="topics")  # for AR
             activity_lis = sections_ul.find_all('li', class_="activity")
             subtopic_description = ''
             for activity_li in activity_lis:
