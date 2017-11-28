@@ -460,30 +460,31 @@ class TessaCrawler(BasicCrawler):
                 parent=topic_subpage_dict,
                 children=[],
             )
-            section_content_ul = section_li.find('ul', class_="section")
-            activity_lis = section_content_ul.find_all('li', class_="activity")
+            sections_ul = section_li.find('ul', class_="section")
+            if sections_ul is None:
+                sections_ul = section_li.find('ul', class_="topics")  # for AR
+            activity_lis = sections_ul.find_all('li', class_="activity")
             subtopic_description = ''
             for activity_li in activity_lis:
                 activity_type = get_modtype(activity_li)
 
                 if activity_type in ['label', 'heading']:
-                    subtopic_description.append(activity_li.get_text())
+                    subtopic_description += activity_li.get_text()
 
                 elif activity_type == 'resource':
-                    link = activity_li.find_all('a')
+                    link = activity_li.find('a')
                     link_url = urljoin(url, link['href'])
                     rsrc_info = get_resource_info(activity_li)
-
                     verdict, head_response = self.is_media_file(link_url)
                     if head_response is None:
                         LOGGER.warning('HEAD ' + link_url + ' did not return response.')
-
-                    if verdict == True:  # Direct-links to media files
+                    # CASE A. Direct-links to media files
+                    if verdict == True:
                         media_rsrc_dict = self.create_media_url_dict(link_url, head_response)
                         media_rsrc_dict['title'] = rsrc_info['title']
                         subtopic_dict['children'].append(media_rsrc_dict)
-
-                    else:  # Indirect-links to media files that pass through an extra HTML page
+                    # CASE B. Indirect-links to mp3 files on HTML page (AR only)
+                    else:
                         resource_dict = dict(
                             kind='resource',
                             url=link_url,
@@ -559,6 +560,7 @@ class TessaCrawler(BasicCrawler):
             language = lang,
         )
         web_resource_tree.update(channel_metadata)
+        self.write_web_resource_tree_json(web_resource_tree)  # TMP HACK <<<<<<<<<<<<<<<<<<<< to see which url is missing
 
         # convert tree format expected by scraping functions
         restructure_web_resource_tree(web_resource_tree)
