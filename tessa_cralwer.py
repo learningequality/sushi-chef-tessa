@@ -248,8 +248,6 @@ class TessaCrawler(BasicCrawler):
         'http://www.open.edu/openlearncreate/course/index.php?categoryid=47',   # TESSA main page = parent for all langs
         'http://www.open.edu/openlearnworks/mod/url/view.php?id=83245',  # OLCreate: TESSA_SHARE TESSA - Share
         'http://www.open.edu/openlearncreate/local/ocwfaqs/faq.php',  # FAQ OpenLearn Create
-    ]
-    IGNORE_URL_PATTERNS = [
         re.compile('.*openlearncreate/login\.php.*'),
         re.compile('.*local/ocwcreatecourse/.*'),
         re.compile('.*local/ocwfreecourses/.*'),
