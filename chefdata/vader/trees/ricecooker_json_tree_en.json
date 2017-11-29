@@ -1,0 +1,3988 @@
+{
+  "title": "TESSA (en)-testing",
+  "source_domain": "tessafrica.net",
+  "language": "en",
+  "url": "http://www.open.edu/openlearncreate/course/view.php?id=2042",
+  "children": [
+    {
+      "language": "en",
+      "kind": "html5",
+      "license": {
+        "description": null,
+        "license_id": "CC BY-NC-SA",
+        "copyright_holder": "TESSA"
+      },
+      "title": "Primary Curriculum framework",
+      "description": "",
+      "files": [
+        {
+          "language": "en",
+          "path": "/tmp/tmpxj4apsza.zip",
+          "file_type": "html5"
+        }
+      ],
+      "source_id": "oucontent:81683"
+    },
+    {
+      "language": "en",
+      "kind": "html5",
+      "license": {
+        "description": null,
+        "license_id": "CC BY-NC-SA",
+        "copyright_holder": "TESSA"
+      },
+      "title": "Secondary Science Curriculum framework",
+      "description": "",
+      "files": [
+        {
+          "language": "en",
+          "path": "/tmp/tmpx3w89x_n.zip",
+          "file_type": "html5"
+        }
+      ],
+      "source_id": "oucontent:81698"
+    },
+    {
+      "children": [
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 1: Personal development \u2013 how self-esteem impacts on learning",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmprpczuzv4.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:81108"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 2: Exploring social development",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpotgicdi2.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80895"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 3: Community issues and citizenship",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpg7arxoan.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80429"
+        }
+      ],
+      "kind": "topic",
+      "title": "Life Skills (primary)",
+      "description": "",
+      "author": "TESSA",
+      "source_id": "subpage:66754",
+      "thumbnail": null
+    },
+    {
+      "children": [
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 1: Reading and writing for a range of purposes",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp_0jij0y3.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80974"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 2: Using community voices in your classroom",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp7ldir015.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80688"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 3: Promoting Communication in an Additional Language",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpot3bb2wh.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80632"
+        }
+      ],
+      "kind": "topic",
+      "title": "Literacy (primary)",
+      "description": "",
+      "author": "TESSA",
+      "source_id": "subpage:66755",
+      "thumbnail": null
+    },
+    {
+      "children": [
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 1: Investigating Number and Pattern",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpz6js7k1v.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:81239"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 2: Exploring Shape and Space",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpxs0ftnmq.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80814"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 3: Investigating measurement and data handling",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp01lxwlyh.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80823"
+        }
+      ],
+      "kind": "topic",
+      "title": "Numeracy (primary)",
+      "description": "",
+      "author": "TESSA",
+      "source_id": "subpage:66756",
+      "thumbnail": null
+    },
+    {
+      "children": [
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 1: Developing an Understanding of Place",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpyyr5p1v5.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80637"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 2: Investigating History",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp0ay9ksi4.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80903"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 3: Looking at the Arts",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp4hiy5ja8.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80636"
+        }
+      ],
+      "kind": "topic",
+      "title": "Social Studies and the Arts (primary)",
+      "description": "",
+      "author": "TESSA",
+      "source_id": "subpage:66764",
+      "thumbnail": null
+    },
+    {
+      "children": [
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 1: Science - Looking at Life",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp634t0n8k.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80656"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 2: Science - Investigating Materials",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp9x1trpri.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80667"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 3: Science - Energy and Movement",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpcpr5ffsj.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80682"
+        }
+      ],
+      "kind": "topic",
+      "title": "Science (primary)",
+      "description": "",
+      "author": "TESSA",
+      "source_id": "subpage:66757",
+      "thumbnail": null
+    },
+    {
+      "children": [
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 1: Secondary Science - Biology",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp_830bmks.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80623"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 2: Secondary Science - Chemistry",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpxtw__rcu.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80624"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Module 3: Secondary Science - Physics",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpe7i1pan7.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80905"
+        }
+      ],
+      "kind": "topic",
+      "title": "Science (secondary)",
+      "description": "",
+      "author": "TESSA",
+      "source_id": "subpage:76672",
+      "thumbnail": null
+    },
+    {
+      "children": [
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resources (All)",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpj5xk80nv.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80312"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Introducing the TESSA Key Resources",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpup3__52j.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80315"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Assessing learning",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpaqf5xk1v.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80316"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Using mind maps and brainstorming to explore ideas",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp61qlk36w.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80317"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Being a resourceful teacher in challenging circumstances",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpc2o8e7t_.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80318"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Using explaining and demonstrating to assist learning",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpor9nojhz.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80319"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Using group work in your classroom",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpk2emwa3y.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80320"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Using investigations in the classroom",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp9hjy8s7x.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80321"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Tools for planning and carrying out investigations in Science",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpt1c4h0yc.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80322"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Working with large classes",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpvru39r71.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80323"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Using the local community/environment as a resource",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpo0pof3dv.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80324"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Planning and preparing your lessons",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp6l2b0v_r.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80325"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Using questioning to promote thinking",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpopat3cv1.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80326"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Researching in the classroom",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpfc6hudii.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80327"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Using role play/dialogue/drama in the classroom",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp7cr38bgj.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80328"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Using storytelling in the classroom",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmphy4nur17.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80329"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Using new technologies",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp8350s32g.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:82493"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Key Resource: Working with multigrade classes",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpwmr_omlt.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:83251"
+        }
+      ],
+      "kind": "topic",
+      "title": "Key resources for teachers and teacher educators",
+      "description": "",
+      "author": "TESSA",
+      "source_id": "subpage:66698",
+      "thumbnail": null
+    },
+    {
+      "children": [
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Working with Teachers: A Handbook for Teacher Educators",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpuooi_xaa.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80793"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "Working with Pupils: A Guide for Teachers",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmpyna5tz_2.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80727"
+        },
+        {
+          "language": "en",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "TESSA Teaching Lower Secondary Science A Handbook for Teacher Educators",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "/tmp/tmp26ux25we.zip",
+              "file_type": "html5"
+            }
+          ],
+          "source_id": "oucontent:80794"
+        },
+        {
+          "children": [
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Teaching Practice Supervisors\u2019 Toolkit A Handbook for Teaching Practice Supervisors",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpuei_g8f9.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80710"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Teaching Practice Supervisors' Toolkit",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpfwjw_rr0.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80711"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Welcome to the Teaching Practice Supervisors' Toolkit",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpt9sxs_z9.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80712"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "1. The Teaching Practice Supervisor",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpf8kkz2_i.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80713"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "2. About TESSA",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpxefa1dcm.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80714"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "3. Recognising a good lesson",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmp6rth_7h1.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80715"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "4. Planning and using TESSA materials with student teachers",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpx7_wioc_.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80716"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "5. Helping student teachers to carry out action planning",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpzcnp7qqn.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80717"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "6. Getting the most out of the school visit",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpx1pyslth.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80718"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "7. Giving constructive feedback",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpnn00d4bf.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80719"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "8. Guidance on assessment of student teachers",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpmxvzgg4l.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80720"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "9. Advice and hints for running seminars and workshops",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmp68gl3at0.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80721"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "10. Counselling student teachers with teaching-related difficulties",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpyp_5gwm6.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80722"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "11. Self-audit and targets: active teaching and learning methods",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpmb4_3f8d.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80723"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Other useful resources",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpeyjjdvs5.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:80724"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Table of Toolkit activities",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpxvlsnbdd.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:83585"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Table of Toolkit case studies",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpwp8p4zog.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:83586"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Acknowledgements",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpcf8r06nz.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:83587"
+            }
+          ],
+          "kind": "topic",
+          "title": "Teaching practice supervisors' toolkit",
+          "description": "",
+          "author": "TESSA",
+          "source_id": "subpage:80058",
+          "thumbnail": null
+        },
+        {
+          "children": [
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "TESSA Inclusive Education Toolkit A guide to the education and training of teachers in inclusive education",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpbucnkixx.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81337"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "TESSA Inclusive Education Toolkit",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpizqnuhkq.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81618"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "1. Different types of schools",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmp7w7m5pvr.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81619"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "2. The inclusive teacher's attitude and behaviour",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpdxalvfrz.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81620"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "3. A classroom for all in a school for all",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpp5fuvbpd.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81621"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "4. Using language accessible to all",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpmemen3y5.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81622"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "5. Planning and preparing lessons to include all pupils",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpgow5z0vf.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81623"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "6. Assessment and feedback for learning",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpw06qkhrm.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81624"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "7. An appropriate support for all",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpxye_vlnj.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81625"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "8. Managing and including the opinion of the community",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpl1zm7_3y.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81626"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "9. Auditing an inclusive teacher's behaviour",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpqbgs3p0b.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81627"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Bibliography",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpqpzzglba.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81628"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Additional Readings",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmp9fqe0tud.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81629"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Case studies in the Toolkit",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmp_gib2_s5.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81630"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Activities in the Toolkit",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmpo8ydixnd.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81631"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Attribution of illustrations",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmppwvoumlh.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:81632"
+            },
+            {
+              "language": "en",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "title": "Acknowledgements",
+              "description": "",
+              "files": [
+                {
+                  "language": "en",
+                  "path": "/tmp/tmp4mljgdxq.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "source_id": "oucontent:83868"
+            }
+          ],
+          "kind": "topic",
+          "title": "Inclusive education toolkit",
+          "description": "",
+          "author": "TESSA",
+          "source_id": "subpage:80110",
+          "thumbnail": null
+        }
+      ],
+      "kind": "topic",
+      "title": "Handbooks and toolkits for teachers and teacher educators",
+      "description": "",
+      "author": "TESSA",
+      "source_id": "subpage:66699",
+      "thumbnail": null
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157598/mod_resource/content/1/04_cast_the_spell%20%281%29.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157598/mod_resource/content/1/04_cast_the_spell%20%281%29.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157599/mod_resource/content/1/castthespell_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157599/mod_resource/content/1/castthespell_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157600/mod_resource/content/1/castthespell_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157600/mod_resource/content/1/castthespell_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Cast the spell:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67219#Cast+the+spell%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157602/mod_resource/content/1/18_seven_rivers_in_africa.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157602/mod_resource/content/1/18_seven_rivers_in_africa.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157603/mod_resource/content/1/sevenrivers_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157603/mod_resource/content/1/sevenrivers_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157604/mod_resource/content/1/sevenrivers_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157604/mod_resource/content/1/sevenrivers_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Seven rivers in Africa:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67219#Seven+rivers+in+Africa%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157606/mod_resource/content/1/24_the_maths_game.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157606/mod_resource/content/1/24_the_maths_game.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157607/mod_resource/content/1/mathsgame_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157607/mod_resource/content/1/mathsgame_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157608/mod_resource/content/1/mathsgame_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157608/mod_resource/content/1/mathsgame_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "The Maths game:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67219#The+Maths+game%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157610/mod_resource/content/1/14_the_open_day_drama.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157610/mod_resource/content/1/14_the_open_day_drama.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157611/mod_resource/content/1/openday_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157611/mod_resource/content/1/openday_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157612/mod_resource/content/2/openday_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157612/mod_resource/content/2/openday_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "The open day drama:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67219#The+open+day+drama%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157614/mod_resource/content/1/27_the_town_meeting.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157614/mod_resource/content/1/27_the_town_meeting.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157615/mod_resource/content/1/townmeeting_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157615/mod_resource/content/1/townmeeting_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157616/mod_resource/content/1/townmeeting_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157616/mod_resource/content/1/townmeeting_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "The town meeting:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67219#The+town+meeting%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157618/mod_resource/content/1/10_let_me_do_the_cooking.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157618/mod_resource/content/1/10_let_me_do_the_cooking.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157619/mod_resource/content/1/letmedocooking_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157619/mod_resource/content/1/letmedocooking_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157620/mod_resource/content/1/cooking_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157620/mod_resource/content/1/cooking_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Let me do the cooking mama!:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67219#Let+me+do+the+cooking+mama%21%3A",
+              "thumbnail": null
+            }
+          ],
+          "kind": "topic",
+          "title": "Active learning",
+          "description": "",
+          "author": "TESSA",
+          "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67219",
+          "thumbnail": null
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157624/mod_resource/content/1/25_the_show_must_go_on.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157624/mod_resource/content/1/25_the_show_must_go_on.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157625/mod_resource/content/1/showgoon_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157625/mod_resource/content/1/showgoon_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157626/mod_resource/content/1/showmustgo_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157626/mod_resource/content/1/showmustgo_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "The show must go on:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67220#The+show+must+go+on%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157628/mod_resource/content/1/28_viva_unweze.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157628/mod_resource/content/1/28_viva_unweze.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157629/mod_resource/content/1/viva_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157629/mod_resource/content/1/viva_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157630/mod_resource/content/1/viva_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157630/mod_resource/content/1/viva_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Viva Umueze:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67220#Viva+Umueze%3A",
+              "thumbnail": null
+            }
+          ],
+          "kind": "topic",
+          "title": "Being a professional",
+          "description": "",
+          "author": "TESSA",
+          "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67220",
+          "thumbnail": null
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157633/mod_resource/content/1/01_adjuas_predicament.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157633/mod_resource/content/1/01_adjuas_predicament.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157634/mod_resource/content/1/adjua_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157634/mod_resource/content/1/adjua_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157635/mod_resource/content/1/adjua_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157635/mod_resource/content/1/adjua_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Adjua\u2019s predicament:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67221#Adjua%E2%80%99s+predicament%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157637/mod_resource/content/1/13_the_notorious_fighter.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157637/mod_resource/content/1/13_the_notorious_fighter.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157638/mod_resource/content/1/notorious_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157638/mod_resource/content/1/notorious_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157639/mod_resource/content/2/notorious_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157639/mod_resource/content/2/notorious_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "The notorious fighter:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67221#The+notorious+fighter%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157641/mod_resource/content/1/22_the_chase.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157641/mod_resource/content/1/22_the_chase.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157642/mod_resource/content/1/chase_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157642/mod_resource/content/1/chase_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157643/mod_resource/content/1/chase_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157643/mod_resource/content/1/chase_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "The chase:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67221#The+chase%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157645/mod_resource/content/1/30_where_do_babies_come_from.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157645/mod_resource/content/1/30_where_do_babies_come_from.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157646/mod_resource/content/1/babies_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157646/mod_resource/content/1/babies_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157647/mod_resource/content/1/babies_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157647/mod_resource/content/1/babies_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Where do babies come from?:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67221#Where+do+babies+come+from%3F%3A",
+              "thumbnail": null
+            }
+          ],
+          "kind": "topic",
+          "title": "Dealing with sensitive issues",
+          "description": "",
+          "author": "TESSA",
+          "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67221",
+          "thumbnail": null
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157650/mod_resource/content/1/16_public_holiday.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157650/mod_resource/content/1/16_public_holiday.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157651/mod_resource/content/1/public_holiday_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157651/mod_resource/content/1/public_holiday_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157652/mod_resource/content/1/public_holiday_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157652/mod_resource/content/1/public_holiday_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Public holiday:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67222#Public+holiday%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157654/mod_resource/content/1/17_seeking_help.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157654/mod_resource/content/1/17_seeking_help.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157655/mod_resource/content/1/seeking_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157655/mod_resource/content/1/seeking_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157656/mod_resource/content/1/seekinghelp_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157656/mod_resource/content/1/seekinghelp_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Seeking help:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67222#Seeking+help%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157658/mod_resource/content/1/19_smart_father.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157658/mod_resource/content/1/19_smart_father.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157659/mod_resource/content/1/smartfather_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157659/mod_resource/content/1/smartfather_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157660/mod_resource/content/1/smartfather_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157660/mod_resource/content/1/smartfather_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Smart father:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67222#Smart+father%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157662/mod_resource/content/1/23_the_lost_boy.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157662/mod_resource/content/1/23_the_lost_boy.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157663/mod_resource/content/1/lostboy_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157663/mod_resource/content/1/lostboy_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157664/mod_resource/content/1/lostboy_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157664/mod_resource/content/1/lostboy_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "The lost boy:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67222#The+lost+boy%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/171879/mod_resource/content/2/08_keep_your_mouth_shut.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/171879/mod_resource/content/2/08_keep_your_mouth_shut.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/171880/mod_resource/content/3/keepmouthshut_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/171880/mod_resource/content/3/keepmouthshut_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/171881/mod_resource/content/3/keepmouthshut_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/171881/mod_resource/content/3/keepmouthshut_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Keep your mouth shut:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67222#Keep+your+mouth+shut%3A",
+              "thumbnail": null
+            }
+          ],
+          "kind": "topic",
+          "title": "Equal opportunities",
+          "description": "",
+          "author": "TESSA",
+          "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67222",
+          "thumbnail": null
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157667/mod_resource/content/1/03_be_careful.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157667/mod_resource/content/1/03_be_careful.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157668/mod_resource/content/1/becareful_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157668/mod_resource/content/1/becareful_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157669/mod_resource/content/1/becareful_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157669/mod_resource/content/1/becareful_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Be careful:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67223#Be+careful%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157671/mod_resource/content/1/05_catch_the_thief.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157671/mod_resource/content/1/05_catch_the_thief.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157672/mod_resource/content/1/catchthief_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157672/mod_resource/content/1/catchthief_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157673/mod_resource/content/1/catchthethief_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157673/mod_resource/content/1/catchthethief_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Catch the thief:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67223#Catch+the+thief%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157675/mod_resource/content/1/20_something_good.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157675/mod_resource/content/1/20_something_good.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157676/mod_resource/content/1/somethinggood_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157676/mod_resource/content/1/somethinggood_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157677/mod_resource/content/1/somethinggood_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157677/mod_resource/content/1/somethinggood_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Something good:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67223#Something+good%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157679/mod_resource/content/1/07_the_eye_witness.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157679/mod_resource/content/1/07_the_eye_witness.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157680/mod_resource/content/1/eyewitness_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157680/mod_resource/content/1/eyewitness_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157681/mod_resource/content/1/eyewitness_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157681/mod_resource/content/1/eyewitness_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "The eye witness:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67223#The+eye+witness%3A",
+              "thumbnail": null
+            }
+          ],
+          "kind": "topic",
+          "title": "Listening to pupils",
+          "description": "",
+          "author": "TESSA",
+          "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67223",
+          "thumbnail": null
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157684/mod_resource/content/1/02_anything_for_school.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157684/mod_resource/content/1/02_anything_for_school.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157685/mod_resource/content/1/anythingforschool_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157685/mod_resource/content/1/anythingforschool_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157686/mod_resource/content/1/anythingforschool_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157686/mod_resource/content/1/anythingforschool_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Anything for school:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67224#Anything+for+school%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157688/mod_resource/content/1/15_plantain_seller.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157688/mod_resource/content/1/15_plantain_seller.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157689/mod_resource/content/1/plaintain_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157689/mod_resource/content/1/plaintain_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157690/mod_resource/content/1/plaintainseller_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157690/mod_resource/content/1/plaintainseller_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Plantain seller:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67224#Plantain+seller%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157692/mod_resource/content/1/11_the_music_teacher.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157692/mod_resource/content/1/11_the_music_teacher.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157693/mod_resource/content/1/musicteacher_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157693/mod_resource/content/1/musicteacher_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157694/mod_resource/content/1/musicteacher_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157694/mod_resource/content/1/musicteacher_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "The Music teacher:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67224#The+Music+teacher%3A",
+              "thumbnail": null
+            }
+          ],
+          "kind": "topic",
+          "title": "Motivating pupils",
+          "description": "",
+          "author": "TESSA",
+          "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67224",
+          "thumbnail": null
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157697/mod_resource/content/1/26_thief_thief.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157697/mod_resource/content/1/26_thief_thief.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157698/mod_resource/content/1/thief_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157698/mod_resource/content/1/thief_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157699/mod_resource/content/1/thief_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157699/mod_resource/content/1/thief_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Thief! Thief!:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67225#Thief%21+Thief%21%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157701/mod_resource/content/1/29_walking_encyclopaedia.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157701/mod_resource/content/1/29_walking_encyclopaedia.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157702/mod_resource/content/1/walking_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157702/mod_resource/content/1/walking_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157703/mod_resource/content/1/walking_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157703/mod_resource/content/1/walking_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Walking encyclopedia:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67225#Walking+encyclopedia%3A",
+              "thumbnail": null
+            }
+          ],
+          "kind": "topic",
+          "title": "Using appropriate language",
+          "description": "",
+          "author": "TESSA",
+          "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67225",
+          "thumbnail": null
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157706/mod_resource/content/1/06_excursion.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157706/mod_resource/content/1/06_excursion.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157707/mod_resource/content/1/excursion_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157707/mod_resource/content/1/excursion_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157708/mod_resource/content/1/excursion_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157708/mod_resource/content/1/excursion_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Excursion:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67226#Excursion%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157710/mod_resource/content/1/09_kite_for_rent.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157710/mod_resource/content/1/09_kite_for_rent.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157711/mod_resource/content/1/kiteforrent_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157711/mod_resource/content/1/kiteforrent_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157712/mod_resource/content/1/kiteforrent_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157712/mod_resource/content/1/kiteforrent_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "Kite for rent:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67226#Kite+for+rent%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157714/mod_resource/content/1/12_no_hiding_place.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157714/mod_resource/content/1/12_no_hiding_place.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157715/mod_resource/content/1/nohidingplace_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157715/mod_resource/content/1/nohidingplace_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157716/mod_resource/content/1/nohidingplace_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157716/mod_resource/content/1/nohidingplace_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "No hiding place:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67226#No+hiding+place%3A",
+              "thumbnail": null
+            },
+            {
+              "children": [
+                {
+                  "language": "en",
+                  "kind": "audio",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download audio",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157718/mod_resource/content/1/21_the_artwork.mp3",
+                      "file_type": "audio"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157718/mod_resource/content/1/21_the_artwork.mp3"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download transcript",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157719/mod_resource/content/1/artwork_transcript.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157719/mod_resource/content/1/artwork_transcript.pdf"
+                },
+                {
+                  "language": "en",
+                  "kind": "document",
+                  "license": {
+                    "description": null,
+                    "license_id": "CC BY-NC-SA",
+                    "copyright_holder": "TESSA"
+                  },
+                  "title": "Download synopsis",
+                  "description": "",
+                  "files": [
+                    {
+                      "language": "en",
+                      "path": "http://www.open.edu/openlearncreate/pluginfile.php/157721/mod_resource/content/1/artwork_synopsis.pdf",
+                      "file_type": "document"
+                    }
+                  ],
+                  "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/157721/mod_resource/content/1/artwork_synopsis.pdf"
+                }
+              ],
+              "kind": "topic",
+              "title": "The artwork:",
+              "description": "",
+              "author": "TESSA",
+              "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67226#The+artwork%3A",
+              "thumbnail": null
+            }
+          ],
+          "kind": "topic",
+          "title": "Using local resources",
+          "description": "",
+          "author": "TESSA",
+          "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=67226",
+          "thumbnail": null
+        }
+      ],
+      "kind": "topic",
+      "title": "Audio resources",
+      "description": "",
+      "author": "TESSA",
+      "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66697",
+      "thumbnail": null
+    },
+    {
+      "children": [
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158024/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%20Combined.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158024/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%20Combined.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158008/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2001.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158008/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2001.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158009/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2002.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158009/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2002.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158010/mod_resource/content/4/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2003.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158010/mod_resource/content/4/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2003.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158011/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2004.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158011/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2004.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158012/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2005.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158012/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2005.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158013/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2006.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158013/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2006.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158014/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2007.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158014/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2007.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158015/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2008.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158015/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2008.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158016/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2009.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158016/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2009.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158017/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2010.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158017/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2010.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158018/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2011.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158018/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2011.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158019/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2012.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158019/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2012.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158020/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2013.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158020/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2013.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158021/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2014.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158021/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2014.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158022/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2015.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158022/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%2015.pdf"
+        },
+        {
+          "language": "en",
+          "kind": "document",
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "title": "NOTITLE",
+          "description": "",
+          "files": [
+            {
+              "language": "en",
+              "path": "http://www.open.edu/openlearncreate/pluginfile.php/158023/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%20Additional_Resources.pdf",
+              "file_type": "document"
+            }
+          ],
+          "source_id": "http://www.open.edu/openlearncreate/pluginfile.php/158023/mod_resource/content/3/0000%20-%20Open%20University%20-%20Tessa%20Training%20Packs%20-%20Additional_Resources.pdf"
+        }
+      ],
+      "kind": "topic",
+      "title": "Teaching packs",
+      "description": "",
+      "author": "TESSA",
+      "source_id": "subpage:74909",
+      "thumbnail": null
+    }
+  ],
+  "thumbnail": "http://www.tessafrica.net/sites/all/themes/tessafricav2/images/logotype_02.png",
+  "description": "Teacher Education in Sub-Saharan Africa, TESSA, is a collaborative network to help you improve your practice as a teacher or teacher educator. We provide free, quality resources that support your national curriculum and can help you plan lessons that engage, involve and inspire.",
+  "source_id": "TESSA_en-testing"
+}

@@ -1,0 +1,1440 @@
+{
+  "thumbnail": "http://www.tessafrica.net/sites/all/themes/tessafricav2/images/logotype_02.png",
+  "children": [
+    {
+      "license": {
+        "description": null,
+        "license_id": "CC BY-NC-SA",
+        "copyright_holder": "TESSA"
+      },
+      "files": [
+        {
+          "language": "fr",
+          "path": "/tmp/tmpv07b995c.zip",
+          "file_type": "html5"
+        }
+      ],
+      "title": "R\u00e9sum\u00e9 des mat\u00e9riels p\u00e9dagogiques TESSA",
+      "description": "",
+      "source_id": "oucontent:84487",
+      "language": "fr",
+      "kind": "html5"
+    },
+    {
+      "author": "TESSA",
+      "children": [
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp5b_nvv07.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 1 : D\u00e9veloppement personnel \u2013 Impact de l\u2019estime de soi sur l\u2019apprentissage",
+          "description": "",
+          "source_id": "oucontent:105334",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpak3xc2f5.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 2 : Exploration du d\u00e9veloppement de l\u2019enfant dans son contexte social",
+          "description": "",
+          "source_id": "oucontent:105335",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp7c8e8swe.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 3 : Etudes de questions relatives \u00e0 la communaut\u00e9 et \u00e0 la citoyennet\u00e9",
+          "description": "",
+          "source_id": "oucontent:105336",
+          "language": "fr",
+          "kind": "html5"
+        }
+      ],
+      "thumbnail": null,
+      "description": "",
+      "title": "Comp\u00e9tences de la vie courante",
+      "kind": "topic",
+      "source_id": "subpage:66857"
+    },
+    {
+      "author": "TESSA",
+      "children": [
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp2qyabwrg.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 1 : Des raisons pour lire et \u00e9crire",
+          "description": "",
+          "source_id": "oucontent:82498",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpbhay0gdy.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 2 : Utilisation des voix de la communaut\u00e9 dans la classe",
+          "description": "",
+          "source_id": "oucontent:82572",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpi1de01fc.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 3 : Mise en place de situation pour l\u2019apprentissage et l\u2019utilisation d\u2019une langue suppl\u00e9mentaire",
+          "description": "",
+          "source_id": "oucontent:82513",
+          "language": "fr",
+          "kind": "html5"
+        }
+      ],
+      "thumbnail": null,
+      "description": "",
+      "title": "Alphab\u00e9tisation",
+      "kind": "topic",
+      "source_id": "subpage:80922"
+    },
+    {
+      "author": "TESSA",
+      "children": [
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpcbljpr34.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 1 : \u00c9tude du nombre et de la structure",
+          "description": "",
+          "source_id": "oucontent:82514",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp_gokr_ai.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 2 : \u00c9tude de la forme et de l\u2019espace",
+          "description": "",
+          "source_id": "oucontent:82576",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmppk0mvetd.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 3 : \u00c9tude des mesures et de l\u2019utilisation des donn\u00e9es",
+          "description": "",
+          "source_id": "oucontent:82577",
+          "language": "fr",
+          "kind": "html5"
+        }
+      ],
+      "thumbnail": null,
+      "description": "",
+      "title": "Math\u00e9matiques",
+      "kind": "topic",
+      "source_id": "subpage:66860"
+    },
+    {
+      "author": "TESSA",
+      "children": [
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp6yztphi7.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 1 : Observation du vivant",
+          "description": "",
+          "source_id": "oucontent:82515",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpz1u9wfym.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 2 : \u00c9tude des mat\u00e9riaux",
+          "description": "",
+          "source_id": "oucontent:82517",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp17klekrl.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 3 : L\u2019\u00e9nergie et le mouvement",
+          "description": "",
+          "source_id": "oucontent:82524",
+          "language": "fr",
+          "kind": "html5"
+        }
+      ],
+      "thumbnail": null,
+      "description": "",
+      "title": "Sciences",
+      "kind": "topic",
+      "source_id": "subpage:80923"
+    },
+    {
+      "author": "TESSA",
+      "children": [
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpxwf_ndos.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 1 : Comprendre les lieux",
+          "description": "",
+          "source_id": "oucontent:82525",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpc07dtcd6.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 2 : \u00c9tude de l\u2019Histoire",
+          "description": "",
+          "source_id": "oucontent:82527",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpue3uiyfb.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Module 3 : Examen des arts",
+          "description": "",
+          "source_id": "oucontent:82528",
+          "language": "fr",
+          "kind": "html5"
+        }
+      ],
+      "thumbnail": null,
+      "description": "",
+      "title": "Sciences humaines et arts",
+      "kind": "topic",
+      "source_id": "subpage:80924"
+    },
+    {
+      "author": "TESSA",
+      "children": [
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpf20cpc5a.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressources cl\u00e9s pour les enseignants et les formateurs d'enseignants",
+          "description": "",
+          "source_id": "oucontent:81681",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp67gfn7kc.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Travailler avec des classes \u00e0 effectif lourd ou \u00e0 niveaux multiples",
+          "description": "",
+          "source_id": "oucontent:84354",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmphv6qrghc.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Travailler en groupes dans la classe",
+          "description": "",
+          "source_id": "oucontent:84355",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp9bh0tj8a.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Utiliser des cartes conceptuelles et le remue-m\u00e9ninges pour explorer les id\u00e9es",
+          "description": "",
+          "source_id": "oucontent:84356",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpcg3yhpqo.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Planifiez et pr\u00e9parez vos le\u00e7ons",
+          "description": "",
+          "source_id": "oucontent:84357",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpwa418y4r.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Evaluer l'apprentissage",
+          "description": "",
+          "source_id": "oucontent:84358",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpm7808ajx.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Travail d'investigation et de recherche en classe",
+          "description": "",
+          "source_id": "oucontent:84359",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpx6ul91k4.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : \u00catre chercheur dans sa classe",
+          "description": "",
+          "source_id": "oucontent:84360",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp5lr9pdqa.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Utiliser les jeux de r\u00f4les, l'expression orale et l'art dramatique dans la classe",
+          "description": "",
+          "source_id": "oucontent:84361",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp13vmbgab.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Utiliser le questionnement pour d\u00e9velopper la pens\u00e9e",
+          "description": "",
+          "source_id": "oucontent:84362",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmph6m_6__5.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Utiliser les r\u00e9cits dans la classe",
+          "description": "",
+          "source_id": "oucontent:84363",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp9_iv8qh9.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Utiliser l'explication et la d\u00e9monstration pour favoriser l'apprentissage",
+          "description": "",
+          "source_id": "oucontent:84364",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpr1umkf6i.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Utiliser l'environnement local et la communaut\u00e9 comme ressource",
+          "description": "",
+          "source_id": "oucontent:84365",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpbe3u2v6t.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Utiliser les nouvelles technologies",
+          "description": "",
+          "source_id": "oucontent:84366",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp_xp4_ucr.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Ressource cl\u00e9 : Etre un enseignant inventif et cr\u00e9atif dans des conditions difficiles",
+          "description": "",
+          "source_id": "oucontent:84367",
+          "language": "fr",
+          "kind": "html5"
+        }
+      ],
+      "thumbnail": null,
+      "description": "",
+      "title": "Ressources cl\u00e9s",
+      "kind": "topic",
+      "source_id": "subpage:80919"
+    },
+    {
+      "author": "TESSA",
+      "children": [
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmpvxmwm7u7.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Travailler avec les \u00e9l\u00e8ves: Guide de l\u2019enseignant",
+          "description": "",
+          "source_id": "oucontent:84301",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "license": {
+            "description": null,
+            "license_id": "CC BY-NC-SA",
+            "copyright_holder": "TESSA"
+          },
+          "files": [
+            {
+              "language": "fr",
+              "path": "/tmp/tmp87u_dr3v.zip",
+              "file_type": "html5"
+            }
+          ],
+          "title": "Travailler avec les enseignants: Guide du formateur",
+          "description": "",
+          "source_id": "oucontent:84302",
+          "language": "fr",
+          "kind": "html5"
+        },
+        {
+          "author": "TESSA",
+          "children": [
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmph834oa68.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Bo\u00eete \u00e0 outils pour les Superviseurs de pratiques p\u00e9dagogiques",
+              "description": "",
+              "source_id": "oucontent:84351",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpr7imddb0.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Un guide pour les Formateurs et les Encadreurs p\u00e9dagogiques",
+              "description": "",
+              "source_id": "oucontent:109691",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpyqrh7f3v.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Bienvenue dans la Bo\u00eete \u00e0 outils pour les Superviseurs de pratiques p\u00e9dagogiques\u00a0!",
+              "description": "",
+              "source_id": "oucontent:109692",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpqno_bxcs.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "1. Le Superviseur de pratiques p\u00e9dagogiques",
+              "description": "",
+              "source_id": "oucontent:109693",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpq4z5r3y1.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "2. \u00c0 propos de TESSA",
+              "description": "",
+              "source_id": "oucontent:109694",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpk5_6eoqy.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "3. Reconna\u00eetre une bonne le\u00e7on",
+              "description": "",
+              "source_id": "oucontent:109695",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpzcd_xidg.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "4. Planifier et utiliser les mat\u00e9riels TESSA avec les enseignants",
+              "description": "",
+              "source_id": "oucontent:109696",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmplldofw79.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "5. Aider les enseignants en formation \u00e0 \u00e9tablir un plan d\u2019action",
+              "description": "",
+              "source_id": "oucontent:109697",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpyhivkph2.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "6. Tirer le meilleur parti de la visite de classe",
+              "description": "",
+              "source_id": "oucontent:109698",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpz0ekkrah.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "7. Donner de la r\u00e9troaction constructive",
+              "description": "",
+              "source_id": "oucontent:109699",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmplcgqspet.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "8. Lignes directrices sur l\u2019\u00e9valuation des stagiaires",
+              "description": "",
+              "source_id": "oucontent:109700",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpjtf1gtx9.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "9. Conseils et astuces pour l\u2019organisation de s\u00e9minaires et d\u2019ateliers",
+              "description": "",
+              "source_id": "oucontent:109701",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpj0qbplfw.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "10. Conseiller des \u00e9l\u00e8ves-enseignants ayant des difficult\u00e9s li\u00e9es \u00e0 l\u2019enseignement",
+              "description": "",
+              "source_id": "oucontent:109702",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmprpp_2m6e.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "11. Audit des m\u00e9thodes d\u2019enseignement pour un apprentissage actif",
+              "description": "",
+              "source_id": "oucontent:109703",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpztyxppp8.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Lectures compl\u00e9mentaires",
+              "description": "",
+              "source_id": "oucontent:109704",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmp4wh1pipx.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Activit\u00e9s de la Bo\u00eete \u00e0 outils",
+              "description": "",
+              "source_id": "oucontent:109705",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpegug_txj.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Les \u00e9tudes de cas de la Bo\u00eete \u00e0 outils",
+              "description": "",
+              "source_id": "oucontent:109756",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmp_w5toffa.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Remerciements",
+              "description": "",
+              "source_id": "oucontent:109706",
+              "language": "fr",
+              "kind": "html5"
+            }
+          ],
+          "thumbnail": null,
+          "description": "",
+          "title": "Bo\u00eete \u00e0 outils pour les superviseurs de pratiques p\u00e9dagogiques",
+          "kind": "topic",
+          "source_id": "subpage:80972"
+        },
+        {
+          "author": "TESSA",
+          "children": [
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpvqu0k_50.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Bo\u00eete \u00e0 outils TESSA pour l'\u00e9ducation inclusive Guide pour la formation des enseignants en \u00e9ducation inclusive",
+              "description": "",
+              "source_id": "oucontent:84372",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpy9gvhm9w.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "TESSA Inclusive Education Toolkit",
+              "description": "",
+              "source_id": "oucontent:109688",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmprltm65bx.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "1. Diff\u00e9rents types d\u2019\u00e9coles",
+              "description": "",
+              "source_id": "oucontent:109689",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmp0wy2x6_j.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "2. Attitude et comportement de l\u2019enseignant dans l\u2019\u00e9cole inclusive",
+              "description": "",
+              "source_id": "oucontent:109707",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmp9z2hbnrm.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "3. Une classe pour tous dans une \u00e9cole pour tous",
+              "description": "",
+              "source_id": "oucontent:109708",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpe57ql10c.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "4. Un langage accessible \u00e0 tous",
+              "description": "",
+              "source_id": "oucontent:109709",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpdu1uq7vc.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "5. Planifier et pr\u00e9parer des le\u00e7ons pour inclure tous les \u00e9l\u00e8ves",
+              "description": "",
+              "source_id": "oucontent:109710",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpkf1f6_mv.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "6. Fiche de pr\u00e9paration de le\u00e7on",
+              "description": "",
+              "source_id": "oucontent:109711",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmp1ghto_5y.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "7. \u00c9valuation et r\u00e9troaction",
+              "description": "",
+              "source_id": "oucontent:109712",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmp95vb2shf.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "8. Un soutien appropri\u00e9 pour tous",
+              "description": "",
+              "source_id": "oucontent:109713",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmp3lxxbs7e.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "9. G\u00e9rer le regard de\u00a0la communaut\u00e9 et l\u2019inclure",
+              "description": "",
+              "source_id": "oucontent:109714",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpurzrw0hf.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "10. Audit des comportements d\u2019un enseignant inclusif",
+              "description": "",
+              "source_id": "oucontent:109715",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpn62j0760.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Bibliographie",
+              "description": "",
+              "source_id": "oucontent:109716",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpa26sdspn.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Lectures compl\u00e9mentaires",
+              "description": "",
+              "source_id": "oucontent:109717",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpzp50ld_a.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "\u00c9tudes de cas",
+              "description": "",
+              "source_id": "oucontent:109718",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmp3hq8u6sg.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Activit\u00e9s dans la Bo\u00eete \u00e0 outils",
+              "description": "",
+              "source_id": "oucontent:109719",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpwmv92sgh.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Attribution des illustrations",
+              "description": "",
+              "source_id": "oucontent:109720",
+              "language": "fr",
+              "kind": "html5"
+            },
+            {
+              "license": {
+                "description": null,
+                "license_id": "CC BY-NC-SA",
+                "copyright_holder": "TESSA"
+              },
+              "files": [
+                {
+                  "language": "fr",
+                  "path": "/tmp/tmpwkov293p.zip",
+                  "file_type": "html5"
+                }
+              ],
+              "title": "Remerciements",
+              "description": "",
+              "source_id": "oucontent:109721",
+              "language": "fr",
+              "kind": "html5"
+            }
+          ],
+          "thumbnail": null,
+          "description": "",
+          "title": "Bo\u00eete \u00e0 outils pour la formation des enseignants en \u00e9ducation inclusive",
+          "kind": "topic",
+          "source_id": "subpage:80973"
+        }
+      ],
+      "thumbnail": null,
+      "description": "",
+      "title": "Guides pour les enseignants et les formateurs d\u2019enseignants",
+      "kind": "topic",
+      "source_id": "subpage:78407"
+    },
+    {
+      "author": "TESSA",
+      "children": [
+        {
+          "author": "TESSA",
+          "children": [],
+          "thumbnail": null,
+          "description": "",
+          "title": "\u00c9galit\u00e9 des chances pour les \u00e9l\u00e8ves",
+          "kind": "topic",
+          "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=79214"
+        },
+        {
+          "author": "TESSA",
+          "children": [],
+          "thumbnail": null,
+          "description": "",
+          "title": "Utiliser un langage appropri\u00e9",
+          "kind": "topic",
+          "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=79344"
+        }
+      ],
+      "thumbnail": null,
+      "description": "",
+      "title": "Ressources  audio",
+      "kind": "topic",
+      "source_id": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=66858"
+    }
+  ],
+  "url": "http://www.open.edu/openlearncreate/course/view.php?id=2046",
+  "title": "TESSA (fr)-testing",
+  "description": "Teacher Education in Sub-Saharan Africa, TESSA, is a collaborative network to help you improve your practice as a teacher or teacher educator. We provide free, quality resources that support your national curriculum and can help you plan lessons that engage, involve and inspire.",
+  "source_id": "TESSA_fr-testing",
+  "language": "fr",
+  "source_domain": "tessafrica.net"
+}

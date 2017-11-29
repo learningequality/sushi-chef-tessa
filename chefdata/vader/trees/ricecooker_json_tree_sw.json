@@ -1,0 +1,1517 @@
+{
+  "description": "Teacher Education in Sub-Saharan Africa, TESSA, is a collaborative network to help you improve your practice as a teacher or teacher educator. We provide free, quality resources that support your national curriculum and can help you plan lessons that engage, involve and inspire.",
+  "source_id": "TESSA_sw-testing",
+  "title": "TESSA (sw)-testing",
+  "url": "http://www.open.edu/openlearncreate/course/view.php?id=2199",
+  "source_domain": "tessafrica.net",
+  "thumbnail": "http://www.tessafrica.net/sites/all/themes/tessafricav2/images/logotype_02.png",
+  "language": "sw",
+  "children": [
+    {
+      "description": "",
+      "source_id": "subpage:82842",
+      "thumbnail": null,
+      "title": "Stadi za maisha",
+      "kind": "topic",
+      "children": [
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp4nf15gy4.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:82898",
+          "title": "Namba ya moduli 1: Maendeleo ya Mtu Binafsi \u2013Jinsi Kujiheshimu Kunavyoathiri Kujifunza",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpzynulwki.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83057",
+          "title": "Namba ya moduli 2: Kutalii Maendeleo ya Jamii",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpmb8xnt64.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83058",
+          "title": "Namba ya moduli 3: Masuala ya Jumuiya na Uraia",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        }
+      ],
+      "author": "TESSA"
+    },
+    {
+      "description": "",
+      "source_id": "subpage:82843",
+      "thumbnail": null,
+      "title": "Kujua kusoma na kuandika",
+      "kind": "topic",
+      "children": [
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpcfu0b0xi.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83070",
+          "title": "Namba ya moduli 1: Kusoma na Kuandika kwa madhumuni mbalimbali",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpzlhi_77i.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83071",
+          "title": "Namba ya moduli 2: Kutumia Sauti za Kijumuia Darasani Kwako",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp8qoanm9k.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83072",
+          "title": "Namba ya moduli 3: Uhamasishaji wa mawasiliano katika lugha ya ziada",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        }
+      ],
+      "author": "TESSA"
+    },
+    {
+      "description": "",
+      "source_id": "subpage:82844",
+      "thumbnail": null,
+      "title": "Hisabati",
+      "kind": "topic",
+      "children": [
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpvq17mb8l.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83059",
+          "title": "Namba ya moduli 1:Kuchunguza namba na sulubu",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp2p21m_x8.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83060",
+          "title": "Namba ya moduli 2: Kuchunguza Maumbo na Uwazi",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmptijrymdt.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83061",
+          "title": "Namba ya moduli 3: Kuchunguza vipimo na Kusimamia",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        }
+      ],
+      "author": "TESSA"
+    },
+    {
+      "description": "",
+      "source_id": "subpage:82845",
+      "thumbnail": null,
+      "title": "Sayansi",
+      "kind": "topic",
+      "children": [
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpyraxxes0.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83062",
+          "title": "Namba ya moduli 1: Kuchunguza maisha",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp96d4pr7f.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83063",
+          "title": "Namba ya moduli 2: Kuchunguza maunzi/vitu",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp9zd2emo8.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83064",
+          "title": "Namba ya moduli 3: Nishati na mwendo",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        }
+      ],
+      "author": "TESSA"
+    },
+    {
+      "description": "",
+      "source_id": "subpage:82846",
+      "thumbnail": null,
+      "title": "Mafunzo Ya Jamii Na Sanaa",
+      "kind": "topic",
+      "children": [
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpsk64ewo_.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83360",
+          "title": "Namba ya moduli 1: Kujenga Welewa wa Mahali",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpmdsrbwf6.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83361",
+          "title": "Namba ya moduli 2: Utafiti wa Kihistoria",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpnv1ha_68.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:83362",
+          "title": "Namba ya moduli 3: Kuangalia sanaa",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        }
+      ],
+      "author": "TESSA"
+    },
+    {
+      "description": "",
+      "source_id": "subpage:82847",
+      "thumbnail": null,
+      "title": "Sayansi ya shule za Sekondari",
+      "kind": "topic",
+      "children": [
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpsj4zen26.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:105311",
+          "title": "Module 1: Secondary Science - Biology",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpj7r6cbas.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:105317",
+          "title": "Module 2: Secondary Science - Chemistry",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp2we8b__9.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:105323",
+          "title": "Module 3: Secondary Science - Physics",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        }
+      ],
+      "author": "TESSA"
+    },
+    {
+      "description": "",
+      "source_id": "subpage:82848",
+      "thumbnail": null,
+      "title": "Nyenzo za msingi kwa walimu na wakufunzi",
+      "kind": "topic",
+      "children": [
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp8l3xghkv.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113700",
+          "title": "nyenzo rejea muhimu (Key resources)",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp282vaf1u.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113701",
+          "title": "Kutambulisha Nyenzo-rejea muhimu za TESSA",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpntwvfx74.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113702",
+          "title": "Nyenzo-rejea muhimu: Kutathmini mafunzo",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpy_2r3z7z.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113703",
+          "title": "Nyenzo-rejea muhimu: kutumia ramani mawazo na majadiliano kugundua mawazo",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmprhz0oggj.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113704",
+          "title": "Nyenzo-rejea muhimu: Kuwa mwalimu mbunifu katika mazingira yenye changamoto",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpakq_iesn.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113705",
+          "title": "Nyenzo-rejea muhimu: Kutumia Uelezaji na Uoneshaji katika kusaidia mafunzo",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpveog60hq.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113706",
+          "title": "Nyenzo-rejea muhimu: Kutumia kazi ya vikundi darasani kwako",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpo28hixtv.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113707",
+          "title": "Nyenzo-rejea muhimu: kutumia utafiti darasani",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpgx41dqge.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113708",
+          "title": "Nyenzo-rejea muhimu: Vifaa vya kupanga na kufanya utafiti wa Sayansi",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpu_1eh_vb.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113709",
+          "title": "Nyenzo-rejea muhimu: Kufanya kazi na madarasa makubwa",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp6wk8ukjv.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113710",
+          "title": "Nyenzo-rejea muhimu: Kutumia jumuia/mazingira ya mahali hapo kama nyenzo",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpegr1qnva.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113711",
+          "title": "Nyenzo-rejea muhimu: kupanga na kuandaa masomo yako",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp65wmc331.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113712",
+          "title": "Nyenzo-rejea muhimu: Kutumia maswali kukuza fikira",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpw21f77u9.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113713",
+          "title": "Nyenzo-rejea muhimu: Kufanya utafiti darasani",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp23lwl5ij.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113717",
+          "title": "Nyenzo-rejea muhimu : kufanya kazi na darasa kubwa au madarasa ya ngazi mbalimbali",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpbcokarru.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113714",
+          "title": "Nyenzo-rejea muhimu: Kutumia uigizaji/mazugumzo/michezo ya kuigiza darasani",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpg_h_viv_.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113716",
+          "title": "Nyenzo-rejea muhimu: Utumiaji wa teknolojia mpya",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp_66zgpoh.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113715",
+          "title": "Nyenzo-rejea muhimu: Kutumia hadithi za kusimulia darasani",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        }
+      ],
+      "author": "TESSA"
+    },
+    {
+      "description": "",
+      "source_id": "subpage:82849",
+      "thumbnail": null,
+      "title": "Vitabu vya maelekezo na miongozo ya vitendea kazi kwa ajili ya walimu na wakufunzi",
+      "kind": "topic",
+      "children": [
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpfwym5k9b.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113601",
+          "title": "Working with Teachers: A Handbook for Teacher Educators",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmpry2mongl.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113602",
+          "title": "Working with Pupils: A Guide for Teachers",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "files": [
+            {
+              "path": "/tmp/tmp20zddgcr.zip",
+              "file_type": "html5",
+              "language": "sw"
+            }
+          ],
+          "description": "",
+          "source_id": "oucontent:113600",
+          "title": "TESSA Teaching Lower Secondary Science A Handbook for Teacher Educators",
+          "kind": "html5",
+          "license": {
+            "description": null,
+            "copyright_holder": "TESSA",
+            "license_id": "CC BY-NC-SA"
+          },
+          "language": "sw"
+        },
+        {
+          "description": "",
+          "source_id": "subpage:105247",
+          "thumbnail": null,
+          "title": "Kurasa ya ndani ya mwongozo wa kitendea kazi cha msimamizi wa mazoezi ya kufundisha",
+          "kind": "topic",
+          "children": [
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpk797g0tu.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113604",
+              "title": "Teaching Practice Supervisors\u2019 Toolkit A Handbook for Teaching Practice Supervisors",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpbosarx33.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113683",
+              "title": "Teaching Practice Supervisors' Toolkit",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp8qofvuri.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113684",
+              "title": "Welcome to the Teaching Practice Supervisors' Toolkit",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpnubrfv4f.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113685",
+              "title": "1. The Teaching Practice Supervisor",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpst_nf_p5.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113686",
+              "title": "2. About TESSA",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpa5pge8cz.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113687",
+              "title": "3. Recognising a good lesson",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpl7xjpecm.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113688",
+              "title": "4. Planning and using TESSA materials with student teachers",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp8cm339v5.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113689",
+              "title": "5. Helping student teachers to carry out action planning",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpoenx3lk_.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113690",
+              "title": "6. Getting the most out of the school visit",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp696ic7sf.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113691",
+              "title": "7. Giving constructive feedback",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpllg1jo6u.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113692",
+              "title": "8. Guidance on assessment of student teachers",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpdw95qz7b.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113693",
+              "title": "9. Advice and hints for running seminars and workshops",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpdlwxdgxn.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113694",
+              "title": "10. Counselling student teachers with teaching-related difficulties",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp3rhpjs2g.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113695",
+              "title": "11. Self-audit and targets: active teaching and learning methods",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpfejzbp7q.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113696",
+              "title": "Other useful resources",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmphe6vxfln.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113697",
+              "title": "Table of Toolkit activities",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpnb73zttq.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113698",
+              "title": "Table of Toolkit case studies",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp1xj4e1pq.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113699",
+              "title": "Acknowledgements",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            }
+          ],
+          "author": "TESSA"
+        },
+        {
+          "description": "",
+          "source_id": "subpage:105250",
+          "thumbnail": null,
+          "title": "Kurasa ya pamoja ya kitendea kazi",
+          "kind": "topic",
+          "children": [
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp49k2gc8k.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113603",
+              "title": "TESSA Inclusive Education Toolkit A guide to the education and training of teachers in inclusive education",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp9bribrug.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:122882",
+              "title": "TESSA Inclusive Education Toolkit",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp64oq38_4.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113668",
+              "title": "1. Different types of schools",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpcolb2a9q.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113669",
+              "title": "2. The inclusive teacher's attitude and behaviour",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpzwls2pah.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113670",
+              "title": "3. A classroom for all in a school for all",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp5ii_b4q2.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113671",
+              "title": "4. Using language accessible to all",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp2oww3zsw.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113672",
+              "title": "5. Planning and preparing lessons to include all pupils",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpcu_pljif.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113673",
+              "title": "6. Assessment and feedback for learning",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpjlda26d8.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113674",
+              "title": "7. An appropriate support for all",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpdij9m3gn.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113675",
+              "title": "8. Managing and including the opinion of the community",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp0vc6jcpm.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113676",
+              "title": "9. Auditing an inclusive teacher's behaviour",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp_poakts5.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113677",
+              "title": "Bibliography",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpwgn2gxop.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113678",
+              "title": "Additional Readings",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpz6u17i30.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113679",
+              "title": "Case studies in the Toolkit",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmp5v_d97sj.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113680",
+              "title": "Activities in the Toolkit",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpvsynbgfb.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113681",
+              "title": "Attribution of illustrations",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            },
+            {
+              "files": [
+                {
+                  "path": "/tmp/tmpm1317yrx.zip",
+                  "file_type": "html5",
+                  "language": "sw"
+                }
+              ],
+              "description": "",
+              "source_id": "oucontent:113682",
+              "title": "Acknowledgements",
+              "kind": "html5",
+              "license": {
+                "description": null,
+                "copyright_holder": "TESSA",
+                "license_id": "CC BY-NC-SA"
+              },
+              "language": "sw"
+            }
+          ],
+          "author": "TESSA"
+        }
+      ],
+      "author": "TESSA"
+    }
+  ]
+}

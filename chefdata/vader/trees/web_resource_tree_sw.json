@@ -1,695 +1,695 @@
 {
-  "url": "http://www.open.edu/openlearncreate/course/view.php?id=2199",
-  "language": "sw",
-  "children": [
-    {
-      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82842",
-      "children": [
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82898",
-          "children": [],
-          "title": "Namba ya moduli 1: Maendeleo ya Mtu Binafsi \u2013Jinsi Kujiheshimu Kunavyoathiri Kujifunza",
-          "lang": "sw",
-          "source_id": "oucontent:82898",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83057",
-          "children": [],
-          "title": "Namba ya moduli 2: Kutalii Maendeleo ya Jamii",
-          "lang": "sw",
-          "source_id": "oucontent:83057",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83058",
-          "children": [],
-          "title": "Namba ya moduli 3: Masuala ya Jumuiya na Uraia",
-          "lang": "sw",
-          "source_id": "oucontent:83058",
-          "kind": "TessaModule"
-        }
-      ],
-      "title": "Stadi za maisha",
-      "lang": "sw",
-      "source_id": "subpage:82842",
-      "kind": "TessaSubpage"
-    },
-    {
-      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82843",
-      "children": [
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83070",
-          "children": [],
-          "title": "Namba ya moduli 1: Kusoma na Kuandika kwa madhumuni mbalimbali",
-          "lang": "sw",
-          "source_id": "oucontent:83070",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83071",
-          "children": [],
-          "title": "Namba ya moduli 2: Kutumia Sauti za Kijumuia Darasani Kwako",
-          "lang": "sw",
-          "source_id": "oucontent:83071",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83072",
-          "children": [],
-          "title": "Namba ya moduli 3: Uhamasishaji wa mawasiliano katika lugha ya ziada",
-          "lang": "sw",
-          "source_id": "oucontent:83072",
-          "kind": "TessaModule"
-        }
-      ],
-      "title": "Kujua kusoma na kuandika",
-      "lang": "sw",
-      "source_id": "subpage:82843",
-      "kind": "TessaSubpage"
-    },
-    {
-      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82844",
-      "children": [
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83059",
-          "children": [],
-          "title": "Namba ya moduli 1:Kuchunguza namba na sulubu",
-          "lang": "sw",
-          "source_id": "oucontent:83059",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83060",
-          "children": [],
-          "title": "Namba ya moduli 2: Kuchunguza Maumbo na Uwazi",
-          "lang": "sw",
-          "source_id": "oucontent:83060",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83061",
-          "children": [],
-          "title": "Namba ya moduli 3: Kuchunguza vipimo na Kusimamia",
-          "lang": "sw",
-          "source_id": "oucontent:83061",
-          "kind": "TessaModule"
-        }
-      ],
-      "title": "Hisabati",
-      "lang": "sw",
-      "source_id": "subpage:82844",
-      "kind": "TessaSubpage"
-    },
-    {
-      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82845",
-      "children": [
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83062",
-          "children": [],
-          "title": "Namba ya moduli 1: Kuchunguza maisha",
-          "lang": "sw",
-          "source_id": "oucontent:83062",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83063",
-          "children": [],
-          "title": "Namba ya moduli 2: Kuchunguza maunzi/vitu",
-          "lang": "sw",
-          "source_id": "oucontent:83063",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83064",
-          "children": [],
-          "title": "Namba ya moduli 3: Nishati na mwendo",
-          "lang": "sw",
-          "source_id": "oucontent:83064",
-          "kind": "TessaModule"
-        }
-      ],
-      "title": "Sayansi",
-      "lang": "sw",
-      "source_id": "subpage:82845",
-      "kind": "TessaSubpage"
-    },
-    {
-      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82846",
-      "children": [
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83360",
-          "children": [],
-          "title": "Namba ya moduli 1: Kujenga Welewa wa Mahali",
-          "lang": "sw",
-          "source_id": "oucontent:83360",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83361",
-          "children": [],
-          "title": "Namba ya moduli 2: Utafiti wa Kihistoria",
-          "lang": "sw",
-          "source_id": "oucontent:83361",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83362",
-          "children": [],
-          "title": "Namba ya moduli 3: Kuangalia sanaa",
-          "lang": "sw",
-          "source_id": "oucontent:83362",
-          "kind": "TessaModule"
-        }
-      ],
-      "title": "Mafunzo Ya Jamii Na Sanaa",
-      "lang": "sw",
-      "source_id": "subpage:82846",
-      "kind": "TessaSubpage"
-    },
-    {
-      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82847",
-      "children": [
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105311",
-          "children": [],
-          "title": "Module 1: Secondary Science - Biology",
-          "lang": "sw",
-          "source_id": "oucontent:105311",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105317",
-          "children": [],
-          "title": "Module 2: Secondary Science - Chemistry",
-          "lang": "sw",
-          "source_id": "oucontent:105317",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105323",
-          "children": [],
-          "title": "Module 3: Secondary Science - Physics",
-          "lang": "sw",
-          "source_id": "oucontent:105323",
-          "kind": "TessaModule"
-        }
-      ],
-      "title": "Sayansi ya shule za Sekondari",
-      "lang": "sw",
-      "source_id": "subpage:82847",
-      "kind": "TessaSubpage"
-    },
-    {
-      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82848",
-      "children": [
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113700",
-          "children": [],
-          "title": "nyenzo rejea muhimu (Key resources)",
-          "lang": "sw",
-          "source_id": "oucontent:113700",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113701",
-          "children": [],
-          "title": "Kutambulisha Nyenzo-rejea muhimu za TESSA",
-          "lang": "sw",
-          "source_id": "oucontent:113701",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113702",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Kutathmini mafunzo",
-          "lang": "sw",
-          "source_id": "oucontent:113702",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113703",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: kutumia ramani mawazo na majadiliano kugundua mawazo",
-          "lang": "sw",
-          "source_id": "oucontent:113703",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113704",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Kuwa mwalimu mbunifu katika mazingira yenye changamoto",
-          "lang": "sw",
-          "source_id": "oucontent:113704",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113705",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Kutumia Uelezaji na Uoneshaji katika kusaidia mafunzo",
-          "lang": "sw",
-          "source_id": "oucontent:113705",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113706",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Kutumia kazi ya vikundi darasani kwako",
-          "lang": "sw",
-          "source_id": "oucontent:113706",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113707",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: kutumia utafiti darasani",
-          "lang": "sw",
-          "source_id": "oucontent:113707",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113708",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Vifaa vya kupanga na kufanya utafiti wa Sayansi",
-          "lang": "sw",
-          "source_id": "oucontent:113708",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113709",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Kufanya kazi na madarasa makubwa",
-          "lang": "sw",
-          "source_id": "oucontent:113709",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113710",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Kutumia jumuia/mazingira ya mahali hapo kama nyenzo",
-          "lang": "sw",
-          "source_id": "oucontent:113710",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113711",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: kupanga na kuandaa masomo yako",
-          "lang": "sw",
-          "source_id": "oucontent:113711",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113712",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Kutumia maswali kukuza fikira",
-          "lang": "sw",
-          "source_id": "oucontent:113712",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113713",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Kufanya utafiti darasani",
-          "lang": "sw",
-          "source_id": "oucontent:113713",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113717",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu : kufanya kazi na darasa kubwa au madarasa ya ngazi mbalimbali",
-          "lang": "sw",
-          "source_id": "oucontent:113717",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113714",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Kutumia uigizaji/mazugumzo/michezo ya kuigiza darasani",
-          "lang": "sw",
-          "source_id": "oucontent:113714",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113716",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Utumiaji wa teknolojia mpya",
-          "lang": "sw",
-          "source_id": "oucontent:113716",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113715",
-          "children": [],
-          "title": "Nyenzo-rejea muhimu: Kutumia hadithi za kusimulia darasani",
-          "lang": "sw",
-          "source_id": "oucontent:113715",
-          "kind": "TessaModule"
-        }
-      ],
-      "title": "Nyenzo za msingi kwa walimu na wakufunzi",
-      "lang": "sw",
-      "source_id": "subpage:82848",
-      "kind": "TessaSubpage"
-    },
-    {
-      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82849",
-      "children": [
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113601",
-          "children": [],
-          "title": "Working with Teachers: A Handbook for Teacher Educators",
-          "lang": "sw",
-          "source_id": "oucontent:113601",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113602",
-          "children": [],
-          "title": "Working with Pupils: A Guide for Teachers",
-          "lang": "sw",
-          "source_id": "oucontent:113602",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113600",
-          "children": [],
-          "title": "TESSA Teaching Lower Secondary Science A Handbook for Teacher Educators",
-          "lang": "sw",
-          "source_id": "oucontent:113600",
-          "kind": "TessaModule"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=105247",
-          "children": [
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113604",
-              "children": [],
-              "title": "Teaching Practice Supervisors\u2019 Toolkit A Handbook for Teaching Practice Supervisors",
-              "lang": "sw",
-              "source_id": "oucontent:113604",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113683",
-              "children": [],
-              "title": "Teaching Practice Supervisors' Toolkit",
-              "lang": "sw",
-              "source_id": "oucontent:113683",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113684",
-              "children": [],
-              "title": "Welcome to the Teaching Practice Supervisors' Toolkit",
-              "lang": "sw",
-              "source_id": "oucontent:113684",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113685",
-              "children": [],
-              "title": "1. The Teaching Practice Supervisor",
-              "lang": "sw",
-              "source_id": "oucontent:113685",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113686",
-              "children": [],
-              "title": "2. About TESSA",
-              "lang": "sw",
-              "source_id": "oucontent:113686",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113687",
-              "children": [],
-              "title": "3. Recognising a good lesson",
-              "lang": "sw",
-              "source_id": "oucontent:113687",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113688",
-              "children": [],
-              "title": "4. Planning and using TESSA materials with student teachers",
-              "lang": "sw",
-              "source_id": "oucontent:113688",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113689",
-              "children": [],
-              "title": "5. Helping student teachers to carry out action planning",
-              "lang": "sw",
-              "source_id": "oucontent:113689",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113690",
-              "children": [],
-              "title": "6. Getting the most out of the school visit",
-              "lang": "sw",
-              "source_id": "oucontent:113690",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113691",
-              "children": [],
-              "title": "7. Giving constructive feedback",
-              "lang": "sw",
-              "source_id": "oucontent:113691",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113692",
-              "children": [],
-              "title": "8. Guidance on assessment of student teachers",
-              "lang": "sw",
-              "source_id": "oucontent:113692",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113693",
-              "children": [],
-              "title": "9. Advice and hints for running seminars and workshops",
-              "lang": "sw",
-              "source_id": "oucontent:113693",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113694",
-              "children": [],
-              "title": "10. Counselling student teachers with teaching-related difficulties",
-              "lang": "sw",
-              "source_id": "oucontent:113694",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113695",
-              "children": [],
-              "title": "11. Self-audit and targets: active teaching and learning methods",
-              "lang": "sw",
-              "source_id": "oucontent:113695",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113696",
-              "children": [],
-              "title": "Other useful resources",
-              "lang": "sw",
-              "source_id": "oucontent:113696",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113697",
-              "children": [],
-              "title": "Table of Toolkit activities",
-              "lang": "sw",
-              "source_id": "oucontent:113697",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113698",
-              "children": [],
-              "title": "Table of Toolkit case studies",
-              "lang": "sw",
-              "source_id": "oucontent:113698",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113699",
-              "children": [],
-              "title": "Acknowledgements",
-              "lang": "sw",
-              "source_id": "oucontent:113699",
-              "kind": "TessaModule"
-            }
-          ],
-          "title": "Kurasa ya ndani ya mwongozo wa kitendea kazi cha msimamizi wa mazoezi ya kufundisha",
-          "lang": "sw",
-          "source_id": "subpage:105247",
-          "kind": "TessaSubpage"
-        },
-        {
-          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=105250",
-          "children": [
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113603",
-              "children": [],
-              "title": "TESSA Inclusive Education Toolkit A guide to the education and training of teachers in inclusive education",
-              "lang": "sw",
-              "source_id": "oucontent:113603",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=122882",
-              "children": [],
-              "title": "TESSA Inclusive Education Toolkit",
-              "lang": "sw",
-              "source_id": "oucontent:122882",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113668",
-              "children": [],
-              "title": "1. Different types of schools",
-              "lang": "sw",
-              "source_id": "oucontent:113668",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113669",
-              "children": [],
-              "title": "2. The inclusive teacher's attitude and behaviour",
-              "lang": "sw",
-              "source_id": "oucontent:113669",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113670",
-              "children": [],
-              "title": "3. A classroom for all in a school for all",
-              "lang": "sw",
-              "source_id": "oucontent:113670",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113671",
-              "children": [],
-              "title": "4. Using language accessible to all",
-              "lang": "sw",
-              "source_id": "oucontent:113671",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113672",
-              "children": [],
-              "title": "5. Planning and preparing lessons to include all pupils",
-              "lang": "sw",
-              "source_id": "oucontent:113672",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113673",
-              "children": [],
-              "title": "6. Assessment and feedback for learning",
-              "lang": "sw",
-              "source_id": "oucontent:113673",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113674",
-              "children": [],
-              "title": "7. An appropriate support for all",
-              "lang": "sw",
-              "source_id": "oucontent:113674",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113675",
-              "children": [],
-              "title": "8. Managing and including the opinion of the community",
-              "lang": "sw",
-              "source_id": "oucontent:113675",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113676",
-              "children": [],
-              "title": "9. Auditing an inclusive teacher's behaviour",
-              "lang": "sw",
-              "source_id": "oucontent:113676",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113677",
-              "children": [],
-              "title": "Bibliography",
-              "lang": "sw",
-              "source_id": "oucontent:113677",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113678",
-              "children": [],
-              "title": "Additional Readings",
-              "lang": "sw",
-              "source_id": "oucontent:113678",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113679",
-              "children": [],
-              "title": "Case studies in the Toolkit",
-              "lang": "sw",
-              "source_id": "oucontent:113679",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113680",
-              "children": [],
-              "title": "Activities in the Toolkit",
-              "lang": "sw",
-              "source_id": "oucontent:113680",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113681",
-              "children": [],
-              "title": "Attribution of illustrations",
-              "lang": "sw",
-              "source_id": "oucontent:113681",
-              "kind": "TessaModule"
-            },
-            {
-              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113682",
-              "children": [],
-              "title": "Acknowledgements",
-              "lang": "sw",
-              "source_id": "oucontent:113682",
-              "kind": "TessaModule"
-            }
-          ],
-          "title": "Kurasa ya pamoja ya kitendea kazi",
-          "lang": "sw",
-          "source_id": "subpage:105250",
-          "kind": "TessaSubpage"
-        }
-      ],
-      "title": "Vitabu vya maelekezo na miongozo ya vitendea kazi kwa ajili ya walimu na wakufunzi",
-      "lang": "sw",
-      "source_id": "subpage:82849",
-      "kind": "TessaSubpage"
-    }
-  ],
+  "source_domain": "tessafrica.net",
+  "description": "Teacher Education in Sub-Saharan Africa, TESSA, is a collaborative network to help you improve your practice as a teacher or teacher educator. We provide free, quality resources that support your national curriculum and can help you plan lessons that engage, involve and inspire.",
+  "lang": "sw",
   "source_id": "TESSA_sw-testing",
   "thumbnail": "http://www.tessafrica.net/sites/all/themes/tessafricav2/images/logotype_02.png",
   "title": "TESSA (sw)-testing",
-  "description": "Teacher Education in Sub-Saharan Africa, TESSA, is a collaborative network to help you improve your practice as a teacher or teacher educator. We provide free, quality resources that support your national curriculum and can help you plan lessons that engage, involve and inspire.",
-  "lang": "sw",
-  "source_domain": "tessafrica.net",
-  "kind": "TessaLangWebRessourceTree"
+  "url": "http://www.open.edu/openlearncreate/course/view.php?id=2199",
+  "kind": "TessaLangWebRessourceTree",
+  "language": "sw",
+  "children": [
+    {
+      "lang": "sw",
+      "source_id": "subpage:82842",
+      "title": "Stadi za maisha",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82842",
+      "kind": "TessaSubpage",
+      "children": [
+        {
+          "lang": "sw",
+          "source_id": "oucontent:82898",
+          "title": "Namba ya moduli 1: Maendeleo ya Mtu Binafsi \u2013Jinsi Kujiheshimu Kunavyoathiri Kujifunza",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=82898",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83057",
+          "title": "Namba ya moduli 2: Kutalii Maendeleo ya Jamii",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83057",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83058",
+          "title": "Namba ya moduli 3: Masuala ya Jumuiya na Uraia",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83058",
+          "kind": "TessaModule",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "sw",
+      "source_id": "subpage:82843",
+      "title": "Kujua kusoma na kuandika",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82843",
+      "kind": "TessaSubpage",
+      "children": [
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83070",
+          "title": "Namba ya moduli 1: Kusoma na Kuandika kwa madhumuni mbalimbali",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83070",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83071",
+          "title": "Namba ya moduli 2: Kutumia Sauti za Kijumuia Darasani Kwako",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83071",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83072",
+          "title": "Namba ya moduli 3: Uhamasishaji wa mawasiliano katika lugha ya ziada",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83072",
+          "kind": "TessaModule",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "sw",
+      "source_id": "subpage:82844",
+      "title": "Hisabati",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82844",
+      "kind": "TessaSubpage",
+      "children": [
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83059",
+          "title": "Namba ya moduli 1:Kuchunguza namba na sulubu",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83059",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83060",
+          "title": "Namba ya moduli 2: Kuchunguza Maumbo na Uwazi",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83060",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83061",
+          "title": "Namba ya moduli 3: Kuchunguza vipimo na Kusimamia",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83061",
+          "kind": "TessaModule",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "sw",
+      "source_id": "subpage:82845",
+      "title": "Sayansi",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82845",
+      "kind": "TessaSubpage",
+      "children": [
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83062",
+          "title": "Namba ya moduli 1: Kuchunguza maisha",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83062",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83063",
+          "title": "Namba ya moduli 2: Kuchunguza maunzi/vitu",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83063",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83064",
+          "title": "Namba ya moduli 3: Nishati na mwendo",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83064",
+          "kind": "TessaModule",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "sw",
+      "source_id": "subpage:82846",
+      "title": "Mafunzo Ya Jamii Na Sanaa",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82846",
+      "kind": "TessaSubpage",
+      "children": [
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83360",
+          "title": "Namba ya moduli 1: Kujenga Welewa wa Mahali",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83360",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83361",
+          "title": "Namba ya moduli 2: Utafiti wa Kihistoria",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83361",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:83362",
+          "title": "Namba ya moduli 3: Kuangalia sanaa",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=83362",
+          "kind": "TessaModule",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "sw",
+      "source_id": "subpage:82847",
+      "title": "Sayansi ya shule za Sekondari",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82847",
+      "kind": "TessaSubpage",
+      "children": [
+        {
+          "lang": "sw",
+          "source_id": "oucontent:105311",
+          "title": "Module 1: Secondary Science - Biology",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105311",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:105317",
+          "title": "Module 2: Secondary Science - Chemistry",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105317",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:105323",
+          "title": "Module 3: Secondary Science - Physics",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=105323",
+          "kind": "TessaModule",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "sw",
+      "source_id": "subpage:82848",
+      "title": "Nyenzo za msingi kwa walimu na wakufunzi",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82848",
+      "kind": "TessaSubpage",
+      "children": [
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113700",
+          "title": "nyenzo rejea muhimu (Key resources)",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113700",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113701",
+          "title": "Kutambulisha Nyenzo-rejea muhimu za TESSA",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113701",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113702",
+          "title": "Nyenzo-rejea muhimu: Kutathmini mafunzo",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113702",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113703",
+          "title": "Nyenzo-rejea muhimu: kutumia ramani mawazo na majadiliano kugundua mawazo",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113703",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113704",
+          "title": "Nyenzo-rejea muhimu: Kuwa mwalimu mbunifu katika mazingira yenye changamoto",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113704",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113705",
+          "title": "Nyenzo-rejea muhimu: Kutumia Uelezaji na Uoneshaji katika kusaidia mafunzo",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113705",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113706",
+          "title": "Nyenzo-rejea muhimu: Kutumia kazi ya vikundi darasani kwako",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113706",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113707",
+          "title": "Nyenzo-rejea muhimu: kutumia utafiti darasani",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113707",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113708",
+          "title": "Nyenzo-rejea muhimu: Vifaa vya kupanga na kufanya utafiti wa Sayansi",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113708",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113709",
+          "title": "Nyenzo-rejea muhimu: Kufanya kazi na madarasa makubwa",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113709",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113710",
+          "title": "Nyenzo-rejea muhimu: Kutumia jumuia/mazingira ya mahali hapo kama nyenzo",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113710",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113711",
+          "title": "Nyenzo-rejea muhimu: kupanga na kuandaa masomo yako",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113711",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113712",
+          "title": "Nyenzo-rejea muhimu: Kutumia maswali kukuza fikira",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113712",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113713",
+          "title": "Nyenzo-rejea muhimu: Kufanya utafiti darasani",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113713",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113717",
+          "title": "Nyenzo-rejea muhimu : kufanya kazi na darasa kubwa au madarasa ya ngazi mbalimbali",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113717",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113714",
+          "title": "Nyenzo-rejea muhimu: Kutumia uigizaji/mazugumzo/michezo ya kuigiza darasani",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113714",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113716",
+          "title": "Nyenzo-rejea muhimu: Utumiaji wa teknolojia mpya",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113716",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113715",
+          "title": "Nyenzo-rejea muhimu: Kutumia hadithi za kusimulia darasani",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113715",
+          "kind": "TessaModule",
+          "children": []
+        }
+      ]
+    },
+    {
+      "lang": "sw",
+      "source_id": "subpage:82849",
+      "title": "Vitabu vya maelekezo na miongozo ya vitendea kazi kwa ajili ya walimu na wakufunzi",
+      "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=82849",
+      "kind": "TessaSubpage",
+      "children": [
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113601",
+          "title": "Working with Teachers: A Handbook for Teacher Educators",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113601",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113602",
+          "title": "Working with Pupils: A Guide for Teachers",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113602",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "oucontent:113600",
+          "title": "TESSA Teaching Lower Secondary Science A Handbook for Teacher Educators",
+          "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113600",
+          "kind": "TessaModule",
+          "children": []
+        },
+        {
+          "lang": "sw",
+          "source_id": "subpage:105247",
+          "title": "Kurasa ya ndani ya mwongozo wa kitendea kazi cha msimamizi wa mazoezi ya kufundisha",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=105247",
+          "kind": "TessaSubpage",
+          "children": [
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113604",
+              "title": "Teaching Practice Supervisors\u2019 Toolkit A Handbook for Teaching Practice Supervisors",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113604",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113683",
+              "title": "Teaching Practice Supervisors' Toolkit",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113683",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113684",
+              "title": "Welcome to the Teaching Practice Supervisors' Toolkit",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113684",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113685",
+              "title": "1. The Teaching Practice Supervisor",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113685",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113686",
+              "title": "2. About TESSA",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113686",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113687",
+              "title": "3. Recognising a good lesson",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113687",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113688",
+              "title": "4. Planning and using TESSA materials with student teachers",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113688",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113689",
+              "title": "5. Helping student teachers to carry out action planning",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113689",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113690",
+              "title": "6. Getting the most out of the school visit",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113690",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113691",
+              "title": "7. Giving constructive feedback",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113691",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113692",
+              "title": "8. Guidance on assessment of student teachers",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113692",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113693",
+              "title": "9. Advice and hints for running seminars and workshops",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113693",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113694",
+              "title": "10. Counselling student teachers with teaching-related difficulties",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113694",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113695",
+              "title": "11. Self-audit and targets: active teaching and learning methods",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113695",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113696",
+              "title": "Other useful resources",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113696",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113697",
+              "title": "Table of Toolkit activities",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113697",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113698",
+              "title": "Table of Toolkit case studies",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113698",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113699",
+              "title": "Acknowledgements",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113699",
+              "kind": "TessaModule",
+              "children": []
+            }
+          ]
+        },
+        {
+          "lang": "sw",
+          "source_id": "subpage:105250",
+          "title": "Kurasa ya pamoja ya kitendea kazi",
+          "url": "http://www.open.edu/openlearncreate/mod/subpage/view.php?id=105250",
+          "kind": "TessaSubpage",
+          "children": [
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113603",
+              "title": "TESSA Inclusive Education Toolkit A guide to the education and training of teachers in inclusive education",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113603",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:122882",
+              "title": "TESSA Inclusive Education Toolkit",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=122882",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113668",
+              "title": "1. Different types of schools",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113668",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113669",
+              "title": "2. The inclusive teacher's attitude and behaviour",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113669",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113670",
+              "title": "3. A classroom for all in a school for all",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113670",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113671",
+              "title": "4. Using language accessible to all",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113671",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113672",
+              "title": "5. Planning and preparing lessons to include all pupils",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113672",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113673",
+              "title": "6. Assessment and feedback for learning",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113673",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113674",
+              "title": "7. An appropriate support for all",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113674",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113675",
+              "title": "8. Managing and including the opinion of the community",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113675",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113676",
+              "title": "9. Auditing an inclusive teacher's behaviour",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113676",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113677",
+              "title": "Bibliography",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113677",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113678",
+              "title": "Additional Readings",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113678",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113679",
+              "title": "Case studies in the Toolkit",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113679",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113680",
+              "title": "Activities in the Toolkit",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113680",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113681",
+              "title": "Attribution of illustrations",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113681",
+              "kind": "TessaModule",
+              "children": []
+            },
+            {
+              "lang": "sw",
+              "source_id": "oucontent:113682",
+              "title": "Acknowledgements",
+              "url": "http://www.open.edu/openlearncreate/mod/oucontent/view.php?id=113682",
+              "kind": "TessaModule",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
