@@ -30,7 +30,10 @@ REJECT_SECTION_STINGS = {
 }
 
 
-# Helper Methods
+
+
+
+# HELPER METHODS
 ################################################################################
 
 def get_text(element):

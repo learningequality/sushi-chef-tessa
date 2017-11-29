@@ -71,8 +71,8 @@ def get_trees(lang='all'):
         ricecooker_json_tree_filename = SCRAPING_STAGE_OUTPUT_TPL.format(lang)
         get(os.path.join(trees_dir, web_resource_tree_filename),
             os.path.join(local_dir, web_resource_tree_filename))
-        get(os.path.join(trees_dir, ricecooker_json_tree_filename),
-            os.path.join(local_dir, ricecooker_json_tree_filename))
+        # get(os.path.join(trees_dir, ricecooker_json_tree_filename),
+        #     os.path.join(local_dir, ricecooker_json_tree_filename))
 
 
 
