@@ -111,7 +111,7 @@ def restructure_web_resource_tree(raw_tree):
             subtree['source_id'] = subtree['kind'] + ':' + url_to_id(subtree['url'])
 
         # rename kind to scraper-recognized names
-        if subtree['kind'] == 'oucontent' and depth==1:
+        if subtree['kind'] == 'oucontent' and depth==1:  # special case for non-module overview content pages on homepage
             subtree['kind'] = 'TessaContentPage'
         #
         elif subtree['kind'] == 'oucontent':
@@ -122,9 +122,11 @@ def restructure_web_resource_tree(raw_tree):
         #
         elif subtree['kind'] == 'audio_resources_subpage':
             subtree['kind'] = 'TessaAudioResourcesSubpage'
+            subtree['source_id'] = subtree['url']
         #
         elif subtree['kind'] == 'audio_resource_topic_subpage':
             subtree['kind'] = 'TessaAudioResourceTopicSubpage'
+            subtree['source_id'] = subtree['url']
         #
         # MP3 and PDF media files
         elif subtree['kind'] == 'MediaWebResource':
@@ -477,6 +479,7 @@ class TessaCrawler(BasicCrawler):
                 parent=topic_subpage_dict,
                 children=[],
             )
+            subtopic_dict['source_id'] = subtopic_dict['url']
             sections_ul = section_li.find('ul', class_="section")
             activity_lis = sections_ul.find_all('li', class_="activity")
             subtopic_description = ''
