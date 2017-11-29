@@ -17,9 +17,10 @@ TESSA_LANG_URL_MAP = {
     'sw': 'http://www.open.edu/openlearncreate/course/view.php?id=2199',
 
 }
-SUBPAGE_RE = re.compile('.*mod/subpage/.*')
-CONTENT_RE = re.compile('.*mod/oucontent/.*')
-RESOURCE_RE = re.compile('.*mod/resource/.*')
+MOD_SUBPAGE_RE = re.compile('.*mod/subpage/.*')
+MOD_CONTENT_RE = re.compile('.*mod/oucontent/.*')
+MOD_RESOURCE_RE = re.compile('.*mod/resource/.*')
+MOD_URL_RE = re.compile('.*mod/url/.*')
 TESSA_AUDIO_RESOURCES_SUBPAGES = ['66697', '81259', '66858']  # special handling for pages with audio resouces
 REJECT_SECTION_STINGS = {
     'en': 'Section',
@@ -301,6 +302,39 @@ class TessaCrawler(BasicCrawler):
     # PAGE HANDLERS
     ############################################################################
 
+    def enqueue_based_on_url_re(self, rsrc_info, link_url, context):
+        """
+        Handler helper method used to call `enqueue_url_and_context` with the
+        context kind attribute set based on `link_url` type.
+        """
+        if MOD_SUBPAGE_RE.match(link_url):
+            if rsrc_info['source_id'] in TESSA_AUDIO_RESOURCES_SUBPAGES:
+                context.update({'kind':'audio_resources_subpage'})
+            else:
+                context.update({'kind':'subpage'})
+            self.enqueue_url_and_context(link_url, context)
+
+        elif MOD_CONTENT_RE.match(link_url):
+            context.update({'kind':'oucontent'})
+            self.enqueue_url_and_context(link_url, context)
+
+        elif MOD_RESOURCE_RE.match(link_url):
+            context.update({'kind':'resource'})
+            self.enqueue_url_and_context(link_url, context)
+
+        elif MOD_URL_RE.match(link_url):
+            # mod/url. links are resolved before being processed (usually oucontent)
+            head_response = self.make_request(link_url, method='HEAD')
+            if not head_response:
+                LOGGER.warning('HEAD request failed for link_url ' + link_url)
+                return
+            new_link_url = head_response.url
+            self.enqueue_based_on_url_re(rsrc_info, new_link_url, context)
+
+        else:
+            LOGGER.debug('____ Skipping link ' + link_url)
+
+
     def on_tessa_language_page(self, url, page, context):
         """
         Basic handler that adds current page to parent's children array and adds
@@ -332,19 +366,9 @@ class TessaCrawler(BasicCrawler):
                             parent=page_dict,
                             title=link_title,
                         )
-                        if SUBPAGE_RE.match(link_url):
-                            if rsrc_info['source_id'] in TESSA_AUDIO_RESOURCES_SUBPAGES:
-                                context.update({'kind':'audio_resources_subpage'})
-                            else:
-                                context.update({'kind':'subpage'})
-                            self.enqueue_url_and_context(link_url, context)
-                        elif CONTENT_RE.match(link_url):
-                            context.update({'kind':'oucontent'})
-                            self.enqueue_url_and_context(link_url, context)
-                        else:
-                            LOGGER.debug('Skipping link ' + link_url + ' on page ' + url)
-                else:
-                    LOGGER.debug('Ignoring link ' + link_url + ' on page ' + url)
+                        self.enqueue_based_on_url_re(rsrc_info, link_url, context)
+                    else:
+                        LOGGER.debug('Ignoring link ' + link_url + ' on page ' + url)
 
 
     def on_subpage(self, url, page, context):
@@ -373,24 +397,12 @@ class TessaCrawler(BasicCrawler):
                             parent=subpage_dict,
                             title=link_title,
                         )
-
-                        if SUBPAGE_RE.match(link_url):
-                            context.update({'kind':'subpage'})
-                            self.enqueue_url_and_context(link_url, context)
-
-                        elif CONTENT_RE.match(link_url):
-                            context.update({'kind':'oucontent'})
-                            self.enqueue_url_and_context(link_url, context)
-
-                        elif RESOURCE_RE.match(link_url):
-                            context.update({'kind':'resource'})
-                            self.enqueue_url_and_context(link_url, context)
-
-                        else:
-                            LOGGER.debug(':::subpage::: Skipping link ' + link_url + ' ' + link_title)
+                        self.enqueue_based_on_url_re(rsrc_info, link_url, context)
+                    else:
+                        LOGGER.debug('Ignoring link ' + link_url + ' on page ' + url)
                 else:
                     pass
-                    LOGGER.warning('a link with no href ' + str(link))
+                    LOGGER.warning('Found a link with no href ' + str(link))
 
 
     def on_audio_resources_subpage(self, url, page, context):
@@ -423,7 +435,7 @@ class TessaCrawler(BasicCrawler):
                             parent=subpage_dict,
                             title=link_title,
                         )
-                        if SUBPAGE_RE.match(link_url):
+                        if MOD_SUBPAGE_RE.match(link_url):
                             context.update({'kind':'audio_resource_topic_subpage'})
                             self.enqueue_url_and_context(link_url, context)
                         else:
@@ -562,7 +574,6 @@ class TessaCrawler(BasicCrawler):
             language = lang,
         )
         web_resource_tree.update(channel_metadata)
-        self.write_web_resource_tree_json(web_resource_tree)  # TMP HACK <<<<<<<<<<<<<<<<<<<< to see which url is missing
 
         # convert tree format expected by scraping functions
         restructure_web_resource_tree(web_resource_tree)
