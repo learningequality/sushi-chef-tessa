@@ -872,12 +872,12 @@ class TessaChef(JsonTreeChef):
             of the channel (see result in `chefdata/ricecooker_json_tree_{{lang}}.json`)
           - perform manual content fixes for video lessons with non-standard markup
         """
-        # self.crawl(args, options)
+        self.crawl(args, options)
         self.scrape(args, options)
 
-    def run(self, args, options):
-        self.pre_run(args, options)
-        print('skipping rest of run because want to debug quickly...')
+    # def run(self, args, options):
+    #     self.pre_run(args, options)
+    #     print('skipping rest of run because want to debug quickly...')
 
 
     def get_json_tree_path(self, **kwargs):
